@@ -53,5 +53,3 @@ Except in the case of a default in the payment of the principal of or interest o
       - (ii) a stay of the trustee's duty to resign will not be inconsistent with the interests of holders of the indenture securities. The filing of such an application shall automatically stay the performance of the duty to resign until the Commission orders otherwise.
 
 Any resignation of an indenture trustee shall become effective only upon the appointment of a successor trustee and such successor's acceptance of such an appointment.
-
-- (c) Applicability of section.—The Public Utility Holding Company Act of 1935 shall not be held to establish or authorize the establishment of any standards regarding the eligibility and qualifications of any trustee or prospective trustee under an indenture to be qualified under this subchapter, or regarding the provisions to be included in any such indenture with respect to the eligibility and qualifications of the trustee thereunder, other than those established by the provisions of this section.

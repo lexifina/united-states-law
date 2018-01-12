@@ -25,7 +25,6 @@
     - (B) ¼ of 1 percent assessment.—During any period during which—
       - (i) the balance of the fund (exclusive of confirmed lines of credit) aggregates less than $150,000,000 (or such other amount as the Commission has determined under paragraph (2)(B)), or
       - (ii) SIPC is required under paragraph (2)(B) to phase out of the fund all confirmed lines of credit,
-    - SIPC shall endeavor to make assessments in such a manner that the aggregate assessments payable by its members during such period shall not be less than one-fourth of 1 per centum per annum of the aggregate gross revenues from the securities business for such members during such period.
     - (C) Minimum assessment.—The minimum assessment imposed upon each member of SIPC shall be $25 per annum through the year ending December 31, 1979, and thereafter shall be the amount from time to time set by SIPC bylaw, but in no event shall the minimum assessment be greater than 0.02 percent of the gross revenues from the securities business of such member of SIPC.
   - (2) Lines of credit.—
     - (A) $50,000,000 limit after 1973.—After December 31, 1973, confirmed lines of credit shall not constitute more than $50,000,000 of the balance of the fund.

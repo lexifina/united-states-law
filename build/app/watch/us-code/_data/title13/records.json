@@ -1,0 +1,123 @@
+[
+ {
+  "id": "2019-115-435-402-1",
+  "title": 13,
+  "section": "402",
+  "heading": "Providing business data to Designated Statistical Agencies",
+  "path": "",
+  "kind": "amended",
+  "edition_from": "2018",
+  "edition_to": "2019",
+  "law": "115-435",
+  "instruction": {
+   "id": "/us/pl/115/435/tIII/s302/c/2",
+   "label": "title III, §302(c)(2)",
+   "text": "Section 402 of title 13, United States Code, is amended by striking “the Confidential Information Protection and Statistical Efficiency Act of 2002” and inserting “section 3576(e) of title 44”.",
+   "ops": [
+    {
+     "kind": "replace",
+     "old": "the Confidential Information Protection and Statistical Efficiency Act of 2002",
+     "new": "section 3576(e) of title 44"
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "replace",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "The Bureau of the Census may provide business data to the Bureau of Economic Analysis and the Bureau of Labor Statistics (\"Designated Statistical Agencies\") if such information is required for an authorized statistical purpose and the provision is the subject of a written agreement with that Designated Statistical Agency, or their successors, as defined in the Confidential Information Protection and Statistical Efficiency Act of 2002.",
+  "after": "The Bureau of the Census may provide business data to the Bureau of Economic Analysis and the Bureau of Labor Statistics (\"Designated Statistical Agencies\") if such information is required for an authorized statistical purpose and the provision is the subject of a written agreement with that Designated Statistical Agency, or their successors, as defined in section 3576(e) of title 44.",
+  "in_edition": "The Bureau of the Census may provide business data to the Bureau of Economic Analysis and the Bureau of Labor Statistics (\"Designated Statistical Agencies\") if such information is required for an authorized statistical purpose and the provision is the subject of a written agreement with that Designated Statistical Agency, or their successors, as defined in section 3576(e) of title 44.",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "The Bureau of the Census may provide business data to the Bureau of Economic Analysis and the Bureau of Labor Statistics (\"Designated Statistical Agencies\") if such information is required for an authorized statistical purpose and the provision is the subject of a written agreement with that Designated Statistical Agency, or their successors, as defined in "
+   },
+   {
+    "t": "del",
+    "s": "the"
+   },
+   {
+    "t": "ins",
+    "s": "section"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "Confidential Information Protection and Statistical Efficiency Act"
+   },
+   {
+    "t": "ins",
+    "s": "3576(e)"
+   },
+   {
+    "t": "eq",
+    "s": " of "
+   },
+   {
+    "t": "del",
+    "s": "2002"
+   },
+   {
+    "t": "ins",
+    "s": "title 44"
+   },
+   {
+    "t": "eq",
+    "s": "."
+   }
+  ],
+  "fingerprints": {
+   "before": "d2d7af4de5393493f44f80d4103bf8070ea701ecee43d633b5d17837ca6af48a",
+   "after": "ca8d7e7faf45a05b662d9f76d43acc29560e4998a84344f009f04d29e2239d19",
+   "edition_from": "174346096977b05e606bca9addb3ffe884fed8081fca95ab96daf7ea3d7c6513",
+   "edition_to": "6152f8ab0d3e9004686d32497c9c84b97df025631496cbce203abdf698eb9b09",
+   "law": "a2e2db36350568090e1533ae6445492d829e4e6ae880f42c4a59ac3c25e18643"
+  },
+  "dates": {
+   "enacted": "2019-01-14",
+   "effective": null,
+   "edition_current_through": "2020-01-24",
+   "edition_year": 2019,
+   "edition": "2019",
+   "recorded": "2026-10-27"
+  },
+  "publisher_notes": [
+   {
+    "year": 2019,
+    "location": "",
+    "text": "Pub. L. 115–435 substituted \"section 3576(e) of title 44\" for \"the Confidential Information Protection and Statistical Efficiency Act of 2002\"."
+   }
+  ],
+  "date_notes": [
+   {
+    "kind": "effective",
+    "heading": "Effective Date of 2019 Amendment",
+    "text": "Amendment by Pub. L. 115–435 effective 180 days after Jan. 14, 2019, see section 403 of Pub. L. 115–435, set out as a note under section 306 of Title 5, Government Organization and Employees."
+   }
+  ],
+  "summary_key": "428fc764c498d69a11df05c16af5db035e3846fd1b346b1cc62b04a444b4d56a",
+  "summary": "Replaced \"the Confidential Information Protection and Statistical Efficiency Act of 2002\" with \"section 3576(e) of title 44\" in section 402 of title 13.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2019-07-13",
+    "basis": "note",
+    "words": "effective 180 days after Jan. 14, 2019",
+    "source": "Pub. L. 115–435, §403",
+    "condition": null
+   },
+   "to": []
+  }
+ }
+]

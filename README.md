@@ -6,12 +6,16 @@ So the questions a lawyer asks of a statute become git commands:
 
 | The question | The command |
 | --- | --- |
-| What did §1182 say on 1 May 2022? | `git show $(git rev-list -1 --before=2022-05-02 main):title-11/1182.md` |
+| What did §1182 say on 1 May 2022? | `git show $(git rev-list -1 --before=2022-05-01T23:59:59Z main):title-11/1182.md` |
 | Which law wrote each provision? | `git blame title-11/1182.md` |
-| What changed between two dates? | `git diff $(git rev-list -1 --before=2020-01-01 main) $(git rev-list -1 --before=2023-01-01 main) -- title-11/1182.md` |
+| What changed between two dates? | `git diff $(git rev-list -1 --before=2019-12-31T23:59:59Z main) $(git rev-list -1 --before=2022-12-31T23:59:59Z main) -- title-11/1182.md` |
 | Everything one law changed | `git log -p --author="Pub. L. 116-136"` |
 | Every change to a section | `git log -p -- title-11/1182.md` |
-| The Code as a printed version stood | `git checkout edition-2022` or `git checkout release-point-119-73` |
+| The law in force on the day a printed version is current through | `git checkout edition-2022` or `git checkout release-point-119-73` |
+
+Give the date with a time, as above. With a bare date git uses the current time of day, and every commit is stamped at noon UTC, so the answer for the day a law took effect would depend on when you ask. In PowerShell, put the revision in a variable first: `$r = git rev-list -1 --before=2022-05-01T23:59:59Z main; git show "$($r):title-11/1182.md"`.
+
+A tag such as `edition-2019` is the law **in force** on the day that version is current through. It differs from the printed version wherever a change was printed before it took effect: the 2019 edition printed the Small Business Reorganization Act, which took effect in February 2020.
 
 If you would rather not use a terminal, the same history has a reader at **[lexifina.com/watch/us-code](https://lexifina.com/watch/us-code)**: pick a date and read the text in force on it, see the Act behind each phrase in colour, and see what else in the title relies on a provision. For example, [11 U.S.C. §1182](https://lexifina.com/watch/us-code/title-11/1182).
 
@@ -64,12 +68,13 @@ The author of a line is the **enacted law** that wrote it, not the legislator wh
 - **Adjusted dollar amounts.** The Code prints the dollar amounts Congress enacted. The Judicial Conference adjusts many of them every three years by a notice in the Federal Register under 11 U.S.C. §104, and the adjusted amounts are published in those notices and in the Code's notes, not in the text. The reader shows them beside the provisions they adjust.
 - **Changes on a condition.** A change that takes effect only when an agency makes a determination is left out of the text until that happens.
 - **Everything before 2017.** The first commit is the 2017 edition as printed, without authors.
+- **Retroactive dates.** A few changes took effect on a date before the law was enacted. Their commits carry the in-force date, so on dates in between the text shows words that had not yet been enacted. Each such commit says when the law was enacted.
 
 Each commit links to the law's own words, and for anything that matters the law itself should be read.
 
 ## How it is built
 
-The history is generated from the same data and the same code as the reader, so the text in this repository on any date is the text the reader shows for that date. The build is deterministic, and rebuilding from the same data gives the same commits. It is regenerated when the data is updated, so the history may be rewritten.
+The history is generated from the same data and the same code as the reader, so the text in this repository on any date is the text the reader shows for that date. The build script, the code it runs and the data it reads are in [`build/`](build/), byte for byte. The build is deterministic, and rebuilding from that data gives the same commits with the same hashes. [REPRODUCE.md](REPRODUCE.md) records the sources, every command, the software, the decisions made by hand and what an AI model did and did not do. Once other repositories refer to this one, updates are added as new commits instead of rewriting it.
 
 Built by [Lexifina](https://lexifina.com). For corrections, open an issue.
 

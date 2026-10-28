@@ -1,0 +1,764 @@
+{
+ "title": 39,
+ "title_name": "Postal Service",
+ "method_version": "1",
+ "generated_at": "2026-10-27T00:58:33+00:00",
+ "editions": [
+  {
+   "key": "2017",
+   "label": "2017 edition",
+   "kind": "edition",
+   "year": 2017,
+   "current_through": "2018-01-12",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2017-title39/html/USCODE-2017-title39.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2017-title39",
+   "sha256": "d947d4f10d75ea956764cfb45c84fca25557da323ac1554b2c0fd36afbb85dd0",
+   "fetched_at": "2026-10-26T20:57:00+00:00",
+   "sections": 168,
+   "wayback": "http://web.archive.org/web/20250214160045/https://www.govinfo.gov/content/pkg/USCODE-2017-title39/html/USCODE-2017-title39.htm"
+  },
+  {
+   "key": "2018",
+   "label": "2018 edition",
+   "kind": "edition",
+   "year": 2018,
+   "current_through": "2019-01-14",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2018-title39/html/USCODE-2018-title39.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2018-title39",
+   "sha256": "4ceba00713b870eb566c4d25453e786a3d32a2c7ea89e6fca455b517efcfdaad",
+   "fetched_at": "2026-10-26T20:57:02+00:00",
+   "sections": 168,
+   "wayback": "http://web.archive.org/web/20250415001516/https://www.govinfo.gov/content/pkg/USCODE-2018-title39/html/USCODE-2018-title39.htm"
+  },
+  {
+   "key": "2019",
+   "label": "2019 edition",
+   "kind": "edition",
+   "year": 2019,
+   "current_through": "2020-01-24",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2019-title39/html/USCODE-2019-title39.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2019-title39",
+   "sha256": "5a003d64e7c77c1c4e78729af5aa9c5b742b890b7f1a7c9b5d230a82dcbd8c3c",
+   "fetched_at": "2026-10-26T20:57:04+00:00",
+   "sections": 168,
+   "wayback": null
+  },
+  {
+   "key": "2020",
+   "label": "2020 edition",
+   "kind": "edition",
+   "year": 2020,
+   "current_through": "2021-01-13",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2020-title39/html/USCODE-2020-title39.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2020-title39",
+   "sha256": "655bc15e071a283c1829e90eabd93c725e817d81d76b1b192ac4f997214e23f4",
+   "fetched_at": "2026-10-26T20:57:06+00:00",
+   "sections": 168,
+   "wayback": "http://web.archive.org/web/20250213203044/https://www.govinfo.gov/content/pkg/USCODE-2020-title39/html/USCODE-2020-title39.htm"
+  },
+  {
+   "key": "2021",
+   "label": "2021 edition",
+   "kind": "edition",
+   "year": 2021,
+   "current_through": "2022-01-02",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2021-title39/html/USCODE-2021-title39.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2021-title39",
+   "sha256": "74e3eef494b0e47dd0c83222225f1dba095bdf50526a7d1ecac1b010b146b3c3",
+   "fetched_at": "2026-10-26T20:57:09+00:00",
+   "sections": 168,
+   "wayback": "http://web.archive.org/web/20250214043342/https://www.govinfo.gov/content/pkg/USCODE-2021-title39/html/USCODE-2021-title39.htm"
+  },
+  {
+   "key": "2022",
+   "label": "2022 edition",
+   "kind": "edition",
+   "year": 2022,
+   "current_through": "2023-01-05",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2022-title39/html/USCODE-2022-title39.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2022-title39",
+   "sha256": "add57bffd8ceba872353f5fc714e80d38f1beee5490eb40deeda5f7e8ee9e028",
+   "fetched_at": "2026-10-26T20:57:11+00:00",
+   "sections": 175,
+   "wayback": "http://web.archive.org/web/20250911132131/https://www.govinfo.gov/content/pkg/USCODE-2022-title39/html/USCODE-2022-title39.htm"
+  },
+  {
+   "key": "2023",
+   "label": "2023 edition",
+   "kind": "edition",
+   "year": 2023,
+   "current_through": "2024-01-03",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title39/html/USCODE-2023-title39.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2023-title39",
+   "sha256": "f4762f4973f408121108b0969972b20edd4698d570fe23fd84e37089d7481123",
+   "fetched_at": "2026-10-26T20:57:13+00:00",
+   "sections": 175,
+   "wayback": "http://web.archive.org/web/20250213012445/https://www.govinfo.gov/content/pkg/USCODE-2023-title39/html/USCODE-2023-title39.htm"
+  },
+  {
+   "key": "2024",
+   "label": "2024 edition",
+   "kind": "edition",
+   "year": 2024,
+   "current_through": "2025-01-06",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title39/html/USCODE-2024-title39.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2024-title39",
+   "sha256": "e61bfce5d7f693c61bf79e764220fa9b032fd326741f9bcb76f5927c8498c3e1",
+   "fetched_at": "2026-10-26T20:57:15+00:00",
+   "sections": 175,
+   "wayback": "http://web.archive.org/web/20260224171549/https://www.govinfo.gov/content/pkg/USCODE-2024-title39/html/USCODE-2024-title39.htm"
+  },
+  {
+   "key": "pl119-73",
+   "label": "Release point 119-73",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-01-23",
+   "through_law": "119-73",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/73/htm_usc39@119-73.zip",
+   "page": "https://uscode.house.gov/download/119-73.html",
+   "sha256": "de55b64979dc5135967e37ee98156a8d28bfc75d8f8c657a6b4440386d658609",
+   "fetched_at": "2026-10-26T20:57:20+00:00",
+   "sections": 175,
+   "wayback": null
+  },
+  {
+   "key": "pl119-134",
+   "label": "Release point 119-134",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-10-20",
+   "through_law": "119-134",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/htm_usc39@119-134.zip",
+   "page": "https://uscode.house.gov/download/119-134.html",
+   "sha256": "92da79a054abdef9d450b883944d6fa273bdef6704c36d1a4bfb8fa4225b1a91",
+   "fetched_at": "2026-10-26T20:57:21+00:00",
+   "sections": 175,
+   "wayback": null
+  }
+ ],
+ "transitions": [
+  {
+   "from": "2017",
+   "to": "2018",
+   "window": [
+    "2018-01-12",
+    "2019-01-14"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2018",
+   "to": "2019",
+   "window": [
+    "2019-01-14",
+    "2020-01-24"
+   ],
+   "sections_changed": [
+    "406",
+    "414",
+    "3401"
+   ],
+   "laws": [
+    "116-92"
+   ],
+   "records": [
+    "2019-116-92-406-1",
+    "2019-116-92-414-1",
+    "2019-116-92-3401-1",
+    "2019-116-92-3401-2",
+    "2019-116-92-3401-3",
+    "2019-116-92-3401-4",
+    "2019-116-92-3401-h1"
+   ]
+  },
+  {
+   "from": "2019",
+   "to": "2020",
+   "window": [
+    "2020-01-24",
+    "2021-01-13"
+   ],
+   "sections_changed": [
+    "3210",
+    "3216",
+    "3220"
+   ],
+   "laws": [
+    "116-136",
+    "116-260"
+   ],
+   "records": [
+    "2020-116-136-3210-1",
+    "2020-116-260-3210-2",
+    "2020-116-260-3210-3",
+    "2020-116-260-3210-4",
+    "2020-116-260-3210-5",
+    "2020-116-260-3210-6",
+    "2020-116-260-3210-7",
+    "2020-116-260-3210-8",
+    "2020-116-260-3210-9",
+    "2020-116-260-3210-10",
+    "2020-116-260-3210-11",
+    "2020-116-260-3210-12",
+    "2020-116-260-3210-13",
+    "2020-unexplained-3210-14",
+    "2020-unexplained-3210-15",
+    "2020-116-260-3216-1",
+    "2020-116-260-3220-1"
+   ]
+  },
+  {
+   "from": "2020",
+   "to": "2021",
+   "window": [
+    "2021-01-13",
+    "2022-01-02"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2021",
+   "to": "2022",
+   "window": [
+    "2022-01-02",
+    "2023-01-05"
+   ],
+   "sections_changed": [
+    "101",
+    "202",
+    "404",
+    "407",
+    "410",
+    "411",
+    "504",
+    "1003",
+    "2003",
+    "2009",
+    "2903",
+    "3013",
+    "3626",
+    "3692",
+    "3701",
+    "3702",
+    "3703",
+    "3704",
+    "3705"
+   ],
+   "laws": [
+    "117-108",
+    "117-286"
+   ],
+   "records": [
+    "2022-117-108-101-1",
+    "2022-117-108-101-2",
+    "2022-117-108-101-3",
+    "2022-117-108-101-4",
+    "2022-117-108-101-5",
+    "2022-117-108-202-1",
+    "2022-117-108-202-2",
+    "2022-117-286-202-3",
+    "2022-117-108-404-1",
+    "2022-117-286-407-1",
+    "2022-117-286-410-1",
+    "2022-117-108-411-1",
+    "2022-117-108-504-1",
+    "2022-117-108-504-2",
+    "2022-117-286-1003-1",
+    "2022-117-286-1003-2",
+    "2022-117-108-2003-1",
+    "2022-117-286-2003-2",
+    "2022-117-108-2009-1",
+    "2022-117-108-2009-2",
+    "2022-117-286-2009-3",
+    "2022-117-108-2903-1",
+    "2022-117-286-3013-1",
+    "2022-117-108-3626-1",
+    "2022-117-108-3692-1",
+    "2022-117-108-3701-1",
+    "2022-117-108-3702-1",
+    "2022-117-108-3703-1",
+    "2022-117-108-3704-1",
+    "2022-117-108-3705-1"
+   ]
+  },
+  {
+   "from": "2022",
+   "to": "2023",
+   "window": [
+    "2023-01-05",
+    "2024-01-03"
+   ],
+   "sections_changed": [
+    "406"
+   ],
+   "laws": [
+    "118-31"
+   ],
+   "records": [
+    "2023-118-31-406-1"
+   ]
+  },
+  {
+   "from": "2023",
+   "to": "2024",
+   "window": [
+    "2024-01-03",
+    "2025-01-06"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2024",
+   "to": "pl119-73",
+   "window": [
+    "2025-01-06",
+    "2026-01-23"
+   ],
+   "sections_changed": [
+    "2003"
+   ],
+   "laws": [
+    "119-60"
+   ],
+   "records": [
+    "pl119-73-119-60-2003-1"
+   ]
+  },
+  {
+   "from": "pl119-73",
+   "to": "pl119-134",
+   "window": [
+    "2026-01-23",
+    "2026-10-20"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  }
+ ],
+ "laws": [
+  {
+   "pl": "116-92",
+   "congress": 116,
+   "number": 92,
+   "title": "Public Law 116–92: To authorize appropriations for fiscal year 2020 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+   "short_title": "National Defense Authorization Act for Fiscal Year 2020",
+   "approved": "2019-12-20",
+   "bill": {
+    "type": "S",
+    "number": "1790",
+    "congress": "116",
+    "label": "S. 1790",
+    "url": "https://www.congress.gov/bill/116th-congress/senate-bill/1790"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--S. 1790 (H.R. 2500):",
+    "HOUSE REPORTS: Nos. 116-120 and Pt. 2 (both from Comm. on Armed",
+    "Services) accompanying H.R. 2500 and 116-333 (Comm. of Conference).",
+    "SENATE REPORTS: No. 116-48 (Comm. on Armed Services).",
+    "CONGRESSIONAL RECORD, Vol. 165 (2019):",
+    "June 24-27, Sept. 12, considered and passed Senate.",
+    "Sept. 17, considered and passed House, amended.",
+    "Dec. 11, House agreed to conference report.",
+    "Dec. 12, 16, 17, Senate considered and agreed to conference",
+    "report.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2019):",
+    "Dec. 20, Presidential remarks and statement."
+   ],
+   "affected": [
+    "3401",
+    "3401(a)",
+    "406",
+    "414(h)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ92/uslm/PLAW-116publ92.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ92",
+   "sha256": "0039d74b63f4a5acbdfd7f6400a77d74ce0aa17b4fb7e0c641356450516a018b",
+   "fetched_at": "2026-10-26T16:39:03+00:00",
+   "wayback": "http://web.archive.org/web/20261001020900/https://www.govinfo.gov/app/details/PLAW-116publ92",
+   "instructions": 9,
+   "unparsed": 0,
+   "records": [
+    "2019-116-92-406-1",
+    "2019-116-92-414-1",
+    "2019-116-92-3401-1",
+    "2019-116-92-3401-2",
+    "2019-116-92-3401-3",
+    "2019-116-92-3401-4",
+    "2019-116-92-3401-h1"
+   ],
+   "summary": "Made 7 changes to title 39: changed sections 406, 414 and 3401.",
+   "summary_key": "de9cc9f7428493fa1b52ce234e3507234f5fc68bf4d31c37070c2fa6761e273c",
+   "summary_source": "rule"
+  },
+  {
+   "pl": "116-136",
+   "congress": 116,
+   "number": 136,
+   "title": "Public Law 116–136: To amend the Internal Revenue Code of 1986 to repeal the excise tax on high cost employer-sponsored health coverage.",
+   "short_title": "Coronavirus Aid, Relief, and Economic Security Act",
+   "approved": "2020-03-27",
+   "bill": {
+    "type": "HR",
+    "number": "748",
+    "congress": "116",
+    "label": "H.R. 748",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/748"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 748:",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 165 (2019):",
+    "July 17, considered and passed",
+    "House.",
+    "Vol. 166 (2020):",
+    "Mar. 25, considered and passed",
+    "Senate, amended.",
+    "Mar. 27, House concurred in Senate",
+    "amendment.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2020):",
+    "Mar. 27, Presidential remarks and statement."
+   ],
+   "affected": [
+    "2005",
+    "3210(a)(6)(D)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ136/uslm/PLAW-116publ136.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ136",
+   "sha256": "51d32a9220c801fbe8ed3ef96a1cf586eec3276902b9f507efeb2f12ee039f1c",
+   "fetched_at": "2026-10-26T16:31:59+00:00",
+   "wayback": "http://web.archive.org/web/20260925230049/https://www.govinfo.gov/app/details/PLAW-116publ136",
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2020-116-136-3210-1"
+   ],
+   "summary": "The law amended section 3210(a)(6)(D) of title 39 [2020-116-136-3210-1]. It renamed the Commission in that sentence and allowed it to waive the paragraph for mailings sent in response to or to address threats to life safety [2020-116-136-3210-1].",
+   "summary_key": "cd6b96ca3db0aacb465cc1137113b1eba039c4760ba51d049a6802c9373e5955",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "116-260",
+   "congress": 116,
+   "number": 260,
+   "title": "Public Law 116–260:  Making consolidated appropriations for the fiscal year ending September 30, 2021, providing coronavirus emergency response and relief, and for other purposes.",
+   "short_title": "Consolidated Appropriations Act, 2021",
+   "approved": "2020-12-27",
+   "bill": {
+    "type": "HR",
+    "number": "133",
+    "congress": "116",
+    "label": "H.R. 133",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/133"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 133:",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 165 (2019):",
+    "Jan. 10, considered and passed",
+    "House.",
+    "Vol. 166 (2020):",
+    "Jan. 15, considered and passed",
+    "Senate, amended.",
+    "Dec. 21, House concurred in Senate",
+    "amendment with an amendment.",
+    "Senate concurred in House",
+    "amendment."
+   ],
+   "affected": [
+    "101note",
+    "2401",
+    "3210(a)(3)(F)",
+    "3210(a)(6)(E)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ260/uslm/PLAW-116publ260.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ260",
+   "sha256": "ce110e27d05c15c9ad62ae5f5b307fc1ddb7d39a8edebda8d8801744628464cb",
+   "fetched_at": "2026-10-26T16:39:18+00:00",
+   "wayback": "http://web.archive.org/web/20261010065722/https://www.govinfo.gov/app/details/PLAW-116publ260",
+   "instructions": 14,
+   "unparsed": 0,
+   "records": [
+    "2020-116-260-3210-2",
+    "2020-116-260-3210-3",
+    "2020-116-260-3210-4",
+    "2020-116-260-3210-5",
+    "2020-116-260-3210-6",
+    "2020-116-260-3210-7",
+    "2020-116-260-3210-8",
+    "2020-116-260-3210-9",
+    "2020-116-260-3210-10",
+    "2020-116-260-3210-11",
+    "2020-116-260-3210-12",
+    "2020-116-260-3210-13",
+    "2020-116-260-3216-1",
+    "2020-116-260-3220-1"
+   ],
+   "summary": "Consolidated Appropriations Act, 2021 updated title 39’s franked-mail rules in section 3210. It changed the name of the House body to “House Communications Standards Commission,” removed one category from section 3210(a)(3), revised the text in section 3210(a)(3)(I), and added a clause allowing certain personal matter to a constituent [2020-116-260-3210-2] [2020-116-260-3210-3] [2020-116-260-3210-4] [2020-116-260-3210-7] [2020-116-260-3210-8].\n\nThe law also changed timing and formatting rules in section 3210 by removing the House-specific 90-day language, changing one 90-day reference to 60 days, and adding a new clause in section 3210(a)(6)(E). It also made conforming name changes in sections 3216 and 3220 [2020-116-260-3210-9] [2020-116-260-3210-10] [2020-116-260-3210-13] [2020-116-260-3216-1] [2020-116-260-3220-1]",
+   "summary_key": "4fd57a4cd15cfbae3e10176d7b3c267cfe548724776677e67c0cb3bb4d214c4a",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-108",
+   "congress": 117,
+   "number": 108,
+   "title": "Public Law 117–108: To provide stability to and enhance the services of the United States Postal Service, and for other purposes.",
+   "short_title": "Postal Service Reform Act of 2022",
+   "approved": "2022-04-06",
+   "bill": {
+    "type": "HR",
+    "number": "3076",
+    "congress": "117",
+    "label": "H.R. 3076",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/3076"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 3076:",
+    "HOUSE REPORTS: No. 117-89, Pts. 1 and 2 (both from Comm. on Oversight",
+    "and Reform).",
+    "CONGRESSIONAL RECORD, Vol. 168 (2022):",
+    "Feb. 8, considered and passed House.",
+    "Mar. 1-3, 7, 8, considered and passed Senate.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2022):",
+    "Apr. 6, Presidential remarks."
+   ],
+   "affected": [
+    "101(b)",
+    "101(f)",
+    "102",
+    "202",
+    "3626(h)",
+    "3633(a)",
+    "3652(a)(1)",
+    "3692(a)(1)",
+    "404(e)",
+    "411",
+    "504"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ108/uslm/PLAW-117publ108.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ108",
+   "sha256": "24fb083492c3bda1bf37a87168e925b9917cd5eb14dbefeb61a41ddca806dafc",
+   "fetched_at": "2026-10-26T23:52:40+00:00",
+   "wayback": "http://web.archive.org/web/20260806150454/https://www.govinfo.gov/app/details/PLAW-117publ108/",
+   "instructions": 19,
+   "unparsed": 0,
+   "records": [
+    "2022-117-108-101-1",
+    "2022-117-108-101-2",
+    "2022-117-108-101-3",
+    "2022-117-108-101-4",
+    "2022-117-108-101-5",
+    "2022-117-108-202-1",
+    "2022-117-108-202-2",
+    "2022-117-108-404-1",
+    "2022-117-108-411-1",
+    "2022-117-108-504-1",
+    "2022-117-108-504-2",
+    "2022-117-108-2003-1",
+    "2022-117-108-2009-1",
+    "2022-117-108-2009-2",
+    "2022-117-108-2903-1",
+    "2022-117-108-3626-1",
+    "2022-117-108-3692-1",
+    "2022-117-108-3701-1",
+    "2022-117-108-3702-1",
+    "2022-117-108-3703-1",
+    "2022-117-108-3704-1",
+    "2022-117-108-3705-1"
+   ],
+   "summary": "Postal Service Reform Act of 2022 amended title 39 to require an integrated Postal Service network with delivery at least six days a week, and it changed the general postal policy language to require service that is prompt, economical, consistent, and reliable, with operational efficiency and reduced complexity [2022-117-108-101-1] [2022-117-108-101-2] [2022-117-108-101-3] [2022-117-108-101-4] [2022-117-108-101-5]. It also changed Postal Regulatory Commission governance and funding rules, including joint appointment of the Commission’s chief officer, a new budget process for the Commission, and the removal of a former subsection in section 504 [2022-117-108-202-1] [2022-117-108-202-2] [2022-117-108-504-1] [2022-117-108-504-2] [2022-117-108-2003-1] [2022-117-108-2009-1] [2022-117-108-2009-2]. The Act added chapter 37 provisions authorizing nonpostal products and services, definitions, intergovernmental agreements, programs for other agencies, annual reporting, and performance targets, and it also added section 2903 on sale proceeds after permanent cessation of operations [2022-117-108-3701-1] [2022-117-108-3702-1] [2022-117-108-3703-1] [2022-117-108-3704-1] [2022-117-108-3705-1] [2022-117-108-3692-1] [2022-117-108-2903-1].",
+   "summary_key": "95fd2db533706632f06c0322c8b6aee2e86d6df30a18660fa141ee44df4394ab",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-286",
+   "congress": 117,
+   "number": 286,
+   "title": "Public Law 117–286: To make revisions in title 5, United States Code, as necessary to keep the title current, and to make technical amendments to improve the United States Code.",
+   "short_title": "",
+   "approved": "2022-12-27",
+   "bill": {
+    "type": "HR",
+    "number": "5961",
+    "congress": "117",
+    "label": "H.R. 5961",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/5961"
+   },
+   "history": [],
+   "affected": [
+    "1003",
+    "2003(e)(1)",
+    "2009",
+    "202(e)(3)",
+    "3005note",
+    "407(b)(3)",
+    "410(b)(10)",
+    "504(h)(1)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ286/uslm/PLAW-117publ286.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ286",
+   "sha256": "e7fc520850c95c854fa49a5633bb3c5caefe0b175cbb4c4d025776091ae740af",
+   "fetched_at": "2026-10-26T20:54:33+00:00",
+   "wayback": "http://web.archive.org/web/20260806150413/https://www.govinfo.gov/app/details/PLAW-117publ286/",
+   "instructions": 9,
+   "unparsed": 0,
+   "records": [
+    "2022-117-286-202-3",
+    "2022-117-286-407-1",
+    "2022-117-286-410-1",
+    "2022-117-286-1003-1",
+    "2022-117-286-1003-2",
+    "2022-117-286-2003-2",
+    "2022-117-286-2009-3",
+    "2022-117-286-3013-1"
+   ],
+   "summary": "Made 8 changes to title 39: changed sections 202, 407, 410, 1003, 2003, 2009 and 3013.",
+   "summary_key": "92179f9957e83816deea6d23173bb9c645568c606a6981bcd7d3d863310ce135",
+   "summary_source": "rule"
+  },
+  {
+   "pl": "118-31",
+   "congress": 118,
+   "number": 31,
+   "title": "Public Law 118–31: To authorize appropriations for fiscal year 2024 for military activities of the Department of Defense and for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+   "short_title": "National Defense Authorization Act for Fiscal Year 2024",
+   "approved": "2023-12-22",
+   "bill": {
+    "type": "HR",
+    "number": "2670",
+    "congress": "118",
+    "label": "H.R. 2670",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/2670"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 2670 (S. 2226):",
+    "HOUSE REPORTS: Nos. 118-125 (Comm. on Armed Services) and 118-301 (Comm.",
+    "of Conference).",
+    "SENATE REPORTS: No. 118-58 (Comm. on Armed Services) accompanying S.",
+    "2226.",
+    "CONGRESSIONAL RECORD, Vol. 169 (2023):",
+    "July 12-14, considered and passed House.",
+    "July 27, considered and passed Senate, amended.",
+    "Dec. 7, 12, 13, Senate considered and agreed to conference",
+    "report.",
+    "Dec. 14, House agreed to conference report.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2023):",
+    "Dec. 22, Presidential statement."
+   ],
+   "affected": [
+    "406",
+    "406(c)(1)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/uslm/PLAW-118publ31.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-118publ31",
+   "sha256": "3fc2554049cda876883570dd88f37fb3ace5d62b3c31163034cfa3d3310f94cd",
+   "fetched_at": "2026-10-26T23:52:49+00:00",
+   "wayback": "http://web.archive.org/web/20260826171408/https://www.govinfo.gov/app/details/PLAW-118publ31",
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2023-118-31-406-1"
+   ],
+   "summary": "Public Law 118-31 amended section 406 of title 39. It replaced “may authorize the use” with “shall authorize the use” in that section [2023-118-31-406-1].",
+   "summary_key": "765fa3a5c49beaf8a234c3265c6803ff1addead6b999485942353ed2915e3fcb",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "119-60",
+   "congress": 119,
+   "number": 60,
+   "title": "Public Law 119–60: To authorize appropriations for fiscal year 2026 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+   "short_title": "National Defense Authorization Act for Fiscal Year 2026",
+   "approved": "2025-12-18",
+   "bill": {
+    "type": "S",
+    "number": "1071",
+    "congress": "119",
+    "label": "S. 1071",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1071"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--S. 1071 (H.R. 3838) (H.R. 4275) (H.R. 5167):",
+    "HOUSE REPORTS: Nos. 119-231 (Comm. on Armed Services) accompanying H.R.",
+    "3838, 119-214 (Comm. on Transportation and Infrastructure) accompanying",
+    "H.R. 4275, and 119-389 (Permanent Select Comm. on Intelligence)",
+    "accompanying H.R. 5167.",
+    "CONGRESSIONAL RECORD, Vol. 171 (2025):",
+    "Aug. 1, considered and passed Senate.",
+    "Dec. 10, considered and passed House, amended.",
+    "Dec. 11, 15-17, Senate concurred in House amendment.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2025):",
+    "Dec. 18, Presidential statement."
+   ],
+   "affected": [
+    "2003(e)(1)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/uslm/PLAW-119publ60.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-119publ60",
+   "sha256": "7eb2742dc8b011fa6a7a6ec17daf459749e546a432b054e1966b6f567c216713",
+   "fetched_at": "2026-10-26T18:41:05+00:00",
+   "wayback": "http://web.archive.org/web/20260806141930/https://www.govinfo.gov/app/details/PLAW-119publ60/",
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "pl119-73-119-60-2003-1"
+   ],
+   "summary": "Public Law 119-60 amended section 2003(e)(1) of title 39. It replaced “9705(o)” with “9705(n)” in that provision [pl119-73-119-60-2003-1].",
+   "summary_key": "801bdb9ab634777f837354bfcf94b8a5e2298c4979dc05c884332f43f1566655",
+   "summary_source": "model, checked"
+  }
+ ],
+ "counts": {
+  "records": 56,
+  "by_status": {
+   "replayed": 52,
+   "partly replayed": 2,
+   "publisher's note only": 2
+  },
+  "sections_changed": 27
+ },
+ "not_shown": [
+  {
+   "law": "116-92",
+   "label": "div. A, title X, subtitle E, §1055(c)(2)",
+   "section": "ch34",
+   "path": "",
+   "text": "The table of sections for chapter 34 of title 39, United States Code, is amended by striking the item relating to section 3401 and inserting the following: “3401. Mailing privileges of members of Armed Forces of the United States.”.",
+   "note": null,
+   "reason": "table of contents only"
+  },
+  {
+   "law": "116-92",
+   "label": "div. A, title XVII, subtitle B, §1738(b)",
+   "section": "414",
+   "path": "",
+   "text": "Such section is further amended by adding at the end the following new subsection:“(m) Report to Congress.—Not later than 120 days after the date of the submittal of the report under subsection (h)(2), the Secretary of Defense, in coordination with the Secretary of each of the military departments, shall submit to the Committees on Armed Services of the Senate and House of Representatives a report that includes each of the following:“(1) An assessment of the findings and conclusions of the Commission. “(2) The plan of the Secretaries for implementing the recommendations of the Commission. “(3)",
+   "note": null,
+   "reason": "not shown in any version covered"
+  },
+  {
+   "law": "117-108",
+   "label": "title II, §201(b)",
+   "section": "ch36",
+   "path": "",
+   "text": "The table of sections for chapter 36 of title 39, United States Code, is amended by inserting after the item relating to section 3691 the following: “3692. Performance targets and transparency.”.",
+   "note": null,
+   "reason": "table of contents only"
+  }
+ ]
+}

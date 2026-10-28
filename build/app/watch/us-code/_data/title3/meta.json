@@ -1,0 +1,623 @@
+{
+ "title": 3,
+ "title_name": "The President",
+ "method_version": "1",
+ "generated_at": "2026-10-27T00:57:33+00:00",
+ "editions": [
+  {
+   "key": "2017",
+   "label": "2017 edition",
+   "kind": "edition",
+   "year": 2017,
+   "current_through": "2018-01-12",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2017-title3/html/USCODE-2017-title3.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2017-title3",
+   "sha256": "964f9b8fb5340b421c370a40cff0e8760c77a81a95aba649f95dc561a440f74f",
+   "fetched_at": "2026-10-26T20:54:05+00:00",
+   "sections": 59,
+   "wayback": "http://web.archive.org/web/20250214025859/https://www.govinfo.gov/content/pkg/USCODE-2017-title3/html/USCODE-2017-title3.htm"
+  },
+  {
+   "key": "2018",
+   "label": "2018 edition",
+   "kind": "edition",
+   "year": 2018,
+   "current_through": "2019-01-14",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2018-title3/html/USCODE-2018-title3.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2018-title3",
+   "sha256": "4a7d1d17efad3c99d33e3950dee9680fbb537b0985c8dada5aa1417b5800ffbf",
+   "fetched_at": "2026-10-26T20:54:07+00:00",
+   "sections": 59,
+   "wayback": "http://web.archive.org/web/20250204003928/https://www.govinfo.gov/content/pkg/USCODE-2018-title3/html/USCODE-2018-title3.htm"
+  },
+  {
+   "key": "2019",
+   "label": "2019 edition",
+   "kind": "edition",
+   "year": 2019,
+   "current_through": "2020-01-24",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2019-title3/html/USCODE-2019-title3.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2019-title3",
+   "sha256": "b1d4130ea2922470dbbe9c84eaa230ffabd7101687dd5d9603a6d4e307f0e4cf",
+   "fetched_at": "2026-10-26T20:54:09+00:00",
+   "sections": 59,
+   "wayback": "http://web.archive.org/web/20250218101108/https://www.govinfo.gov/content/pkg/USCODE-2019-title3/html/USCODE-2019-title3.htm"
+  },
+  {
+   "key": "2020",
+   "label": "2020 edition",
+   "kind": "edition",
+   "year": 2020,
+   "current_through": "2021-01-13",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2020-title3/html/USCODE-2020-title3.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2020-title3",
+   "sha256": "9f34cac9ad4cada489263f5799588f2b9cc97c7d5a729816d6113d3a79d47635",
+   "fetched_at": "2026-10-26T20:54:11+00:00",
+   "sections": 59,
+   "wayback": "http://web.archive.org/web/20250217125839/https://www.govinfo.gov/content/pkg/USCODE-2020-title3/html/USCODE-2020-title3.htm"
+  },
+  {
+   "key": "2021",
+   "label": "2021 edition",
+   "kind": "edition",
+   "year": 2021,
+   "current_through": "2022-01-02",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2021-title3/html/USCODE-2021-title3.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2021-title3",
+   "sha256": "fabc58f11fcd73e0ecdd85463365e43c06263e74c9d52f104d7ef22805597dd8",
+   "fetched_at": "2026-10-26T20:54:12+00:00",
+   "sections": 59,
+   "wayback": "http://web.archive.org/web/20250430012314/https://www.govinfo.gov/content/pkg/USCODE-2021-title3/html/USCODE-2021-title3.htm"
+  },
+  {
+   "key": "2022",
+   "label": "2022 edition",
+   "kind": "edition",
+   "year": 2022,
+   "current_through": "2023-01-05",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2022-title3/html/USCODE-2022-title3.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2022-title3",
+   "sha256": "6d90a3497e1a10a00204ad45de57df20823966b9c4abed6927f41156ea2977f6",
+   "fetched_at": "2026-10-26T20:54:14+00:00",
+   "sections": 58,
+   "wayback": "http://web.archive.org/web/20250215005315/https://www.govinfo.gov/content/pkg/USCODE-2022-title3/html/USCODE-2022-title3.htm"
+  },
+  {
+   "key": "2023",
+   "label": "2023 edition",
+   "kind": "edition",
+   "year": 2023,
+   "current_through": "2024-01-03",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title3/html/USCODE-2023-title3.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2023-title3",
+   "sha256": "0d7d526042c8006c44d1f02a27594f055e6be6bd2800798bedd8b44b46de009c",
+   "fetched_at": "2026-10-26T20:54:16+00:00",
+   "sections": 58,
+   "wayback": "http://web.archive.org/web/20260104234805/https://www.govinfo.gov/content/pkg/USCODE-2023-title3/html/USCODE-2023-title3.htm"
+  },
+  {
+   "key": "2024",
+   "label": "2024 edition",
+   "kind": "edition",
+   "year": 2024,
+   "current_through": "2025-01-06",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title3/html/USCODE-2024-title3.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2024-title3",
+   "sha256": "0e00cfb3cced0c8b85e6c9f03a75c76f2c220010644e86b5fe3a1062c3fef5f2",
+   "fetched_at": "2026-10-26T20:54:18+00:00",
+   "sections": 58,
+   "wayback": "http://web.archive.org/web/20260131214018/https://www.govinfo.gov/content/pkg/USCODE-2024-title3/html/USCODE-2024-title3.htm"
+  },
+  {
+   "key": "pl119-73",
+   "label": "Release point 119-73",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-01-23",
+   "through_law": "119-73",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/73/htm_usc03@119-73.zip",
+   "page": "https://uscode.house.gov/download/119-73.html",
+   "sha256": "27942404db07b3c1599e731439c649dae0c0cc3c7733c8219e05fbf2dfc05422",
+   "fetched_at": "2026-10-26T20:54:22+00:00",
+   "sections": 58,
+   "wayback": null
+  },
+  {
+   "key": "pl119-134",
+   "label": "Release point 119-134",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-10-20",
+   "through_law": "119-134",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/htm_usc03@119-134.zip",
+   "page": "https://uscode.house.gov/download/119-134.html",
+   "sha256": "15d47ea8ad69e82df893fa8b00ded9f0dbcf06e921a596915bac92ea292ebf51",
+   "fetched_at": "2026-10-26T20:54:24+00:00",
+   "sections": 58,
+   "wayback": null
+  }
+ ],
+ "transitions": [
+  {
+   "from": "2017",
+   "to": "2018",
+   "window": [
+    "2018-01-12",
+    "2019-01-14"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2018",
+   "to": "2019",
+   "window": [
+    "2019-01-14",
+    "2020-01-24"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2019",
+   "to": "2020",
+   "window": [
+    "2020-01-24",
+    "2021-01-13"
+   ],
+   "sections_changed": [
+    "412"
+   ],
+   "laws": [
+    "116-283"
+   ],
+   "records": [
+    "2020-116-283-412-1",
+    "2020-116-283-412-2",
+    "2020-116-283-412-3",
+    "2020-116-283-412-4",
+    "2020-116-283-412-5",
+    "2020-116-283-412-6",
+    "2020-116-283-412-7"
+   ]
+  },
+  {
+   "from": "2020",
+   "to": "2021",
+   "window": [
+    "2021-01-13",
+    "2022-01-02"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2021",
+   "to": "2022",
+   "window": [
+    "2022-01-02",
+    "2023-01-05"
+   ],
+   "sections_changed": [
+    "1",
+    "2",
+    "4",
+    "5",
+    "6",
+    "7",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "21",
+    "22",
+    "411"
+   ],
+   "laws": [
+    "117-286",
+    "117-328"
+   ],
+   "records": [
+    "2022-117-328-1-1",
+    "2022-117-328-2-1",
+    "2022-117-328-4-1",
+    "2022-117-328-5-1",
+    "2022-117-328-6-1",
+    "2022-117-328-7-1",
+    "2022-117-328-7-2",
+    "2022-117-328-9-1",
+    "2022-117-328-10-1",
+    "2022-117-328-11-1",
+    "2022-117-328-12-1",
+    "2022-117-328-12-2",
+    "2022-117-328-12-3",
+    "2022-117-328-12-4",
+    "2022-117-328-12-5",
+    "2022-117-328-12-6",
+    "2022-117-328-12-7",
+    "2022-117-328-12-8",
+    "2022-117-328-13-1",
+    "2022-117-328-13-2",
+    "2022-117-328-13-3",
+    "2022-117-328-13-4",
+    "2022-117-328-14-1",
+    "2022-117-328-15-1",
+    "2022-117-328-16-1",
+    "2022-117-328-17-1",
+    "2022-117-328-18-1",
+    "2022-117-328-18-2",
+    "2022-117-328-21-1",
+    "2022-117-328-21-2",
+    "2022-117-328-22-1",
+    "2022-117-286-411-1",
+    "2022-117-328-5-h1",
+    "2022-117-328-6-h1",
+    "2022-117-328-11-h1",
+    "2022-117-328-16-h1",
+    "2022-117-328-18-h1"
+   ]
+  },
+  {
+   "from": "2022",
+   "to": "2023",
+   "window": [
+    "2023-01-05",
+    "2024-01-03"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2023",
+   "to": "2024",
+   "window": [
+    "2024-01-03",
+    "2025-01-06"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2024",
+   "to": "pl119-73",
+   "window": [
+    "2025-01-06",
+    "2026-01-23"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "pl119-73",
+   "to": "pl119-134",
+   "window": [
+    "2026-01-23",
+    "2026-10-20"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  }
+ ],
+ "laws": [
+  {
+   "pl": "116-283",
+   "congress": 116,
+   "number": 283,
+   "title": "Public Law 116–283: To authorize appropriations for fiscal year 2021 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+   "short_title": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+   "approved": "2021-01-01",
+   "bill": {
+    "type": "HR",
+    "number": "6395",
+    "congress": "116",
+    "label": "H.R. 6395",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/6395"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 6395:",
+    "HOUSE REPORTS: Nos. 116-442 and Pt. 2 (both from Comm. on Armed",
+    "Services) and 116-617 (Comm. of Conference).",
+    "CONGRESSIONAL RECORD, Vol. 166 (2020):",
+    "July 20, 21, considered and passed House.",
+    "Nov. 16, considered and passed Senate, amended.",
+    "Dec. 8, House agreed to conference report.",
+    "Dec. 9-11, Senate considered and agreed to conference",
+    "report.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2020):",
+    "Dec. 23, Presidential veto message.",
+    "CONGRESSIONAL RECORD, Vol. 166 (2020):",
+    "Dec. 28, House overrode veto.",
+    "Dec. 30, 31, Senate considered veto message.",
+    "CONGRESSIONAL RECORD, Vol. 166 (2021):",
+    "Jan. 1, Senate overrode veto."
+   ],
+   "affected": [
+    "412"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ283/uslm/PLAW-116publ283.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ283",
+   "sha256": "d3d77c3904d7e7ef67364104ca323b04b71abc380adf90b8f6f437d6bfed2a8d",
+   "fetched_at": "2026-10-26T20:54:28+00:00",
+   "wayback": "http://web.archive.org/web/20260806145123/https://www.govinfo.gov/app/details/PLAW-116publ283/",
+   "instructions": 7,
+   "unparsed": 0,
+   "records": [
+    "2020-116-283-412-1",
+    "2020-116-283-412-2",
+    "2020-116-283-412-3",
+    "2020-116-283-412-4",
+    "2020-116-283-412-5",
+    "2020-116-283-412-6",
+    "2020-116-283-412-7"
+   ],
+   "summary": "The law amended section 412 of title 3 to add a new subsection (c) allowing covered employees to substitute available paid leave for unpaid leave under section 102(a)(1)(A) or (B) of the Family and Medical Leave Act of 1993 [2020-116-283-412-3], and it added a new subsection (a)(3) exempting that leave from the 12-month and 1,250-hour eligibility requirement [2020-116-283-412-1]. It also redesignated former subsections (c) and (d) as subsections (d) and (e), and it made conforming changes to subsection (d), including adding a regulations clause in subsection (d)(2)(C) and updating subsection (e)(1) to refer to subsection (c) as in effect on the date of enactment of the Presidential and Executive Office Accountability Act [2020-116-283-412-2] [2020-116-283-412-4] [2020-116-283-412-5] [2020-116-283-412-6] [2020-116-283-412-7].",
+   "summary_key": "42d2bc677f760ac701f93019d2c07bf4934c1b9afe1e4279a20b9dc0ca8d882d",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-286",
+   "congress": 117,
+   "number": 286,
+   "title": "Public Law 117–286: To make revisions in title 5, United States Code, as necessary to keep the title current, and to make technical amendments to improve the United States Code.",
+   "short_title": "",
+   "approved": "2022-12-27",
+   "bill": {
+    "type": "HR",
+    "number": "5961",
+    "congress": "117",
+    "label": "H.R. 5961",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/5961"
+   },
+   "history": [],
+   "affected": [
+    "411(c)(1)(B)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ286/uslm/PLAW-117publ286.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ286",
+   "sha256": "e7fc520850c95c854fa49a5633bb3c5caefe0b175cbb4c4d025776091ae740af",
+   "fetched_at": "2026-10-26T20:54:33+00:00",
+   "wayback": "http://web.archive.org/web/20260806150413/https://www.govinfo.gov/app/details/PLAW-117publ286/",
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2022-117-286-411-1"
+   ],
+   "summary": "Public Law 117–286 amended section 411(c)(1)(B) of title 3. It replaced \"section 3(2) of the Federal Advisory Committee Act;\" with \"section 1001 of title 5;\" [2022-117-286-411-1].",
+   "summary_key": "e6630e53c7a7ca29150ab021145d30fc8685e408a362c775c78b05a1029eedfa",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-328",
+   "congress": 117,
+   "number": 328,
+   "title": "Public Law 117–328: Making consolidated appropriations for the fiscal year ending September 30, 2023, and for providing emergency assistance for the situation in Ukraine, and for other purposes.",
+   "short_title": "Consolidated Appropriations Act, 2023",
+   "approved": "2022-12-29",
+   "bill": {
+    "type": "HR",
+    "number": "2617",
+    "congress": "117",
+    "label": "H.R. 2617",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/2617"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 2617:",
+    "SENATE REPORTS: No. 117-164 (Comm. on Homeland Security and Governmental",
+    "Affairs).",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 167 (2021):",
+    "July 26, Sept. 28, considered and",
+    "passed House.",
+    "Vol. 168 (2022):",
+    "Nov. 15, considered and passed",
+    "Senate, amended.",
+    "Dec. 14, House concurred in certain",
+    "Senate amendments, and in",
+    "another with an amendment",
+    "pursuant to H. Res. 1518.",
+    "Dec. 20-22, Senate considered and",
+    "concurred in House amendment",
+    "with an amendment.",
+    "Dec. 23, House concurred in Senate",
+    "amendment."
+   ],
+   "affected": [
+    "102",
+    "102note",
+    "103",
+    "104",
+    "105",
+    "105(d)",
+    "106",
+    "106(b)(2)",
+    "107",
+    "108",
+    "109",
+    "110",
+    "112-114",
+    "11",
+    "12",
+    "13",
+    "15",
+    "16",
+    "17",
+    "18",
+    "21",
+    "411(c)",
+    "4",
+    "5",
+    "6",
+    "7",
+    "9"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ328/uslm/PLAW-117publ328.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ328",
+   "sha256": "c85b2c8cb1494a52997e321f7ffbc5bdbdd9c61ad711db94a2bbad4be216188b",
+   "fetched_at": "2026-10-26T20:54:39+00:00",
+   "wayback": "http://web.archive.org/web/20260806150134/https://www.govinfo.gov/app/details/PLAW-117publ328/",
+   "instructions": 40,
+   "unparsed": 0,
+   "records": [
+    "2022-117-328-1-1",
+    "2022-117-328-2-1",
+    "2022-117-328-4-1",
+    "2022-117-328-5-1",
+    "2022-117-328-6-1",
+    "2022-117-328-7-1",
+    "2022-117-328-7-2",
+    "2022-117-328-9-1",
+    "2022-117-328-10-1",
+    "2022-117-328-11-1",
+    "2022-117-328-12-1",
+    "2022-117-328-12-2",
+    "2022-117-328-12-3",
+    "2022-117-328-12-4",
+    "2022-117-328-12-5",
+    "2022-117-328-12-6",
+    "2022-117-328-12-7",
+    "2022-117-328-12-8",
+    "2022-117-328-13-1",
+    "2022-117-328-13-2",
+    "2022-117-328-13-3",
+    "2022-117-328-13-4",
+    "2022-117-328-14-1",
+    "2022-117-328-15-1",
+    "2022-117-328-16-1",
+    "2022-117-328-17-1",
+    "2022-117-328-18-1",
+    "2022-117-328-18-2",
+    "2022-117-328-21-1",
+    "2022-117-328-21-2",
+    "2022-117-328-22-1",
+    "2022-117-328-5-h1",
+    "2022-117-328-6-h1",
+    "2022-117-328-11-h1",
+    "2022-117-328-16-h1",
+    "2022-117-328-18-h1"
+   ],
+   "summary": "Made 36 changes to title 3: added section 22 and changed sections 1, 2, 4 to 7, 9 to 18 and 21.",
+   "summary_key": "35cd16bced036162fcbd85e2f49a93fff03f94c033dffd41f81ac85b758954de",
+   "summary_source": "rule"
+  }
+ ],
+ "counts": {
+  "records": 44,
+  "by_status": {
+   "replayed": 44
+  },
+  "sections_changed": 20
+ },
+ "not_shown": [
+  {
+   "law": "117-328",
+   "label": "div. P, title I, §102(c)",
+   "section": "ch1",
+   "path": "",
+   "text": "The table of contents for chapter 1 of title 3, United States Code, is amended by striking the item relating to section 1 and inserting the following: “1. Time of appointing electors.”.",
+   "note": null,
+   "reason": "table of contents only"
+  },
+  {
+   "law": "117-328",
+   "label": "div. P, title I, §104(c)(2)",
+   "section": "ch1",
+   "path": "",
+   "text": "The table of contents for chapter 1 of title 3, United States Code, is amended by striking the items relating to sections 5 inserting the following: “5. Certificate of ascertainment of appointment of electors.”.",
+   "note": null,
+   "reason": "table of contents only"
+  },
+  {
+   "law": "117-328",
+   "label": "div. P, title I, §105(b)",
+   "section": "ch1",
+   "path": "",
+   "text": "The table of contents for chapter 1 of title 3, United States Code, is amended by striking the items relating to section 6 and inserting the following: “6. Duties of Archivist.”.",
+   "note": null,
+   "reason": "table of contents only"
+  },
+  {
+   "law": "117-328",
+   "label": "div. P, title I, §107(b)",
+   "section": "ch1",
+   "path": "",
+   "text": "The table of contents for chapter 1 of title 3, United States Code, is amended by striking the item relating to section 11 and inserting the following: “11. Transmission of certificates by electors.”.",
+   "note": null,
+   "reason": "table of contents only"
+  },
+  {
+   "law": "117-328",
+   "label": "div. P, title I, §108(c)(2)",
+   "section": "ch1",
+   "path": "",
+   "text": "The table of contents for chapter 1 of title 3, United States Code, is amended by striking the item relating to section 14.",
+   "note": null,
+   "reason": "table of contents only"
+  },
+  {
+   "law": "117-328",
+   "label": "div. P, title I, §109(b)",
+   "section": "ch1",
+   "path": "",
+   "text": "The table of contents for chapter 1 of title 3, United States Code, is amended by striking the item relating to section 15 and inserting the following: “15. Counting electoral votes in Congress.”.",
+   "note": null,
+   "reason": "table of contents only"
+  },
+  {
+   "law": "117-328",
+   "label": "div. P, title I, §110(c)(3)",
+   "section": "ch1",
+   "path": "",
+   "text": "The table of contents for chapter 1 of title 3, United States Code, is amended—",
+   "note": null,
+   "reason": "table of contents only"
+  },
+  {
+   "law": "117-328",
+   "label": "div. P, title I, §110(c)(3)(A)",
+   "section": "ch1",
+   "path": "",
+   "text": "The table of contents for chapter 1 of title 3, United States Code, is amended— by striking “meeting” in the item relating to section 16 and inserting “session”; and",
+   "note": null,
+   "reason": "table of contents only"
+  },
+  {
+   "law": "117-328",
+   "label": "div. P, title I, §110(c)(3)(B)",
+   "section": "ch1",
+   "path": "",
+   "text": "The table of contents for chapter 1 of title 3, United States Code, is amended— by striking “meeting” in the item relating to section 18 and inserting “session”.",
+   "note": null,
+   "reason": "table of contents only"
+  },
+  {
+   "law": "117-328",
+   "label": "div. P, title I, §111(b)",
+   "section": "ch1",
+   "path": "",
+   "text": "The table of contents for chapter 1 of title 3, United States Code, is amended by adding at the end the following: “22. Severability.”.",
+   "note": null,
+   "reason": "table of contents only"
+  }
+ ]
+}

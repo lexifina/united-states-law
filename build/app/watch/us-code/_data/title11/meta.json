@@ -1,0 +1,1354 @@
+{
+ "title": 11,
+ "title_name": "Bankruptcy",
+ "method_version": "1",
+ "generated_at": "2026-10-26T20:21:00+00:00",
+ "editions": [
+  {
+   "key": "2017",
+   "label": "2017 edition",
+   "kind": "edition",
+   "year": 2017,
+   "current_through": "2018-01-12",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2017-title11/html/USCODE-2017-title11.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2017-title11",
+   "sha256": "e10e3a618174db43c1b8d41ea0dc408fc5f0252e9cb8b2c14d66ab80c7797fec",
+   "fetched_at": "2026-10-26T16:38:02+00:00",
+   "sections": 263,
+   "wayback": null
+  },
+  {
+   "key": "2018",
+   "label": "2018 edition",
+   "kind": "edition",
+   "year": 2018,
+   "current_through": "2019-01-14",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2018-title11/html/USCODE-2018-title11.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2018-title11",
+   "sha256": "533d11566866bb954ea459abcd4ce160990ab63c7e7392e39f4ff6bb5f6d0993",
+   "fetched_at": "2026-10-26T16:38:05+00:00",
+   "sections": 263,
+   "wayback": null
+  },
+  {
+   "key": "2019",
+   "label": "2019 edition",
+   "kind": "edition",
+   "year": 2019,
+   "current_through": "2020-01-24",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2019-title11/html/USCODE-2019-title11.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2019-title11",
+   "sha256": "9b3acc66348f542787bfb22636f943490c9d4b90adf32f30ac38db3369443510",
+   "fetched_at": "2026-10-26T16:38:08+00:00",
+   "sections": 278,
+   "wayback": "http://web.archive.org/web/20250203234926/https://www.govinfo.gov/content/pkg/USCODE-2019-title11/html/USCODE-2019-title11.htm"
+  },
+  {
+   "key": "2020",
+   "label": "2020 edition",
+   "kind": "edition",
+   "year": 2020,
+   "current_through": "2021-01-13",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2020-title11/html/USCODE-2020-title11.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2020-title11",
+   "sha256": "702958059fe68acfbba7687890468aa2ec765730fae32e37fae03c87af6a90bb",
+   "fetched_at": "2026-10-26T16:38:11+00:00",
+   "sections": 278,
+   "wayback": null
+  },
+  {
+   "key": "2021",
+   "label": "2021 edition",
+   "kind": "edition",
+   "year": 2021,
+   "current_through": "2022-01-02",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2021-title11/html/USCODE-2021-title11.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2021-title11",
+   "sha256": "ab593cbc0b9e16bc1f1cd1f0b93959ecc2416cdaeebb906f4917ee22fbe6b155",
+   "fetched_at": "2026-10-26T16:38:13+00:00",
+   "sections": 278,
+   "wayback": null
+  },
+  {
+   "key": "2022",
+   "label": "2022 edition",
+   "kind": "edition",
+   "year": 2022,
+   "current_through": "2023-01-05",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2022-title11/html/USCODE-2022-title11.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2022-title11",
+   "sha256": "094a40e54802d7fc5d33dea6c18a2abf5e0d0ecd323f7c9dff1695a087040dd5",
+   "fetched_at": "2026-10-26T16:38:16+00:00",
+   "sections": 278,
+   "wayback": null
+  },
+  {
+   "key": "2023",
+   "label": "2023 edition",
+   "kind": "edition",
+   "year": 2023,
+   "current_through": "2024-01-03",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title11/html/USCODE-2023-title11.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2023-title11",
+   "sha256": "1dd6ab3d119ab18f710c917d76a3d0c82f05ce882c46d94af20f088b1021a569",
+   "fetched_at": "2026-10-26T16:38:19+00:00",
+   "sections": 278,
+   "wayback": null
+  },
+  {
+   "key": "2024",
+   "label": "2024 edition",
+   "kind": "edition",
+   "year": 2024,
+   "current_through": "2025-01-06",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2024-title11",
+   "sha256": "9ffa6b789edac684679f93cda99b28ccb9e94786aefe80008acf0eb9bcbaca12",
+   "fetched_at": "2026-10-26T16:38:25+00:00",
+   "sections": 278,
+   "wayback": null
+  },
+  {
+   "key": "pl119-73",
+   "label": "Release point 119-73",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-01-23",
+   "through_law": "119-73",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/73/htm_usc11@119-73.zip",
+   "page": "https://uscode.house.gov/download/119-73.html",
+   "sha256": "8952f517efca24cca7e893aa81e95fec77bd8ef08560b9107d21e56ae7be708e",
+   "fetched_at": "2026-10-26T17:31:14+00:00",
+   "sections": 278,
+   "wayback": null
+  },
+  {
+   "key": "pl119-83",
+   "label": "Release point 119-83",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-04-13",
+   "through_law": "119-83",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/83/htm_usc11@119-83.zip",
+   "page": "https://uscode.house.gov/download/119-83.html",
+   "sha256": "1ddc4a5e429561424430807c8ebb5ca6064f8c38bd29c635f2e487c908353186",
+   "fetched_at": "2026-10-26T17:31:16+00:00",
+   "sections": 278,
+   "wayback": null
+  },
+  {
+   "key": "pl119-134",
+   "label": "Release point 119-134",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-10-20",
+   "through_law": "119-134",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/htm_usc11@119-134.zip",
+   "page": "https://uscode.house.gov/download/119-134.html",
+   "sha256": "7163a8e8406a44616b1d9c62d601792cefaa512b59027c68ec82330ee8b92598",
+   "fetched_at": "2026-10-26T18:37:12+00:00",
+   "sections": 278,
+   "wayback": null
+  }
+ ],
+ "transitions": [
+  {
+   "from": "2017",
+   "to": "2018",
+   "window": [
+    "2018-01-12",
+    "2019-01-14"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2018",
+   "to": "2019",
+   "window": [
+    "2019-01-14",
+    "2020-01-24"
+   ],
+   "sections_changed": [
+    "101",
+    "103",
+    "322",
+    "326",
+    "347",
+    "363",
+    "364",
+    "523",
+    "524",
+    "547",
+    "557",
+    "1102",
+    "1146",
+    "1181",
+    "1182",
+    "1183",
+    "1184",
+    "1185",
+    "1186",
+    "1187",
+    "1188",
+    "1189",
+    "1190",
+    "1191",
+    "1192",
+    "1193",
+    "1194",
+    "1195"
+   ],
+   "laws": [
+    "116-51",
+    "116-52",
+    "116-54"
+   ],
+   "records": [
+    "2019-116-51-101-1",
+    "2019-116-52-101-2",
+    "2019-116-54-101-3",
+    "2019-116-54-101-4",
+    "2019-116-54-101-5",
+    "2019-116-54-101-6",
+    "2019-116-54-101-7",
+    "2019-116-54-101-8",
+    "2019-116-54-103-1",
+    "2019-116-54-103-2",
+    "2019-116-54-322-1",
+    "2019-116-54-326-1",
+    "2019-116-54-326-2",
+    "2019-116-54-347-1",
+    "2019-116-54-347-2",
+    "2019-116-54-347-3",
+    "2019-116-54-363-1",
+    "2019-116-54-364-1",
+    "2019-116-54-523-1",
+    "2019-116-54-524-1",
+    "2019-116-54-524-2",
+    "2019-116-54-524-3",
+    "2019-116-54-524-4",
+    "2019-116-54-547-1",
+    "2019-116-54-557-1",
+    "2019-116-54-1102-1",
+    "2019-116-54-1146-1",
+    "2019-116-54-1181-1",
+    "2019-116-54-1182-1",
+    "2019-116-54-1183-1",
+    "2019-116-54-1184-1",
+    "2019-116-54-1185-1",
+    "2019-116-54-1186-1",
+    "2019-116-54-1187-1",
+    "2019-116-54-1188-1",
+    "2019-116-54-1189-1",
+    "2019-116-54-1190-1",
+    "2019-116-54-1191-1",
+    "2019-116-54-1192-1",
+    "2019-116-54-1193-1",
+    "2019-116-54-1194-1",
+    "2019-116-54-1195-1"
+   ]
+  },
+  {
+   "from": "2019",
+   "to": "2020",
+   "window": [
+    "2020-01-24",
+    "2021-01-13"
+   ],
+   "sections_changed": [
+    "101",
+    "103",
+    "330",
+    "347",
+    "362",
+    "365",
+    "366",
+    "501",
+    "502",
+    "507",
+    "525",
+    "541",
+    "547",
+    "1182",
+    "1325",
+    "1328",
+    "1329"
+   ],
+   "laws": [
+    "116-136",
+    "116-189",
+    "116-260",
+    "116-325"
+   ],
+   "records": [
+    "2020-116-136-101-1",
+    "2020-116-136-101-2",
+    "2020-116-136-101-3",
+    "2020-116-136-101-4",
+    "2020-116-136-103-1",
+    "2020-116-325-330-1",
+    "2020-116-136-347-1",
+    "2020-116-189-362-1",
+    "2020-116-189-362-2",
+    "2020-116-189-362-3",
+    "2020-116-260-365-1",
+    "2020-116-260-365-2",
+    "2020-116-260-365-3",
+    "2020-116-260-365-4",
+    "2020-116-260-366-1",
+    "2020-116-260-501-1",
+    "2020-116-260-502-1",
+    "2020-116-260-507-1",
+    "2020-116-260-507-2",
+    "2020-116-260-507-3",
+    "2020-116-260-525-1",
+    "2020-116-260-541-1",
+    "2020-116-260-541-2",
+    "2020-116-260-541-3",
+    "2020-116-260-547-1",
+    "2020-116-260-547-2",
+    "2020-116-136-1182-1",
+    "2020-116-136-1325-1",
+    "2020-116-260-1328-1",
+    "2020-116-136-1329-1",
+    "2020-116-260-1329-2"
+   ]
+  },
+  {
+   "from": "2020",
+   "to": "2021",
+   "window": [
+    "2021-01-13",
+    "2022-01-02"
+   ],
+   "sections_changed": [
+    "330",
+    "366",
+    "501",
+    "502",
+    "507",
+    "525",
+    "541",
+    "1328",
+    "1329"
+   ],
+   "laws": [
+    "116-260",
+    "117-43",
+    "117-5"
+   ],
+   "records": [
+    "2021-117-43-330-1",
+    "2021-116-260-366-1",
+    "2021-116-260-501-1",
+    "2021-116-260-502-1",
+    "2021-116-260-502-2",
+    "2021-116-260-502-3",
+    "2021-116-260-507-1",
+    "2021-116-260-507-2",
+    "2021-116-260-507-3",
+    "2021-116-260-525-1",
+    "2021-116-260-541-1",
+    "2021-116-260-541-2",
+    "2021-116-260-541-3",
+    "2021-116-260-1328-1",
+    "2021-117-5-1329-1",
+    "2021-116-260-1329-2"
+   ]
+  },
+  {
+   "from": "2021",
+   "to": "2022",
+   "window": [
+    "2022-01-02",
+    "2023-01-05"
+   ],
+   "sections_changed": [
+    "101",
+    "104",
+    "109",
+    "365",
+    "523",
+    "547",
+    "1182",
+    "1183",
+    "1191",
+    "1325",
+    "1329"
+   ],
+   "laws": [
+    "116-136",
+    "116-260",
+    "117-151",
+    "117-347"
+   ],
+   "records": [
+    "2022-116-136-101-1",
+    "2022-116-136-101-2",
+    "2022-116-136-101-3",
+    "2022-117-151-101-4",
+    "2022-117-151-101-5",
+    "2022-117-151-104-1",
+    "2022-117-151-104-2",
+    "2022-117-151-109-1",
+    "2022-116-260-365-1",
+    "2022-116-260-365-2",
+    "2022-116-260-365-3",
+    "2022-116-260-365-4",
+    "2022-117-347-523-1",
+    "2022-117-347-523-2",
+    "2022-117-347-523-3",
+    "2022-116-260-547-1",
+    "2022-116-260-547-2",
+    "2022-116-136-1182-1",
+    "2022-117-151-1182-2",
+    "2022-117-151-1183-1",
+    "2022-117-151-1183-2",
+    "2022-117-151-1183-3",
+    "2022-117-151-1183-4",
+    "2022-117-151-1191-1",
+    "2022-116-260-1325-1",
+    "2022-116-136-1325-2",
+    "2022-116-260-1325-3",
+    "2022-116-136-1329-1"
+   ]
+  },
+  {
+   "from": "2022",
+   "to": "2023",
+   "window": [
+    "2023-01-05",
+    "2024-01-03"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2023",
+   "to": "2024",
+   "window": [
+    "2024-01-03",
+    "2025-01-06"
+   ],
+   "sections_changed": [
+    "109",
+    "507",
+    "1182"
+   ],
+   "laws": [
+    "117-151",
+    "118-42"
+   ],
+   "records": [
+    "2024-117-151-109-1",
+    "2024-118-42-507-1",
+    "2024-117-151-1182-1"
+   ]
+  },
+  {
+   "from": "2024",
+   "to": "pl119-73",
+   "window": [
+    "2025-01-06",
+    "2026-01-23"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "pl119-73",
+   "to": "pl119-83",
+   "window": [
+    "2026-01-23",
+    "2026-04-13"
+   ],
+   "sections_changed": [
+    "330"
+   ],
+   "laws": [
+    "119-76"
+   ],
+   "records": [
+    "pl119-83-119-76-330-1",
+    "pl119-83-119-76-330-2"
+   ]
+  },
+  {
+   "from": "pl119-83",
+   "to": "pl119-134",
+   "window": [
+    "2026-04-13",
+    "2026-10-20"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  }
+ ],
+ "laws": [
+  {
+   "pl": "116-51",
+   "congress": 116,
+   "number": 51,
+   "title": "Public Law 116–51: To amend title 11, United States Code, with respect to the definition of “family farmer”.",
+   "short_title": "Family Farmer Relief Act of 2019",
+   "approved": "2019-08-23",
+   "bill": {
+    "type": "HR",
+    "number": "2336",
+    "congress": "116",
+    "label": "H.R. 2336",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/2336"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 2336:",
+    "HOUSE REPORTS: No. 116-182 (Comm. on the Judiciary).",
+    "CONGRESSIONAL RECORD, Vol. 165 (2019):",
+    "July 25, considered and passed House.",
+    "Aug. 1, considered and passed Senate."
+   ],
+   "affected": [
+    "101(18)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ51/uslm/PLAW-116publ51.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ51",
+   "sha256": "e39c3343ac6b05bf6c2e73144c9e5fc211e30badcc47d09f6c95c59601c88930",
+   "fetched_at": "2026-10-26T16:38:47+00:00",
+   "wayback": null,
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2019-116-51-101-1"
+   ],
+   "summary": "Public Law 116-51 amended section 101(18) of title 11. It replaced the dollar amount \"$3,237,000\" with \"$10,000,000\" each time that amount appears in section 101(18) [2019-116-51-101-1].",
+   "summary_key": "508777c656e71a7485ad4fa219e7aa630b1b68c0ab5d4c7ca4b71974c25a399f",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "116-52",
+   "congress": 116,
+   "number": 52,
+   "title": "Public Law 116–52: To exempt from the calculation of monthly income certain benefits paid by the Department of Veterans Affairs and the Department of Defense.",
+   "short_title": "Honoring American Veterans in Extreme Need Act of 2019",
+   "approved": "2019-08-23",
+   "bill": {
+    "type": "HR",
+    "number": "2938",
+    "congress": "116",
+    "label": "H.R. 2938",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/2938"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 2938:",
+    "HOUSE REPORTS: No. 116-169 (Comm. on the Judiciary).",
+    "CONGRESSIONAL RECORD, Vol. 165 (2019):",
+    "July 23, considered and passed House.",
+    "Aug. 1, considered and passed Senate."
+   ],
+   "affected": [
+    "101(10A)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ52/uslm/PLAW-116publ52.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ52",
+   "sha256": "c2f6a1af3f8d566c29374cab775daece15b7b4c400ebf60268f83fb416d7df10",
+   "fetched_at": "2026-10-26T16:38:53+00:00",
+   "wayback": "http://web.archive.org/web/20260806152133/https://www.govinfo.gov/app/details/PLAW-116publ52/",
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2019-116-52-101-2"
+   ],
+   "summary": "The Act rewrote section 101(10A)(B) of title 11. It split that subparagraph into clauses (i) and (ii) and set out the inclusion and exclusion rules in that structure [2019-116-52-101-2].",
+   "summary_key": "0fb8b3d181c9c3271f455afeb57fea351a47d8aa8d1d87161b6cb90618ffe31a",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "116-54",
+   "congress": 116,
+   "number": 54,
+   "title": "Public Law 116–54: To amend chapter 11 of title 11, United States Code, to address reorganization of small businesses, and for other purposes.",
+   "short_title": "Small Business Reorganization Act of 2019",
+   "approved": "2019-08-23",
+   "bill": {
+    "type": "HR",
+    "number": "3311",
+    "congress": "116",
+    "label": "H.R. 3311",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/3311"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 3311:",
+    "HOUSE REPORTS: No. 116-171 (Comm. on the Judiciary).",
+    "CONGRESSIONAL RECORD, Vol. 165 (2019):",
+    "July 23, considered and passed House.",
+    "Aug. 1, considered and passed Senate."
+   ],
+   "affected": [
+    "547(b)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ54/uslm/PLAW-116publ54.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ54",
+   "sha256": "24dd39cf2c4b8ea3b0ef413d77512041f56bcd067ba619796e90dc03a49389c6",
+   "fetched_at": "2026-10-26T16:32:02+00:00",
+   "wayback": null,
+   "instructions": 27,
+   "unparsed": 0,
+   "records": [
+    "2019-116-54-101-3",
+    "2019-116-54-101-4",
+    "2019-116-54-101-5",
+    "2019-116-54-101-6",
+    "2019-116-54-101-7",
+    "2019-116-54-101-8",
+    "2019-116-54-103-1",
+    "2019-116-54-103-2",
+    "2019-116-54-322-1",
+    "2019-116-54-326-1",
+    "2019-116-54-326-2",
+    "2019-116-54-347-1",
+    "2019-116-54-347-2",
+    "2019-116-54-347-3",
+    "2019-116-54-363-1",
+    "2019-116-54-364-1",
+    "2019-116-54-523-1",
+    "2019-116-54-524-1",
+    "2019-116-54-524-2",
+    "2019-116-54-524-3",
+    "2019-116-54-524-4",
+    "2019-116-54-547-1",
+    "2019-116-54-557-1",
+    "2019-116-54-1102-1",
+    "2019-116-54-1146-1",
+    "2019-116-54-1181-1",
+    "2019-116-54-1182-1",
+    "2019-116-54-1183-1",
+    "2019-116-54-1184-1",
+    "2019-116-54-1185-1",
+    "2019-116-54-1186-1",
+    "2019-116-54-1187-1",
+    "2019-116-54-1188-1",
+    "2019-116-54-1189-1",
+    "2019-116-54-1190-1",
+    "2019-116-54-1191-1",
+    "2019-116-54-1192-1",
+    "2019-116-54-1193-1",
+    "2019-116-54-1194-1",
+    "2019-116-54-1195-1"
+   ],
+   "summary": "Made 40 changes to title 11: added sections 1181 to 1195 and changed sections 101, 103, 322, 326, 347, 363, 364, 523, 524, 547, 557, 1102 and 1146.",
+   "summary_key": "44d71175074b1f794b119ad818a52f2dbabef0229c5399ac89e1d45f8cd34d0c",
+   "summary_source": "rule"
+  },
+  {
+   "pl": "116-136",
+   "congress": 116,
+   "number": 136,
+   "title": "Public Law 116–136: To amend the Internal Revenue Code of 1986 to repeal the excise tax on high cost employer-sponsored health coverage.",
+   "short_title": "Coronavirus Aid, Relief, and Economic Security Act",
+   "approved": "2020-03-27",
+   "bill": {
+    "type": "HR",
+    "number": "748",
+    "congress": "116",
+    "label": "H.R. 748",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/748"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 748:",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 165 (2019):",
+    "July 17, considered and passed",
+    "House.",
+    "Vol. 166 (2020):",
+    "Mar. 25, considered and passed",
+    "Senate, amended.",
+    "Mar. 27, House concurred in Senate",
+    "amendment.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2020):",
+    "Mar. 27, Presidential remarks and statement."
+   ],
+   "affected": [
+    "101(10A)(B)(ii)",
+    "101(51D)(B)(iii)",
+    "103(i)",
+    "1182(1)",
+    "1325",
+    "1325(b)(2)",
+    "1329",
+    "347(b)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ136/uslm/PLAW-116publ136.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ136",
+   "sha256": "51d32a9220c801fbe8ed3ef96a1cf586eec3276902b9f507efeb2f12ee039f1c",
+   "fetched_at": "2026-10-26T16:31:59+00:00",
+   "wayback": "http://web.archive.org/web/20260925230049/https://www.govinfo.gov/app/details/PLAW-116publ136",
+   "instructions": 15,
+   "unparsed": 0,
+   "records": [
+    "2020-116-136-101-1",
+    "2020-116-136-101-2",
+    "2020-116-136-101-3",
+    "2020-116-136-101-4",
+    "2020-116-136-103-1",
+    "2020-116-136-347-1",
+    "2020-116-136-1182-1",
+    "2020-116-136-1325-1",
+    "2020-116-136-1329-1",
+    "2022-116-136-101-1",
+    "2022-116-136-101-2",
+    "2022-116-136-101-3",
+    "2022-116-136-1182-1",
+    "2022-116-136-1325-2",
+    "2022-116-136-1329-1"
+   ],
+   "summary": "Made 15 changes to title 11: changed sections 101, 103, 347, 1182, 1325 and 1329. 6 of the changes ended temporary provisions on the dates the law set.",
+   "summary_key": "280c9ab8cc6c4f54855cb1ecb5e0769fddc0e339b1814f27a213689aaf40299f",
+   "summary_source": "rule"
+  },
+  {
+   "pl": "116-189",
+   "congress": 116,
+   "number": 189,
+   "title": "Public Law 116–189: To amend the Ted Stevens Olympic and Amateur Sports Act to provide for congressional oversight of the board of directors of the United States Olympic and Paralympic Committee and to protect amateur athletes from emotional, physical, and sexual abuse, and for other purposes.",
+   "short_title": "Empowering Olympic, Paralympic, and Amateur Athletes Act of 2020",
+   "approved": "2020-10-30",
+   "bill": {
+    "type": "S",
+    "number": "2330",
+    "congress": "116",
+    "label": "S. 2330",
+    "url": "https://www.congress.gov/bill/116th-congress/senate-bill/2330"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--S. 2330:",
+    "SENATE REPORTS: No. 116-245 (Comm. on Commerce, Science, and",
+    "Transportation).",
+    "CONGRESSIONAL RECORD, Vol. 166 (2020):",
+    "Aug. 4, considered and passed Senate.",
+    "Oct. 1, considered and passed House."
+   ],
+   "affected": [
+    "362(b)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ189/uslm/PLAW-116publ189.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ189",
+   "sha256": "6b6a40cb2703939c74fc712e82036a5057d286d6ca2168153c675689858211a7",
+   "fetched_at": "2026-10-26T16:39:11+00:00",
+   "wayback": "http://web.archive.org/web/20260806144027/https://www.govinfo.gov/app/details/PLAW-116publ189/",
+   "instructions": 3,
+   "unparsed": 0,
+   "records": [
+    "2020-116-189-362-1",
+    "2020-116-189-362-2",
+    "2020-116-189-362-3"
+   ],
+   "summary": "The law amended section 362(b) of title 11. It struck “and” from paragraph (27) and changed the end of paragraph (28) to “; and” [2020-116-189-362-1] [2020-116-189-362-2]. It also inserted a new paragraph (29) after paragraph (28) [2020-116-189-362-3].",
+   "summary_key": "c145c005e813eea83e2f7eed1499baa9c956528d81f917f88f392016f22e75c9",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "116-260",
+   "congress": 116,
+   "number": 260,
+   "title": "Public Law 116–260:  Making consolidated appropriations for the fiscal year ending September 30, 2021, providing coronavirus emergency response and relief, and for other purposes.",
+   "short_title": "Consolidated Appropriations Act, 2021",
+   "approved": "2020-12-27",
+   "bill": {
+    "type": "HR",
+    "number": "133",
+    "congress": "116",
+    "label": "H.R. 133",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/133"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 133:",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 165 (2019):",
+    "Jan. 10, considered and passed",
+    "House.",
+    "Vol. 166 (2020):",
+    "Jan. 15, considered and passed",
+    "Senate, amended.",
+    "Dec. 21, House concurred in Senate",
+    "amendment with an amendment.",
+    "Senate concurred in House",
+    "amendment."
+   ],
+   "affected": [
+    "1191",
+    "1225",
+    "1325",
+    "1328",
+    "1329",
+    "364",
+    "365(d)",
+    "366",
+    "501",
+    "502(b)(9)",
+    "503(b)",
+    "507(d)",
+    "525",
+    "541(b)",
+    "547"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ260/uslm/PLAW-116publ260.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ260",
+   "sha256": "ce110e27d05c15c9ad62ae5f5b307fc1ddb7d39a8edebda8d8801744628464cb",
+   "fetched_at": "2026-10-26T16:39:18+00:00",
+   "wayback": "http://web.archive.org/web/20261010065722/https://www.govinfo.gov/app/details/PLAW-116publ260",
+   "instructions": 52,
+   "unparsed": 0,
+   "records": [
+    "2020-116-260-365-1",
+    "2020-116-260-365-2",
+    "2020-116-260-365-3",
+    "2020-116-260-365-4",
+    "2020-116-260-366-1",
+    "2020-116-260-501-1",
+    "2020-116-260-502-1",
+    "2020-116-260-507-1",
+    "2020-116-260-507-2",
+    "2020-116-260-507-3",
+    "2020-116-260-525-1",
+    "2020-116-260-541-1",
+    "2020-116-260-541-2",
+    "2020-116-260-541-3",
+    "2020-116-260-547-1",
+    "2020-116-260-547-2",
+    "2020-116-260-1328-1",
+    "2020-116-260-1329-2",
+    "2021-116-260-366-1",
+    "2021-116-260-501-1",
+    "2021-116-260-502-1",
+    "2021-116-260-502-2",
+    "2021-116-260-502-3",
+    "2021-116-260-507-1",
+    "2021-116-260-507-2",
+    "2021-116-260-507-3",
+    "2021-116-260-525-1",
+    "2021-116-260-541-1",
+    "2021-116-260-541-2",
+    "2021-116-260-541-3",
+    "2021-116-260-1328-1",
+    "2021-116-260-1329-2",
+    "2022-116-260-365-1",
+    "2022-116-260-365-2",
+    "2022-116-260-365-3",
+    "2022-116-260-365-4",
+    "2022-116-260-547-1",
+    "2022-116-260-547-2",
+    "2022-116-260-1325-1",
+    "2022-116-260-1325-3"
+   ],
+   "summary": "Made 40 changes to title 11: changed sections 365, 366, 501, 502, 507, 525, 541, 547, 1325, 1328 and 1329. 21 of the changes ended temporary provisions on the dates the law set.",
+   "summary_key": "7257ca70cce25210aebd931329119bbd032433bdb3553da0396a2b81a1362313",
+   "summary_source": "rule"
+  },
+  {
+   "pl": "116-325",
+   "congress": 116,
+   "number": 325,
+   "title": "Public Law 116–325: To ensure funding of the United States trustees, extend temporary bankruptcy judgeships, and for other purposes.",
+   "short_title": "Bankruptcy Administration Improvement Act of 2020",
+   "approved": "2021-01-12",
+   "bill": {
+    "type": "S",
+    "number": "4996",
+    "congress": "116",
+    "label": "S. 4996",
+    "url": "https://www.congress.gov/bill/116th-congress/senate-bill/4996"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--S. 4996:",
+    "CONGRESSIONAL RECORD, Vol. 166 (2020):",
+    "Dec. 9, considered and passed Senate.",
+    "Dec. 21, considered and passed House."
+   ],
+   "affected": [
+    "330"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ325/uslm/PLAW-116publ325.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ325",
+   "sha256": "54f7bbcd5a09cfc82b7fb1ee460409d00ebc553725c60ff1d1c8483e1b6a3e57",
+   "fetched_at": "2026-10-26T16:39:21+00:00",
+   "wayback": null,
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2020-116-325-330-1"
+   ],
+   "summary": "Public Law 116-325 amended title 11 by adding section 330(e). That new provision established the Chapter 7 Trustee Fund in the Treasury and made deposits available for trustee payments for fiscal years 2021 through 2026 [2020-116-325-330-1].",
+   "summary_key": "732867bc97164e48d60df778ed78aa90a0462e66c0df2cf29cffbb9d768d7f53",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-5",
+   "congress": 117,
+   "number": 5,
+   "title": "Public Law 117–5: To amend the CARES Act to extend the sunset for the definition of a small business debtor, and for other purposes.",
+   "short_title": "COVID-19 Bankruptcy Relief Extension Act of 2021",
+   "approved": "2021-03-27",
+   "bill": {
+    "type": "HR",
+    "number": "1651",
+    "congress": "117",
+    "label": "H.R. 1651",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/1651"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 1651:",
+    "CONGRESSIONAL RECORD, Vol. 167 (2021):",
+    "Mar. 16, 17, considered and passed House.",
+    "Mar. 24, considered and passed Senate, amended.",
+    "Mar. 26, House concurred in Senate amendment."
+   ],
+   "affected": [
+    "101note",
+    "1182note",
+    "1329(d)(1)",
+    "1329note"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ5/uslm/PLAW-117publ5.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ5",
+   "sha256": "0c6710fa044cd3b9acc8f2fc65b69e027c20d0f0db4b8ff8f07086cb341363a8",
+   "fetched_at": "2026-10-26T16:39:35+00:00",
+   "wayback": null,
+   "instructions": 4,
+   "unparsed": 0,
+   "records": [
+    "2021-117-5-1329-1"
+   ],
+   "summary": "Public Law 117-5 amended section 1329(d)(1) of title 11 by replacing the words \"this subsection\" with \"the COVID–19 Bankruptcy Relief Extension Act of 2021\" [2021-117-5-1329-1]. The change updated the cross-reference in section 1329(d)(1) to name the Act directly.",
+   "summary_key": "c155e237dc2c8819a43d0a9910fa1a494206180e39ea98994c50122fe07b965b",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-43",
+   "congress": 117,
+   "number": 43,
+   "title": "Public Law 117–43: Making continuing appropriations for the fiscal year ending September 30, 2022, and for providing emergency assistance, and for other purposes.",
+   "short_title": "Extending Government Funding and Delivering Emergency Assistance Act",
+   "approved": "2021-09-30",
+   "bill": {
+    "type": "HR",
+    "number": "5305",
+    "congress": "117",
+    "label": "H.R. 5305",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/5305"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 5305:",
+    "CONGRESSIONAL RECORD, Vol. 167 (2021):",
+    "Sept. 21, considered and passed House.",
+    "Sept. 30, considered and passed Senate, amended. House",
+    "concurred in Senate amendment."
+   ],
+   "affected": [
+    "330(e)(3)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ43/uslm/PLAW-117publ43.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ43",
+   "sha256": "61005b095401475311bbcf246c0b5975fa9f82a7c2719e57a55cfd9576cb49bf",
+   "fetched_at": "2026-10-26T16:39:39+00:00",
+   "wayback": null,
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2021-117-43-330-1"
+   ],
+   "summary": "Public Law 117-43 amended title 11 by striking “in that fiscal year” from section 330(e)(3) [2021-117-43-330-1].",
+   "summary_key": "5bfa8d43132a211f0c1ae4ac174359f0809f7cabb2c98663fee4074fa2f2c9dc",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-151",
+   "congress": 117,
+   "number": 151,
+   "title": "Public Law 117–151: To amend title 11, United States Code, to modify the eligibility requirements for a debtor under chapter 13, and for other purposes.",
+   "short_title": "Bankruptcy Threshold Adjustment and Technical Corrections Act",
+   "approved": "2022-06-21",
+   "bill": {
+    "type": "S",
+    "number": "3823",
+    "congress": "117",
+    "label": "S. 3823",
+    "url": "https://www.congress.gov/bill/117th-congress/senate-bill/3823"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--S. 3823:",
+    "CONGRESSIONAL RECORD, Vol. 168 (2022):",
+    "Apr. 7, considered and passed Senate.",
+    "June 7, considered and passed House."
+   ],
+   "affected": [
+    "101(51D)(B)",
+    "104",
+    "109",
+    "1182(1)",
+    "1183(b)(5)",
+    "1191(c)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ151/uslm/PLAW-117publ151.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ151",
+   "sha256": "fd2257d55c05543e3682d19af05eb3de08fd01de29e8aa3c41db4afab0f0a979",
+   "fetched_at": "2026-10-26T16:31:57+00:00",
+   "wayback": "http://web.archive.org/web/20260806150149/https://www.govinfo.gov/app/details/PLAW-117publ151/",
+   "instructions": 13,
+   "unparsed": 0,
+   "records": [
+    "2022-117-151-101-4",
+    "2022-117-151-101-5",
+    "2022-117-151-104-1",
+    "2022-117-151-104-2",
+    "2022-117-151-109-1",
+    "2022-117-151-1182-2",
+    "2022-117-151-1183-1",
+    "2022-117-151-1183-2",
+    "2022-117-151-1183-3",
+    "2022-117-151-1183-4",
+    "2022-117-151-1191-1",
+    "2024-117-151-109-1",
+    "2024-117-151-1182-1"
+   ],
+   "summary": "The law changed several title 11 definitions and cross-references. It inserted “under this title” in section 101(51D)(B)(i), replaced section 101(51D)(B)(iii), and added section 1182(1) to the cross-references in section 104(a) and section 104(b) [2022-117-151-101-4] [2022-117-151-101-5] [2022-117-151-104-1] [2022-117-151-104-2].\n\nIt rewrote section 109(e) to limit chapter 13 debtors to individuals with regular income owing less than $2,750,000 in noncontingent, liquidated debts, and it rewrote section 1182(1) with a longer definition for a person engaged in commercial or business activities [2022-117-151-109-1] [2022-117-151-1182-2].\n\nIt also changed subchapter V provisions in section 1183(b)(5) and section 1191(c) by adjusting the debtor-in-possession language, adding authority to operate the business, and splitting the payment-ability test and reasonable-likelihood test into separate subparagraphs [2022-117-151-1183-1] [2022-117-151-1183-2] [2022-117-151-1183-3] [2022-117-151-1183-4] [2022-117-151-1191-1].",
+   "summary_key": "4deb6e82d8eaa27260a83fa042d736fa1c17be4fb48302364ff38566dc7475ea",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-347",
+   "congress": 117,
+   "number": 347,
+   "title": "Public Law 117–347: To reauthorize the Trafficking Victims Protection Act of 2017, and for other purposes.",
+   "short_title": "Abolish Trafficking Reauthorization Act of 2022",
+   "approved": "2023-01-05",
+   "bill": {
+    "type": "S",
+    "number": "3946",
+    "congress": "117",
+    "label": "S. 3946",
+    "url": "https://www.congress.gov/bill/117th-congress/senate-bill/3946"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--S. 3946:",
+    "CONGRESSIONAL RECORD, Vol. 168 (2022):",
+    "Dec. 20, considered and passed Senate.",
+    "Dec. 22, considered and passed House."
+   ],
+   "affected": [
+    "523(a)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ347/uslm/PLAW-117publ347.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ347",
+   "sha256": "3bd067d0bc71e0571e0b9745645c09c1e251a6f68ca4436218a28261b01913cb",
+   "fetched_at": "2026-10-26T16:39:48+00:00",
+   "wayback": "http://web.archive.org/web/20260806145043/https://www.govinfo.gov/app/details/PLAW-117publ347/",
+   "instructions": 3,
+   "unparsed": 0,
+   "records": [
+    "2022-117-347-523-1",
+    "2022-117-347-523-2",
+    "2022-117-347-523-3"
+   ],
+   "summary": "Made 3 changes to title 11: changed section 523.",
+   "summary_key": "5b9c93575720b546c2c923705530ed2e72ea2c6328c17c429418aa55435d1592",
+   "summary_source": "rule"
+  },
+  {
+   "pl": "118-42",
+   "congress": 118,
+   "number": 42,
+   "title": "Public Law 118–42: Making consolidated appropriations for the fiscal year ending September 30, 2024, and for other purposes.",
+   "short_title": "Consolidated Appropriations Act, 2024",
+   "approved": "2024-03-09",
+   "bill": {
+    "type": "HR",
+    "number": "4366",
+    "congress": "118",
+    "label": "H.R. 4366",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/4366"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 4366 (S. 2127):",
+    "HOUSE REPORTS: No. 118-122 (Comm. on Appropriations).",
+    "SENATE REPORTS: No. 118-43 (Comm. on Appropriations) accompanying S.",
+    "2127.",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 169 (2023):",
+    "July 26, 27, considered and passed",
+    "House.",
+    "Sept. 14, 18-20, Oct. 25, 26, 31,",
+    "Nov. 1, considered and passed",
+    "Senate, amended.",
+    "Vol. 170 (2024):",
+    "Mar. 6, House concurred in Senate",
+    "amendment with an amendment",
+    "pursuant to H. Res. 1061. Senate",
+    "considered concurring in House",
+    "amendment.",
+    "Mar. 8. Senate concurred in House",
+    "amendment."
+   ],
+   "affected": [
+    "507(d)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ42/uslm/PLAW-118publ42.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-118publ42",
+   "sha256": "563491684e2c60d3f80b6cc642c2bc92b9c91b08cbbcc5270de22d436ae80ddf",
+   "fetched_at": "2026-10-26T16:40:11+00:00",
+   "wayback": null,
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2024-118-42-507-1"
+   ],
+   "summary": "Public Law 118-42 amended section 507(d) of title 11. It inserted “excluding subparagraph (F)” after “(a)(8)” in section 507(d) [2024-118-42-507-1].",
+   "summary_key": "4f34e85596c449b0946bba8df2a2e1c8d293ff3578fde7de9394eba0e079519a",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "119-76",
+   "congress": 119,
+   "number": 76,
+   "title": "Public Law 119–76: To amend titles 11 and 28, United States Code, to modify the compensation payable to trustees serving in cases under chapter 7 of title 11, United States Code, to extend the term of certain temporary offices of bankruptcy judges, and for other purposes.",
+   "short_title": "Bankruptcy Administration Improvement Act of 2025",
+   "approved": "2026-02-06",
+   "bill": {
+    "type": "S",
+    "number": "3424",
+    "congress": "119",
+    "label": "S. 3424",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3424"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--S. 3424:",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 171 (2025):",
+    "Dec. 10, considered and passed",
+    "Senate.",
+    "Vol. 172 (2026):",
+    "Jan. 12, considered and passed",
+    "House."
+   ],
+   "affected": [
+    "330",
+    "330(b)(1)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ76/uslm/PLAW-119publ76.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-119publ76",
+   "sha256": "c81be03939a13714e317aba7003b6164e8be0b0e902dac675445ce1c8b6f490e",
+   "fetched_at": "2026-10-26T17:34:48+00:00",
+   "wayback": "http://web.archive.org/web/20260806142018/https://www.govinfo.gov/app/details/PLAW-119publ76/",
+   "instructions": 2,
+   "unparsed": 0,
+   "records": [
+    "pl119-83-119-76-330-1",
+    "pl119-83-119-76-330-2"
+   ],
+   "summary": "The law amended section 330(b)(1) of title 11 and raised the amount from $45 to $105 [pl119-83-119-76-330-1]. It also struck subsection (e) from section 330 of title 11 [pl119-83-119-76-330-2].",
+   "summary_key": "6e3b17b11c8d5d333bde857e5994960d13a94c482b99c17fef48e64003eb9836",
+   "summary_source": "model, checked"
+  }
+ ],
+ "counts": {
+  "records": 122,
+  "by_status": {
+   "replayed": 122
+  },
+  "sections_changed": 69
+ },
+ "not_shown": [
+  {
+   "law": "116-54",
+   "label": "§2(b)",
+   "section": "ch11",
+   "path": "",
+   "text": "The table of subchapters at the beginning of chapter 11 of title 11, United States Code, is amended by adding at the end the following: “subchapter v— small business debtor reorganization “1181. Inapplicability of other sections. “1182. Definitions. “1183. Trustee. “1184. Rights and powers of a debtor in possession. “1185. Removal of debtor in possession. “1186. Property of the estate. “1187. Duties and reporting requirements of debtors. “1188. Status conference. “1189. Filing of the plan. “1190. Contents of plan. “1191. Confirmation of plan. “1192. Discharge. “1193. Modification of plan. “119",
+   "note": null,
+   "reason": "table of contents only"
+  },
+  {
+   "law": "116-260",
+   "label": "div. N, title III, §320(a)",
+   "section": "364",
+   "path": "",
+   "text": "Section 364 of title 11, United States Code, is amended by adding at the end the following:“(g)(1) The court, after notice and a hearing, may authorize a debtor in possession or a trustee that is authorized to operate the business of the debtor under section 1183, 1184, 1203, 1204, or 1304 of this title to obtain a loan under paragraph (36) or (37) of section 7(a) of the Small Business Act (15 U.S.C. 636(a)), and such loan shall be treated as a debt to the extent the loan is not forgiven in accordance with section 7A of the Small Business Act or subparagraph (J) of such paragraph (37), as appl",
+   "note": {
+    "heading": "Effective and Termination Dates of 2020 Amendment",
+    "text": "Pub. L. 116–260, div. N, title III, §320(f), Dec. 27, 2020, 134 Stat. 2016, provided that: \"(1) Effective date.—The amendments made by subsections (a) through (e) [amending this section and sections 503, 1191, 1225, and 1325 of this title] shall— \"(A) take effect on the date on which the Administrator [of the Small Business Administration] submits to the Director of the Executive Office for United States Trustees a written determination that, subject to satisfying any other eligibility requirements, any debtor in possession or trustee that is authorized to operate the business of the debtor under section 1183, 1184, 1203, 1204, or 1304 of title 11, United States Code, would be eligible for a loan under paragraphs (36) and (37) of section 7(a) of the Small Business Act (15 U.S.C. 636(a)); and \"(B) apply to any case pending on or commenced on or after the date described in subparagraph (A). \"(2) Sunset.— \"(A) In general.—If the amendments made by subsections (a) through (e) take effect under paragraph (1), effective on the date that is 2 years after the date of enactment of this Act [Dec. 27, 2020]— \"(i) section 364 of title 11, United States Code, is amended by striking subsection (",
+    "edition": "pl119-134",
+    "edition_label": "Release point 119-134"
+   },
+   "reason": "depends on a condition the editions do not show as met"
+  },
+  {
+   "law": "116-260",
+   "label": "div. N, title III, §320(b)(1)",
+   "section": "503",
+   "path": "(b)(8)(B)",
+   "text": "Section 503(b) of title 11, United States Code, is amended— in paragraph (8)(B), by striking “and” at the end;",
+   "note": {
+    "heading": "Effective and Termination Dates of 2020 Amendment",
+    "text": "Amendment by section 320(b) of div. N of Pub. L. 116–260 effective on the date on which the Administrator of the Small Business Administration submits to the Director of the Executive Office for United States Trustees a written determination relating to loan eligibility under pars. (36) and (37) of section 636(a) of Title 15, Commerce and Trade, and applicable to any case pending on or commenced on or after such date, and amendment by section 320(f)(2)(A)(ii) of div. N of Pub. L. 116–260, relating to repeal of such amendment if it became effective, effective two years after Dec. 27, 2020, see section 320(f) of Pub. L. 116–260, set out as a note under section 364 of this title. [Pursuant to 15 U.S.C. 636(a)(36)(A)(iii), the \"covered period\" for loans under the Paycheck Protection Program ended on June 30, 2021.]",
+    "edition": "pl119-134",
+    "edition_label": "Release point 119-134"
+   },
+   "reason": "depends on a condition the editions do not show as met"
+  },
+  {
+   "law": "116-260",
+   "label": "div. N, title III, §320(b)(2)",
+   "section": "503",
+   "path": "(b)(9)",
+   "text": "Section 503(b) of title 11, United States Code, is amended— in paragraph (9), by striking the period at the end and inserting “; and”; and",
+   "note": {
+    "heading": "Effective and Termination Dates of 2020 Amendment",
+    "text": "Amendment by section 320(b) of div. N of Pub. L. 116–260 effective on the date on which the Administrator of the Small Business Administration submits to the Director of the Executive Office for United States Trustees a written determination relating to loan eligibility under pars. (36) and (37) of section 636(a) of Title 15, Commerce and Trade, and applicable to any case pending on or commenced on or after such date, and amendment by section 320(f)(2)(A)(ii) of div. N of Pub. L. 116–260, relating to repeal of such amendment if it became effective, effective two years after Dec. 27, 2020, see section 320(f) of Pub. L. 116–260, set out as a note under section 364 of this title. [Pursuant to 15 U.S.C. 636(a)(36)(A)(iii), the \"covered period\" for loans under the Paycheck Protection Program ended on June 30, 2021.]",
+    "edition": "pl119-134",
+    "edition_label": "Release point 119-134"
+   },
+   "reason": "depends on a condition the editions do not show as met"
+  },
+  {
+   "law": "116-260",
+   "label": "div. N, title III, §320(b)(3)",
+   "section": "503",
+   "path": "(b)",
+   "text": "Section 503(b) of title 11, United States Code, is amended— by adding at the end the following:“(10) any debt incurred under section 364(g)(1) of this title.” .",
+   "note": {
+    "heading": "Effective and Termination Dates of 2020 Amendment",
+    "text": "Amendment by section 320(b) of div. N of Pub. L. 116–260 effective on the date on which the Administrator of the Small Business Administration submits to the Director of the Executive Office for United States Trustees a written determination relating to loan eligibility under pars. (36) and (37) of section 636(a) of Title 15, Commerce and Trade, and applicable to any case pending on or commenced on or after such date, and amendment by section 320(f)(2)(A)(ii) of div. N of Pub. L. 116–260, relating to repeal of such amendment if it became effective, effective two years after Dec. 27, 2020, see section 320(f) of Pub. L. 116–260, set out as a note under section 364 of this title. [Pursuant to 15 U.S.C. 636(a)(36)(A)(iii), the \"covered period\" for loans under the Paycheck Protection Program ended on June 30, 2021.]",
+    "edition": "pl119-134",
+    "edition_label": "Release point 119-134"
+   },
+   "reason": "depends on a condition the editions do not show as met"
+  },
+  {
+   "law": "116-260",
+   "label": "div. N, title III, §320(c)",
+   "section": "1191",
+   "path": "",
+   "text": "Section 1191 of title 11, United States Code, is amended by adding at the end the following:“(f) Special Provision Related to COVID–19 Pandemic.—Notwithstanding section 1129(a)(9)(A) of this title and subsection (e) of this section, a plan that provides for payment of a claim of a kind specified in section 503(b)(10) of this title may be confirmed under subsection (b) of this section if the plan proposes to make payments on account of such claim when due under the terms of the loan giving rise to such claim.” .",
+   "note": {
+    "heading": "Effective and Termination Dates of 2020 Amendment",
+    "text": "Amendment by section 320(c) of div. N of Pub. L. 116–260 effective on the date on which the Administrator of the Small Business Administration submits to the Director of the Executive Office for United States Trustees a written determination relating to loan eligibility under pars. (36) and (37) of section 636(a) of Title 15, Commerce and Trade, and applicable to any case pending on or commenced on or after such date, and amendment by section 320(f)(2)(A)(iii) of div. N of Pub. L. 116–260, relating to repeal of such amendment if it became effective, effective two years after Dec. 27, 2020, see section 320(f) of Pub. L. 116–260, set out as a note under section 364 of this title. [Pursuant to 15 U.S.C. 636(a)(36)(A)(iii), the \"covered period\" for loans under the Paycheck Protection Program ended on June 30, 2021.]",
+    "edition": "pl119-134",
+    "edition_label": "Release point 119-134"
+   },
+   "reason": "depends on a condition the editions do not show as met"
+  },
+  {
+   "law": "116-260",
+   "label": "div. N, title III, §320(d)",
+   "section": "1225",
+   "path": "",
+   "text": "Section 1225 of title 11, United States Code, is amended by adding at the end the following:“(d) Notwithstanding section 1222(a)(2) of this title and subsection (b)(1) of this section, a plan that provides for payment of a claim of a kind specified in section 503(b)(10) of this title may be confirmed if the plan proposes to make payments on account of such claim when due under the terms of the loan giving rise to such claim.” .",
+   "note": {
+    "heading": "Effective and Termination Dates of 2020 Amendment",
+    "text": "Amendment by section 320(d) of div. N of Pub. L. 116–260 effective on the date on which the Administrator of the Small Business Administration submits to the Director of the Executive Office for United States Trustees a written determination relating to loan eligibility under pars. (36) and (37) of section 636(a) of Title 15, Commerce and Trade, and applicable to any case pending on or commenced on or after such date, and amendment by section 320(f)(2)(A)(iv) of div. N of Pub. L. 116–260, relating to repeal of such amendment if it became effective, effective two years after Dec. 27, 2020, see section 320(f) of Pub. L. 116–260, set out as a note under section 364 of this title. [Pursuant to 15 U.S.C. 636(a)(36)(A)(iii), the \"covered period\" for loans under the Paycheck Protection Program ended on June 30, 2021.]",
+    "edition": "pl119-134",
+    "edition_label": "Release point 119-134"
+   },
+   "reason": "depends on a condition the editions do not show as met"
+  },
+  {
+   "law": "116-260",
+   "label": "div. N, title III, §320(f)(2)(A)(i)",
+   "section": "364",
+   "path": "",
+   "text": "section 364 of title 11, United States Code, is amended by striking subsection (g);",
+   "note": {
+    "heading": "Effective and Termination Dates of 2020 Amendment",
+    "text": "Pub. L. 116–260, div. N, title III, §320(f), Dec. 27, 2020, 134 Stat. 2016, provided that: \"(1) Effective date.—The amendments made by subsections (a) through (e) [amending this section and sections 503, 1191, 1225, and 1325 of this title] shall— \"(A) take effect on the date on which the Administrator [of the Small Business Administration] submits to the Director of the Executive Office for United States Trustees a written determination that, subject to satisfying any other eligibility requirements, any debtor in possession or trustee that is authorized to operate the business of the debtor under section 1183, 1184, 1203, 1204, or 1304 of title 11, United States Code, would be eligible for a loan under paragraphs (36) and (37) of section 7(a) of the Small Business Act (15 U.S.C. 636(a)); and \"(B) apply to any case pending on or commenced on or after the date described in subparagraph (A). \"(2) Sunset.— \"(A) In general.—If the amendments made by subsections (a) through (e) take effect under paragraph (1), effective on the date that is 2 years after the date of enactment of this Act [Dec. 27, 2020]— \"(i) section 364 of title 11, United States Code, is amended by striking subsection (",
+    "edition": "pl119-134",
+    "edition_label": "Release point 119-134"
+   },
+   "reason": "depends on a condition the editions do not show as met"
+  },
+  {
+   "law": "116-260",
+   "label": "div. N, title III, §320(f)(2)(A)(ii)(I)",
+   "section": "503",
+   "path": "(b)(8)(B)",
+   "text": "section 503(b) of title 11, United States Code, is amended— in paragraph (8)(B), by adding “and” at the end;",
+   "note": {
+    "heading": "Effective and Termination Dates of 2020 Amendment",
+    "text": "Amendment by section 320(b) of div. N of Pub. L. 116–260 effective on the date on which the Administrator of the Small Business Administration submits to the Director of the Executive Office for United States Trustees a written determination relating to loan eligibility under pars. (36) and (37) of section 636(a) of Title 15, Commerce and Trade, and applicable to any case pending on or commenced on or after such date, and amendment by section 320(f)(2)(A)(ii) of div. N of Pub. L. 116–260, relating to repeal of such amendment if it became effective, effective two years after Dec. 27, 2020, see section 320(f) of Pub. L. 116–260, set out as a note under section 364 of this title. [Pursuant to 15 U.S.C. 636(a)(36)(A)(iii), the \"covered period\" for loans under the Paycheck Protection Program ended on June 30, 2021.]",
+    "edition": "pl119-134",
+    "edition_label": "Release point 119-134"
+   },
+   "reason": "depends on a condition the editions do not show as met"
+  },
+  {
+   "law": "116-260",
+   "label": "div. N, title III, §320(f)(2)(A)(ii)(II)",
+   "section": "503",
+   "path": "(b)(9)",
+   "text": "section 503(b) of title 11, United States Code, is amended— in paragraph (9), by striking “; and” at the end and inserting a period; and",
+   "note": {
+    "heading": "Effective and Termination Dates of 2020 Amendment",
+    "text": "Amendment by section 320(b) of div. N of Pub. L. 116–260 effective on the date on which the Administrator of the Small Business Administration submits to the Director of the Executive Office for United States Trustees a written determination relating to loan eligibility under pars. (36) and (37) of section 636(a) of Title 15, Commerce and Trade, and applicable to any case pending on or commenced on or after such date, and amendment by section 320(f)(2)(A)(ii) of div. N of Pub. L. 116–260, relating to repeal of such amendment if it became effective, effective two years after Dec. 27, 2020, see section 320(f) of Pub. L. 116–260, set out as a note under section 364 of this title. [Pursuant to 15 U.S.C. 636(a)(36)(A)(iii), the \"covered period\" for loans under the Paycheck Protection Program ended on June 30, 2021.]",
+    "edition": "pl119-134",
+    "edition_label": "Release point 119-134"
+   },
+   "reason": "depends on a condition the editions do not show as met"
+  },
+  {
+   "law": "116-260",
+   "label": "div. N, title III, §320(f)(2)(A)(ii)(III)",
+   "section": "503",
+   "path": "(b)",
+   "text": "section 503(b) of title 11, United States Code, is amended— by striking paragraph (10);",
+   "note": {
+    "heading": "Effective and Termination Dates of 2020 Amendment",
+    "text": "Amendment by section 320(b) of div. N of Pub. L. 116–260 effective on the date on which the Administrator of the Small Business Administration submits to the Director of the Executive Office for United States Trustees a written determination relating to loan eligibility under pars. (36) and (37) of section 636(a) of Title 15, Commerce and Trade, and applicable to any case pending on or commenced on or after such date, and amendment by section 320(f)(2)(A)(ii) of div. N of Pub. L. 116–260, relating to repeal of such amendment if it became effective, effective two years after Dec. 27, 2020, see section 320(f) of Pub. L. 116–260, set out as a note under section 364 of this title. [Pursuant to 15 U.S.C. 636(a)(36)(A)(iii), the \"covered period\" for loans under the Paycheck Protection Program ended on June 30, 2021.]",
+    "edition": "pl119-134",
+    "edition_label": "Release point 119-134"
+   },
+   "reason": "depends on a condition the editions do not show as met"
+  },
+  {
+   "law": "116-260",
+   "label": "div. N, title III, §320(f)(2)(A)(iv)",
+   "section": "1225",
+   "path": "",
+   "text": "section 1225 of title 11, United States Code, is amended by striking subsection (d); and",
+   "note": {
+    "heading": "Effective and Termination Dates of 2020 Amendment",
+    "text": "Amendment by section 320(d) of div. N of Pub. L. 116–260 effective on the date on which the Administrator of the Small Business Administration submits to the Director of the Executive Office for United States Trustees a written determination relating to loan eligibility under pars. (36) and (37) of section 636(a) of Title 15, Commerce and Trade, and applicable to any case pending on or commenced on or after such date, and amendment by section 320(f)(2)(A)(iv) of div. N of Pub. L. 116–260, relating to repeal of such amendment if it became effective, effective two years after Dec. 27, 2020, see section 320(f) of Pub. L. 116–260, set out as a note under section 364 of this title. [Pursuant to 15 U.S.C. 636(a)(36)(A)(iii), the \"covered period\" for loans under the Paycheck Protection Program ended on June 30, 2021.]",
+    "edition": "pl119-134",
+    "edition_label": "Release point 119-134"
+   },
+   "reason": "depends on a condition the editions do not show as met"
+  },
+  {
+   "law": "117-5",
+   "label": "§2(a)(1)",
+   "section": "1182",
+   "path": "",
+   "text": "in subsection (a)(5) (11 U.S.C. 1182 note), by striking “1 year” and inserting “2 years”; and",
+   "note": null,
+   "reason": "changes a provision of another law printed as a note"
+  },
+  {
+   "law": "117-5",
+   "label": "§2(a)(2)",
+   "section": "101",
+   "path": "",
+   "text": "in subsection (b)(2)(B) (11 U.S.C. 101 note), by striking “1 year” and inserting “2 years”.",
+   "note": null,
+   "reason": "changes a provision of another law printed as a note"
+  }
+ ]
+}

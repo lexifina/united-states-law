@@ -1,0 +1,309 @@
+{
+ "title": 13,
+ "title_name": "Census",
+ "method_version": "1",
+ "generated_at": "2026-10-27T00:56:09+00:00",
+ "editions": [
+  {
+   "key": "2017",
+   "label": "2017 edition",
+   "kind": "edition",
+   "year": 2017,
+   "current_through": "2018-01-12",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2017-title13/html/USCODE-2017-title13.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2017-title13",
+   "sha256": "9a26d7adc3edc57a18c7995c7ee34102f66ee867ab6d4ed358cb6701ff965b28",
+   "fetched_at": "2026-10-26T20:55:15+00:00",
+   "sections": 65,
+   "wayback": "http://web.archive.org/web/20250213151050/https://www.govinfo.gov/content/pkg/USCODE-2017-title13/html/USCODE-2017-title13.htm"
+  },
+  {
+   "key": "2018",
+   "label": "2018 edition",
+   "kind": "edition",
+   "year": 2018,
+   "current_through": "2019-01-14",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2018-title13/html/USCODE-2018-title13.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2018-title13",
+   "sha256": "174346096977b05e606bca9addb3ffe884fed8081fca95ab96daf7ea3d7c6513",
+   "fetched_at": "2026-10-26T20:55:17+00:00",
+   "sections": 65,
+   "wayback": "http://web.archive.org/web/20250214064019/https://www.govinfo.gov/content/pkg/USCODE-2018-title13/html/USCODE-2018-title13.htm"
+  },
+  {
+   "key": "2019",
+   "label": "2019 edition",
+   "kind": "edition",
+   "year": 2019,
+   "current_through": "2020-01-24",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2019-title13/html/USCODE-2019-title13.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2019-title13",
+   "sha256": "6152f8ab0d3e9004686d32497c9c84b97df025631496cbce203abdf698eb9b09",
+   "fetched_at": "2026-10-26T20:55:18+00:00",
+   "sections": 65,
+   "wayback": "http://web.archive.org/web/20250213095035/https://www.govinfo.gov/content/pkg/USCODE-2019-title13/html/USCODE-2019-title13.htm"
+  },
+  {
+   "key": "2020",
+   "label": "2020 edition",
+   "kind": "edition",
+   "year": 2020,
+   "current_through": "2021-01-13",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2020-title13/html/USCODE-2020-title13.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2020-title13",
+   "sha256": "039d2b66fcb14118ee63f425467cdc2a1b64a819630fa42bafb2fad50f614156",
+   "fetched_at": "2026-10-26T20:55:21+00:00",
+   "sections": 65,
+   "wayback": "http://web.archive.org/web/20250214231232/https://www.govinfo.gov/content/pkg/USCODE-2020-title13/html/USCODE-2020-title13.htm"
+  },
+  {
+   "key": "2021",
+   "label": "2021 edition",
+   "kind": "edition",
+   "year": 2021,
+   "current_through": "2022-01-02",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2021-title13/html/USCODE-2021-title13.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2021-title13",
+   "sha256": "af9ccfd034c4b39b679c237eeeb64dcb5fe15d526a7298ad02484a8dbed7aaac",
+   "fetched_at": "2026-10-26T20:55:22+00:00",
+   "sections": 65,
+   "wayback": "http://web.archive.org/web/20250212191342/https://www.govinfo.gov/content/pkg/USCODE-2021-title13/html/USCODE-2021-title13.htm"
+  },
+  {
+   "key": "2022",
+   "label": "2022 edition",
+   "kind": "edition",
+   "year": 2022,
+   "current_through": "2023-01-05",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2022-title13/html/USCODE-2022-title13.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2022-title13",
+   "sha256": "946cf59bece6b79b76ea8732210f47aef9b8380b35254b1c132c163fadf56b50",
+   "fetched_at": "2026-10-26T20:55:24+00:00",
+   "sections": 65,
+   "wayback": "http://web.archive.org/web/20250210055845/https://www.govinfo.gov/content/pkg/USCODE-2022-title13/html/USCODE-2022-title13.htm"
+  },
+  {
+   "key": "2023",
+   "label": "2023 edition",
+   "kind": "edition",
+   "year": 2023,
+   "current_through": "2024-01-03",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title13/html/USCODE-2023-title13.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2023-title13",
+   "sha256": "27712d8b8883adafb4728cb8a50a07e89b58f8aa46aa1d6d955a81fd17355ccd",
+   "fetched_at": "2026-10-26T20:55:26+00:00",
+   "sections": 65,
+   "wayback": "http://web.archive.org/web/20250415133628/https://www.govinfo.gov/content/pkg/USCODE-2023-title13/html/USCODE-2023-title13.htm"
+  },
+  {
+   "key": "2024",
+   "label": "2024 edition",
+   "kind": "edition",
+   "year": 2024,
+   "current_through": "2025-01-06",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title13/html/USCODE-2024-title13.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2024-title13",
+   "sha256": "8e9067f964cd3dbc433413d439c4ecfef64f2f320439c426477fa622a19176fb",
+   "fetched_at": "2026-10-26T20:55:27+00:00",
+   "sections": 65,
+   "wayback": "http://web.archive.org/web/20250818205050/https://www.govinfo.gov/content/pkg/USCODE-2024-title13/html/USCODE-2024-title13.htm"
+  },
+  {
+   "key": "pl119-73",
+   "label": "Release point 119-73",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-01-23",
+   "through_law": "119-73",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/73/htm_usc13@119-73.zip",
+   "page": "https://uscode.house.gov/download/119-73.html",
+   "sha256": "bf28008194b3542ca00c0cb6ac6a95ea9fbb5d3481c224571e7f56bf0f7b4696",
+   "fetched_at": "2026-10-26T20:55:32+00:00",
+   "sections": 65,
+   "wayback": null
+  },
+  {
+   "key": "pl119-134",
+   "label": "Release point 119-134",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-10-20",
+   "through_law": "119-134",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/htm_usc13@119-134.zip",
+   "page": "https://uscode.house.gov/download/119-134.html",
+   "sha256": "8a2ac7c260bf4e40d0c5440a5d722b6a3e59952e3758ba9bb535da97140fbc72",
+   "fetched_at": "2026-10-26T20:55:33+00:00",
+   "sections": 65,
+   "wayback": null
+  }
+ ],
+ "transitions": [
+  {
+   "from": "2017",
+   "to": "2018",
+   "window": [
+    "2018-01-12",
+    "2019-01-14"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2018",
+   "to": "2019",
+   "window": [
+    "2019-01-14",
+    "2020-01-24"
+   ],
+   "sections_changed": [
+    "402"
+   ],
+   "laws": [
+    "115-435"
+   ],
+   "records": [
+    "2019-115-435-402-1"
+   ]
+  },
+  {
+   "from": "2019",
+   "to": "2020",
+   "window": [
+    "2020-01-24",
+    "2021-01-13"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2020",
+   "to": "2021",
+   "window": [
+    "2021-01-13",
+    "2022-01-02"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2021",
+   "to": "2022",
+   "window": [
+    "2022-01-02",
+    "2023-01-05"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2022",
+   "to": "2023",
+   "window": [
+    "2023-01-05",
+    "2024-01-03"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2023",
+   "to": "2024",
+   "window": [
+    "2024-01-03",
+    "2025-01-06"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2024",
+   "to": "pl119-73",
+   "window": [
+    "2025-01-06",
+    "2026-01-23"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "pl119-73",
+   "to": "pl119-134",
+   "window": [
+    "2026-01-23",
+    "2026-10-20"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  }
+ ],
+ "laws": [
+  {
+   "pl": "115-435",
+   "congress": 115,
+   "number": 435,
+   "title": "Public Law 115–435: To amend titles 5 and 44, United States Code, to require Federal evaluation activities, improve Federal data management, and for other purposes.",
+   "short_title": "Foundations for Evidence-Based Policymaking Act of 2018",
+   "approved": "2019-01-14",
+   "bill": {
+    "type": "HR",
+    "number": "4174",
+    "congress": "115",
+    "label": "H.R. 4174",
+    "url": "https://www.congress.gov/bill/115th-congress/house-bill/4174"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 4174:",
+    "HOUSE REPORTS: No. 115-411 (Comm. on Oversight and Government Reform).",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 163 (2017):",
+    "Nov. 15, considered and passed",
+    "House.",
+    "Vol. 164 (2018):",
+    "Dec. 19, considered and passed",
+    "Senate, amended.",
+    "Dec. 21, House concurred in Senate",
+    "amendment."
+   ],
+   "affected": [
+    "402"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-115publ435/uslm/PLAW-115publ435.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-115publ435",
+   "sha256": "a2e2db36350568090e1533ae6445492d829e4e6ae880f42c4a59ac3c25e18643",
+   "fetched_at": "2026-10-26T20:55:40+00:00",
+   "wayback": "http://web.archive.org/web/20260822062904/https://www.govinfo.gov/app/details/PLAW-115publ435",
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2019-115-435-402-1"
+   ],
+   "summary": "Section 402 of title 13 was amended to replace the reference to \"the Confidential Information Protection and Statistical Efficiency Act of 2002\" with \"section 3576(e) of title 44\" [2019-115-435-402-1]. This changed the cross-reference used in section 402 of title 13 [2019-115-435-402-1].",
+   "summary_key": "54a01b38dc72a3835cd197ad6a66da7c76f679cdc1ac49632437ad1d20eac0e9",
+   "summary_source": "model, checked"
+  }
+ ],
+ "counts": {
+  "records": 1,
+  "by_status": {
+   "replayed": 1
+  },
+  "sections_changed": 1
+ },
+ "not_shown": []
+}

@@ -1,0 +1,605 @@
+[
+ {
+  "id": "2022-117-90-2-1",
+  "title": 9,
+  "section": "2",
+  "heading": "Validity, irrevocability, and enforcement of agreements to arbitrate",
+  "path": "",
+  "kind": "amended",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-90",
+  "instruction": {
+   "id": "/us/pl/117/90/s2/b/1/A",
+   "label": "§2(b)(1)(A)",
+   "text": "Title 9 of the United States Code is amended— in section 2, by inserting “or as otherwise provided in chapter 4” before the period at the end;",
+   "ops": [
+    {
+     "kind": "insert_before_end",
+     "new": "or as otherwise provided in chapter 4",
+     "end": "."
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "insert_before_end",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "A written provision in any maritime transaction or a contract evidencing a transaction involving commerce to settle by arbitration a controversy thereafter arising out of such contract or transaction, or the refusal to perform the whole or any part thereof, or an agreement in writing to submit to arbitration an existing controversy arising out of such a contract, transaction, or refusal, shall be valid, irrevocable, and enforceable, save upon such grounds as exist at law or in equity for the revocation of any contract.",
+  "after": "A written provision in any maritime transaction or a contract evidencing a transaction involving commerce to settle by arbitration a controversy thereafter arising out of such contract or transaction, or the refusal to perform the whole or any part thereof, or an agreement in writing to submit to arbitration an existing controversy arising out of such a contract, transaction, or refusal, shall be valid, irrevocable, and enforceable, save upon such grounds as exist at law or in equity for the revocation of any contract or as otherwise provided in chapter 4.",
+  "in_edition": "A written provision in any maritime transaction or a contract evidencing a transaction involving commerce to settle by arbitration a controversy thereafter arising out of such contract or transaction, or the refusal to perform the whole or any part thereof, or an agreement in writing to submit to arbitration an existing controversy arising out of such a contract, transaction, or refusal, shall be valid, irrevocable, and enforceable, save upon such grounds as exist at law or in equity for the revocation of any contract or as otherwise provided in chapter 4.",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "A written provision in any maritime transaction or a contract evidencing a transaction involving commerce to settle by arbitration a controversy thereafter arising out of such contract or transaction, or the refusal to perform the whole or any part thereof, or an agreement in writing to submit to arbitration an existing controversy arising out of such a contract, transaction, or refusal, shall be valid, irrevocable, and enforceable, save upon such grounds as exist at law or in equity for the revocation of any contract"
+   },
+   {
+    "t": "ins",
+    "s": " or as otherwise provided in chapter 4"
+   },
+   {
+    "t": "eq",
+    "s": "."
+   }
+  ],
+  "fingerprints": {
+   "before": "489bf9d2bbe081997806dbb12912bf42f06775262980e76e9d47e79d6de6c955",
+   "after": "b16a1afe4e301901d69d0ef66bbb05f34b37a8df2f68988613a167cd66f06a32",
+   "edition_from": "4f3039873418ebe117b9eb0a718b072b3e115f76d328c8767db10c920fdb4005",
+   "edition_to": "697a854f3536e2ec648aa3e0f7bef9630b76baf97c36cfbe16d29c92f7d50a93",
+   "law": "f2a158f518b68c913d2188d13653cf15490bc15a2b77f6d2f71b4e1e2ffc4808"
+  },
+  "dates": {
+   "enacted": "2022-03-03",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-26"
+  },
+  "publisher_notes": [
+   {
+    "year": 2022,
+    "location": "",
+    "text": "Pub. L. 117–90 inserted \"or as otherwise provided in chapter 4\" before period at end."
+   }
+  ],
+  "date_notes": [
+   {
+    "kind": "effective",
+    "heading": "Effective Date of 2022 Amendment",
+    "text": "Amendment by Pub. L. 117–90 applicable with respect to any dispute or claim that arises or accrues on or after Mar. 3, 2022, see section 3 of Pub. L. 117–90, set out as an Effective Date note under section 401 of this title."
+   }
+  ],
+  "summary_key": "76081d3eb88bbab9e61f207616c6eb063fc6acb64bb178d6a40f35856139b25d",
+  "summary": "Inserted \"or as otherwise provided in chapter 4\" before the period in section 2 of title 9.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-03-03",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": [
+    {
+     "text": "Any dispute or claim that arises or accrues on or after March 3, 2022",
+     "relation": "on or after",
+     "date": "2022-03-03",
+     "words": "applicable with respect to any dispute or claim that arises or accrues on or after Mar. 3, 2022",
+     "source": "Pub. L. 117–90, §3"
+    }
+   ]
+  }
+ },
+ {
+  "id": "2022-117-90-208-1",
+  "title": 9,
+  "section": "208",
+  "heading": "Application",
+  "path": "",
+  "kind": "amended",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-90",
+  "instruction": {
+   "id": "/us/pl/117/90/s2/b/1/B/ii",
+   "label": "§2(b)(1)(B)(ii)",
+   "text": "Title 9 of the United States Code is amended— in section 208— by adding at the end the following: “This chapter applies to the extent that this chapter is not in conflict with chapter 4.”; and",
+   "ops": [
+    {
+     "kind": "append_text",
+     "new": "This chapter applies to the extent that this chapter is not in conflict with chapter 4."
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "append_text",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "Chapter 1 applies to actions and proceedings brought under this chapter to the extent that chapter is not in conflict with this chapter or the Convention as ratified by the United States.",
+  "after": "Chapter 1 applies to actions and proceedings brought under this chapter to the extent that chapter is not in conflict with this chapter or the Convention as ratified by the United States. This chapter applies to the extent that this chapter is not in conflict with chapter 4.",
+  "in_edition": "Chapter 1 applies to actions and proceedings brought under this chapter to the extent that chapter is not in conflict with this chapter or the Convention as ratified by the United States. This chapter applies to the extent that this chapter is not in conflict with chapter 4.",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "Chapter 1 applies to actions and proceedings brought under this chapter to the extent that chapter is not in conflict with this chapter or the Convention as ratified by the United States."
+   },
+   {
+    "t": "ins",
+    "s": " This chapter applies to the extent that this chapter is not in conflict with chapter 4."
+   }
+  ],
+  "fingerprints": {
+   "before": "3781f8194266e6d0aa614c14b38da9c2e2dad96d704ab303bf454270ed309f77",
+   "after": "b773dd2b4fee1f179704807aef9c4fb0586269960421ae6fa2dd9c8ab3051281",
+   "edition_from": "4f3039873418ebe117b9eb0a718b072b3e115f76d328c8767db10c920fdb4005",
+   "edition_to": "697a854f3536e2ec648aa3e0f7bef9630b76baf97c36cfbe16d29c92f7d50a93",
+   "law": "f2a158f518b68c913d2188d13653cf15490bc15a2b77f6d2f71b4e1e2ffc4808"
+  },
+  "dates": {
+   "enacted": "2022-03-03",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-26"
+  },
+  "publisher_notes": [
+   {
+    "year": 2022,
+    "location": "",
+    "text": "Pub. L. 117–90 substituted \"Application\" for \"Chapter 1; residual application\" in section catchline and inserted at end \"This chapter applies to the extent that this chapter is not in conflict with chapter 4.\""
+   },
+   {
+    "year": 2022,
+    "location": "",
+    "text": "Pub. L. 117–90, §2(b)(2)(B), Mar. 3, 2022, 136 Stat. 27, substituted \"Application\" for \"Chapter 1; residual application\" in item 307."
+   }
+  ],
+  "date_notes": [
+   {
+    "kind": "effective",
+    "heading": "Effective Date of 2022 Amendment",
+    "text": "Amendment by Pub. L. 117–90 applicable with respect to any dispute or claim that arises or accrues on or after Mar. 3, 2022, see section 3 of Pub. L. 117–90, set out as an Effective Date note under section 401 of this title."
+   }
+  ],
+  "summary_key": "8e1a8d2fa4e03b1efec85ed5df9b652151a384e5f9278e3a076ffb6e048d2b55",
+  "summary": "Added at the end of section 208 of title 9 that chapter 1 applies unless it conflicts with chapter 4.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-03-03",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": [
+    {
+     "text": "Any dispute or claim that arises or accrues on or after March 3, 2022",
+     "relation": "on or after",
+     "date": "2022-03-03",
+     "words": "applicable with respect to any dispute or claim that arises or accrues on or after Mar. 3, 2022",
+     "source": "Pub. L. 117–90, §3"
+    }
+   ]
+  }
+ },
+ {
+  "id": "2022-117-90-307-1",
+  "title": 9,
+  "section": "307",
+  "heading": "Application",
+  "path": "",
+  "kind": "amended",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-90",
+  "instruction": {
+   "id": "/us/pl/117/90/s2/b/1/C/ii",
+   "label": "§2(b)(1)(C)(ii)",
+   "text": "Title 9 of the United States Code is amended— in section 307— by adding at the end the following: “This chapter applies to the extent that this chapter is not in conflict with chapter 4.”.",
+   "ops": [
+    {
+     "kind": "append_text",
+     "new": "This chapter applies to the extent that this chapter is not in conflict with chapter 4."
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "append_text",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "Chapter 1 applies to actions and proceedings brought under this chapter to the extent chapter 1 is not in conflict with this chapter or the Inter-American Convention as ratified by the United States.",
+  "after": "Chapter 1 applies to actions and proceedings brought under this chapter to the extent chapter 1 is not in conflict with this chapter or the Inter-American Convention as ratified by the United States. This chapter applies to the extent that this chapter is not in conflict with chapter 4.",
+  "in_edition": "Chapter 1 applies to actions and proceedings brought under this chapter to the extent chapter 1 is not in conflict with this chapter or the Inter-American Convention as ratified by the United States. This chapter applies to the extent that this chapter is not in conflict with chapter 4.",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "Chapter 1 applies to actions and proceedings brought under this chapter to the extent chapter 1 is not in conflict with this chapter or the Inter-American Convention as ratified by the United States."
+   },
+   {
+    "t": "ins",
+    "s": " This chapter applies to the extent that this chapter is not in conflict with chapter 4."
+   }
+  ],
+  "fingerprints": {
+   "before": "1957ea0b9671223aaa1bc882869c4a970202186acb4c16fd715751dac8c23f5c",
+   "after": "27aa1ce21b336f902c3c1ff32398662a18e56254742fc4ee9a9d2bb08b2debc2",
+   "edition_from": "4f3039873418ebe117b9eb0a718b072b3e115f76d328c8767db10c920fdb4005",
+   "edition_to": "697a854f3536e2ec648aa3e0f7bef9630b76baf97c36cfbe16d29c92f7d50a93",
+   "law": "f2a158f518b68c913d2188d13653cf15490bc15a2b77f6d2f71b4e1e2ffc4808"
+  },
+  "dates": {
+   "enacted": "2022-03-03",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-26"
+  },
+  "publisher_notes": [
+   {
+    "year": 2022,
+    "location": "",
+    "text": "Pub. L. 117–90 substituted \"Application\" for \"Chapter 1; residual application\" in section catchline and inserted at end \"This chapter applies to the extent that this chapter is not in conflict with chapter 4.\""
+   }
+  ],
+  "date_notes": [
+   {
+    "kind": "effective",
+    "heading": "Effective Date of 2022 Amendment",
+    "text": "Amendment by Pub. L. 117–90 applicable with respect to any dispute or claim that arises or accrues on or after Mar. 3, 2022, see section 3 of Pub. L. 117–90, set out as an Effective Date note under section 401 of this title."
+   }
+  ],
+  "summary_key": "98fc00d117320c2afc35ad53f3b2d23e41187c3d873a58f4c599b712755435df",
+  "summary": "Added at the end of section 307 of title 9 that chapter 1 applies unless it conflicts with chapter 4.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-03-03",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": [
+    {
+     "text": "Any dispute or claim that arises or accrues on or after March 3, 2022",
+     "relation": "on or after",
+     "date": "2022-03-03",
+     "words": "applicable with respect to any dispute or claim that arises or accrues on or after Mar. 3, 2022",
+     "source": "Pub. L. 117–90, §3"
+    }
+   ]
+  }
+ },
+ {
+  "id": "2022-117-90-401-1",
+  "title": 9,
+  "section": "401",
+  "heading": "Definitions",
+  "path": "",
+  "kind": "added",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-90",
+  "instruction": {
+   "id": "/us/pl/117/90/s2/a",
+   "label": "§2(a)",
+   "text": "Title 9 of the United States Code is amended by adding at the end the following:“CHAPTER 4—ARBITRATION OF DISPUTES INVOLVING SEXUAL ASSAULT AND SEXUAL HARASSMENT “Sec. “401. Definitions. “402. No validity or enforceability.04 “§ 401. Definitions “In this chapter:“(1) Predispute arbitration agreement.—The term ‘predispute arbitration agreement’ means any agreement to arbitrate a dispute that had not yet arisen at the time of the making of the agreement. “(2) Predispute joint-action waiver.—The term ‘predispute joint-action waiver’ means an agreement, whether or not part of a predispute arbitration agreement, that would prohibit, or waive the right of, one of the parties to the agreement to participate in a joint, class, or collective action in a judicial, arbitral, administrative, or other forum, concerning a dispute that has not yet arisen at the time of the making of the agreement. “(3) Sexual assault dispute.—The term ‘sexual assault dispute’ means a dispute involving a nonconsensual sexual act or sexual contact, as such terms are defined in section 2246 of title 18 or similar applicable Tribal or State law, including when the victim lacks capacity to consent. “(4) Sexual harassment dispute.—The term ‘sexual harassment dispute’ means a dispute relating to conduct that is alleged to constitute sexual harassment under applicable Federal, Tribal, or State law. “§ 402. No validity or enforceability“(a) In General.—Notwithstanding any other provision of this title, at the election of the person alleging conduct constituting a sexual harassment dispute or sexual assault dispute, or the named representative of a class or in a collective action alleging such conduct, no predispute arbitration agreement or predispute joint-action waiver shall be valid or enforceable with respect to a case which is filed under Federal, Tribal, or State law and relates to the sexual assault dispute or the sexual harassment dispute. “(b) Determination of Applicability.—An issue as to whether this chapter applies with respect to a dispute shall be determined under Federal law. The applicability of this chapter to an agreement to arbitrate and the validity and enforceability of an agreement to which this chapter applies shall be determined by a court, rather than an arbitrator, irrespective of whether the party resisting arbitration challenges the arbitration agreement specifically or in conjunction with other terms of the contract containing such agreement, and irrespective of whether the agreement purports to delegate such determinations to an arbitrator.” .",
+   "ops": [
+    {
+     "kind": "append_block",
+     "chapter": "4"
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "append_block",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "",
+  "after": "In this chapter:\n(1) Predispute arbitration agreement.—The term \"predispute arbitration agreement\" means any agreement to arbitrate a dispute that had not yet arisen at the time of the making of the agreement.\n(2) Predispute joint-action waiver.—The term \"predispute joint-action waiver\" means an agreement, whether or not part of a predispute arbitration agreement, that would prohibit, or waive the right of, one of the parties to the agreement to participate in a joint, class, or collective action in a judicial, arbitral, administrative, or other forum, concerning a dispute that has not yet arisen at the time of the making of the agreement.\n(3) Sexual assault dispute.—The term \"sexual assault dispute\" means a dispute involving a nonconsensual sexual act or sexual contact, as such terms are defined in section 2246 of title 18 or similar applicable Tribal or State law, including when the victim lacks capacity to consent.\n(4) Sexual harassment dispute.—The term \"sexual harassment dispute\" means a dispute relating to conduct that is alleged to constitute sexual harassment under applicable Federal, Tribal, or State law.",
+  "in_edition": "In this chapter:\n(1) Predispute arbitration agreement.—The term \"predispute arbitration agreement\" means any agreement to arbitrate a dispute that had not yet arisen at the time of the making of the agreement.\n(2) Predispute joint-action waiver.—The term \"predispute joint-action waiver\" means an agreement, whether or not part of a predispute arbitration agreement, that would prohibit, or waive the right of, one of the parties to the agreement to participate in a joint, class, or collective action in a judicial, arbitral, administrative, or other forum, concerning a dispute that has not yet arisen at the time of the making of the agreement.\n(3) Sexual assault dispute.—The term \"sexual assault dispute\" means a dispute involving a nonconsensual sexual act or sexual contact, as such terms are defined in section 2246 of title 18 or similar applicable Tribal or State law, including when the victim lacks capacity to consent.\n(4) Sexual harassment dispute.—The term \"sexual harassment dispute\" means a dispute relating to conduct that is alleged to constitute sexual harassment under applicable Federal, Tribal, or State law.",
+  "diff": [
+   {
+    "t": "ins",
+    "s": "In this chapter:\n(1) Predispute arbitration agreement.—The term \"predispute arbitration agreement\" means any agreement to arbitrate a dispute that had not yet arisen at the time of the making of the agreement.\n(2) Predispute joint-action waiver.—The term \"predispute joint-action waiver\" means an agreement, whether or not part of a predispute arbitration agreement, that would prohibit, or waive the right of, one of the parties to the agreement to participate in a joint, class, or collective action in a judicial, arbitral, administrative, or other forum, concerning a dispute that has not yet arisen at the time of the making of the agreement.\n(3) Sexual assault dispute.—The term \"sexual assault dispute\" means a dispute involving a nonconsensual sexual act or sexual contact, as such terms are defined in section 2246 of title 18 or similar applicable Tribal or State law, including when the victim lacks capacity to consent.\n(4) Sexual harassment dispute.—The term \"sexual harassment dispute\" means a dispute relating to conduct that is alleged to constitute sexual harassment under applicable Federal, Tribal, or State law."
+   }
+  ],
+  "fingerprints": {
+   "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "after": "319145132a0059ba36855c7c64a77b23567c9663f6c50c305e0554778cfe04a4",
+   "edition_from": "4f3039873418ebe117b9eb0a718b072b3e115f76d328c8767db10c920fdb4005",
+   "edition_to": "697a854f3536e2ec648aa3e0f7bef9630b76baf97c36cfbe16d29c92f7d50a93",
+   "law": "f2a158f518b68c913d2188d13653cf15490bc15a2b77f6d2f71b4e1e2ffc4808"
+  },
+  "dates": {
+   "enacted": "2022-03-03",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-26"
+  },
+  "publisher_notes": [],
+  "date_notes": [],
+  "summary_key": "574805d4dca3d2c00ebc95ceee3ab346db31e90d5cfcd54d9bc132c45deb678e",
+  "summary": "Added section 401 of title 9 with definitions for predispute arbitration agreement, predispute joint-action waiver, sexual assault dispute, and sexual harassment dispute.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-03-03",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2022-117-90-402-1",
+  "title": 9,
+  "section": "402",
+  "heading": "No validity or enforceability",
+  "path": "",
+  "kind": "added",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-90",
+  "instruction": {
+   "id": "/us/pl/117/90/s2/a",
+   "label": "§2(a)",
+   "text": "Title 9 of the United States Code is amended by adding at the end the following:“CHAPTER 4—ARBITRATION OF DISPUTES INVOLVING SEXUAL ASSAULT AND SEXUAL HARASSMENT “Sec. “401. Definitions. “402. No validity or enforceability.04 “§ 401. Definitions “In this chapter:“(1) Predispute arbitration agreement.—The term ‘predispute arbitration agreement’ means any agreement to arbitrate a dispute that had not yet arisen at the time of the making of the agreement. “(2) Predispute joint-action waiver.—The term ‘predispute joint-action waiver’ means an agreement, whether or not part of a predispute arbitration agreement, that would prohibit, or waive the right of, one of the parties to the agreement to participate in a joint, class, or collective action in a judicial, arbitral, administrative, or other forum, concerning a dispute that has not yet arisen at the time of the making of the agreement. “(3) Sexual assault dispute.—The term ‘sexual assault dispute’ means a dispute involving a nonconsensual sexual act or sexual contact, as such terms are defined in section 2246 of title 18 or similar applicable Tribal or State law, including when the victim lacks capacity to consent. “(4) Sexual harassment dispute.—The term ‘sexual harassment dispute’ means a dispute relating to conduct that is alleged to constitute sexual harassment under applicable Federal, Tribal, or State law. “§ 402. No validity or enforceability“(a) In General.—Notwithstanding any other provision of this title, at the election of the person alleging conduct constituting a sexual harassment dispute or sexual assault dispute, or the named representative of a class or in a collective action alleging such conduct, no predispute arbitration agreement or predispute joint-action waiver shall be valid or enforceable with respect to a case which is filed under Federal, Tribal, or State law and relates to the sexual assault dispute or the sexual harassment dispute. “(b) Determination of Applicability.—An issue as to whether this chapter applies with respect to a dispute shall be determined under Federal law. The applicability of this chapter to an agreement to arbitrate and the validity and enforceability of an agreement to which this chapter applies shall be determined by a court, rather than an arbitrator, irrespective of whether the party resisting arbitration challenges the arbitration agreement specifically or in conjunction with other terms of the contract containing such agreement, and irrespective of whether the agreement purports to delegate such determinations to an arbitrator.” .",
+   "ops": [
+    {
+     "kind": "append_block",
+     "chapter": "4"
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "append_block",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "",
+  "after": "(a) In General.—Notwithstanding any other provision of this title, at the election of the person alleging conduct constituting a sexual harassment dispute or sexual assault dispute, or the named representative of a class or in a collective action alleging such conduct, no predispute arbitration agreement or predispute joint-action waiver shall be valid or enforceable with respect to a case which is filed under Federal, Tribal, or State law and relates to the sexual assault dispute or the sexual harassment dispute.\n(b) Determination of Applicability.—An issue as to whether this chapter applies with respect to a dispute shall be determined under Federal law. The applicability of this chapter to an agreement to arbitrate and the validity and enforceability of an agreement to which this chapter applies shall be determined by a court, rather than an arbitrator, irrespective of whether the party resisting arbitration challenges the arbitration agreement specifically or in conjunction with other terms of the contract containing such agreement, and irrespective of whether the agreement purports to delegate such determinations to an arbitrator.",
+  "in_edition": "(a) In General.—Notwithstanding any other provision of this title, at the election of the person alleging conduct constituting a sexual harassment dispute or sexual assault dispute, or the named representative of a class or in a collective action alleging such conduct, no predispute arbitration agreement or predispute joint-action waiver shall be valid or enforceable with respect to a case which is filed under Federal, Tribal, or State law and relates to the sexual assault dispute or the sexual harassment dispute.\n(b) Determination of Applicability.—An issue as to whether this chapter applies with respect to a dispute shall be determined under Federal law. The applicability of this chapter to an agreement to arbitrate and the validity and enforceability of an agreement to which this chapter applies shall be determined by a court, rather than an arbitrator, irrespective of whether the party resisting arbitration challenges the arbitration agreement specifically or in conjunction with other terms of the contract containing such agreement, and irrespective of whether the agreement purports to delegate such determinations to an arbitrator.",
+  "diff": [
+   {
+    "t": "ins",
+    "s": "(a) In General.—Notwithstanding any other provision of this title, at the election of the person alleging conduct constituting a sexual harassment dispute or sexual assault dispute, or the named representative of a class or in a collective action alleging such conduct, no predispute arbitration agreement or predispute joint-action waiver shall be valid or enforceable with respect to a case which is filed under Federal, Tribal, or State law and relates to the sexual assault dispute or the sexual harassment dispute.\n(b) Determination of Applicability.—An issue as to whether this chapter applies with respect to a dispute shall be determined under Federal law. The applicability of this chapter to an agreement to arbitrate and the validity and enforceability of an agreement to which this chapter applies shall be determined by a court, rather than an arbitrator, irrespective of whether the party resisting arbitration challenges the arbitration agreement specifically or in conjunction with other terms of the contract containing such agreement, and irrespective of whether the agreement purports to delegate such determinations to an arbitrator."
+   }
+  ],
+  "fingerprints": {
+   "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "after": "3173dc77cd107e81d987afe01cd09613e2c3e9b636b3d4b7e40c5caac4d5d965",
+   "edition_from": "4f3039873418ebe117b9eb0a718b072b3e115f76d328c8767db10c920fdb4005",
+   "edition_to": "697a854f3536e2ec648aa3e0f7bef9630b76baf97c36cfbe16d29c92f7d50a93",
+   "law": "f2a158f518b68c913d2188d13653cf15490bc15a2b77f6d2f71b4e1e2ffc4808"
+  },
+  "dates": {
+   "enacted": "2022-03-03",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-26"
+  },
+  "publisher_notes": [],
+  "date_notes": [],
+  "summary_key": "a8fa2f6d09e14e901084a6933ca2a65c046d0245d44155eff999bf62af26c721",
+  "summary": "Added section 402 of title 9 making predispute arbitration agreements and predispute joint-action waivers invalid or unenforceable for covered sexual assault and sexual harassment disputes, and assigning applicability determinations to courts.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-03-03",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2022-117-90-208-h1",
+  "title": 9,
+  "section": "208",
+  "heading": "Application",
+  "path": "",
+  "part": "heading",
+  "kind": "amended",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-90",
+  "instruction": {
+   "id": "/us/pl/117/90/s2/b/1/B/i",
+   "label": "§2(b)(1)(B)(i)",
+   "text": "Title 9 of the United States Code is amended— in section 208— in the section heading, by striking “Chapter 1; residual application” and inserting “Application”; and",
+   "ops": [
+    {
+     "kind": "replace",
+     "old": "Chapter 1; residual application",
+     "new": "Application"
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [],
+  "mismatch": [],
+  "before": "Chapter 1; residual application",
+  "after": "Application",
+  "in_edition": "Application",
+  "diff": [
+   {
+    "t": "del",
+    "s": "Chapter 1; residual application"
+   },
+   {
+    "t": "ins",
+    "s": "Application"
+   }
+  ],
+  "fingerprints": {
+   "before": "5b89ba4a2e7c22b86327cf1dae26b55d58f8ca1da0f0f88ac935a08bee531577",
+   "after": "e7ad522ea327e5ba95534ef8355038ef7f7b86328c7cf9175886f60464c40d28",
+   "edition_from": "4f3039873418ebe117b9eb0a718b072b3e115f76d328c8767db10c920fdb4005",
+   "edition_to": "697a854f3536e2ec648aa3e0f7bef9630b76baf97c36cfbe16d29c92f7d50a93",
+   "law": "f2a158f518b68c913d2188d13653cf15490bc15a2b77f6d2f71b4e1e2ffc4808"
+  },
+  "dates": {
+   "enacted": "2022-03-03",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-26"
+  },
+  "publisher_notes": [
+   {
+    "year": 2022,
+    "location": "",
+    "text": "Pub. L. 117–90 substituted \"Application\" for \"Chapter 1; residual application\" in section catchline and inserted at end \"This chapter applies to the extent that this chapter is not in conflict with chapter 4.\""
+   },
+   {
+    "year": 2022,
+    "location": "",
+    "text": "Pub. L. 117–90, §2(b)(2)(B), Mar. 3, 2022, 136 Stat. 27, substituted \"Application\" for \"Chapter 1; residual application\" in item 307."
+   }
+  ],
+  "date_notes": [],
+  "summary_key": "ce0411c4a266fefc3f409612502b9803f60cd817c1198be3c84c99e638c4856f",
+  "summary": "Replaced the section heading in section 208 of title 9 with \"Application\".",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-03-03",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2022-117-90-307-h1",
+  "title": 9,
+  "section": "307",
+  "heading": "Application",
+  "path": "",
+  "part": "heading",
+  "kind": "amended",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-90",
+  "instruction": {
+   "id": "/us/pl/117/90/s2/b/1/C/i",
+   "label": "§2(b)(1)(C)(i)",
+   "text": "Title 9 of the United States Code is amended— in section 307— in the section heading, by striking “Chapter 1; residual application” and inserting “Application”; and",
+   "ops": [
+    {
+     "kind": "replace",
+     "old": "Chapter 1; residual application",
+     "new": "Application"
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [],
+  "mismatch": [],
+  "before": "Chapter 1; residual application",
+  "after": "Application",
+  "in_edition": "Application",
+  "diff": [
+   {
+    "t": "del",
+    "s": "Chapter 1; residual application"
+   },
+   {
+    "t": "ins",
+    "s": "Application"
+   }
+  ],
+  "fingerprints": {
+   "before": "5b89ba4a2e7c22b86327cf1dae26b55d58f8ca1da0f0f88ac935a08bee531577",
+   "after": "e7ad522ea327e5ba95534ef8355038ef7f7b86328c7cf9175886f60464c40d28",
+   "edition_from": "4f3039873418ebe117b9eb0a718b072b3e115f76d328c8767db10c920fdb4005",
+   "edition_to": "697a854f3536e2ec648aa3e0f7bef9630b76baf97c36cfbe16d29c92f7d50a93",
+   "law": "f2a158f518b68c913d2188d13653cf15490bc15a2b77f6d2f71b4e1e2ffc4808"
+  },
+  "dates": {
+   "enacted": "2022-03-03",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-26"
+  },
+  "publisher_notes": [
+   {
+    "year": 2022,
+    "location": "",
+    "text": "Pub. L. 117–90 substituted \"Application\" for \"Chapter 1; residual application\" in section catchline and inserted at end \"This chapter applies to the extent that this chapter is not in conflict with chapter 4.\""
+   }
+  ],
+  "date_notes": [],
+  "summary_key": "e867e0f1a62629f85723d5c328efe1a703032fb8495feedf89378c776fdd99e2",
+  "summary": "Replaced the section heading in section 307 of title 9 with \"Application\".",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-03-03",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": []
+  }
+ }
+]

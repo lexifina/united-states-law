@@ -78,6 +78,16 @@ The history is generated from the same data and the same code as the reader, so 
 
 Built by [Lexifina](https://lexifina.com). For corrections, open an issue.
 
+## Updates, links and related work
+
+- [CHANGES.md](CHANGES.md): what changed in how this history is collected, recorded and checked, and when. The whole Code is being added; until it lands, this history covers the nine titles above.
+- [REPRODUCE.md](REPRODUCE.md): the sources, every command, the software, and what AI models did and did not do.
+- The reader: [lexifina.com/watch/us-code](https://lexifina.com/watch/us-code).
+- The post that explains the design: [Git for the US Code](https://lexifina.com/blog/git-for-the-us-code), and its [discussion on Hacker News](https://news.ycombinator.com/item?id=50268380).
+- The film of the reader: [YouTube](https://youtu.be/cbds9FC4IDs).
+- [lexifina/global-law](https://github.com/lexifina/global-law): this history alongside Lexifina's other law repositories (the German Basic Law, UK law, Swiss law and more), with one changelog of findings for all of them. Private for now.
+- Lexifina's working notes on git for law (for members of the Lexifina organisation): the [global git-law tracker](https://claude.ai/artifact/KiqJgRjPMc88zFvbvDoFMr), the [research on official legal sources for every country](https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ), and the [census of git-for-law projects](https://claude.ai/artifact/7vD8b7fJzEnCumUoLvi5Dh).
+
 ## License
 
 The text of the US Code is a work of the United States Government and is in the public domain. The history, commit messages and README are released under [CC BY 4.0](LICENSE.md).

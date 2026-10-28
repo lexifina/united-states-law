@@ -1,0 +1,46 @@
+{
+  "corpus": "us/federal/usc",
+  "name": "United States Code",
+  "label": "United States",
+  "language": "en",
+  "history_from": "2018-01-12",
+  "record_to": "2026-10-20",
+  "record_note": "Titles 1, 3, 4, 9, 11, 13, 17, 35, 39, from the 2017 annual editions to release point 119-134 (current through 2026-10-20); data built 2026-10-27.",
+  "in_force_trailer": "In-force",
+  "baseline_trailer": "Consolidated",
+  "titles": [
+    1,
+    3,
+    4,
+    9,
+    11,
+    13,
+    17,
+    35,
+    39
+  ],
+  "built": "2026-10-27",
+  "dates": {
+    "commit": "in-force",
+    "other_trailers": [
+      "Enacted",
+      "Printed-in"
+    ],
+    "time": "12:00 UTC"
+  },
+  "scope": {
+    "trailer": null,
+    "groups": "any one line",
+    "conditions": "all of a line",
+    "when_absent": "no scope note found; not a statement that the change reaches every case",
+    "default_reach": {
+      "rule": "presumption against retroactivity",
+      "meaning": "a statute is presumed not to attach new legal consequences to events completed before its enactment unless Congress clearly says so; procedural and jurisdictional changes are often applied to pending cases",
+      "authority": "Landgraf v. USI Film Products, 511 U.S. 244 (1994)",
+      "decided_here": false
+    },
+    "note": "This published history has no Applies lines yet; the whole-Code rebuild adds them. Scope notes are in each commit message (\"Applies to ...\")."
+  },
+  "tool": null,
+  "law_tags": "law/<congress>-<number> (latest in-force date) and law/<congress>-<number>@<date>"
+}

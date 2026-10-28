@@ -11,6 +11,8 @@ So the questions a lawyer asks of a statute become git commands:
 | What changed between two dates? | `git diff $(git rev-list -1 --before=2019-12-31T23:59:59Z main) $(git rev-list -1 --before=2022-12-31T23:59:59Z main) -- title-11/1182.md` |
 | Everything one law changed | `git log -p --author="Pub. L. 116-136"` |
 | Every change to a section | `git log -p -- title-11/1182.md` |
+| One law's changes, by tag | `git show law/117-151` (its latest in-force date) or `git show law/117-151@2022-06-21` |
+| The most amended sections of a title | `git log --format= --name-only -- title-11 \| sort \| uniq -c \| sort -rn \| head` |
 | The law in force on the day a printed version is current through | `git checkout edition-2022` or `git checkout release-point-119-73` |
 
 Give the date with a time, as above. With a bare date git uses the current time of day, and every commit is stamped at noon UTC, so the answer for the day a law took effect would depend on when you ask. In PowerShell, put the revision in a variable first: `$r = git rev-list -1 --before=2022-05-01T23:59:59Z main; git show "$($r):title-11/1182.md"`.

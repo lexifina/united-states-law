@@ -1,0 +1,1653 @@
+[
+ {
+  "id": "2020-116-260-11-1",
+  "title": 35,
+  "section": "11",
+  "heading": "Exchange of copies of patents and applications with foreign countries",
+  "path": "",
+  "kind": "amended",
+  "edition_from": "2019",
+  "edition_to": "2020",
+  "law": "116-260",
+  "instruction": {
+   "id": "/us/pl/116/260/dO/tVI/s602/d/1",
+   "label": "div. O, title VI, §602(d)(1)",
+   "text": "Section 11 of title 35, United States Code, is amended— by striking “The Director” and inserting “(a) In General.—The Director”;",
+   "ops": [
+    {
+     "kind": "replace",
+     "old": "The Director",
+     "new": "(a) In General.—The Director"
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "replace",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "The Director may exchange copies of specifications and drawings of United States patents and published applications for patents for those of foreign countries. The Director shall not enter into an agreement to provide such copies of specifications and drawings of United States patents and applications to a foreign country, other than a NAFTA country or a WTO member country, without the express authorization of the Secretary of Commerce. For purposes of this section, the terms \"NAFTA country\" and \"WTO member country\" have the meanings given those terms in section 104(b).",
+  "after": "(a) In General.—The Director may exchange copies of specifications and drawings of United States patents and published applications for patents for those of foreign countries. The Director shall not enter into an agreement to provide such copies of specifications and drawings of United States patents and applications to a foreign country, other than a NAFTA country or a WTO member country, without the express authorization of the Secretary of Commerce. For purposes of this section, the terms \"NAFTA country\" and \"WTO member country\" have the meanings given those terms in section 104(b).",
+  "in_edition": "(a) In General.—The Director may exchange copies of specifications and drawings of United States patents and published applications for patents for those of foreign countries. The Director shall not enter into an agreement to provide such copies of specifications and drawings of United States patents and applications to a foreign country, other than a USMCA country or a WTO member country, without the express authorization of the Secretary of Commerce.\n(b) Definitions.—In this section—\n(1) the term \"USMCA country\" has the meaning given that term in section 3 of the United States-Mexico-Canada Agreement Implementation Act (19 U.S.C. 4502); and\n(2) the term \"WTO member country\" has the meaning given that term in section 2(10) of the Uruguay Round Agreements Act (19 U.S.C. 3501(10)).",
+  "diff": [
+   {
+    "t": "ins",
+    "s": "(a) In General.—"
+   },
+   {
+    "t": "eq",
+    "s": "The Director may exchange copies of specifications and drawings of United States patents and published applications for patents for those of foreign countries. The Director shall not enter into an agreement to provide such copies of specifications and drawings of United States patents and applications to a foreign country, other than a "
+   },
+   {
+    "t": "del",
+    "s": "NAFTA"
+   },
+   {
+    "t": "ins",
+    "s": "USMCA"
+   },
+   {
+    "t": "eq",
+    "s": " country or a WTO member country, without the express authorization of the Secretary of Commerce."
+   },
+   {
+    "t": "ins",
+    "s": "\n(b)"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "For purposes of"
+   },
+   {
+    "t": "ins",
+    "s": "Definitions.—In"
+   },
+   {
+    "t": "eq",
+    "s": " this section"
+   },
+   {
+    "t": "del",
+    "s": ","
+   },
+   {
+    "t": "ins",
+    "s": "—\n(1)"
+   },
+   {
+    "t": "eq",
+    "s": " the "
+   },
+   {
+    "t": "del",
+    "s": "terms"
+   },
+   {
+    "t": "ins",
+    "s": "term"
+   },
+   {
+    "t": "eq",
+    "s": " \""
+   },
+   {
+    "t": "del",
+    "s": "NAFTA"
+   },
+   {
+    "t": "ins",
+    "s": "USMCA"
+   },
+   {
+    "t": "eq",
+    "s": " country\" "
+   },
+   {
+    "t": "ins",
+    "s": "has the meaning given that term in section 3 of the United States-Mexico-Canada Agreement Implementation Act (19 U.S.C. 4502); "
+   },
+   {
+    "t": "eq",
+    "s": "and"
+   },
+   {
+    "t": "ins",
+    "s": "\n(2) the term"
+   },
+   {
+    "t": "eq",
+    "s": " \"WTO member country\" "
+   },
+   {
+    "t": "del",
+    "s": "have"
+   },
+   {
+    "t": "ins",
+    "s": "has"
+   },
+   {
+    "t": "eq",
+    "s": " the "
+   },
+   {
+    "t": "del",
+    "s": "meanings"
+   },
+   {
+    "t": "ins",
+    "s": "meaning"
+   },
+   {
+    "t": "eq",
+    "s": " given "
+   },
+   {
+    "t": "del",
+    "s": "those"
+   },
+   {
+    "t": "ins",
+    "s": "that"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "terms"
+   },
+   {
+    "t": "ins",
+    "s": "term"
+   },
+   {
+    "t": "eq",
+    "s": " in section "
+   },
+   {
+    "t": "del",
+    "s": "104"
+   },
+   {
+    "t": "ins",
+    "s": "2"
+   },
+   {
+    "t": "eq",
+    "s": "("
+   },
+   {
+    "t": "del",
+    "s": "b"
+   },
+   {
+    "t": "ins",
+    "s": "10) of the Uruguay Round Agreements Act (19 U.S.C. 3501(10)"
+   },
+   {
+    "t": "eq",
+    "s": ")."
+   }
+  ],
+  "fingerprints": {
+   "before": "3bca435d612b4e880f2b288f778ff80f3b63cd62c9659803aa98d751a37e5f4d",
+   "after": "b7fb8837c62a98e38251c85362bf986ee840206eedbeb74852e0c51e57a3d2ac",
+   "edition_from": "d0cf15b32ca1d50630abd1b1d746fed71aa42631a1554dd4ab27fd11c9673ab8",
+   "edition_to": "c4a5ad964396236647071f3f33de995f33e9459ed37bb9855827e362f1d82e95",
+   "law": "ce110e27d05c15c9ad62ae5f5b307fc1ddb7d39a8edebda8d8801744628464cb"
+  },
+  "dates": {
+   "enacted": "2020-12-27",
+   "effective": null,
+   "edition_current_through": "2021-01-13",
+   "edition_year": 2020,
+   "edition": "2020",
+   "recorded": "2026-10-27"
+  },
+  "publisher_notes": [
+   {
+    "year": 2020,
+    "location": "",
+    "text": "Pub. L. 116–260 designated existing provisions as subsec. (a) and inserted heading, substituted \"other than a USMCA country\" for \"other than a NAFTA country\", and substituted subsec. (b) for former third sentence which read as follows: \"For purposes of this section, the terms 'NAFTA country' and 'WTO member country' have the meanings given those terms in section 104(b).\""
+   }
+  ],
+  "date_notes": [
+   {
+    "kind": "effective",
+    "heading": "Effective Date of 2020 Amendment",
+    "text": "Amendment by Pub. L. 116–260 effective July 1, 2020, see section 602(g) of div. O of Pub. L. 116–260, set out as a note under section 2578b of Title 19, Customs Duties."
+   }
+  ],
+  "summary_key": "dc1d5d9afd5ebd379ba1ac82017f2cea4e5c9ab625e4f944c25845e4a25be158",
+  "summary": "Replaced \"The Director\" with \"(a) In General.—The Director\" in section 11 of title 35.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2020-07-01",
+    "basis": "note",
+    "words": "effective July 1, 2020",
+    "source": "Pub. L. 116–260, §602(g) of div. O",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2020-116-260-11-2",
+  "title": 35,
+  "section": "11",
+  "heading": "Exchange of copies of patents and applications with foreign countries",
+  "path": "",
+  "kind": "amended",
+  "edition_from": "2019",
+  "edition_to": "2020",
+  "law": "116-260",
+  "instruction": {
+   "id": "/us/pl/116/260/dO/tVI/s602/d/2",
+   "label": "div. O, title VI, §602(d)(2)",
+   "text": "Section 11 of title 35, United States Code, is amended— by striking “other than a NAFTA country” and inserting “other than a USMCA country”; and",
+   "ops": [
+    {
+     "kind": "replace",
+     "old": "other than a NAFTA country",
+     "new": "other than a USMCA country"
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "replace",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "(a) In General.—The Director may exchange copies of specifications and drawings of United States patents and published applications for patents for those of foreign countries. The Director shall not enter into an agreement to provide such copies of specifications and drawings of United States patents and applications to a foreign country, other than a NAFTA country or a WTO member country, without the express authorization of the Secretary of Commerce. For purposes of this section, the terms \"NAFTA country\" and \"WTO member country\" have the meanings given those terms in section 104(b).",
+  "after": "(a) In General.—The Director may exchange copies of specifications and drawings of United States patents and published applications for patents for those of foreign countries. The Director shall not enter into an agreement to provide such copies of specifications and drawings of United States patents and applications to a foreign country, other than a USMCA country or a WTO member country, without the express authorization of the Secretary of Commerce. For purposes of this section, the terms \"NAFTA country\" and \"WTO member country\" have the meanings given those terms in section 104(b).",
+  "in_edition": "(a) In General.—The Director may exchange copies of specifications and drawings of United States patents and published applications for patents for those of foreign countries. The Director shall not enter into an agreement to provide such copies of specifications and drawings of United States patents and applications to a foreign country, other than a USMCA country or a WTO member country, without the express authorization of the Secretary of Commerce.\n(b) Definitions.—In this section—\n(1) the term \"USMCA country\" has the meaning given that term in section 3 of the United States-Mexico-Canada Agreement Implementation Act (19 U.S.C. 4502); and\n(2) the term \"WTO member country\" has the meaning given that term in section 2(10) of the Uruguay Round Agreements Act (19 U.S.C. 3501(10)).",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "(a) In General.—The Director may exchange copies of specifications and drawings of United States patents and published applications for patents for those of foreign countries. The Director shall not enter into an agreement to provide such copies of specifications and drawings of United States patents and applications to a foreign country, other than a "
+   },
+   {
+    "t": "del",
+    "s": "NAFTA"
+   },
+   {
+    "t": "ins",
+    "s": "USMCA"
+   },
+   {
+    "t": "eq",
+    "s": " country or a WTO member country, without the express authorization of the Secretary of Commerce."
+   },
+   {
+    "t": "ins",
+    "s": "\n(b)"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "For purposes of"
+   },
+   {
+    "t": "ins",
+    "s": "Definitions.—In"
+   },
+   {
+    "t": "eq",
+    "s": " this section"
+   },
+   {
+    "t": "del",
+    "s": ","
+   },
+   {
+    "t": "ins",
+    "s": "—\n(1)"
+   },
+   {
+    "t": "eq",
+    "s": " the "
+   },
+   {
+    "t": "del",
+    "s": "terms"
+   },
+   {
+    "t": "ins",
+    "s": "term"
+   },
+   {
+    "t": "eq",
+    "s": " \""
+   },
+   {
+    "t": "del",
+    "s": "NAFTA"
+   },
+   {
+    "t": "ins",
+    "s": "USMCA"
+   },
+   {
+    "t": "eq",
+    "s": " country\" "
+   },
+   {
+    "t": "ins",
+    "s": "has the meaning given that term in section 3 of the United States-Mexico-Canada Agreement Implementation Act (19 U.S.C. 4502); "
+   },
+   {
+    "t": "eq",
+    "s": "and"
+   },
+   {
+    "t": "ins",
+    "s": "\n(2) the term"
+   },
+   {
+    "t": "eq",
+    "s": " \"WTO member country\" "
+   },
+   {
+    "t": "del",
+    "s": "have"
+   },
+   {
+    "t": "ins",
+    "s": "has"
+   },
+   {
+    "t": "eq",
+    "s": " the "
+   },
+   {
+    "t": "del",
+    "s": "meanings"
+   },
+   {
+    "t": "ins",
+    "s": "meaning"
+   },
+   {
+    "t": "eq",
+    "s": " given "
+   },
+   {
+    "t": "del",
+    "s": "those"
+   },
+   {
+    "t": "ins",
+    "s": "that"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "terms"
+   },
+   {
+    "t": "ins",
+    "s": "term"
+   },
+   {
+    "t": "eq",
+    "s": " in section "
+   },
+   {
+    "t": "del",
+    "s": "104"
+   },
+   {
+    "t": "ins",
+    "s": "2"
+   },
+   {
+    "t": "eq",
+    "s": "("
+   },
+   {
+    "t": "del",
+    "s": "b"
+   },
+   {
+    "t": "ins",
+    "s": "10) of the Uruguay Round Agreements Act (19 U.S.C. 3501(10)"
+   },
+   {
+    "t": "eq",
+    "s": ")."
+   }
+  ],
+  "fingerprints": {
+   "before": "be9ffe49fd7769d3a33648b5826e51c330d35f5579cb3e66816bc800eea74acf",
+   "after": "b7fb8837c62a98e38251c85362bf986ee840206eedbeb74852e0c51e57a3d2ac",
+   "edition_from": "d0cf15b32ca1d50630abd1b1d746fed71aa42631a1554dd4ab27fd11c9673ab8",
+   "edition_to": "c4a5ad964396236647071f3f33de995f33e9459ed37bb9855827e362f1d82e95",
+   "law": "ce110e27d05c15c9ad62ae5f5b307fc1ddb7d39a8edebda8d8801744628464cb"
+  },
+  "dates": {
+   "enacted": "2020-12-27",
+   "effective": null,
+   "edition_current_through": "2021-01-13",
+   "edition_year": 2020,
+   "edition": "2020",
+   "recorded": "2026-10-27"
+  },
+  "publisher_notes": [
+   {
+    "year": 2020,
+    "location": "",
+    "text": "Pub. L. 116–260 designated existing provisions as subsec. (a) and inserted heading, substituted \"other than a USMCA country\" for \"other than a NAFTA country\", and substituted subsec. (b) for former third sentence which read as follows: \"For purposes of this section, the terms 'NAFTA country' and 'WTO member country' have the meanings given those terms in section 104(b).\""
+   }
+  ],
+  "date_notes": [
+   {
+    "kind": "effective",
+    "heading": "Effective Date of 2020 Amendment",
+    "text": "Amendment by Pub. L. 116–260 effective July 1, 2020, see section 602(g) of div. O of Pub. L. 116–260, set out as a note under section 2578b of Title 19, Customs Duties."
+   }
+  ],
+  "summary_key": "a84ba80c5a9bd3943b1623076a8e65a6ff75fa5fc594a4cbe128c202e58e0edf",
+  "summary": "Replaced \"other than a NAFTA country\" with \"other than a USMCA country\" in section 11 of title 35.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2020-07-01",
+    "basis": "note",
+    "words": "effective July 1, 2020",
+    "source": "Pub. L. 116–260, §602(g) of div. O",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2020-116-260-11-3",
+  "title": 35,
+  "section": "11",
+  "heading": "Exchange of copies of patents and applications with foreign countries",
+  "path": "",
+  "kind": "amended",
+  "edition_from": "2019",
+  "edition_to": "2020",
+  "law": "116-260",
+  "instruction": {
+   "id": "/us/pl/116/260/dO/tVI/s602/d/3",
+   "label": "div. O, title VI, §602(d)(3)",
+   "text": "Section 11 of title 35, United States Code, is amended— by striking the third sentence and inserting the following:“(b) Definitions.—In this section—“(1) the term ‘USMCA country’ has the meaning given that term in section 3 of the United States-Mexico-Canada Agreement Implementation Act (19 U.S.C. 4502); and “(2) the term ‘WTO member country’ has the meaning given that term in section 2(10) of the Uruguay Round Agreements Act (19 U.S.C. 3501(10)).” .",
+   "ops": [
+    {
+     "kind": "replace_sentence",
+     "which": "third",
+     "new": "(b) Definitions.— In this section— (1) the term “USMCA country” has the meaning given that term in section 3 of the United States-Mexico-Canada Agreement Implementation Act (19 U.S.C. 4502); and (2) the term “WTO member country” has the meaning given that term in section 2(10) of the Uruguay Round Agreements Act (19 U.S.C. 3501(10))."
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "replace_sentence",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "(a) In General.—The Director may exchange copies of specifications and drawings of United States patents and published applications for patents for those of foreign countries. The Director shall not enter into an agreement to provide such copies of specifications and drawings of United States patents and applications to a foreign country, other than a USMCA country or a WTO member country, without the express authorization of the Secretary of Commerce. For purposes of this section, the terms \"NAFTA country\" and \"WTO member country\" have the meanings given those terms in section 104(b).",
+  "after": "(a) In General.—The Director may exchange copies of specifications and drawings of United States patents and published applications for patents for those of foreign countries. The Director shall not enter into an agreement to provide such copies of specifications and drawings of United States patents and applications to a foreign country, other than a USMCA country or a WTO member country, without the express authorization of the Secretary of Commerce.\n(b) Definitions.—In this section—\n(1) the term \"USMCA country\" has the meaning given that term in section 3 of the United States-Mexico-Canada Agreement Implementation Act (19 U.S.C. 4502); and\n(2) the term \"WTO member country\" has the meaning given that term in section 2(10) of the Uruguay Round Agreements Act (19 U.S.C. 3501(10)).",
+  "in_edition": "(a) In General.—The Director may exchange copies of specifications and drawings of United States patents and published applications for patents for those of foreign countries. The Director shall not enter into an agreement to provide such copies of specifications and drawings of United States patents and applications to a foreign country, other than a USMCA country or a WTO member country, without the express authorization of the Secretary of Commerce.\n(b) Definitions.—In this section—\n(1) the term \"USMCA country\" has the meaning given that term in section 3 of the United States-Mexico-Canada Agreement Implementation Act (19 U.S.C. 4502); and\n(2) the term \"WTO member country\" has the meaning given that term in section 2(10) of the Uruguay Round Agreements Act (19 U.S.C. 3501(10)).",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "(a) In General.—The Director may exchange copies of specifications and drawings of United States patents and published applications for patents for those of foreign countries. The Director shall not enter into an agreement to provide such copies of specifications and drawings of United States patents and applications to a foreign country, other than a USMCA country or a WTO member country, without the express authorization of the Secretary of Commerce."
+   },
+   {
+    "t": "ins",
+    "s": "\n(b)"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "For purposes of"
+   },
+   {
+    "t": "ins",
+    "s": "Definitions.—In"
+   },
+   {
+    "t": "eq",
+    "s": " this section"
+   },
+   {
+    "t": "del",
+    "s": ","
+   },
+   {
+    "t": "ins",
+    "s": "—\n(1)"
+   },
+   {
+    "t": "eq",
+    "s": " the "
+   },
+   {
+    "t": "del",
+    "s": "terms"
+   },
+   {
+    "t": "ins",
+    "s": "term"
+   },
+   {
+    "t": "eq",
+    "s": " \""
+   },
+   {
+    "t": "del",
+    "s": "NAFTA"
+   },
+   {
+    "t": "ins",
+    "s": "USMCA"
+   },
+   {
+    "t": "eq",
+    "s": " country\" "
+   },
+   {
+    "t": "ins",
+    "s": "has the meaning given that term in section 3 of the United States-Mexico-Canada Agreement Implementation Act (19 U.S.C. 4502); "
+   },
+   {
+    "t": "eq",
+    "s": "and"
+   },
+   {
+    "t": "ins",
+    "s": "\n(2) the term"
+   },
+   {
+    "t": "eq",
+    "s": " \"WTO member country\" "
+   },
+   {
+    "t": "del",
+    "s": "have"
+   },
+   {
+    "t": "ins",
+    "s": "has"
+   },
+   {
+    "t": "eq",
+    "s": " the "
+   },
+   {
+    "t": "del",
+    "s": "meanings"
+   },
+   {
+    "t": "ins",
+    "s": "meaning"
+   },
+   {
+    "t": "eq",
+    "s": " given "
+   },
+   {
+    "t": "del",
+    "s": "those"
+   },
+   {
+    "t": "ins",
+    "s": "that"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "terms"
+   },
+   {
+    "t": "ins",
+    "s": "term"
+   },
+   {
+    "t": "eq",
+    "s": " in section "
+   },
+   {
+    "t": "del",
+    "s": "104"
+   },
+   {
+    "t": "ins",
+    "s": "2"
+   },
+   {
+    "t": "eq",
+    "s": "("
+   },
+   {
+    "t": "del",
+    "s": "b"
+   },
+   {
+    "t": "ins",
+    "s": "10) of the Uruguay Round Agreements Act (19 U.S.C. 3501(10)"
+   },
+   {
+    "t": "eq",
+    "s": ")."
+   }
+  ],
+  "fingerprints": {
+   "before": "e7258602b20396f897b86662617a4e28552fb6bc2d3001e7612d2d46a6ab8b97",
+   "after": "b7fb8837c62a98e38251c85362bf986ee840206eedbeb74852e0c51e57a3d2ac",
+   "edition_from": "d0cf15b32ca1d50630abd1b1d746fed71aa42631a1554dd4ab27fd11c9673ab8",
+   "edition_to": "c4a5ad964396236647071f3f33de995f33e9459ed37bb9855827e362f1d82e95",
+   "law": "ce110e27d05c15c9ad62ae5f5b307fc1ddb7d39a8edebda8d8801744628464cb"
+  },
+  "dates": {
+   "enacted": "2020-12-27",
+   "effective": null,
+   "edition_current_through": "2021-01-13",
+   "edition_year": 2020,
+   "edition": "2020",
+   "recorded": "2026-10-27"
+  },
+  "publisher_notes": [
+   {
+    "year": 2020,
+    "location": "",
+    "text": "Pub. L. 116–260 designated existing provisions as subsec. (a) and inserted heading, substituted \"other than a USMCA country\" for \"other than a NAFTA country\", and substituted subsec. (b) for former third sentence which read as follows: \"For purposes of this section, the terms 'NAFTA country' and 'WTO member country' have the meanings given those terms in section 104(b).\""
+   }
+  ],
+  "date_notes": [
+   {
+    "kind": "effective",
+    "heading": "Effective Date of 2020 Amendment",
+    "text": "Amendment by Pub. L. 116–260 effective July 1, 2020, see section 602(g) of div. O of Pub. L. 116–260, set out as a note under section 2578b of Title 19, Customs Duties."
+   }
+  ],
+  "summary_key": "5f2b6ad694f042ddf0accc90d5375884fd5fc718a538631220dfa1631def8add",
+  "summary": "Rewrote section 11 of title 35 by replacing the third sentence with section 11(b) definitions for \"USMCA country\" and \"WTO member country\".",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2020-07-01",
+    "basis": "note",
+    "words": "effective July 1, 2020",
+    "source": "Pub. L. 116–260, §602(g) of div. O",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2022-117-286-5-1",
+  "title": 35,
+  "section": "5",
+  "heading": "Patent and Trademark Office Public Advisory Committees",
+  "path": "(h)",
+  "kind": "amended",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-286",
+  "instruction": {
+   "id": "/us/pl/117/286/s4/a/215/A",
+   "label": "§4(a)(215)(A)",
+   "text": "Section 5(h) of title 35, United States Code, is amended— in the subsection heading, by striking “Federal Advisory Committee Act” and inserting “Chapter 10 of Title 5”; and",
+   "ops": [
+    {
+     "kind": "replace",
+     "old": "Federal Advisory Committee Act",
+     "new": "Chapter 10 of Title 5"
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "replace",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "(h) Inapplicability of Federal Advisory Committee Act.—The Federal Advisory Committee Act (5 U.S.C. App.) shall not apply to each Advisory Committee.",
+  "after": "(h) Inapplicability of Chapter 10 of Title 5.—The Federal Advisory Committee Act (5 U.S.C. App.) shall not apply to each Advisory Committee.",
+  "in_edition": "(h) Inapplicability of Chapter 10 of Title 5.—Chapter 10 of title 5 shall not apply to each Advisory Committee.",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "(h) Inapplicability of "
+   },
+   {
+    "t": "del",
+    "s": "Federal"
+   },
+   {
+    "t": "ins",
+    "s": "Chapter"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "Advisory"
+   },
+   {
+    "t": "ins",
+    "s": "10"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "Committee"
+   },
+   {
+    "t": "ins",
+    "s": "of"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "Act"
+   },
+   {
+    "t": "ins",
+    "s": "Title 5"
+   },
+   {
+    "t": "eq",
+    "s": ".—"
+   },
+   {
+    "t": "del",
+    "s": "The"
+   },
+   {
+    "t": "ins",
+    "s": "Chapter"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "Federal"
+   },
+   {
+    "t": "ins",
+    "s": "10"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "Advisory"
+   },
+   {
+    "t": "ins",
+    "s": "of"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "Committee"
+   },
+   {
+    "t": "ins",
+    "s": "title"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "Act ("
+   },
+   {
+    "t": "eq",
+    "s": "5"
+   },
+   {
+    "t": "del",
+    "s": " U.S.C. App.)"
+   },
+   {
+    "t": "eq",
+    "s": " shall not apply to each Advisory Committee."
+   }
+  ],
+  "fingerprints": {
+   "before": "778377a639f8af9e5f0f40adeb03a50b17460a90c3b96d338b397e1d27eaf5b8",
+   "after": "0ba39412e67394f7a8fb6fdcd9ad1fa8ef5bf14eb9763081fa7d0dd59e0f938a",
+   "edition_from": "ccc1e119fa5cf6dcac67b71029eb59492e12e48255d020b623e308e2a8a3e7f5",
+   "edition_to": "966a53c25b2285b568f6cf67666d0ddb8fd91e66150dfb2176b1fc8e89035111",
+   "law": "e7fc520850c95c854fa49a5633bb3c5caefe0b175cbb4c4d025776091ae740af"
+  },
+  "dates": {
+   "enacted": "2022-12-27",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-27"
+  },
+  "publisher_notes": [
+   {
+    "year": 2022,
+    "location": "Subsec. (h)",
+    "text": "Subsec. (h). Pub. L. 117–286 substituted \"Chapter 10 of Title 5\" for \"Federal Advisory Committee Act\" in heading and \"Chapter 10 of title 5\" for \"The Federal Advisory Committee Act (5 U.S.C. App.)\" in text."
+   }
+  ],
+  "date_notes": [],
+  "summary_key": "13b6186de15b3189d20892c3a8920ea0f3bcb746f55418a74a03a98008ee9f3c",
+  "summary": "Replaced \"Federal Advisory Committee Act\" with \"Chapter 10 of Title 5\" in the subsection heading of section 5(h) of title 35.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-12-27",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2022-117-286-5-2",
+  "title": 35,
+  "section": "5",
+  "heading": "Patent and Trademark Office Public Advisory Committees",
+  "path": "(h)",
+  "kind": "amended",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-286",
+  "instruction": {
+   "id": "/us/pl/117/286/s4/a/215/B",
+   "label": "§4(a)(215)(B)",
+   "text": "Section 5(h) of title 35, United States Code, is amended— in text, by striking “The Federal Advisory Committee Act (5 U.S.C. App.)” and inserting “Chapter 10 of title 5”.",
+   "ops": [
+    {
+     "kind": "replace",
+     "old": "The Federal Advisory Committee Act (5 U.S.C. App.)",
+     "new": "Chapter 10 of title 5"
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "replace",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "(h) Inapplicability of Chapter 10 of Title 5.—The Federal Advisory Committee Act (5 U.S.C. App.) shall not apply to each Advisory Committee.",
+  "after": "(h) Inapplicability of Chapter 10 of Title 5.—Chapter 10 of title 5 shall not apply to each Advisory Committee.",
+  "in_edition": "(h) Inapplicability of Chapter 10 of Title 5.—Chapter 10 of title 5 shall not apply to each Advisory Committee.",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "(h) Inapplicability of Chapter 10 of Title 5.—"
+   },
+   {
+    "t": "del",
+    "s": "The"
+   },
+   {
+    "t": "ins",
+    "s": "Chapter"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "Federal"
+   },
+   {
+    "t": "ins",
+    "s": "10"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "Advisory"
+   },
+   {
+    "t": "ins",
+    "s": "of"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "Committee"
+   },
+   {
+    "t": "ins",
+    "s": "title"
+   },
+   {
+    "t": "eq",
+    "s": " "
+   },
+   {
+    "t": "del",
+    "s": "Act ("
+   },
+   {
+    "t": "eq",
+    "s": "5"
+   },
+   {
+    "t": "del",
+    "s": " U.S.C. App.)"
+   },
+   {
+    "t": "eq",
+    "s": " shall not apply to each Advisory Committee."
+   }
+  ],
+  "fingerprints": {
+   "before": "f3989f04053b9bad1500247a6443e1098fc5da93bf494281044afd9b69324b26",
+   "after": "0ba39412e67394f7a8fb6fdcd9ad1fa8ef5bf14eb9763081fa7d0dd59e0f938a",
+   "edition_from": "ccc1e119fa5cf6dcac67b71029eb59492e12e48255d020b623e308e2a8a3e7f5",
+   "edition_to": "966a53c25b2285b568f6cf67666d0ddb8fd91e66150dfb2176b1fc8e89035111",
+   "law": "e7fc520850c95c854fa49a5633bb3c5caefe0b175cbb4c4d025776091ae740af"
+  },
+  "dates": {
+   "enacted": "2022-12-27",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-27"
+  },
+  "publisher_notes": [
+   {
+    "year": 2022,
+    "location": "Subsec. (h)",
+    "text": "Subsec. (h). Pub. L. 117–286 substituted \"Chapter 10 of Title 5\" for \"Federal Advisory Committee Act\" in heading and \"Chapter 10 of title 5\" for \"The Federal Advisory Committee Act (5 U.S.C. App.)\" in text."
+   }
+  ],
+  "date_notes": [],
+  "summary_key": "cb49d3056cc9bb623f10e878fa6dffe9cac2eec2f0647e1fd018d249fe05a1cc",
+  "summary": "Replaced \"The Federal Advisory Committee Act (5 U.S.C. App.)\" with \"Chapter 10 of title 5\" in section 5(h) of title 35.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-12-27",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2022-117-245-28-1",
+  "title": 35,
+  "section": "28",
+  "heading": "Award of certificates to accelerate certain matters at the Patent and Trademark Office",
+  "path": "",
+  "kind": "added",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-245",
+  "instruction": {
+   "id": "/us/pl/117/245/s2/a",
+   "label": "§2(a)",
+   "text": "Chapter 2 of title 35, United States Code, is amended by adding at the end the following:“§ 28. Award of certificates to accelerate certain matters at the Patent and Trademark Office“(a) Definition.—In this section, the term ‘eligible entity’ means an entity that—“(1) submits an application under subsection (d) for a patent that addresses a humanitarian issue; and “(2) meets the requirements specified by the Director. “(b) Establishment.—There is established a competition, to be held not less frequently than biennially, to award eligible entities certificates that can be redeemed to accelerate one of the following matters:“(1) An ex parte reexamination proceeding, including 1 appeal to the Patent Trial and Appeal Board from that proceeding. “(2) An application for a patent, including 1 appeal to the Patent Trial and Appeal Board from that application. “(3) An appeal to the Patent Trial and Appeal Board of a claim twice rejected in a patent application or reissue application or finally rejected in an ex parte reexamination, without accelerating the underlying matter that generated the appeal. “(4) A matter identified by the Director. “(c) Administration.—The Director shall administer the competition established under subsection (b). “(d) Application.—An entity seeking an award under subsection (b) shall submit to the Director an application at such time, in such manner, and containing such information as the Director may require. “(e) Promotion of Competition.—The Director shall promote the competition established under subsection (b) through the satellite offices established pursuant to section 1. “(f) Treatment as Successor.—The competition established under subsection (b) shall be treated as a successor to the Patents for Humanity Program (established in the notice entitled ‘Humanitarian Awards Pilot Program’, published at 77 Fed. Reg. 6544 (February 8, 2012)).” .",
+   "ops": [
+    {
+     "kind": "append_block",
+     "chapter": ""
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "append_block",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "",
+  "after": "(a) Definition.—In this section, the term \"eligible entity\" means an entity that—\n(1) submits an application under subsection (d) for a patent that addresses a humanitarian issue; and\n(2) meets the requirements specified by the Director.\n(b) Establishment.—There is established a competition, to be held not less frequently than biennially, to award eligible entities certificates that can be redeemed to accelerate one of the following matters:\n(1) An ex parte reexamination proceeding, including 1 appeal to the Patent Trial and Appeal Board from that proceeding.\n(2) An application for a patent, including 1 appeal to the Patent Trial and Appeal Board from that application.\n(3) An appeal to the Patent Trial and Appeal Board of a claim twice rejected in a patent application or reissue application or finally rejected in an ex parte reexamination, without accelerating the underlying matter that generated the appeal.\n(4) A matter identified by the Director.\n(c) Administration.—The Director shall administer the competition established under subsection (b).\n(d) Application.—An entity seeking an award under subsection (b) shall submit to the Director an application at such time, in such manner, and containing such information as the Director may require.\n(e) Promotion of Competition.—The Director shall promote the competition established under subsection (b) through the satellite offices established pursuant to section 1.\n(f) Treatment as Successor.—The competition established under subsection (b) shall be treated as a successor to the Patents for Humanity Program (established in the notice entitled \"Humanitarian Awards Pilot Program\", published at 77 Fed. Reg. 6544 (February 8, 2012)).",
+  "in_edition": "(a) Definition.—In this section, the term \"eligible entity\" means an entity that—\n(1) submits an application under subsection (d) for a patent that addresses a humanitarian issue; and\n(2) meets the requirements specified by the Director.\n(b) Establishment.—There is established a competition, to be held not less frequently than biennially, to award eligible entities certificates that can be redeemed to accelerate one of the following matters:\n(1) An ex parte reexamination proceeding, including 1 appeal to the Patent Trial and Appeal Board from that proceeding.\n(2) An application for a patent, including 1 appeal to the Patent Trial and Appeal Board from that application.\n(3) An appeal to the Patent Trial and Appeal Board of a claim twice rejected in a patent application or reissue application or finally rejected in an ex parte reexamination, without accelerating the underlying matter that generated the appeal.\n(4) A matter identified by the Director.\n(c) Administration.—The Director shall administer the competition established under subsection (b).\n(d) Application.—An entity seeking an award under subsection (b) shall submit to the Director an application at such time, in such manner, and containing such information as the Director may require.\n(e) Promotion of Competition.—The Director shall promote the competition established under subsection (b) through the satellite offices established pursuant to section 1.\n(f) Treatment as Successor.—The competition established under subsection (b) shall be treated as a successor to the Patents for Humanity Program (established in the notice entitled \"Humanitarian Awards Pilot Program\", published at 77 Fed. Reg. 6544 (February 8, 2012)).",
+  "diff": [
+   {
+    "t": "ins",
+    "s": "(a) Definition.—In this section, the term \"eligible entity\" means an entity that—\n(1) submits an application under subsection (d) for a patent that addresses a humanitarian issue; and\n(2) meets the requirements specified by the Director.\n(b) Establishment.—There is established a competition, to be held not less frequently than biennially, to award eligible entities certificates that can be redeemed to accelerate one of the following matters:\n(1) An ex parte reexamination proceeding, including 1 appeal to the Patent Trial and Appeal Board from that proceeding.\n(2) An application for a patent, including 1 appeal to the Patent Trial and Appeal Board from that application.\n(3) An appeal to the Patent Trial and Appeal Board of a claim twice rejected in a patent application or reissue application or finally rejected in an ex parte reexamination, without accelerating the underlying matter that generated the appeal.\n(4) A matter identified by the Director.\n(c) Administration.—The Director shall administer the competition established under subsection (b).\n(d) Application.—An entity seeking an award under subsection (b) shall submit to the Director an application at such time, in such manner, and containing such information as the Director may require.\n(e) Promotion of Competition.—The Director shall promote the competition established under subsection (b) through the satellite offices established pursuant to section 1.\n(f) Treatment as Successor.—The competition established under subsection (b) shall be treated as a successor to the Patents for Humanity Program (established in the notice entitled \"Humanitarian Awards Pilot Program\", published at 77 Fed. Reg. 6544 (February 8, 2012))."
+   }
+  ],
+  "fingerprints": {
+   "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "after": "e158067bffacdf7f62f0d0c865d9a687d3e4f541d04947101f0c325aacd12f4a",
+   "edition_from": "ccc1e119fa5cf6dcac67b71029eb59492e12e48255d020b623e308e2a8a3e7f5",
+   "edition_to": "966a53c25b2285b568f6cf67666d0ddb8fd91e66150dfb2176b1fc8e89035111",
+   "law": "81d1272d794ff028032d68e89e36dc62595136c916ba3292a3358fff02bf1882"
+  },
+  "dates": {
+   "enacted": "2022-12-20",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-27"
+  },
+  "publisher_notes": [],
+  "date_notes": [],
+  "summary_key": "a90ade1a50ee71e212b090b42d50f4c2cfe92fc7f911d44447548310a3bd0c39",
+  "summary": "Added section 28 of title 35 to establish a competition that awards certificates to accelerate certain Patent and Trademark Office matters.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-12-20",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2022-117-328-41-1",
+  "title": 35,
+  "section": "41",
+  "heading": "Patent fees; patent and trademark search systems",
+  "path": "(h)(1)",
+  "kind": "amended",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-328",
+  "instruction": {
+   "id": "/us/pl/117/328/dW/s107/a/1",
+   "label": "div. W, §107(a)(1)",
+   "text": "Section 41(h) of title 35, United States Code, is amended— in paragraph (1), by striking “50 percent” and inserting “60 percent”; and",
+   "ops": [
+    {
+     "kind": "replace",
+     "old": "50 percent",
+     "new": "60 percent"
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "replace",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "(1) Reductions in fees.—Subject to paragraph (3), fees charged under subsections (a), (b), and (d)(1) shall be reduced by 50 percent with respect to their application to any small business concern as defined under section 3 of the Small Business Act, and to any independent inventor or nonprofit organization as defined in regulations issued by the Director.",
+  "after": "(1) Reductions in fees.—Subject to paragraph (3), fees charged under subsections (a), (b), and (d)(1) shall be reduced by 60 percent with respect to their application to any small business concern as defined under section 3 of the Small Business Act, and to any independent inventor or nonprofit organization as defined in regulations issued by the Director.",
+  "in_edition": "(1) Reductions in fees.—Subject to paragraph (3), fees charged under subsections (a), (b), and (d)(1) shall be reduced by 60 percent with respect to their application to any small business concern as defined under section 3 of the Small Business Act, and to any independent inventor or nonprofit organization as defined in regulations issued by the Director.",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "(1) Reductions in fees.—Subject to paragraph (3), fees charged under subsections (a), (b), and (d)(1) shall be reduced by "
+   },
+   {
+    "t": "del",
+    "s": "50"
+   },
+   {
+    "t": "ins",
+    "s": "60"
+   },
+   {
+    "t": "eq",
+    "s": " percent with respect to their application to any small business concern as defined under section 3 of the Small Business Act, and to any independent inventor or nonprofit organization as defined in regulations issued by the Director."
+   }
+  ],
+  "fingerprints": {
+   "before": "0013be1674e825effe859e75467c86aeaab6c021b4cefb1adeba4017ddb53711",
+   "after": "5450dcfcdfdda6b1641ff6d45dc8f5ff42cc79065c5766ab9ba40b90a1b2c28f",
+   "edition_from": "ccc1e119fa5cf6dcac67b71029eb59492e12e48255d020b623e308e2a8a3e7f5",
+   "edition_to": "966a53c25b2285b568f6cf67666d0ddb8fd91e66150dfb2176b1fc8e89035111",
+   "law": "c85b2c8cb1494a52997e321f7ffbc5bdbdd9c61ad711db94a2bbad4be216188b"
+  },
+  "dates": {
+   "enacted": "2022-12-29",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-27"
+  },
+  "publisher_notes": [
+   {
+    "year": 2022,
+    "location": "Subsec. (h)(1)",
+    "text": "Subsec. (h)(1). Pub. L. 117–328, §107(a)(1), substituted \"60 percent\" for \"50 percent\"."
+   }
+  ],
+  "date_notes": [],
+  "summary_key": "d277afd88f45e389bc1160831ace96e5338173ad2eb231fa6639f26af811e7af",
+  "summary": "Raised the fee reduction from 50 percent to 60 percent in section 41(h)(1) of title 35.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-12-29",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2022-117-328-41-2",
+  "title": 35,
+  "section": "41",
+  "heading": "Patent fees; patent and trademark search systems",
+  "path": "(h)(3)",
+  "kind": "amended",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-328",
+  "instruction": {
+   "id": "/us/pl/117/328/dW/s107/a/2",
+   "label": "div. W, §107(a)(2)",
+   "text": "Section 41(h) of title 35, United States Code, is amended— in paragraph (3), by striking “75 percent” and inserting “80 percent”.",
+   "ops": [
+    {
+     "kind": "replace",
+     "old": "75 percent",
+     "new": "80 percent"
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "replace",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "(3) Reduction for electronic filing.—The fee charged under subsection (a)(1)(A) shall be reduced by 75 percent with respect to its application to any entity to which paragraph (1) applies, if the application is filed by electronic means as prescribed by the Director.",
+  "after": "(3) Reduction for electronic filing.—The fee charged under subsection (a)(1)(A) shall be reduced by 80 percent with respect to its application to any entity to which paragraph (1) applies, if the application is filed by electronic means as prescribed by the Director.",
+  "in_edition": "(3) Reduction for electronic filing.—The fee charged under subsection (a)(1)(A) shall be reduced by 80 percent with respect to its application to any entity to which paragraph (1) applies, if the application is filed by electronic means as prescribed by the Director.",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "(3) Reduction for electronic filing.—The fee charged under subsection (a)(1)(A) shall be reduced by "
+   },
+   {
+    "t": "del",
+    "s": "75"
+   },
+   {
+    "t": "ins",
+    "s": "80"
+   },
+   {
+    "t": "eq",
+    "s": " percent with respect to its application to any entity to which paragraph (1) applies, if the application is filed by electronic means as prescribed by the Director."
+   }
+  ],
+  "fingerprints": {
+   "before": "0bac7047066cc321c6e2e99d0fe2b082454f6b770af9f3801b7e4cf874a299ce",
+   "after": "2be3675bcd5edd19c00d285b5654651ad9bbfbe7ce24776843cd56d2e746ca16",
+   "edition_from": "ccc1e119fa5cf6dcac67b71029eb59492e12e48255d020b623e308e2a8a3e7f5",
+   "edition_to": "966a53c25b2285b568f6cf67666d0ddb8fd91e66150dfb2176b1fc8e89035111",
+   "law": "c85b2c8cb1494a52997e321f7ffbc5bdbdd9c61ad711db94a2bbad4be216188b"
+  },
+  "dates": {
+   "enacted": "2022-12-29",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-27"
+  },
+  "publisher_notes": [
+   {
+    "year": 2022,
+    "location": "Subsec. (h)(3)",
+    "text": "Subsec. (h)(3). Pub. L. 117–328, §107(a)(2), substituted \"80 percent\" for \"75 percent\"."
+   }
+  ],
+  "date_notes": [],
+  "summary_key": "760f61c0856a9449157b6989c9d7df02bb3d97be59b0bfba1803e3035385c686",
+  "summary": "Raised the electronic filing fee reduction from 75 percent to 80 percent in section 41(h)(3) of title 35.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-12-29",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2022-117-328-41-3",
+  "title": 35,
+  "section": "41",
+  "heading": "Patent fees; patent and trademark search systems",
+  "path": "",
+  "kind": "amended",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-328",
+  "instruction": {
+   "id": "/us/pl/117/328/dW/s107/b/1",
+   "label": "div. W, §107(b)(1)",
+   "text": "Title 35, United States Code, is amended— in section 41, by adding at the end the following:“(j) Penalty for False Assertions.—In addition to any other penalty available under law, an entity that is found to have falsely asserted entitlement to a fee reduction under this section shall be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false assertion, whether the Director discovers the false assertion before or after the date on which a patent has been issued.” ; and",
+   "ops": [
+    {
+     "kind": "append_block",
+     "chapter": ""
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "append_block",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "(a) General Fees.—The Director shall charge the following fees:\n(1) Filing and basic national fees.—\n(A) On filing each application for an original patent, except for design, plant, or provisional applications, $330.\n(B) On filing each application for an original design patent, $220.\n(C) On filing each application for an original plant patent, $220.\n(D) On filing each provisional application for an original patent, $220.\n(E) On filing each application for the reissue of a patent, $330.\n(F) The basic national fee for each international application filed under the treaty defined in section 351(a) entering the national stage under section 371, $330.\n(G) In addition, excluding any sequence listing or computer program listing filed in an electronic medium as prescribed by the Director, for any application the specification and drawings of which exceed 100 sheets of paper (or equivalent as prescribed by the Director if filed in an electronic medium), $270 for each additional 50 sheets of paper (or equivalent as prescribed by the Director if filed in an electronic medium) or fraction thereof.\n(2) Excess claims fees.—\n(A) In general.—In addition to the fee specified in paragraph (1)—\n(i) on filing or on presentation at any other time, $220 for each claim in independent form in excess of 3;\n(ii) on filing or on presentation at any other time, $52 for each claim (whether dependent or independent) in excess of 20; and\n(iii) for each application containing a multiple dependent claim, $390.\n(B) Multiple dependent claims.—For the purpose of computing fees under subparagraph (A), a multiple dependent claim referred to in section 112 or any claim depending therefrom shall be considered as separate dependent claims in accordance with the number of claims to which reference is made.\n(C) Refunds; errors in payment.—The Director may by regulation provide for a refund of any part of the fee specified in subparagraph (A) for any claim that is canceled before an examination on the merits, as prescribed by the Director, has been made of the application under section 131. Errors in payment of the additional fees under this paragraph may be rectified in accordance with regulations prescribed by the Director.\n(3) Examination fees.—\n(A) In general.—\n(i) For examination of each application for an original patent, except for design, plant, provisional, or international applications, $220.\n(ii) For examination of each application for an original design patent, $140.\n(iii) For examination of each application for an original plant patent, $170.\n(iv) For examination of the national stage of each international application, $220.\n(v) For examination of each application for the reissue of a patent, $650.\n(B) Applicability of other fee provisions.—The provisions of paragraphs (3) and (4) of section 111(a) relating to the payment of the fee for filing the application shall apply to the payment of the fee specified in subparagraph (A) with respect to an application filed under section 111(a). The provisions of section 371(d) relating to the payment of the national fee shall apply to the payment of the fee specified in subparagraph (A) with respect to an international application.\n(4) Issue fees.—\n(A) For issuing each original patent, except for design or plant patents, $1,510.\n(B) For issuing each original design patent, $860.\n(C) For issuing each original plant patent, $1,190.\n(D) For issuing each reissue patent, $1,510.\n(5) Disclaimer fee.—On filing each disclaimer, $140.\n(6) Appeal fees.—\n(A) On filing an appeal from the examiner to the Patent Trial and Appeal Board, $540.\n(B) In addition, on filing a brief in support of the appeal, $540, and on requesting an oral hearing in the appeal before the Patent Trial and Appeal Board, $1,080.\n(7) Revival fees.—On filing each petition for the revival of an abandoned application for a patent, for the delayed payment of the fee for issuing each patent, for the delayed response by the patent owner in any reexamination proceeding, for the delayed payment of the fee for maintaining a patent in force, for the delayed submission of a priority or benefit claim, or for the extension of the 12-month period for filing a subsequent application, $1,700.00. The Director may refund any part of the fee specified in this paragraph, in exceptional circumstances as determined by the Director\n(8) Extension fees.—For petitions for 1-month extensions of time to take actions required by the Director in an application—\n(A) on filing a first petition, $130;\n(B) on filing a second petition, $360; and\n(C) on filing a third or subsequent petition, $620.\n(b) Maintenance Fees.—\n(1) In general.—The Director shall charge the following fees for maintaining in force all patents based on applications filed on or after December 12, 1980:\n(A) Three years and 6 months after grant, $980.\n(B) Seven years and 6 months after grant, $2,480.\n(C) Eleven years and 6 months after grant, $4,110.\n(2) Grace period; surcharge.—Unless payment of the applicable maintenance fee under paragraph (1) is received in the Office on or before the date the fee is due or within a grace period of 6 months thereafter, the patent shall expire as of the end of such grace period. The Director may require the payment of a surcharge as a condition of accepting within such 6-month grace period the payment of an applicable maintenance fee.\n(3) No maintenance fee for design or plant patent.—No fee may be established for maintaining a design or plant patent in force.\n(c) Delays in Payment of Maintenance Fees.—\n(1) Acceptance.—The Director may accept the payment of any maintenance fee required by subsection (b) after the 6-month grace period if the delay is shown to the satisfaction of the Director to have been unintentional. The Director may require the payment of the fee specified in subsection (a)(7) as a condition of accepting payment of any maintenance fee after the 6-month grace period. If the Director accepts payment of a maintenance fee after the 6-month grace period, the patent shall be considered as not having expired at the end of the grace period.\n(2) Effect on rights of others.—A patent, the term of which has been maintained as a result of the acceptance of a payment of a maintenance fee under this subsection, shall not abridge or affect the right of any person or that person's successors in business who made, purchased, offered to sell, or used anything protected by the patent within the United States, or imported anything protected by the patent into the United States after the 6-month grace period but prior to the acceptance of a maintenance fee under this subsection, to continue the use of, to offer for sale, or to sell to others to be used, offered for sale, or sold, the specific thing so made, purchased, offered for sale, used, or imported. The court before which such matter is in question may provide for the continued manufacture, use, offer for sale, or sale of the thing made, purchased, offered for sale, or used within the United States, or imported into the United States, as specified, or for the manufacture, use, offer for sale, or sale in the United States of which substantial preparation was made after the 6-month grace period but before the acceptance of a maintenance fee under this subsection, and the court may also provide for the continued practice of any process that is practiced, or for the practice of which substantial preparation was made, after the 6-month grace period but before the acceptance of a maintenance fee under this subsection, to the extent and under such terms as the court deems equitable for the protection of investments made or business commenced after the 6-month grace period but before the acceptance of a maintenance fee under this subsection.\n(d) Patent Search and Other Fees.—\n(1) Patent search fees.—\n(A) In general.—The Director shall charge the fees specified under subparagraph (B) for the search of each application for a patent, except for provisional applications. The Director shall adjust the fees charged under this paragraph to ensure that the fees recover an amount not to exceed the estimated average cost to the Office of searching applications for patent by Office personnel.\n(B) Specific fees.—The fees referred to in subparagraph (A) are—\n(i) $540 for each application for an original patent, except for design, plant, provisional, or international applications;\n(ii) $100 for each application for an original design patent;\n(iii) $330 for each application for an original plant patent;\n(iv) $540 for the national stage of each international application; and\n(v) $540 for each application for the reissue of a patent.\n(C) Applicability of other provisions.—The provisions of paragraphs (3) and (4) of section 111(a) relating to the payment of the fee for filing the application shall apply to the payment of the fee specified in this paragraph with respect to an application filed under section 111(a). The provisions of section 371(d) relating to the payment of the national fee shall apply to the payment of the fee specified in this paragraph with respect to an international application.\n(D) Refunds.—The Director may by regulation provide for a refund of any part of the fee specified in this paragraph for any applicant who files a written declaration of express abandonment as prescribed by the Director before an examination has been made of the application under section 131.\n(2) Other fees.—\n(A) In general.—The Director shall establish fees for all other processing, services, or materials relating to patents not specified in this section to recover the estimated average cost to the Office of such processing, services, or materials, except that the Director shall charge the following fees for the following services:\n(i) For recording a document affecting title, $40 per property.\n(ii) For each photocopy, $.25 per page.\n(iii) For each black and white copy of a patent, $3.\n(B) Copies for libraries.—The yearly fee for providing a library specified in section 12 with uncertified printed copies of the specifications and drawings for all patents in that year shall be $50.\n(e) Waiver of Fees; Copies Regarding Notice.—The Director may waive the payment of any fee for any service or material related to patents in connection with an occasional or incidental request made by a department or agency of the Government, or any officer thereof. The Director may provide any applicant issued a notice under section 132 with a copy of the specifications and drawings for all patents referred to in that notice without charge.\n(f) Adjustment of Fees.—The fees established in subsections (a) and (b) of this section may be adjusted by the Director on October 1, 1992, and every year thereafter, to reflect any fluctuations occurring during the previous 12 months in the Consumer Price Index, as determined by the Secretary of Labor. Changes of less than 1 per centum may be ignored.\n[(g) Repealed. Pub. L. 112–29, §11(e)(3), Sept. 16, 2011, 125 Stat. 323.]\n(h) Fees for Small Entities.—\n(1) Reductions in fees.—Subject to paragraph (3), fees charged under subsections (a), (b), and (d)(1) shall be reduced by 60 percent with respect to their application to any small business concern as defined under section 3 of the Small Business Act, and to any independent inventor or nonprofit organization as defined in regulations issued by the Director.\n(2) Surcharges and other fees.—With respect to its application to any entity described in paragraph (1), any surcharge or fee charged under subsection (c) or (d) shall not be higher than the surcharge or fee required of any other entity under the same or substantially similar circumstances.\n(3) Reduction for electronic filing.—The fee charged under subsection (a)(1)(A) shall be reduced by 80 percent with respect to its application to any entity to which paragraph (1) applies, if the application is filed by electronic means as prescribed by the Director.\n(i) Electronic Patent and Trademark Data.—\n(1) Maintenance of collections.—The Director shall maintain, for use by the public, paper, microform, or electronic collections of United States patents, foreign patent documents, and United States trademark registrations arranged to permit search for and retrieval of information. The Director may not impose fees directly for the use of such collections, or for the use of the public patent or trademark search rooms or libraries.\n(2) Availability of automated search systems.—The Director shall provide for the full deployment of the automated search systems of the Patent and Trademark Office so that such systems are available for use by the public, and shall assure full access by the public to, and dissemination of, patent and trademark information, using a variety of automated methods, including electronic bulletin boards and remote access by users to mass storage and retrieval systems.\n(3) Access fees.—The Director may establish reasonable fees for access by the public to the automated search systems of the Patent and Trademark Office. If such fees are established, a limited amount of free access shall be made available to users of the systems for purposes of education and training. The Director may waive the payment by an individual of fees authorized by this subsection upon a showing of need or hardship, and if such a waiver is in the public interest.\n(4) Annual report to congress.—The Director shall submit to the Congress an annual report on the automated search systems of the Patent and Trademark Office and the access by the public to such systems. The Director shall also publish such report in the Federal Register. The Director shall provide an opportunity for the submission of comments by interested persons on each such report.",
+  "after": "(a) General Fees.—The Director shall charge the following fees:\n(1) Filing and basic national fees.—\n(A) On filing each application for an original patent, except for design, plant, or provisional applications, $330.\n(B) On filing each application for an original design patent, $220.\n(C) On filing each application for an original plant patent, $220.\n(D) On filing each provisional application for an original patent, $220.\n(E) On filing each application for the reissue of a patent, $330.\n(F) The basic national fee for each international application filed under the treaty defined in section 351(a) entering the national stage under section 371, $330.\n(G) In addition, excluding any sequence listing or computer program listing filed in an electronic medium as prescribed by the Director, for any application the specification and drawings of which exceed 100 sheets of paper (or equivalent as prescribed by the Director if filed in an electronic medium), $270 for each additional 50 sheets of paper (or equivalent as prescribed by the Director if filed in an electronic medium) or fraction thereof.\n(2) Excess claims fees.—\n(A) In general.—In addition to the fee specified in paragraph (1)—\n(i) on filing or on presentation at any other time, $220 for each claim in independent form in excess of 3;\n(ii) on filing or on presentation at any other time, $52 for each claim (whether dependent or independent) in excess of 20; and\n(iii) for each application containing a multiple dependent claim, $390.\n(B) Multiple dependent claims.—For the purpose of computing fees under subparagraph (A), a multiple dependent claim referred to in section 112 or any claim depending therefrom shall be considered as separate dependent claims in accordance with the number of claims to which reference is made.\n(C) Refunds; errors in payment.—The Director may by regulation provide for a refund of any part of the fee specified in subparagraph (A) for any claim that is canceled before an examination on the merits, as prescribed by the Director, has been made of the application under section 131. Errors in payment of the additional fees under this paragraph may be rectified in accordance with regulations prescribed by the Director.\n(3) Examination fees.—\n(A) In general.—\n(i) For examination of each application for an original patent, except for design, plant, provisional, or international applications, $220.\n(ii) For examination of each application for an original design patent, $140.\n(iii) For examination of each application for an original plant patent, $170.\n(iv) For examination of the national stage of each international application, $220.\n(v) For examination of each application for the reissue of a patent, $650.\n(B) Applicability of other fee provisions.—The provisions of paragraphs (3) and (4) of section 111(a) relating to the payment of the fee for filing the application shall apply to the payment of the fee specified in subparagraph (A) with respect to an application filed under section 111(a). The provisions of section 371(d) relating to the payment of the national fee shall apply to the payment of the fee specified in subparagraph (A) with respect to an international application.\n(4) Issue fees.—\n(A) For issuing each original patent, except for design or plant patents, $1,510.\n(B) For issuing each original design patent, $860.\n(C) For issuing each original plant patent, $1,190.\n(D) For issuing each reissue patent, $1,510.\n(5) Disclaimer fee.—On filing each disclaimer, $140.\n(6) Appeal fees.—\n(A) On filing an appeal from the examiner to the Patent Trial and Appeal Board, $540.\n(B) In addition, on filing a brief in support of the appeal, $540, and on requesting an oral hearing in the appeal before the Patent Trial and Appeal Board, $1,080.\n(7) Revival fees.—On filing each petition for the revival of an abandoned application for a patent, for the delayed payment of the fee for issuing each patent, for the delayed response by the patent owner in any reexamination proceeding, for the delayed payment of the fee for maintaining a patent in force, for the delayed submission of a priority or benefit claim, or for the extension of the 12-month period for filing a subsequent application, $1,700.00. The Director may refund any part of the fee specified in this paragraph, in exceptional circumstances as determined by the Director\n(8) Extension fees.—For petitions for 1-month extensions of time to take actions required by the Director in an application—\n(A) on filing a first petition, $130;\n(B) on filing a second petition, $360; and\n(C) on filing a third or subsequent petition, $620.\n(b) Maintenance Fees.—\n(1) In general.—The Director shall charge the following fees for maintaining in force all patents based on applications filed on or after December 12, 1980:\n(A) Three years and 6 months after grant, $980.\n(B) Seven years and 6 months after grant, $2,480.\n(C) Eleven years and 6 months after grant, $4,110.\n(2) Grace period; surcharge.—Unless payment of the applicable maintenance fee under paragraph (1) is received in the Office on or before the date the fee is due or within a grace period of 6 months thereafter, the patent shall expire as of the end of such grace period. The Director may require the payment of a surcharge as a condition of accepting within such 6-month grace period the payment of an applicable maintenance fee.\n(3) No maintenance fee for design or plant patent.—No fee may be established for maintaining a design or plant patent in force.\n(c) Delays in Payment of Maintenance Fees.—\n(1) Acceptance.—The Director may accept the payment of any maintenance fee required by subsection (b) after the 6-month grace period if the delay is shown to the satisfaction of the Director to have been unintentional. The Director may require the payment of the fee specified in subsection (a)(7) as a condition of accepting payment of any maintenance fee after the 6-month grace period. If the Director accepts payment of a maintenance fee after the 6-month grace period, the patent shall be considered as not having expired at the end of the grace period.\n(2) Effect on rights of others.—A patent, the term of which has been maintained as a result of the acceptance of a payment of a maintenance fee under this subsection, shall not abridge or affect the right of any person or that person's successors in business who made, purchased, offered to sell, or used anything protected by the patent within the United States, or imported anything protected by the patent into the United States after the 6-month grace period but prior to the acceptance of a maintenance fee under this subsection, to continue the use of, to offer for sale, or to sell to others to be used, offered for sale, or sold, the specific thing so made, purchased, offered for sale, used, or imported. The court before which such matter is in question may provide for the continued manufacture, use, offer for sale, or sale of the thing made, purchased, offered for sale, or used within the United States, or imported into the United States, as specified, or for the manufacture, use, offer for sale, or sale in the United States of which substantial preparation was made after the 6-month grace period but before the acceptance of a maintenance fee under this subsection, and the court may also provide for the continued practice of any process that is practiced, or for the practice of which substantial preparation was made, after the 6-month grace period but before the acceptance of a maintenance fee under this subsection, to the extent and under such terms as the court deems equitable for the protection of investments made or business commenced after the 6-month grace period but before the acceptance of a maintenance fee under this subsection.\n(d) Patent Search and Other Fees.—\n(1) Patent search fees.—\n(A) In general.—The Director shall charge the fees specified under subparagraph (B) for the search of each application for a patent, except for provisional applications. The Director shall adjust the fees charged under this paragraph to ensure that the fees recover an amount not to exceed the estimated average cost to the Office of searching applications for patent by Office personnel.\n(B) Specific fees.—The fees referred to in subparagraph (A) are—\n(i) $540 for each application for an original patent, except for design, plant, provisional, or international applications;\n(ii) $100 for each application for an original design patent;\n(iii) $330 for each application for an original plant patent;\n(iv) $540 for the national stage of each international application; and\n(v) $540 for each application for the reissue of a patent.\n(C) Applicability of other provisions.—The provisions of paragraphs (3) and (4) of section 111(a) relating to the payment of the fee for filing the application shall apply to the payment of the fee specified in this paragraph with respect to an application filed under section 111(a). The provisions of section 371(d) relating to the payment of the national fee shall apply to the payment of the fee specified in this paragraph with respect to an international application.\n(D) Refunds.—The Director may by regulation provide for a refund of any part of the fee specified in this paragraph for any applicant who files a written declaration of express abandonment as prescribed by the Director before an examination has been made of the application under section 131.\n(2) Other fees.—\n(A) In general.—The Director shall establish fees for all other processing, services, or materials relating to patents not specified in this section to recover the estimated average cost to the Office of such processing, services, or materials, except that the Director shall charge the following fees for the following services:\n(i) For recording a document affecting title, $40 per property.\n(ii) For each photocopy, $.25 per page.\n(iii) For each black and white copy of a patent, $3.\n(B) Copies for libraries.—The yearly fee for providing a library specified in section 12 with uncertified printed copies of the specifications and drawings for all patents in that year shall be $50.\n(e) Waiver of Fees; Copies Regarding Notice.—The Director may waive the payment of any fee for any service or material related to patents in connection with an occasional or incidental request made by a department or agency of the Government, or any officer thereof. The Director may provide any applicant issued a notice under section 132 with a copy of the specifications and drawings for all patents referred to in that notice without charge.\n(f) Adjustment of Fees.—The fees established in subsections (a) and (b) of this section may be adjusted by the Director on October 1, 1992, and every year thereafter, to reflect any fluctuations occurring during the previous 12 months in the Consumer Price Index, as determined by the Secretary of Labor. Changes of less than 1 per centum may be ignored.\n[(g) Repealed. Pub. L. 112-29, §11(e)(3), Sept. 16, 2011, 125 Stat. 323.]\n(h) Fees for Small Entities.—\n(1) Reductions in fees.—Subject to paragraph (3), fees charged under subsections (a), (b), and (d)(1) shall be reduced by 60 percent with respect to their application to any small business concern as defined under section 3 of the Small Business Act, and to any independent inventor or nonprofit organization as defined in regulations issued by the Director.\n(2) Surcharges and other fees.—With respect to its application to any entity described in paragraph (1), any surcharge or fee charged under subsection (c) or (d) shall not be higher than the surcharge or fee required of any other entity under the same or substantially similar circumstances.\n(3) Reduction for electronic filing.—The fee charged under subsection (a)(1)(A) shall be reduced by 80 percent with respect to its application to any entity to which paragraph (1) applies, if the application is filed by electronic means as prescribed by the Director.\n(i) Electronic Patent and Trademark Data.—\n(1) Maintenance of collections.—The Director shall maintain, for use by the public, paper, microform, or electronic collections of United States patents, foreign patent documents, and United States trademark registrations arranged to permit search for and retrieval of information. The Director may not impose fees directly for the use of such collections, or for the use of the public patent or trademark search rooms or libraries.\n(2) Availability of automated search systems.—The Director shall provide for the full deployment of the automated search systems of the Patent and Trademark Office so that such systems are available for use by the public, and shall assure full access by the public to, and dissemination of, patent and trademark information, using a variety of automated methods, including electronic bulletin boards and remote access by users to mass storage and retrieval systems.\n(3) Access fees.—The Director may establish reasonable fees for access by the public to the automated search systems of the Patent and Trademark Office. If such fees are established, a limited amount of free access shall be made available to users of the systems for purposes of education and training. The Director may waive the payment by an individual of fees authorized by this subsection upon a showing of need or hardship, and if such a waiver is in the public interest.\n(4) Annual report to congress.—The Director shall submit to the Congress an annual report on the automated search systems of the Patent and Trademark Office and the access by the public to such systems. The Director shall also publish such report in the Federal Register. The Director shall provide an opportunity for the submission of comments by interested persons on each such report.\n(j) Penalty for False Assertions.—In addition to any other penalty available under law, an entity that is found to have falsely asserted entitlement to a fee reduction under this section shall be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false assertion, whether the Director discovers the false assertion before or after the date on which a patent has been issued.",
+  "in_edition": "(a) General Fees.—The Director shall charge the following fees:\n(1) Filing and basic national fees.—\n(A) On filing each application for an original patent, except for design, plant, or provisional applications, $330.\n(B) On filing each application for an original design patent, $220.\n(C) On filing each application for an original plant patent, $220.\n(D) On filing each provisional application for an original patent, $220.\n(E) On filing each application for the reissue of a patent, $330.\n(F) The basic national fee for each international application filed under the treaty defined in section 351(a) entering the national stage under section 371, $330.\n(G) In addition, excluding any sequence listing or computer program listing filed in an electronic medium as prescribed by the Director, for any application the specification and drawings of which exceed 100 sheets of paper (or equivalent as prescribed by the Director if filed in an electronic medium), $270 for each additional 50 sheets of paper (or equivalent as prescribed by the Director if filed in an electronic medium) or fraction thereof.\n(2) Excess claims fees.—\n(A) In general.—In addition to the fee specified in paragraph (1)—\n(i) on filing or on presentation at any other time, $220 for each claim in independent form in excess of 3;\n(ii) on filing or on presentation at any other time, $52 for each claim (whether dependent or independent) in excess of 20; and\n(iii) for each application containing a multiple dependent claim, $390.\n(B) Multiple dependent claims.—For the purpose of computing fees under subparagraph (A), a multiple dependent claim referred to in section 112 or any claim depending therefrom shall be considered as separate dependent claims in accordance with the number of claims to which reference is made.\n(C) Refunds; errors in payment.—The Director may by regulation provide for a refund of any part of the fee specified in subparagraph (A) for any claim that is canceled before an examination on the merits, as prescribed by the Director, has been made of the application under section 131. Errors in payment of the additional fees under this paragraph may be rectified in accordance with regulations prescribed by the Director.\n(3) Examination fees.—\n(A) In general.—\n(i) For examination of each application for an original patent, except for design, plant, provisional, or international applications, $220.\n(ii) For examination of each application for an original design patent, $140.\n(iii) For examination of each application for an original plant patent, $170.\n(iv) For examination of the national stage of each international application, $220.\n(v) For examination of each application for the reissue of a patent, $650.\n(B) Applicability of other fee provisions.—The provisions of paragraphs (3) and (4) of section 111(a) relating to the payment of the fee for filing the application shall apply to the payment of the fee specified in subparagraph (A) with respect to an application filed under section 111(a). The provisions of section 371(d) relating to the payment of the national fee shall apply to the payment of the fee specified in subparagraph (A) with respect to an international application.\n(4) Issue fees.—\n(A) For issuing each original patent, except for design or plant patents, $1,510.\n(B) For issuing each original design patent, $860.\n(C) For issuing each original plant patent, $1,190.\n(D) For issuing each reissue patent, $1,510.\n(5) Disclaimer fee.—On filing each disclaimer, $140.\n(6) Appeal fees.—\n(A) On filing an appeal from the examiner to the Patent Trial and Appeal Board, $540.\n(B) In addition, on filing a brief in support of the appeal, $540, and on requesting an oral hearing in the appeal before the Patent Trial and Appeal Board, $1,080.\n(7) Revival fees.—On filing each petition for the revival of an abandoned application for a patent, for the delayed payment of the fee for issuing each patent, for the delayed response by the patent owner in any reexamination proceeding, for the delayed payment of the fee for maintaining a patent in force, for the delayed submission of a priority or benefit claim, or for the extension of the 12-month period for filing a subsequent application, $1,700.00. The Director may refund any part of the fee specified in this paragraph, in exceptional circumstances as determined by the Director\n(8) Extension fees.—For petitions for 1-month extensions of time to take actions required by the Director in an application—\n(A) on filing a first petition, $130;\n(B) on filing a second petition, $360; and\n(C) on filing a third or subsequent petition, $620.\n(b) Maintenance Fees.—\n(1) In general.—The Director shall charge the following fees for maintaining in force all patents based on applications filed on or after December 12, 1980:\n(A) Three years and 6 months after grant, $980.\n(B) Seven years and 6 months after grant, $2,480.\n(C) Eleven years and 6 months after grant, $4,110.\n(2) Grace period; surcharge.—Unless payment of the applicable maintenance fee under paragraph (1) is received in the Office on or before the date the fee is due or within a grace period of 6 months thereafter, the patent shall expire as of the end of such grace period. The Director may require the payment of a surcharge as a condition of accepting within such 6-month grace period the payment of an applicable maintenance fee.\n(3) No maintenance fee for design or plant patent.—No fee may be established for maintaining a design or plant patent in force.\n(c) Delays in Payment of Maintenance Fees.—\n(1) Acceptance.—The Director may accept the payment of any maintenance fee required by subsection (b) after the 6-month grace period if the delay is shown to the satisfaction of the Director to have been unintentional. The Director may require the payment of the fee specified in subsection (a)(7) as a condition of accepting payment of any maintenance fee after the 6-month grace period. If the Director accepts payment of a maintenance fee after the 6-month grace period, the patent shall be considered as not having expired at the end of the grace period.\n(2) Effect on rights of others.—A patent, the term of which has been maintained as a result of the acceptance of a payment of a maintenance fee under this subsection, shall not abridge or affect the right of any person or that person's successors in business who made, purchased, offered to sell, or used anything protected by the patent within the United States, or imported anything protected by the patent into the United States after the 6-month grace period but prior to the acceptance of a maintenance fee under this subsection, to continue the use of, to offer for sale, or to sell to others to be used, offered for sale, or sold, the specific thing so made, purchased, offered for sale, used, or imported. The court before which such matter is in question may provide for the continued manufacture, use, offer for sale, or sale of the thing made, purchased, offered for sale, or used within the United States, or imported into the United States, as specified, or for the manufacture, use, offer for sale, or sale in the United States of which substantial preparation was made after the 6-month grace period but before the acceptance of a maintenance fee under this subsection, and the court may also provide for the continued practice of any process that is practiced, or for the practice of which substantial preparation was made, after the 6-month grace period but before the acceptance of a maintenance fee under this subsection, to the extent and under such terms as the court deems equitable for the protection of investments made or business commenced after the 6-month grace period but before the acceptance of a maintenance fee under this subsection.\n(d) Patent Search and Other Fees.—\n(1) Patent search fees.—\n(A) In general.—The Director shall charge the fees specified under subparagraph (B) for the search of each application for a patent, except for provisional applications. The Director shall adjust the fees charged under this paragraph to ensure that the fees recover an amount not to exceed the estimated average cost to the Office of searching applications for patent by Office personnel.\n(B) Specific fees.—The fees referred to in subparagraph (A) are—\n(i) $540 for each application for an original patent, except for design, plant, provisional, or international applications;\n(ii) $100 for each application for an original design patent;\n(iii) $330 for each application for an original plant patent;\n(iv) $540 for the national stage of each international application; and\n(v) $540 for each application for the reissue of a patent.\n(C) Applicability of other provisions.—The provisions of paragraphs (3) and (4) of section 111(a) relating to the payment of the fee for filing the application shall apply to the payment of the fee specified in this paragraph with respect to an application filed under section 111(a). The provisions of section 371(d) relating to the payment of the national fee shall apply to the payment of the fee specified in this paragraph with respect to an international application.\n(D) Refunds.—The Director may by regulation provide for a refund of any part of the fee specified in this paragraph for any applicant who files a written declaration of express abandonment as prescribed by the Director before an examination has been made of the application under section 131.\n(2) Other fees.—\n(A) In general.—The Director shall establish fees for all other processing, services, or materials relating to patents not specified in this section to recover the estimated average cost to the Office of such processing, services, or materials, except that the Director shall charge the following fees for the following services:\n(i) For recording a document affecting title, $40 per property.\n(ii) For each photocopy, $.25 per page.\n(iii) For each black and white copy of a patent, $3.\n(B) Copies for libraries.—The yearly fee for providing a library specified in section 12 with uncertified printed copies of the specifications and drawings for all patents in that year shall be $50.\n(e) Waiver of Fees; Copies Regarding Notice.—The Director may waive the payment of any fee for any service or material related to patents in connection with an occasional or incidental request made by a department or agency of the Government, or any officer thereof. The Director may provide any applicant issued a notice under section 132 with a copy of the specifications and drawings for all patents referred to in that notice without charge.\n(f) Adjustment of Fees.—The fees established in subsections (a) and (b) of this section may be adjusted by the Director on October 1, 1992, and every year thereafter, to reflect any fluctuations occurring during the previous 12 months in the Consumer Price Index, as determined by the Secretary of Labor. Changes of less than 1 per centum may be ignored.\n[(g) Repealed. Pub. L. 112–29, §11(e)(3), Sept. 16, 2011, 125 Stat. 323.]\n(h) Fees for Small Entities.—\n(1) Reductions in fees.—Subject to paragraph (3), fees charged under subsections (a), (b), and (d)(1) shall be reduced by 60 percent with respect to their application to any small business concern as defined under section 3 of the Small Business Act, and to any independent inventor or nonprofit organization as defined in regulations issued by the Director.\n(2) Surcharges and other fees.—With respect to its application to any entity described in paragraph (1), any surcharge or fee charged under subsection (c) or (d) shall not be higher than the surcharge or fee required of any other entity under the same or substantially similar circumstances.\n(3) Reduction for electronic filing.—The fee charged under subsection (a)(1)(A) shall be reduced by 80 percent with respect to its application to any entity to which paragraph (1) applies, if the application is filed by electronic means as prescribed by the Director.\n(i) Electronic Patent and Trademark Data.—\n(1) Maintenance of collections.—The Director shall maintain, for use by the public, paper, microform, or electronic collections of United States patents, foreign patent documents, and United States trademark registrations arranged to permit search for and retrieval of information. The Director may not impose fees directly for the use of such collections, or for the use of the public patent or trademark search rooms or libraries.\n(2) Availability of automated search systems.—The Director shall provide for the full deployment of the automated search systems of the Patent and Trademark Office so that such systems are available for use by the public, and shall assure full access by the public to, and dissemination of, patent and trademark information, using a variety of automated methods, including electronic bulletin boards and remote access by users to mass storage and retrieval systems.\n(3) Access fees.—The Director may establish reasonable fees for access by the public to the automated search systems of the Patent and Trademark Office. If such fees are established, a limited amount of free access shall be made available to users of the systems for purposes of education and training. The Director may waive the payment by an individual of fees authorized by this subsection upon a showing of need or hardship, and if such a waiver is in the public interest.\n(4) Annual report to congress.—The Director shall submit to the Congress an annual report on the automated search systems of the Patent and Trademark Office and the access by the public to such systems. The Director shall also publish such report in the Federal Register. The Director shall provide an opportunity for the submission of comments by interested persons on each such report.\n(j) Penalty for False Assertions.—In addition to any other penalty available under law, an entity that is found to have falsely asserted entitlement to a fee reduction under this section shall be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false assertion, whether the Director discovers the false assertion before or after the date on which a patent has been issued.",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "(a) General Fees.—The Director shall charge the following fees:\n(1) Filing and basic national fees.—\n(A) On filing each application for an original patent, except for design, plant, or provisional applications, $330.\n(B) On filing each application for an original design patent, $220.\n(C) On filing each application for an original plant patent, $220.\n(D) On filing each provisional application for an original patent, $220.\n(E) On filing each application for the reissue of a patent, $330.\n(F) The basic national fee for each international application filed under the treaty defined in section 351(a) entering the national stage under section 371, $330.\n(G) In addition, excluding any sequence listing or computer program listing filed in an electronic medium as prescribed by the Director, for any application the specification and drawings of which exceed 100 sheets of paper (or equivalent as prescribed by the Director if filed in an electronic medium), $270 for each additional 50 sheets of paper (or equivalent as prescribed by the Director if filed in an electronic medium) or fraction thereof.\n(2) Excess claims fees.—\n(A) In general.—In addition to the fee specified in paragraph (1)—\n(i) on filing or on presentation at any other time, $220 for each claim in independent form in excess of 3;\n(ii) on filing or on presentation at any other time, $52 for each claim (whether dependent or independent) in excess of 20; and\n(iii) for each application containing a multiple dependent claim, $390.\n(B) Multiple dependent claims.—For the purpose of computing fees under subparagraph (A), a multiple dependent claim referred to in section 112 or any claim depending therefrom shall be considered as separate dependent claims in accordance with the number of claims to which reference is made.\n(C) Refunds; errors in payment.—The Director may by regulation provide for a refund of any part of the fee specified in subparagraph (A) for any claim that is canceled before an examination on the merits, as prescribed by the Director, has been made of the application under section 131. Errors in payment of the additional fees under this paragraph may be rectified in accordance with regulations prescribed by the Director.\n(3) Examination fees.—\n(A) In general.—\n(i) For examination of each application for an original patent, except for design, plant, provisional, or international applications, $220.\n(ii) For examination of each application for an original design patent, $140.\n(iii) For examination of each application for an original plant patent, $170.\n(iv) For examination of the national stage of each international application, $220.\n(v) For examination of each application for the reissue of a patent, $650.\n(B) Applicability of other fee provisions.—The provisions of paragraphs (3) and (4) of section 111(a) relating to the payment of the fee for filing the application shall apply to the payment of the fee specified in subparagraph (A) with respect to an application filed under section 111(a). The provisions of section 371(d) relating to the payment of the national fee shall apply to the payment of the fee specified in subparagraph (A) with respect to an international application.\n(4) Issue fees.—\n(A) For issuing each original patent, except for design or plant patents, $1,510.\n(B) For issuing each original design patent, $860.\n(C) For issuing each original plant patent, $1,190.\n(D) For issuing each reissue patent, $1,510.\n(5) Disclaimer fee.—On filing each disclaimer, $140.\n(6) Appeal fees.—\n(A) On filing an appeal from the examiner to the Patent Trial and Appeal Board, $540.\n(B) In addition, on filing a brief in support of the appeal, $540, and on requesting an oral hearing in the appeal before the Patent Trial and Appeal Board, $1,080.\n(7) Revival fees.—On filing each petition for the revival of an abandoned application for a patent, for the delayed payment of the fee for issuing each patent, for the delayed response by the patent owner in any reexamination proceeding, for the delayed payment of the fee for maintaining a patent in force, for the delayed submission of a priority or benefit claim, or for the extension of the 12-month period for filing a subsequent application, $1,700.00. The Director may refund any part of the fee specified in this paragraph, in exceptional circumstances as determined by the Director\n(8) Extension fees.—For petitions for 1-month extensions of time to take actions required by the Director in an application—\n(A) on filing a first petition, $130;\n(B) on filing a second petition, $360; and\n(C) on filing a third or subsequent petition, $620.\n(b) Maintenance Fees.—\n(1) In general.—The Director shall charge the following fees for maintaining in force all patents based on applications filed on or after December 12, 1980:\n(A) Three years and 6 months after grant, $980.\n(B) Seven years and 6 months after grant, $2,480.\n(C) Eleven years and 6 months after grant, $4,110.\n(2) Grace period; surcharge.—Unless payment of the applicable maintenance fee under paragraph (1) is received in the Office on or before the date the fee is due or within a grace period of 6 months thereafter, the patent shall expire as of the end of such grace period. The Director may require the payment of a surcharge as a condition of accepting within such 6-month grace period the payment of an applicable maintenance fee.\n(3) No maintenance fee for design or plant patent.—No fee may be established for maintaining a design or plant patent in force.\n(c) Delays in Payment of Maintenance Fees.—\n(1) Acceptance.—The Director may accept the payment of any maintenance fee required by subsection (b) after the 6-month grace period if the delay is shown to the satisfaction of the Director to have been unintentional. The Director may require the payment of the fee specified in subsection (a)(7) as a condition of accepting payment of any maintenance fee after the 6-month grace period. If the Director accepts payment of a maintenance fee after the 6-month grace period, the patent shall be considered as not having expired at the end of the grace period.\n(2) Effect on rights of others.—A patent, the term of which has been maintained as a result of the acceptance of a payment of a maintenance fee under this subsection, shall not abridge or affect the right of any person or that person's successors in business who made, purchased, offered to sell, or used anything protected by the patent within the United States, or imported anything protected by the patent into the United States after the 6-month grace period but prior to the acceptance of a maintenance fee under this subsection, to continue the use of, to offer for sale, or to sell to others to be used, offered for sale, or sold, the specific thing so made, purchased, offered for sale, used, or imported. The court before which such matter is in question may provide for the continued manufacture, use, offer for sale, or sale of the thing made, purchased, offered for sale, or used within the United States, or imported into the United States, as specified, or for the manufacture, use, offer for sale, or sale in the United States of which substantial preparation was made after the 6-month grace period but before the acceptance of a maintenance fee under this subsection, and the court may also provide for the continued practice of any process that is practiced, or for the practice of which substantial preparation was made, after the 6-month grace period but before the acceptance of a maintenance fee under this subsection, to the extent and under such terms as the court deems equitable for the protection of investments made or business commenced after the 6-month grace period but before the acceptance of a maintenance fee under this subsection.\n(d) Patent Search and Other Fees.—\n(1) Patent search fees.—\n(A) In general.—The Director shall charge the fees specified under subparagraph (B) for the search of each application for a patent, except for provisional applications. The Director shall adjust the fees charged under this paragraph to ensure that the fees recover an amount not to exceed the estimated average cost to the Office of searching applications for patent by Office personnel.\n(B) Specific fees.—The fees referred to in subparagraph (A) are—\n(i) $540 for each application for an original patent, except for design, plant, provisional, or international applications;\n(ii) $100 for each application for an original design patent;\n(iii) $330 for each application for an original plant patent;\n(iv) $540 for the national stage of each international application; and\n(v) $540 for each application for the reissue of a patent.\n(C) Applicability of other provisions.—The provisions of paragraphs (3) and (4) of section 111(a) relating to the payment of the fee for filing the application shall apply to the payment of the fee specified in this paragraph with respect to an application filed under section 111(a). The provisions of section 371(d) relating to the payment of the national fee shall apply to the payment of the fee specified in this paragraph with respect to an international application.\n(D) Refunds.—The Director may by regulation provide for a refund of any part of the fee specified in this paragraph for any applicant who files a written declaration of express abandonment as prescribed by the Director before an examination has been made of the application under section 131.\n(2) Other fees.—\n(A) In general.—The Director shall establish fees for all other processing, services, or materials relating to patents not specified in this section to recover the estimated average cost to the Office of such processing, services, or materials, except that the Director shall charge the following fees for the following services:\n(i) For recording a document affecting title, $40 per property.\n(ii) For each photocopy, $.25 per page.\n(iii) For each black and white copy of a patent, $3.\n(B) Copies for libraries.—The yearly fee for providing a library specified in section 12 with uncertified printed copies of the specifications and drawings for all patents in that year shall be $50.\n(e) Waiver of Fees; Copies Regarding Notice.—The Director may waive the payment of any fee for any service or material related to patents in connection with an occasional or incidental request made by a department or agency of the Government, or any officer thereof. The Director may provide any applicant issued a notice under section 132 with a copy of the specifications and drawings for all patents referred to in that notice without charge.\n(f) Adjustment of Fees.—The fees established in subsections (a) and (b) of this section may be adjusted by the Director on October 1, 1992, and every year thereafter, to reflect any fluctuations occurring during the previous 12 months in the Consumer Price Index, as determined by the Secretary of Labor. Changes of less than 1 per centum may be ignored.\n[(g) Repealed. Pub. L. 112–29, §11(e)(3), Sept. 16, 2011, 125 Stat. 323.]\n(h) Fees for Small Entities.—\n(1) Reductions in fees.—Subject to paragraph (3), fees charged under subsections (a), (b), and (d)(1) shall be reduced by 60 percent with respect to their application to any small business concern as defined under section 3 of the Small Business Act, and to any independent inventor or nonprofit organization as defined in regulations issued by the Director.\n(2) Surcharges and other fees.—With respect to its application to any entity described in paragraph (1), any surcharge or fee charged under subsection (c) or (d) shall not be higher than the surcharge or fee required of any other entity under the same or substantially similar circumstances.\n(3) Reduction for electronic filing.—The fee charged under subsection (a)(1)(A) shall be reduced by 80 percent with respect to its application to any entity to which paragraph (1) applies, if the application is filed by electronic means as prescribed by the Director.\n(i) Electronic Patent and Trademark Data.—\n(1) Maintenance of collections.—The Director shall maintain, for use by the public, paper, microform, or electronic collections of United States patents, foreign patent documents, and United States trademark registrations arranged to permit search for and retrieval of information. The Director may not impose fees directly for the use of such collections, or for the use of the public patent or trademark search rooms or libraries.\n(2) Availability of automated search systems.—The Director shall provide for the full deployment of the automated search systems of the Patent and Trademark Office so that such systems are available for use by the public, and shall assure full access by the public to, and dissemination of, patent and trademark information, using a variety of automated methods, including electronic bulletin boards and remote access by users to mass storage and retrieval systems.\n(3) Access fees.—The Director may establish reasonable fees for access by the public to the automated search systems of the Patent and Trademark Office. If such fees are established, a limited amount of free access shall be made available to users of the systems for purposes of education and training. The Director may waive the payment by an individual of fees authorized by this subsection upon a showing of need or hardship, and if such a waiver is in the public interest.\n(4) Annual report to congress.—The Director shall submit to the Congress an annual report on the automated search systems of the Patent and Trademark Office and the access by the public to such systems. The Director shall also publish such report in the Federal Register. The Director shall provide an opportunity for the submission of comments by interested persons on each such report."
+   },
+   {
+    "t": "ins",
+    "s": "\n(j) Penalty for False Assertions.—In addition to any other penalty available under law, an entity that is found to have falsely asserted entitlement to a fee reduction under this section shall be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false assertion, whether the Director discovers the false assertion before or after the date on which a patent has been issued."
+   }
+  ],
+  "fingerprints": {
+   "before": "74559cc746b61f780c843db25698dd2a9e124f7ec3b1fed52490f219983bc959",
+   "after": "27f245ae1745333a781b5f0fd80d66960fbad8b9e9ef7d0dbfb8515c406e1fd1",
+   "edition_from": "ccc1e119fa5cf6dcac67b71029eb59492e12e48255d020b623e308e2a8a3e7f5",
+   "edition_to": "966a53c25b2285b568f6cf67666d0ddb8fd91e66150dfb2176b1fc8e89035111",
+   "law": "c85b2c8cb1494a52997e321f7ffbc5bdbdd9c61ad711db94a2bbad4be216188b"
+  },
+  "dates": {
+   "enacted": "2022-12-29",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-27"
+  },
+  "publisher_notes": [
+   {
+    "year": 2022,
+    "location": "Subsec. (h)(1)",
+    "text": "Subsec. (h)(1). Pub. L. 117–328, §107(a)(1), substituted \"60 percent\" for \"50 percent\"."
+   },
+   {
+    "year": 2022,
+    "location": "Subsec. (h)(3)",
+    "text": "Subsec. (h)(3). Pub. L. 117–328, §107(a)(2), substituted \"80 percent\" for \"75 percent\"."
+   },
+   {
+    "year": 2022,
+    "location": "Subsec. (j)",
+    "text": "Subsec. (j). Pub. L. 117–328, §107(b)(1), added subsec. (j)."
+   }
+  ],
+  "date_notes": [],
+  "summary_key": "c43cb9d0a7446da881228a4efac5bdf59af3eaa02ba0839296f1a17f57cd9c84",
+  "summary": "Added section 41(j) of title 35, requiring a fine of at least 3 times the unpaid amount for falsely asserting entitlement to a fee reduction under this section.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-12-29",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2022-117-328-123-1",
+  "title": 35,
+  "section": "123",
+  "heading": "Micro entity defined",
+  "path": "",
+  "kind": "amended",
+  "edition_from": "2021",
+  "edition_to": "2022",
+  "law": "117-328",
+  "instruction": {
+   "id": "/us/pl/117/328/dW/s107/b/2",
+   "label": "div. W, §107(b)(2)",
+   "text": "Title 35, United States Code, is amended— in section 123, by adding at the end the following:“(f) Penalty for False Certifications.—In addition to any other penalty available under law, an entity that is found to have falsely made a certification under this section shall be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false certification, whether the Director discovers the false certification before or after the date on which a patent has been issued.” .",
+   "ops": [
+    {
+     "kind": "append_block",
+     "chapter": ""
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "append_block",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "(a) In General.—For purposes of this title, the term \"micro entity\" means an applicant who makes a certification that the applicant—\n(1) qualifies as a small entity, as defined in regulations issued by the Director;\n(2) has not been named as an inventor on more than 4 previously filed patent applications, other than applications filed in another country, provisional applications under section 111(b), or international applications filed under the treaty defined in section 351(a) for which the basic national fee under section 41(a) was not paid;\n(3) did not, in the calendar year preceding the calendar year in which the applicable fee is being paid, have a gross income, as defined in section 61(a) of the Internal Revenue Code of 1986, exceeding 3 times the median household income for that preceding calendar year, as most recently reported by the Bureau of the Census; and\n(4) has not assigned, granted, or conveyed, and is not under an obligation by contract or law to assign, grant, or convey, a license or other ownership interest in the application concerned to an entity that, in the calendar year preceding the calendar year in which the applicable fee is being paid, had a gross income, as defined in section 61(a) of the Internal Revenue Code of 1986, exceeding 3 times the median household income for that preceding calendar year, as most recently reported by the Bureau of the Census.\n(b) Applications Resulting From Prior Employment.—An applicant is not considered to be named on a previously filed application for purposes of subsection (a)(2) if the applicant has assigned, or is under an obligation by contract or law to assign, all ownership rights in the application as the result of the applicant's previous employment.\n(c) Foreign Currency Exchange Rate.—If an applicant's or entity's gross income in the preceding calendar year is not in United States dollars, the average currency exchange rate, as reported by the Internal Revenue Service, during that calendar year shall be used to determine whether the applicant's or entity's gross income exceeds the threshold specified in paragraphs (3) or (4) of subsection (a).\n(d) Institutions of Higher Education.—For purposes of this section, a micro entity shall include an applicant who certifies that—\n(1) the applicant's employer, from which the applicant obtains the majority of the applicant's income, is an institution of higher education as defined in section 101(a) of the Higher Education Act of 1965 (20 U.S.C. 1001(a)); or\n(2) the applicant has assigned, granted, conveyed, or is under an obligation by contract or law, to assign, grant, or convey, a license or other ownership interest in the particular applications to such an institution of higher education.\n(e) Director's Authority.—In addition to the limits imposed by this section, the Director may, in the Director's discretion, impose income limits, annual filing limits, or other limits on who may qualify as a micro entity pursuant to this section if the Director determines that such additional limits are reasonably necessary to avoid an undue impact on other patent applicants or owners or are otherwise reasonably necessary and appropriate. At least 3 months before any limits proposed to be imposed pursuant to this subsection take effect, the Director shall inform the Committee on the Judiciary of the House of Representatives and the Committee on the Judiciary of the Senate of any such proposed limits.",
+  "after": "(a) In General.—For purposes of this title, the term \"micro entity\" means an applicant who makes a certification that the applicant—\n(1) qualifies as a small entity, as defined in regulations issued by the Director;\n(2) has not been named as an inventor on more than 4 previously filed patent applications, other than applications filed in another country, provisional applications under section 111(b), or international applications filed under the treaty defined in section 351(a) for which the basic national fee under section 41(a) was not paid;\n(3) did not, in the calendar year preceding the calendar year in which the applicable fee is being paid, have a gross income, as defined in section 61(a) of the Internal Revenue Code of 1986, exceeding 3 times the median household income for that preceding calendar year, as most recently reported by the Bureau of the Census; and\n(4) has not assigned, granted, or conveyed, and is not under an obligation by contract or law to assign, grant, or convey, a license or other ownership interest in the application concerned to an entity that, in the calendar year preceding the calendar year in which the applicable fee is being paid, had a gross income, as defined in section 61(a) of the Internal Revenue Code of 1986, exceeding 3 times the median household income for that preceding calendar year, as most recently reported by the Bureau of the Census.\n(b) Applications Resulting From Prior Employment.—An applicant is not considered to be named on a previously filed application for purposes of subsection (a)(2) if the applicant has assigned, or is under an obligation by contract or law to assign, all ownership rights in the application as the result of the applicant's previous employment.\n(c) Foreign Currency Exchange Rate.—If an applicant's or entity's gross income in the preceding calendar year is not in United States dollars, the average currency exchange rate, as reported by the Internal Revenue Service, during that calendar year shall be used to determine whether the applicant's or entity's gross income exceeds the threshold specified in paragraphs (3) or (4) of subsection (a).\n(d) Institutions of Higher Education.—For purposes of this section, a micro entity shall include an applicant who certifies that—\n(1) the applicant's employer, from which the applicant obtains the majority of the applicant's income, is an institution of higher education as defined in section 101(a) of the Higher Education Act of 1965 (20 U.S.C. 1001(a)); or\n(2) the applicant has assigned, granted, conveyed, or is under an obligation by contract or law, to assign, grant, or convey, a license or other ownership interest in the particular applications to such an institution of higher education.\n(e) Director's Authority.—In addition to the limits imposed by this section, the Director may, in the Director's discretion, impose income limits, annual filing limits, or other limits on who may qualify as a micro entity pursuant to this section if the Director determines that such additional limits are reasonably necessary to avoid an undue impact on other patent applicants or owners or are otherwise reasonably necessary and appropriate. At least 3 months before any limits proposed to be imposed pursuant to this subsection take effect, the Director shall inform the Committee on the Judiciary of the House of Representatives and the Committee on the Judiciary of the Senate of any such proposed limits.\n(f) Penalty for False Certifications.—In addition to any other penalty available under law, an entity that is found to have falsely made a certification under this section shall be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false certification, whether the Director discovers the false certification before or after the date on which a patent has been issued.",
+  "in_edition": "(a) In General.—For purposes of this title, the term \"micro entity\" means an applicant who makes a certification that the applicant—\n(1) qualifies as a small entity, as defined in regulations issued by the Director;\n(2) has not been named as an inventor on more than 4 previously filed patent applications, other than applications filed in another country, provisional applications under section 111(b), or international applications filed under the treaty defined in section 351(a) for which the basic national fee under section 41(a) was not paid;\n(3) did not, in the calendar year preceding the calendar year in which the applicable fee is being paid, have a gross income, as defined in section 61(a) of the Internal Revenue Code of 1986, exceeding 3 times the median household income for that preceding calendar year, as most recently reported by the Bureau of the Census; and\n(4) has not assigned, granted, or conveyed, and is not under an obligation by contract or law to assign, grant, or convey, a license or other ownership interest in the application concerned to an entity that, in the calendar year preceding the calendar year in which the applicable fee is being paid, had a gross income, as defined in section 61(a) of the Internal Revenue Code of 1986, exceeding 3 times the median household income for that preceding calendar year, as most recently reported by the Bureau of the Census.\n(b) Applications Resulting From Prior Employment.—An applicant is not considered to be named on a previously filed application for purposes of subsection (a)(2) if the applicant has assigned, or is under an obligation by contract or law to assign, all ownership rights in the application as the result of the applicant's previous employment.\n(c) Foreign Currency Exchange Rate.—If an applicant's or entity's gross income in the preceding calendar year is not in United States dollars, the average currency exchange rate, as reported by the Internal Revenue Service, during that calendar year shall be used to determine whether the applicant's or entity's gross income exceeds the threshold specified in paragraphs (3) or (4) of subsection (a).\n(d) Institutions of Higher Education.—For purposes of this section, a micro entity shall include an applicant who certifies that—\n(1) the applicant's employer, from which the applicant obtains the majority of the applicant's income, is an institution of higher education as defined in section 101(a) of the Higher Education Act of 1965 (20 U.S.C. 1001(a)); or\n(2) the applicant has assigned, granted, conveyed, or is under an obligation by contract or law, to assign, grant, or convey, a license or other ownership interest in the particular applications to such an institution of higher education.\n(e) Director's Authority.—In addition to the limits imposed by this section, the Director may, in the Director's discretion, impose income limits, annual filing limits, or other limits on who may qualify as a micro entity pursuant to this section if the Director determines that such additional limits are reasonably necessary to avoid an undue impact on other patent applicants or owners or are otherwise reasonably necessary and appropriate. At least 3 months before any limits proposed to be imposed pursuant to this subsection take effect, the Director shall inform the Committee on the Judiciary of the House of Representatives and the Committee on the Judiciary of the Senate of any such proposed limits.\n(f) Penalty for False Certifications.—In addition to any other penalty available under law, an entity that is found to have falsely made a certification under this section shall be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false certification, whether the Director discovers the false certification before or after the date on which a patent has been issued.",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "(a) In General.—For purposes of this title, the term \"micro entity\" means an applicant who makes a certification that the applicant—\n(1) qualifies as a small entity, as defined in regulations issued by the Director;\n(2) has not been named as an inventor on more than 4 previously filed patent applications, other than applications filed in another country, provisional applications under section 111(b), or international applications filed under the treaty defined in section 351(a) for which the basic national fee under section 41(a) was not paid;\n(3) did not, in the calendar year preceding the calendar year in which the applicable fee is being paid, have a gross income, as defined in section 61(a) of the Internal Revenue Code of 1986, exceeding 3 times the median household income for that preceding calendar year, as most recently reported by the Bureau of the Census; and\n(4) has not assigned, granted, or conveyed, and is not under an obligation by contract or law to assign, grant, or convey, a license or other ownership interest in the application concerned to an entity that, in the calendar year preceding the calendar year in which the applicable fee is being paid, had a gross income, as defined in section 61(a) of the Internal Revenue Code of 1986, exceeding 3 times the median household income for that preceding calendar year, as most recently reported by the Bureau of the Census.\n(b) Applications Resulting From Prior Employment.—An applicant is not considered to be named on a previously filed application for purposes of subsection (a)(2) if the applicant has assigned, or is under an obligation by contract or law to assign, all ownership rights in the application as the result of the applicant's previous employment.\n(c) Foreign Currency Exchange Rate.—If an applicant's or entity's gross income in the preceding calendar year is not in United States dollars, the average currency exchange rate, as reported by the Internal Revenue Service, during that calendar year shall be used to determine whether the applicant's or entity's gross income exceeds the threshold specified in paragraphs (3) or (4) of subsection (a).\n(d) Institutions of Higher Education.—For purposes of this section, a micro entity shall include an applicant who certifies that—\n(1) the applicant's employer, from which the applicant obtains the majority of the applicant's income, is an institution of higher education as defined in section 101(a) of the Higher Education Act of 1965 (20 U.S.C. 1001(a)); or\n(2) the applicant has assigned, granted, conveyed, or is under an obligation by contract or law, to assign, grant, or convey, a license or other ownership interest in the particular applications to such an institution of higher education.\n(e) Director's Authority.—In addition to the limits imposed by this section, the Director may, in the Director's discretion, impose income limits, annual filing limits, or other limits on who may qualify as a micro entity pursuant to this section if the Director determines that such additional limits are reasonably necessary to avoid an undue impact on other patent applicants or owners or are otherwise reasonably necessary and appropriate. At least 3 months before any limits proposed to be imposed pursuant to this subsection take effect, the Director shall inform the Committee on the Judiciary of the House of Representatives and the Committee on the Judiciary of the Senate of any such proposed limits."
+   },
+   {
+    "t": "ins",
+    "s": "\n(f) Penalty for False Certifications.—In addition to any other penalty available under law, an entity that is found to have falsely made a certification under this section shall be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false certification, whether the Director discovers the false certification before or after the date on which a patent has been issued."
+   }
+  ],
+  "fingerprints": {
+   "before": "9aa71f57900b6ef047da0c1ab726e646ec6b4824bfc1fc844dd494a4b0e263a0",
+   "after": "3fe1ac00f9a69172c1981251afb7880d08da7072ee3561449da8743101bdb10a",
+   "edition_from": "ccc1e119fa5cf6dcac67b71029eb59492e12e48255d020b623e308e2a8a3e7f5",
+   "edition_to": "966a53c25b2285b568f6cf67666d0ddb8fd91e66150dfb2176b1fc8e89035111",
+   "law": "c85b2c8cb1494a52997e321f7ffbc5bdbdd9c61ad711db94a2bbad4be216188b"
+  },
+  "dates": {
+   "enacted": "2022-12-29",
+   "effective": null,
+   "edition_current_through": "2023-01-05",
+   "edition_year": 2022,
+   "edition": "2022",
+   "recorded": "2026-10-27"
+  },
+  "publisher_notes": [
+   {
+    "year": 2022,
+    "location": "Subsec. (f)",
+    "text": "Subsec. (f). Pub. L. 117–328 added subsec. (f)."
+   }
+  ],
+  "date_notes": [],
+  "summary_key": "012f37fe62a173c0eb6c18fe71fe2fc3a9b9a7e7b3198b423dde46c87315519c",
+  "summary": "Added section 123(f) of title 35, requiring a fine of at least 3 times the unpaid amount for falsely making a certification under this section.",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2022-12-29",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2024-118-151-41-1",
+  "title": 35,
+  "section": "41",
+  "heading": "Patent fees; patent and trademark search systems",
+  "path": "(j)",
+  "kind": "amended",
+  "edition_from": "2023",
+  "edition_to": "2024",
+  "law": "118-151",
+  "instruction": {
+   "id": "/us/pl/118/151/s1/1",
+   "label": "§1(1)",
+   "text": "Title 35, United States Code, is amended— in section 41(j), by inserting “, unless the entity shows that the assertion was made in good faith,” before “be subject”; and",
+   "ops": [
+    {
+     "kind": "insert_before",
+     "new": ", unless the entity shows that the assertion was made in good faith,",
+     "anchor": "be subject"
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "insert_before",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "(j) Penalty for False Assertions.—In addition to any other penalty available under law, an entity that is found to have falsely asserted entitlement to a fee reduction under this section shall be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false assertion, whether the Director discovers the false assertion before or after the date on which a patent has been issued.",
+  "after": "(j) Penalty for False Assertions.—In addition to any other penalty available under law, an entity that is found to have falsely asserted entitlement to a fee reduction under this section shall, unless the entity shows that the assertion was made in good faith, be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false assertion, whether the Director discovers the false assertion before or after the date on which a patent has been issued.",
+  "in_edition": "(j) Penalty for False Assertions.—In addition to any other penalty available under law, an entity that is found to have falsely asserted entitlement to a fee reduction under this section shall, unless the entity shows that the assertion was made in good faith, be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false assertion, whether the Director discovers the false assertion before or after the date on which a patent has been issued.",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "(j) Penalty for False Assertions.—In addition to any other penalty available under law, an entity that is found to have falsely asserted entitlement to a fee reduction under this section shall"
+   },
+   {
+    "t": "ins",
+    "s": ", unless the entity shows that the assertion was made in good faith,"
+   },
+   {
+    "t": "eq",
+    "s": " be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false assertion, whether the Director discovers the false assertion before or after the date on which a patent has been issued."
+   }
+  ],
+  "fingerprints": {
+   "before": "633f5a935b3fac74f784de9930ab214f291dc2a9229773649e152358b8174e23",
+   "after": "7edef9197bd7159af4341e311672e9412541c43f596b7c019420f7709dd32fd5",
+   "edition_from": "dd3d07cf89f3bc17fbc612c6fb900b01e40d0904671fc7c9ce4da6b278af57c8",
+   "edition_to": "33417d938bc88cb36125b765e96a87618299c869c6a9b206a7290657f17055de",
+   "law": "3aacc361b571ed110d1fefc9864476d5d9a7b23d33970fba010167de6d826952"
+  },
+  "dates": {
+   "enacted": "2024-12-17",
+   "effective": null,
+   "edition_current_through": "2025-01-06",
+   "edition_year": 2024,
+   "edition": "2024",
+   "recorded": "2026-10-27"
+  },
+  "publisher_notes": [
+   {
+    "year": 2024,
+    "location": "Subsec. (j)",
+    "text": "Subsec. (j). Pub. L. 118–151 inserted \", unless the entity shows that the assertion was made in good faith,\" before \"be subject\"."
+   }
+  ],
+  "date_notes": [],
+  "summary_key": "08f0f2bd90a26bb1ce0ba92aa85ded58a480d900228fdba282b827f811569837",
+  "summary": "Inserted \", unless the entity shows that the assertion was made in good faith,\" in section 41(j) of title 35 before \"be subject\".",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2024-12-17",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": []
+  }
+ },
+ {
+  "id": "2024-118-151-123-1",
+  "title": 35,
+  "section": "123",
+  "heading": "Micro entity defined",
+  "path": "(f)",
+  "kind": "amended",
+  "edition_from": "2023",
+  "edition_to": "2024",
+  "law": "118-151",
+  "instruction": {
+   "id": "/us/pl/118/151/s1/2",
+   "label": "§1(2)",
+   "text": "Title 35, United States Code, is amended— in section 123(f), by inserting “, unless the entity shows that the certification was made in good faith,” before “be subject”.",
+   "ops": [
+    {
+     "kind": "insert_before",
+     "new": ", unless the entity shows that the certification was made in good faith,",
+     "anchor": "be subject"
+    }
+   ],
+   "effective": null,
+   "timing": ""
+  },
+  "status": "replayed",
+  "ops": [
+   {
+    "op": "insert_before",
+    "applied": true,
+    "detail": ""
+   }
+  ],
+  "mismatch": [],
+  "before": "(f) Penalty for False Certifications.—In addition to any other penalty available under law, an entity that is found to have falsely made a certification under this section shall be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false certification, whether the Director discovers the false certification before or after the date on which a patent has been issued.",
+  "after": "(f) Penalty for False Certifications.—In addition to any other penalty available under law, an entity that is found to have falsely made a certification under this section shall, unless the entity shows that the certification was made in good faith, be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false certification, whether the Director discovers the false certification before or after the date on which a patent has been issued.",
+  "in_edition": "(f) Penalty for False Certifications.—In addition to any other penalty available under law, an entity that is found to have falsely made a certification under this section shall, unless the entity shows that the certification was made in good faith, be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false certification, whether the Director discovers the false certification before or after the date on which a patent has been issued.",
+  "diff": [
+   {
+    "t": "eq",
+    "s": "(f) Penalty for False Certifications.—In addition to any other penalty available under law, an entity that is found to have falsely made a certification under this section shall"
+   },
+   {
+    "t": "ins",
+    "s": ", unless the entity shows that the certification was made in good faith,"
+   },
+   {
+    "t": "eq",
+    "s": " be subject to a fine, to be determined by the Director, the amount of which shall be not less than 3 times the amount that the entity failed to pay as a result of the false certification, whether the Director discovers the false certification before or after the date on which a patent has been issued."
+   }
+  ],
+  "fingerprints": {
+   "before": "963b8d7a9b396b14afac0f8c8ead512e701dbdafd1506d9183a5853a89d897b9",
+   "after": "f79c05a7c4f5a28880455bf6dd07f826bd542252a79c7ce5d73adc21ae3974da",
+   "edition_from": "dd3d07cf89f3bc17fbc612c6fb900b01e40d0904671fc7c9ce4da6b278af57c8",
+   "edition_to": "33417d938bc88cb36125b765e96a87618299c869c6a9b206a7290657f17055de",
+   "law": "3aacc361b571ed110d1fefc9864476d5d9a7b23d33970fba010167de6d826952"
+  },
+  "dates": {
+   "enacted": "2024-12-17",
+   "effective": null,
+   "edition_current_through": "2025-01-06",
+   "edition_year": 2024,
+   "edition": "2024",
+   "recorded": "2026-10-27"
+  },
+  "publisher_notes": [
+   {
+    "year": 2024,
+    "location": "Subsec. (f)",
+    "text": "Subsec. (f). Pub. L. 118–151 inserted \", unless the entity shows that the certification was made in good faith,\" before \"be subject\"."
+   }
+  ],
+  "date_notes": [],
+  "summary_key": "ecc7b7df44191fa12f0730afde4e6138a5f5d74ed0a8220aa403c7a3d9c4bdd7",
+  "summary": "Inserted \", unless the entity shows that the certification was made in good faith,\" in section 123(f) of title 35 before \"be subject\".",
+  "summary_source": "model, checked",
+  "applies": {
+   "in_force": {
+    "date": "2024-12-17",
+    "basis": "enactment",
+    "words": "",
+    "source": "",
+    "condition": null
+   },
+   "to": []
+  }
+ }
+]

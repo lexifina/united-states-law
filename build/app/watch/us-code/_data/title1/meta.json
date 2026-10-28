@@ -1,0 +1,501 @@
+{
+ "title": 1,
+ "title_name": "General Provisions",
+ "method_version": "1",
+ "generated_at": "2026-10-27T00:55:11+00:00",
+ "editions": [
+  {
+   "key": "2017",
+   "label": "2017 edition",
+   "kind": "edition",
+   "year": 2017,
+   "current_through": "2018-01-12",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2017-title1/html/USCODE-2017-title1.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2017-title1",
+   "sha256": "e5428f9adbda1ffe1ebf29018c0a1c5b160bf44d320b6368f1eb5c77a5dec7fa",
+   "fetched_at": "2026-10-26T20:53:35+00:00",
+   "sections": 39,
+   "wayback": "http://web.archive.org/web/20250214063636/https://www.govinfo.gov/content/pkg/USCODE-2017-title1/html/USCODE-2017-title1.htm"
+  },
+  {
+   "key": "2018",
+   "label": "2018 edition",
+   "kind": "edition",
+   "year": 2018,
+   "current_through": "2019-01-14",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2018-title1/html/USCODE-2018-title1.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2018-title1",
+   "sha256": "7265936652fb6f692122082e5c6870d4b5847d2f49c14278fda9e4515edde2f4",
+   "fetched_at": "2026-10-26T20:53:36+00:00",
+   "sections": 39,
+   "wayback": "http://web.archive.org/web/20250204035225/https://www.govinfo.gov/content/pkg/USCODE-2018-title1/html/USCODE-2018-title1.htm"
+  },
+  {
+   "key": "2019",
+   "label": "2019 edition",
+   "kind": "edition",
+   "year": 2019,
+   "current_through": "2020-01-24",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2019-title1/html/USCODE-2019-title1.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2019-title1",
+   "sha256": "6544bfbeaeb277b5e7f56d328ebab15914b3214d697d49de206e42344799fa2e",
+   "fetched_at": "2026-10-26T20:53:38+00:00",
+   "sections": 39,
+   "wayback": "http://web.archive.org/web/20250214001704/https://www.govinfo.gov/content/pkg/USCODE-2019-title1/html/USCODE-2019-title1.htm"
+  },
+  {
+   "key": "2020",
+   "label": "2020 edition",
+   "kind": "edition",
+   "year": 2020,
+   "current_through": "2021-01-13",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2020-title1/html/USCODE-2020-title1.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2020-title1",
+   "sha256": "f5896bd2132fc2d1c3241cc6d2988d5b86064bc521e8bffd1f3d814806420d8b",
+   "fetched_at": "2026-10-26T20:53:40+00:00",
+   "sections": 39,
+   "wayback": "http://web.archive.org/web/20250216165227/https://www.govinfo.gov/content/pkg/USCODE-2020-title1/html/USCODE-2020-title1.htm"
+  },
+  {
+   "key": "2021",
+   "label": "2021 edition",
+   "kind": "edition",
+   "year": 2021,
+   "current_through": "2022-01-02",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2021-title1/html/USCODE-2021-title1.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2021-title1",
+   "sha256": "8ca0d8c31483d96524e9f4df81f49763927d01b1d546f3192217c896ff2e7d17",
+   "fetched_at": "2026-10-26T20:53:41+00:00",
+   "sections": 39,
+   "wayback": "http://web.archive.org/web/20250214025952/https://www.govinfo.gov/content/pkg/USCODE-2021-title1/html/USCODE-2021-title1.htm"
+  },
+  {
+   "key": "2022",
+   "label": "2022 edition",
+   "kind": "edition",
+   "year": 2022,
+   "current_through": "2023-01-05",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2022-title1/html/USCODE-2022-title1.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2022-title1",
+   "sha256": "b55b4b080df0a4b36f84a480602ce49435cc82913d9b0fbb52bf3db43c94864c",
+   "fetched_at": "2026-10-26T20:53:43+00:00",
+   "sections": 39,
+   "wayback": "http://web.archive.org/web/20250226015320/https://www.govinfo.gov/content/pkg/USCODE-2022-title1/html/USCODE-2022-title1.htm"
+  },
+  {
+   "key": "2023",
+   "label": "2023 edition",
+   "kind": "edition",
+   "year": 2023,
+   "current_through": "2024-01-03",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title1/html/USCODE-2023-title1.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2023-title1",
+   "sha256": "b59a4f85e656bfc136973ba36d04232d2ddf9b45b8dd23f2f874eb8489cbfee1",
+   "fetched_at": "2026-10-26T20:53:45+00:00",
+   "sections": 39,
+   "wayback": "http://web.archive.org/web/20251214144132/https://www.govinfo.gov/content/pkg/USCODE-2023-title1/html/USCODE-2023-title1.htm"
+  },
+  {
+   "key": "2024",
+   "label": "2024 edition",
+   "kind": "edition",
+   "year": 2024,
+   "current_through": "2025-01-06",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title1/html/USCODE-2024-title1.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2024-title1",
+   "sha256": "7c5d6b25a9a55f93e5293f80c252585a3319571f659a6530b6d532d04e29699e",
+   "fetched_at": "2026-10-26T20:53:46+00:00",
+   "sections": 39,
+   "wayback": "http://web.archive.org/web/20250705221512/https://www.govinfo.gov/content/pkg/USCODE-2024-title1/html/USCODE-2024-title1.htm"
+  },
+  {
+   "key": "pl119-73",
+   "label": "Release point 119-73",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-01-23",
+   "through_law": "119-73",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/73/htm_usc01@119-73.zip",
+   "page": "https://uscode.house.gov/download/119-73.html",
+   "sha256": "c861df211931dfbefb8532d19df4eb528922a0f864107f110b410d1ee0d23814",
+   "fetched_at": "2026-10-26T20:53:51+00:00",
+   "sections": 39,
+   "wayback": null
+  },
+  {
+   "key": "pl119-83",
+   "label": "Release point 119-83",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-04-13",
+   "through_law": "119-83",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/83/htm_usc01@119-83.zip",
+   "page": "https://uscode.house.gov/download/119-83.html",
+   "sha256": "b29e4dceaff951afaa2169ac662f25431add7250068b07b49ae22cfdc3c93d8b",
+   "fetched_at": "2026-10-26T20:53:52+00:00",
+   "sections": 39,
+   "wayback": null
+  },
+  {
+   "key": "pl119-87",
+   "label": "Release point 119-87",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-04-30",
+   "through_law": "119-87",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/87/htm_usc01@119-87.zip",
+   "page": "https://uscode.house.gov/download/119-87.html",
+   "sha256": "737d6efeb72a74ecaae857ff490f5e917c928fd7145bacfe9ef3c9ce8e05474b",
+   "fetched_at": "2026-10-26T20:53:54+00:00",
+   "sections": 39,
+   "wayback": null
+  },
+  {
+   "key": "pl119-103",
+   "label": "Release point 119-103",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-09-02",
+   "through_law": "119-103",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/103/htm_usc01@119-103.zip",
+   "page": "https://uscode.house.gov/download/119-103.html",
+   "sha256": "96687dad13714aa0989499091dbea53e72f141b29fafcedb46d5515d8861d3e5",
+   "fetched_at": "2026-10-26T20:53:56+00:00",
+   "sections": 39,
+   "wayback": null
+  },
+  {
+   "key": "pl119-134",
+   "label": "Release point 119-134",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-10-20",
+   "through_law": "119-134",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/htm_usc01@119-134.zip",
+   "page": "https://uscode.house.gov/download/119-134.html",
+   "sha256": "cb21f68b8804b88e7df9d5630fc794fa93e86292dbbd8926b68b0261782129b3",
+   "fetched_at": "2026-10-26T20:53:57+00:00",
+   "sections": 39,
+   "wayback": null
+  }
+ ],
+ "transitions": [
+  {
+   "from": "2017",
+   "to": "2018",
+   "window": [
+    "2018-01-12",
+    "2019-01-14"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2018",
+   "to": "2019",
+   "window": [
+    "2019-01-14",
+    "2020-01-24"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2019",
+   "to": "2020",
+   "window": [
+    "2020-01-24",
+    "2021-01-13"
+   ],
+   "sections_changed": [
+    "112b"
+   ],
+   "laws": [
+    "116-260"
+   ],
+   "records": [
+    "2020-116-260-112b-1"
+   ]
+  },
+  {
+   "from": "2020",
+   "to": "2021",
+   "window": [
+    "2021-01-13",
+    "2022-01-02"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2021",
+   "to": "2022",
+   "window": [
+    "2022-01-02",
+    "2023-01-05"
+   ],
+   "sections_changed": [
+    "7"
+   ],
+   "laws": [
+    "117-228"
+   ],
+   "records": [
+    "2022-117-228-7-1",
+    "2022-117-228-7-h1"
+   ]
+  },
+  {
+   "from": "2022",
+   "to": "2023",
+   "window": [
+    "2023-01-05",
+    "2024-01-03"
+   ],
+   "sections_changed": [
+    "112a",
+    "112b"
+   ],
+   "laws": [
+    "117-263"
+   ],
+   "records": [
+    "2023-117-263-112a-1",
+    "2023-117-263-112a-2",
+    "2023-117-263-112b-1",
+    "2023-117-263-112b-h1"
+   ]
+  },
+  {
+   "from": "2023",
+   "to": "2024",
+   "window": [
+    "2024-01-03",
+    "2025-01-06"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2024",
+   "to": "pl119-73",
+   "window": [
+    "2025-01-06",
+    "2026-01-23"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "pl119-73",
+   "to": "pl119-83",
+   "window": [
+    "2026-01-23",
+    "2026-04-13"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "pl119-83",
+   "to": "pl119-87",
+   "window": [
+    "2026-04-13",
+    "2026-04-30"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "pl119-87",
+   "to": "pl119-103",
+   "window": [
+    "2026-04-30",
+    "2026-09-02"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "pl119-103",
+   "to": "pl119-134",
+   "window": [
+    "2026-09-02",
+    "2026-10-20"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  }
+ ],
+ "laws": [
+  {
+   "pl": "116-260",
+   "congress": 116,
+   "number": 260,
+   "title": "Public Law 116–260:  Making consolidated appropriations for the fiscal year ending September 30, 2021, providing coronavirus emergency response and relief, and for other purposes.",
+   "short_title": "Consolidated Appropriations Act, 2021",
+   "approved": "2020-12-27",
+   "bill": {
+    "type": "HR",
+    "number": "133",
+    "congress": "116",
+    "label": "H.R. 133",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/133"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 133:",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 165 (2019):",
+    "Jan. 10, considered and passed",
+    "House.",
+    "Vol. 166 (2020):",
+    "Jan. 15, considered and passed",
+    "Senate, amended.",
+    "Dec. 21, House concurred in Senate",
+    "amendment with an amendment.",
+    "Senate concurred in House",
+    "amendment."
+   ],
+   "affected": [
+    "112b"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ260/uslm/PLAW-116publ260.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ260",
+   "sha256": "ce110e27d05c15c9ad62ae5f5b307fc1ddb7d39a8edebda8d8801744628464cb",
+   "fetched_at": "2026-10-26T16:39:18+00:00",
+   "wayback": "http://web.archive.org/web/20261010065722/https://www.govinfo.gov/app/details/PLAW-116publ260",
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2020-116-260-112b-1"
+   ],
+   "summary": "The Act amended section 112b of title 1 by adding subsection (g). [2020-116-260-112b-1] The new subsection states Congress’s sense that the executive branch should not include specific legislative text in a treaty or executive agreement without congressional authorization. [2020-116-260-112b-1]",
+   "summary_key": "a671ee81add72e025de573605d35422c486eac82453fece604390af4d3254b25",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-228",
+   "congress": 117,
+   "number": 228,
+   "title": "Public Law 117–228: To repeal the Defense of Marriage Act and ensure respect for State regulation of marriage, and for other purposes.",
+   "short_title": "Respect for Marriage Act",
+   "approved": "2022-12-13",
+   "bill": {
+    "type": "HR",
+    "number": "8404",
+    "congress": "117",
+    "label": "H.R. 8404",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/8404"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 8404:",
+    "CONGRESSIONAL RECORD, Vol. 168 (2022):",
+    "July 19, considered and passed House.",
+    "Nov. 17, 28, 29, considered and passed Senate, amended.",
+    "Dec. 8, House concurred in Senate amendment.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2022):",
+    "Dec. 13, Presidential remarks."
+   ],
+   "affected": [
+    "7"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ228/uslm/PLAW-117publ228.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ228",
+   "sha256": "a362b78b66c0cf2bd710fbe3791fdb68b5c6bfd3d88a0239463b4282dd5d1906",
+   "fetched_at": "2026-10-26T20:53:59+00:00",
+   "wayback": "http://web.archive.org/web/20260806150346/https://www.govinfo.gov/app/details/PLAW-117publ228/",
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2022-117-228-7-1",
+    "2022-117-228-7-h1"
+   ],
+   "summary": "Public Law 117-228 rewrote section 7 of title 1 to define marriage for Federal law as a marriage between 2 individuals that is valid where entered into, and it added related definitions and validity rules [2022-117-228-7-1]. It also replaced the heading for section 7 with \"Marriage\" [2022-117-228-7-h1].",
+   "summary_key": "511bc1b34b354dbbbdcf4011f85b01a7890dd472900a4645154b2f94b3ec49e6",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-263",
+   "congress": 117,
+   "number": 263,
+   "title": "Public Law 117–263: To authorize appropriations for fiscal year 2023 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+   "short_title": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023",
+   "approved": "2022-12-23",
+   "bill": {
+    "type": "HR",
+    "number": "7776",
+    "congress": "117",
+    "label": "H.R. 7776",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/7776"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 7776:",
+    "HOUSE REPORTS: No. 117-347 (Comm. on Transportation and Infrastructure).",
+    "CONGRESSIONAL RECORD, Vol. 168 (2022):",
+    "June 7, 8, considered and passed House.",
+    "July 28, considered and passed Senate, amended.",
+    "Dec. 8, House concurred in Senate amendment with an",
+    "amendment pursuant to H. Res. 1512.",
+    "Dec. 13-15, Senate considered and concurred in House",
+    "amendment.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2022):",
+    "Dec. 23, Presidential statement."
+   ],
+   "affected": [
+    "112a",
+    "112b"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ263/uslm/PLAW-117publ263.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ263",
+   "sha256": "5a4288f957c08bc6e84b3c9ba6b311d18b9eddb8685ac6a6b4eddba8c1cf228e",
+   "fetched_at": "2026-10-26T18:40:51+00:00",
+   "wayback": "http://web.archive.org/web/20261012153849/https://www.govinfo.gov/app/details/PLAW-117publ263",
+   "instructions": 5,
+   "unparsed": 0,
+   "records": [
+    "2023-117-263-112a-1",
+    "2023-117-263-112a-2",
+    "2023-117-263-112b-1",
+    "2023-117-263-112b-h1"
+   ],
+   "summary": "The law amended section 112a of title 1 to require the Department of State to make unpublished copies of certain international agreements and qualifying non-binding instruments available on request, and it struck the prior subsections in that section [2023-117-263-112a-1] [2023-117-263-112a-2]. It also rewrote section 112b of title 1 to require monthly written reports to congressional leaders and committees on international agreements and qualifying non-binding instruments, and it changed the section heading to \"United States international agreements and non-binding instruments; transparency provisions\" [2023-117-263-112b-1] [2023-117-263-112b-h1].",
+   "summary_key": "ef1d3c125fcdfb60c79cd72921803773ef59e8db921b22f48af67a2c56c0fdb4",
+   "summary_source": "model, checked"
+  }
+ ],
+ "counts": {
+  "records": 7,
+  "by_status": {
+   "replayed": 7
+  },
+  "sections_changed": 4
+ },
+ "not_shown": [
+  {
+   "law": "117-263",
+   "label": "div. E, title LIX, subtitle E, §5947(a)(2)",
+   "section": "ch2",
+   "path": "",
+   "text": "The table of sections at the beginning of chapter 2 of title 1, United States Code, is amended by striking the item relating to section 112b and inserting the following: “112b. United States international agreements and non-binding instruments; transparency provisions.”.04",
+   "note": null,
+   "reason": "table of contents only"
+  }
+ ]
+}

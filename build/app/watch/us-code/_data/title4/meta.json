@@ -1,0 +1,381 @@
+{
+ "title": 4,
+ "title_name": "Flag And Seal, Seat Of Government, And The States",
+ "method_version": "1",
+ "generated_at": "2026-10-27T00:55:39+00:00",
+ "editions": [
+  {
+   "key": "2017",
+   "label": "2017 edition",
+   "kind": "edition",
+   "year": 2017,
+   "current_through": "2018-01-12",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2017-title4/html/USCODE-2017-title4.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2017-title4",
+   "sha256": "ab66614a9e2f058000419afc832dfc8c39a8b8df3b6cb5b67e86d0894fe6de79",
+   "fetched_at": "2026-10-26T20:54:44+00:00",
+   "sections": 47,
+   "wayback": "http://web.archive.org/web/20250214030135/https://www.govinfo.gov/content/pkg/USCODE-2017-title4/html/USCODE-2017-title4.htm"
+  },
+  {
+   "key": "2018",
+   "label": "2018 edition",
+   "kind": "edition",
+   "year": 2018,
+   "current_through": "2019-01-14",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2018-title4",
+   "sha256": "0eba2cc1fa82c4e1cbfb40903406a85e1cb4b1fe826c9a402c1a9f629d494b7f",
+   "fetched_at": "2026-10-26T20:54:46+00:00",
+   "sections": 47,
+   "wayback": "http://web.archive.org/web/20250213165340/https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4.htm"
+  },
+  {
+   "key": "2019",
+   "label": "2019 edition",
+   "kind": "edition",
+   "year": 2019,
+   "current_through": "2020-01-24",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2019-title4/html/USCODE-2019-title4.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2019-title4",
+   "sha256": "9c6a1757530fe6738a1a94e020105f6fe816b5a029fb6e22cf3977f9900d2a79",
+   "fetched_at": "2026-10-26T20:54:48+00:00",
+   "sections": 47,
+   "wayback": "http://web.archive.org/web/20250731232956/https://www.govinfo.gov/content/pkg/USCODE-2019-title4/html/USCODE-2019-title4.htm"
+  },
+  {
+   "key": "2020",
+   "label": "2020 edition",
+   "kind": "edition",
+   "year": 2020,
+   "current_through": "2021-01-13",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2020-title4/html/USCODE-2020-title4.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2020-title4",
+   "sha256": "8ec5a895c5b7183d40721ddc6c34c21de06c82943234720743980723b076c803",
+   "fetched_at": "2026-10-26T20:54:50+00:00",
+   "sections": 47,
+   "wayback": "http://web.archive.org/web/20250214152903/https://www.govinfo.gov/content/pkg/USCODE-2020-title4/html/USCODE-2020-title4.htm"
+  },
+  {
+   "key": "2021",
+   "label": "2021 edition",
+   "kind": "edition",
+   "year": 2021,
+   "current_through": "2022-01-02",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2021-title4/html/USCODE-2021-title4.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2021-title4",
+   "sha256": "94669d673f0d849b7fda7dd7264714f882b01b96d001d8239d49b4fa86c2acca",
+   "fetched_at": "2026-10-26T20:54:52+00:00",
+   "sections": 47,
+   "wayback": "http://web.archive.org/web/20250214114700/https://www.govinfo.gov/content/pkg/USCODE-2021-title4/html/USCODE-2021-title4.htm"
+  },
+  {
+   "key": "2022",
+   "label": "2022 edition",
+   "kind": "edition",
+   "year": 2022,
+   "current_through": "2023-01-05",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2022-title4/html/USCODE-2022-title4.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2022-title4",
+   "sha256": "d0d8dff85b58b3744126219f5349e3eba67b41f176b50e1da64fa3ed2a022ea8",
+   "fetched_at": "2026-10-26T20:54:54+00:00",
+   "sections": 47,
+   "wayback": "http://web.archive.org/web/20250214003605/https://www.govinfo.gov/content/pkg/USCODE-2022-title4/html/USCODE-2022-title4.htm"
+  },
+  {
+   "key": "2023",
+   "label": "2023 edition",
+   "kind": "edition",
+   "year": 2023,
+   "current_through": "2024-01-03",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title4/html/USCODE-2023-title4.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2023-title4",
+   "sha256": "2f839b244f679bb9cc07d2a3fedce568d54284f18b1f744e8912f902d33b5951",
+   "fetched_at": "2026-10-26T20:54:55+00:00",
+   "sections": 47,
+   "wayback": "http://web.archive.org/web/20250515152329/https://www.govinfo.gov/content/pkg/USCODE-2023-title4/html/USCODE-2023-title4.htm"
+  },
+  {
+   "key": "2024",
+   "label": "2024 edition",
+   "kind": "edition",
+   "year": 2024,
+   "current_through": "2025-01-06",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title4/html/USCODE-2024-title4.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2024-title4",
+   "sha256": "fb659cd80c47fa7d61cd7f2c97b740c2295cd9b63b2cad96acbfe04de129cf9a",
+   "fetched_at": "2026-10-26T20:54:57+00:00",
+   "sections": 47,
+   "wayback": "http://web.archive.org/web/20260311032833/https://www.govinfo.gov/content/pkg/USCODE-2024-title4/html/USCODE-2024-title4.htm"
+  },
+  {
+   "key": "pl119-73",
+   "label": "Release point 119-73",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-01-23",
+   "through_law": "119-73",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/73/htm_usc04@119-73.zip",
+   "page": "https://uscode.house.gov/download/119-73.html",
+   "sha256": "3846ff2514e69e2b043b970f44fc71585eaa66ed935acf200bc1ed17a5460d32",
+   "fetched_at": "2026-10-26T20:55:02+00:00",
+   "sections": 47,
+   "wayback": null
+  },
+  {
+   "key": "pl119-134",
+   "label": "Release point 119-134",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-10-20",
+   "through_law": "119-134",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/htm_usc04@119-134.zip",
+   "page": "https://uscode.house.gov/download/119-134.html",
+   "sha256": "ce2947653480a6cc0533a36444c66ebb0f29b1305f60f44b7086326dc79b46f5",
+   "fetched_at": "2026-10-26T20:55:03+00:00",
+   "sections": 47,
+   "wayback": null
+  }
+ ],
+ "transitions": [
+  {
+   "from": "2017",
+   "to": "2018",
+   "window": [
+    "2018-01-12",
+    "2019-01-14"
+   ],
+   "sections_changed": [
+    "7"
+   ],
+   "laws": [
+    "115-123"
+   ],
+   "records": [
+    "2018-115-123-7-1",
+    "2018-115-123-7-2",
+    "2018-115-123-7-3",
+    "2018-115-123-7-4",
+    "2018-115-123-7-5",
+    "2018-115-123-7-6",
+    "2018-115-123-7-7"
+   ]
+  },
+  {
+   "from": "2018",
+   "to": "2019",
+   "window": [
+    "2019-01-14",
+    "2020-01-24"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2019",
+   "to": "2020",
+   "window": [
+    "2020-01-24",
+    "2021-01-13"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2020",
+   "to": "2021",
+   "window": [
+    "2021-01-13",
+    "2022-01-02"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2021",
+   "to": "2022",
+   "window": [
+    "2022-01-02",
+    "2023-01-05"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2022",
+   "to": "2023",
+   "window": [
+    "2023-01-05",
+    "2024-01-03"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2023",
+   "to": "2024",
+   "window": [
+    "2024-01-03",
+    "2025-01-06"
+   ],
+   "sections_changed": [
+    "8"
+   ],
+   "laws": [
+    "118-159"
+   ],
+   "records": [
+    "2024-118-159-8-1"
+   ]
+  },
+  {
+   "from": "2024",
+   "to": "pl119-73",
+   "window": [
+    "2025-01-06",
+    "2026-01-23"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "pl119-73",
+   "to": "pl119-134",
+   "window": [
+    "2026-01-23",
+    "2026-10-20"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  }
+ ],
+ "laws": [
+  {
+   "pl": "115-123",
+   "congress": 115,
+   "number": 123,
+   "title": "Public Law 115–123: To amend title 4, United States Code, to provide for the flying of the flag at half-staff in the event of the death of a first   responder in the line of duty.",
+   "short_title": "Bipartisan Budget Act of 2018",
+   "approved": "2018-02-09",
+   "bill": {
+    "type": "HR",
+    "number": "1892",
+    "congress": "115",
+    "label": "H.R. 1892",
+    "url": "https://www.congress.gov/bill/115th-congress/house-bill/1892"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 1892:",
+    "HOUSE REPORTS: No. 115-119 (Comm. on the Judiciary).",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 163 (2017):",
+    "May 16, 18, considered and passed",
+    "House.",
+    "Nov. 28, considered and passed",
+    "Senate, amended.",
+    "Vol. 164 (2018):",
+    "Feb. 6, House concurred in Senate",
+    "amendment with an amendment.",
+    "Feb. 7, Senate considered concurring",
+    "in House amendment with an",
+    "amendment.",
+    "Feb. 8, Senate concurred in House",
+    "amendment with an amendment.",
+    "House concurred in Senate",
+    "amendment."
+   ],
+   "affected": [
+    "7(m)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-115publ123/uslm/PLAW-115publ123.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-115publ123",
+   "sha256": "52bed83555f94997486ebfd089beae1b255476f720f63edfa6b43f201d1c9621",
+   "fetched_at": "2026-10-26T20:55:09+00:00",
+   "wayback": "http://web.archive.org/web/20260806153046/https://www.govinfo.gov/app/details/PLAW-115publ123/",
+   "instructions": 7,
+   "unparsed": 0,
+   "records": [
+    "2018-115-123-7-1",
+    "2018-115-123-7-2",
+    "2018-115-123-7-3",
+    "2018-115-123-7-4",
+    "2018-115-123-7-5",
+    "2018-115-123-7-6",
+    "2018-115-123-7-7"
+   ],
+   "summary": "Public Law 115-123 amended section 7(m) of title 4 to add the death of a first responder working in any State, territory, or possession who dies while serving in the line of duty, and to add first responders working in the District of Columbia [2018-115-123-7-2] [2018-115-123-7-4]. It also made conforming punctuation and text changes in section 7(m), including changes in section 7(m)(2) and section 7(m)(3), and added new provisions at the end of section 7(m) [2018-115-123-7-1] [2018-115-123-7-3] [2018-115-123-7-5] [2018-115-123-7-6] [2018-115-123-7-7].",
+   "summary_key": "d941a735aa81b0a8eac5ed928ab5c055773edb9ef8e91a1b63f3904528cdfd7b",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "118-159",
+   "congress": 118,
+   "number": 159,
+   "title": "Public Law 118–159: To authorize appropriations for fiscal year 2025 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+   "short_title": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025",
+   "approved": "2024-12-23",
+   "bill": {
+    "type": "HR",
+    "number": "5009",
+    "congress": "118",
+    "label": "H.R. 5009",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/5009"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 5009 (S. 2395):",
+    "HOUSE REPORTS: No. 118-366 (Comm. on Natural Resources).",
+    "SENATE REPORTS: No. 118-128 (Comm. on Environment and Public Works)",
+    "accompanying S. 2395.",
+    "CONGRESSIONAL RECORD, Vol. 170 (2024):",
+    "Feb. 5, considered and passed House.",
+    "Sept. 24, considered and passed Senate, amended.",
+    "Dec. 11, House concurred in Senate amendment with an",
+    "amendment.",
+    "Dec. 12, 16-18, Senate considered and concurred in House",
+    "amendment.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2024):",
+    "Dec. 23, Presidential statement."
+   ],
+   "affected": [
+    "8(b)",
+    "8(c)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/uslm/PLAW-118publ159.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-118publ159",
+   "sha256": "0a399fcebee0e63d1cebf9ef90c21920e87bc2dc0f52ac36a44532f6793a514a",
+   "fetched_at": "2026-10-26T18:40:58+00:00",
+   "wayback": "http://web.archive.org/web/20260927044042/https://www.govinfo.gov/app/details/PLAW-118publ159",
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2024-118-159-8-1"
+   ],
+   "summary": "Public Law 118-159 amended section 8(c) of title 4. It inserted the words “, except as may be necessary in limited circumstances and done in a respectful manner as part of a military or patriotic observance” after “aloft and free” [2024-118-159-8-1].",
+   "summary_key": "e10b6be645f160cc6d148e5e7eb67e23ffaba134deba2f52b252cb5ef89e5413",
+   "summary_source": "model, checked"
+  }
+ ],
+ "counts": {
+  "records": 8,
+  "by_status": {
+   "replayed": 8
+  },
+  "sections_changed": 2
+ },
+ "not_shown": []
+}

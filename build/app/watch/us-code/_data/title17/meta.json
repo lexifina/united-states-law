@@ -1,0 +1,1043 @@
+{
+ "title": 17,
+ "title_name": "Copyrights",
+ "method_version": "1",
+ "generated_at": "2026-10-26T23:57:24+00:00",
+ "editions": [
+  {
+   "key": "2017",
+   "label": "2017 edition",
+   "kind": "edition",
+   "year": 2017,
+   "current_through": "2018-01-12",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2017-title17/html/USCODE-2017-title17.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2017-title17",
+   "sha256": "3247e5975750a47367bbde87c5ca152e301e10d01057d8c0272fa6d1b3436285",
+   "fetched_at": "2026-10-26T18:38:08+00:00",
+   "sections": 134,
+   "wayback": "http://web.archive.org/web/20250908124446/https://www.govinfo.gov/content/pkg/USCODE-2017-title17/html/USCODE-2017-title17.htm"
+  },
+  {
+   "key": "2018",
+   "label": "2018 edition",
+   "kind": "edition",
+   "year": 2018,
+   "current_through": "2019-01-14",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2018-title17/html/USCODE-2018-title17.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2018-title17",
+   "sha256": "649cf09741a703674b317de7eff69eb319e0a54d7eb1db00b3be16b392840bb2",
+   "fetched_at": "2026-10-26T18:38:10+00:00",
+   "sections": 135,
+   "wayback": "http://web.archive.org/web/20250403214049/https://www.govinfo.gov/content/pkg/USCODE-2018-title17/html/USCODE-2018-title17.htm"
+  },
+  {
+   "key": "2019",
+   "label": "2019 edition",
+   "kind": "edition",
+   "year": 2019,
+   "current_through": "2020-01-24",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2019-title17/html/USCODE-2019-title17.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2019-title17",
+   "sha256": "5b1ce27d8af5db06147fd4f2cc324b074355c238d003bc74b43a5941a7fe05a4",
+   "fetched_at": "2026-10-26T18:38:13+00:00",
+   "sections": 135,
+   "wayback": "http://web.archive.org/web/20261009032125/https://www.govinfo.gov/content/pkg/USCODE-2019-title17/html/USCODE-2019-title17.htm"
+  },
+  {
+   "key": "2020",
+   "label": "2020 edition",
+   "kind": "edition",
+   "year": 2020,
+   "current_through": "2021-01-13",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2020-title17/html/USCODE-2020-title17.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2020-title17",
+   "sha256": "8d3493dedd1377f68d91db5263bfe914d4bc440acf2066817606f25121a74eda",
+   "fetched_at": "2026-10-26T18:38:15+00:00",
+   "sections": 147,
+   "wayback": "http://web.archive.org/web/20250204011216/https://www.govinfo.gov/content/pkg/USCODE-2020-title17/html/USCODE-2020-title17.htm"
+  },
+  {
+   "key": "2021",
+   "label": "2021 edition",
+   "kind": "edition",
+   "year": 2021,
+   "current_through": "2022-01-02",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2021-title17/html/USCODE-2021-title17.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2021-title17",
+   "sha256": "376d86d2ae258fcaa22c44db981185c5c01a74808ce36070bbcf9cc6a85bde28",
+   "fetched_at": "2026-10-26T18:38:17+00:00",
+   "sections": 147,
+   "wayback": "http://web.archive.org/web/20250213180811/https://www.govinfo.gov/content/pkg/USCODE-2021-title17/html/USCODE-2021-title17.htm"
+  },
+  {
+   "key": "2022",
+   "label": "2022 edition",
+   "kind": "edition",
+   "year": 2022,
+   "current_through": "2023-01-05",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2022-title17/html/USCODE-2022-title17.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2022-title17",
+   "sha256": "cf3b523fbb8adab01d91ef0efbde2f2a75f01cbd7097b72cd15fbb5769139cac",
+   "fetched_at": "2026-10-26T18:38:19+00:00",
+   "sections": 147,
+   "wayback": "http://web.archive.org/web/20250214053609/https://www.govinfo.gov/content/pkg/USCODE-2022-title17/html/USCODE-2022-title17.htm"
+  },
+  {
+   "key": "2023",
+   "label": "2023 edition",
+   "kind": "edition",
+   "year": 2023,
+   "current_through": "2024-01-03",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title17/html/USCODE-2023-title17.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2023-title17",
+   "sha256": "88efbf4e4fb0a792f09924286a3a1fb9a36f1f6662d006ea5e8db05b7d746339",
+   "fetched_at": "2026-10-26T18:38:22+00:00",
+   "sections": 147,
+   "wayback": "http://web.archive.org/web/20260212160210/https://www.govinfo.gov/content/pkg/USCODE-2023-title17/html/USCODE-2023-title17.htm"
+  },
+  {
+   "key": "2024",
+   "label": "2024 edition",
+   "kind": "edition",
+   "year": 2024,
+   "current_through": "2025-01-06",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title17/html/USCODE-2024-title17.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2024-title17",
+   "sha256": "5e42106e930d973551182ccf2b122311aff6a6a42642e269509b14527b250acd",
+   "fetched_at": "2026-10-26T18:38:24+00:00",
+   "sections": 147,
+   "wayback": "http://web.archive.org/web/20260201125409/https://www.govinfo.gov/content/pkg/USCODE-2024-title17/html/USCODE-2024-title17.htm"
+  },
+  {
+   "key": "pl119-73",
+   "label": "Release point 119-73",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-01-23",
+   "through_law": "119-73",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/73/htm_usc17@119-73.zip",
+   "page": "https://uscode.house.gov/download/119-73.html",
+   "sha256": "870bdc4c73215b4175c63b65b6efd85b89019c8b411ae254af622fa3d16e2664",
+   "fetched_at": "2026-10-26T18:38:29+00:00",
+   "sections": 147,
+   "wayback": null
+  },
+  {
+   "key": "pl119-134",
+   "label": "Release point 119-134",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-10-20",
+   "through_law": "119-134",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/htm_usc17@119-134.zip",
+   "page": "https://uscode.house.gov/download/119-134.html",
+   "sha256": "9a3ce5ab821406185b9679b3615bf491aaf218e48675dbc1be33ae837ca8c7c4",
+   "fetched_at": "2026-10-26T18:38:30+00:00",
+   "sections": 147,
+   "wayback": null
+  }
+ ],
+ "transitions": [
+  {
+   "from": "2017",
+   "to": "2018",
+   "window": [
+    "2018-01-12",
+    "2019-01-14"
+   ],
+   "sections_changed": [
+    "114",
+    "115",
+    "121",
+    "301",
+    "801",
+    "803",
+    "804",
+    "1401"
+   ],
+   "laws": [
+    "115-261",
+    "115-264"
+   ],
+   "records": [
+    "2018-115-264-114-1",
+    "2018-115-264-114-2",
+    "2018-115-264-114-3",
+    "2018-115-264-114-4",
+    "2018-115-264-114-5",
+    "2018-115-264-114-6",
+    "2018-115-264-114-7",
+    "2018-115-264-114-8",
+    "2018-115-264-114-9",
+    "2018-115-264-114-10",
+    "2018-115-264-114-11",
+    "2018-115-264-114-12",
+    "2018-115-264-114-13",
+    "2018-115-264-115-1",
+    "2018-115-264-115-2",
+    "2018-115-264-115-3",
+    "2018-115-264-115-4",
+    "2018-115-264-115-5",
+    "2018-115-264-115-6",
+    "2018-115-264-115-7",
+    "2018-115-261-121-1",
+    "2018-115-261-121-2",
+    "2018-115-261-121-3",
+    "2018-115-261-121-4",
+    "2018-115-261-121-5",
+    "2018-115-261-121-6",
+    "2018-115-261-121-7",
+    "2018-115-261-121-8",
+    "2018-115-261-121-9",
+    "2018-115-261-121-10",
+    "2018-115-261-121-11",
+    "2018-115-261-121-12",
+    "2018-115-261-121-13",
+    "2018-115-261-121-14",
+    "2018-115-261-121-15",
+    "2018-115-261-121-16",
+    "2018-115-264-301-1",
+    "2018-115-264-801-1",
+    "2018-115-264-801-2",
+    "2018-115-264-801-3",
+    "2018-115-264-801-4",
+    "2018-115-264-803-1",
+    "2018-115-264-803-2",
+    "2018-115-264-804-1",
+    "2018-115-264-804-2",
+    "2018-115-264-804-3",
+    "2018-115-264-804-4",
+    "2018-115-264-1401-1"
+   ]
+  },
+  {
+   "from": "2018",
+   "to": "2019",
+   "window": [
+    "2019-01-14",
+    "2020-01-24"
+   ],
+   "sections_changed": [
+    "105",
+    "119",
+    "501",
+    "701",
+    "802",
+    "803"
+   ],
+   "laws": [
+    "116-92",
+    "116-94"
+   ],
+   "records": [
+    "2019-116-92-105-1",
+    "2019-116-92-105-2",
+    "2019-116-94-119-1",
+    "2019-116-94-119-2",
+    "2019-116-94-119-3",
+    "2019-116-94-119-4",
+    "2019-116-94-119-5",
+    "2019-116-94-119-6",
+    "2019-116-94-119-7",
+    "2019-116-94-119-8",
+    "2019-116-94-119-9",
+    "2019-116-94-119-10",
+    "2019-116-94-119-11",
+    "2019-116-94-119-12",
+    "2019-116-94-119-13",
+    "2019-116-94-119-14",
+    "2019-116-94-119-15",
+    "2019-116-94-119-16",
+    "2019-116-94-119-17",
+    "2019-116-94-119-18",
+    "2019-116-94-119-19",
+    "2019-116-94-119-20",
+    "2019-116-94-119-21",
+    "2019-116-94-119-22",
+    "2019-116-94-119-23",
+    "2019-116-94-501-1",
+    "2019-116-94-701-1",
+    "2019-116-94-701-2",
+    "2019-116-94-802-1",
+    "2019-116-94-802-2",
+    "2019-116-94-803-1"
+   ]
+  },
+  {
+   "from": "2019",
+   "to": "2020",
+   "window": [
+    "2020-01-24",
+    "2021-01-13"
+   ],
+   "sections_changed": [
+    "710",
+    "1501",
+    "1502",
+    "1503",
+    "1504",
+    "1505",
+    "1506",
+    "1507",
+    "1508",
+    "1509",
+    "1510",
+    "1511"
+   ],
+   "laws": [
+    "116-136",
+    "116-260"
+   ],
+   "records": [
+    "2020-116-136-710-1",
+    "2020-116-260-1501-1",
+    "2020-116-260-1502-1",
+    "2020-116-260-1503-1",
+    "2020-116-260-1504-1",
+    "2020-116-260-1505-1",
+    "2020-116-260-1506-1",
+    "2020-116-260-1507-1",
+    "2020-116-260-1508-1",
+    "2020-116-260-1509-1",
+    "2020-116-260-1510-1",
+    "2020-116-260-1511-1"
+   ]
+  },
+  {
+   "from": "2020",
+   "to": "2021",
+   "window": [
+    "2021-01-13",
+    "2022-01-02"
+   ],
+   "sections_changed": [
+    "1301"
+   ],
+   "laws": [
+    "117-81"
+   ],
+   "records": [
+    "2021-117-81-1301-1"
+   ]
+  },
+  {
+   "from": "2021",
+   "to": "2022",
+   "window": [
+    "2022-01-02",
+    "2023-01-05"
+   ],
+   "sections_changed": [
+    "105",
+    "708"
+   ],
+   "laws": [
+    "117-201",
+    "117-263"
+   ],
+   "records": [
+    "2022-117-263-105-1",
+    "2022-117-263-105-2",
+    "2022-117-263-105-3",
+    "2022-117-263-105-4",
+    "2022-117-263-105-5",
+    "2022-117-263-105-6",
+    "2022-117-263-105-7",
+    "2022-117-263-105-8",
+    "2022-117-201-708-1"
+   ]
+  },
+  {
+   "from": "2022",
+   "to": "2023",
+   "window": [
+    "2023-01-05",
+    "2024-01-03"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2023",
+   "to": "2024",
+   "window": [
+    "2024-01-03",
+    "2025-01-06"
+   ],
+   "sections_changed": [
+    "105"
+   ],
+   "laws": [
+    "118-159"
+   ],
+   "records": [
+    "2024-118-159-105-1"
+   ]
+  },
+  {
+   "from": "2024",
+   "to": "pl119-73",
+   "window": [
+    "2025-01-06",
+    "2026-01-23"
+   ],
+   "sections_changed": [
+    "105"
+   ],
+   "laws": [
+    "119-60"
+   ],
+   "records": [
+    "pl119-73-119-60-105-1",
+    "pl119-73-119-60-105-2",
+    "pl119-73-119-60-105-3",
+    "pl119-73-119-60-105-4",
+    "pl119-73-119-60-105-5",
+    "pl119-73-119-60-105-6"
+   ]
+  },
+  {
+   "from": "pl119-73",
+   "to": "pl119-134",
+   "window": [
+    "2026-01-23",
+    "2026-10-20"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  }
+ ],
+ "laws": [
+  {
+   "pl": "115-261",
+   "congress": 115,
+   "number": 261,
+   "title": "Public Law 115–261: To amend title 17, United States Code, to implement the Marrakesh Treaty, and for other purposes.",
+   "short_title": "Marrakesh Treaty Implementation Act",
+   "approved": "2018-10-09",
+   "bill": {
+    "type": "S",
+    "number": "2559",
+    "congress": "115",
+    "label": "S. 2559",
+    "url": "https://www.congress.gov/bill/115th-congress/senate-bill/2559"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--S. 2559:",
+    "SENATE REPORTS: No. 115-261 (Comm. on the Judiciary).",
+    "CONGRESSIONAL RECORD, Vol. 164 (2018):",
+    "June 28, considered and passed Senate.",
+    "Sept. 25, considered and passed House."
+   ],
+   "affected": [],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-115publ261/uslm/PLAW-115publ261.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-115publ261",
+   "sha256": "c9bbccf257961e9ac58365ff060bb04878b0811d7b3fee6912461565f9ad48a5",
+   "fetched_at": "2026-10-26T18:38:33+00:00",
+   "wayback": "http://web.archive.org/web/20260806153020/https://www.govinfo.gov/app/details/PLAW-115publ261/",
+   "instructions": 18,
+   "unparsed": 1,
+   "records": [
+    "2018-115-261-121-1",
+    "2018-115-261-121-2",
+    "2018-115-261-121-3",
+    "2018-115-261-121-4",
+    "2018-115-261-121-5",
+    "2018-115-261-121-6",
+    "2018-115-261-121-7",
+    "2018-115-261-121-8",
+    "2018-115-261-121-9",
+    "2018-115-261-121-10",
+    "2018-115-261-121-11",
+    "2018-115-261-121-12",
+    "2018-115-261-121-13",
+    "2018-115-261-121-14",
+    "2018-115-261-121-15",
+    "2018-115-261-121-16"
+   ],
+   "summary": "Made 16 changes to title 17: changed section 121.",
+   "summary_key": "c39469df51516343a574ae722f767455c755303ad1bf02d05cd759f0573ba3bc",
+   "summary_source": "rule"
+  },
+  {
+   "pl": "115-264",
+   "congress": 115,
+   "number": 264,
+   "title": "Public Law 115–264: To modernize copyright law, and for other purposes.",
+   "short_title": "Orrin G. Hatch-Bob Goodlatte Music Modernization Act",
+   "approved": "2018-10-11",
+   "bill": {
+    "type": "HR",
+    "number": "1551",
+    "congress": "115",
+    "label": "H.R. 1551",
+    "url": "https://www.congress.gov/bill/115th-congress/house-bill/1551"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 1551:",
+    "HOUSE REPORTS: No. 115-183 (Comm. on Ways and Means).",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 163 (2017):",
+    "June 20, considered and passed",
+    "House.",
+    "Vol. 164 (2018):",
+    "Sept. 18, considered and passed",
+    "Senate, amended.",
+    "Sept. 25, House concurred in Senate",
+    "amendment.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2018):",
+    "Oct. 11, Presidential remarks and statement."
+   ],
+   "affected": [
+    "101",
+    "106(6)",
+    "114",
+    "114(f)",
+    "114(g)",
+    "114(i)",
+    "115",
+    "115(d)(3)(B)(i)",
+    "115(d)(3)(C)(i)(V)",
+    "115(e)",
+    "801(b)",
+    "803(c)(2)(E)(i)(II)",
+    "804(b)(3)(B)",
+    "804(b)(3)(C)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-115publ264/uslm/PLAW-115publ264.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-115publ264",
+   "sha256": "4f6e5575db1f3bcf24ba54f5835c5fa9e210e529ba7b63cd25091e402059c403",
+   "fetched_at": "2026-10-26T18:38:36+00:00",
+   "wayback": "http://web.archive.org/web/20260806153443/https://www.govinfo.gov/app/details/PLAW-115publ264/",
+   "instructions": 32,
+   "unparsed": 0,
+   "records": [
+    "2018-115-264-114-1",
+    "2018-115-264-114-2",
+    "2018-115-264-114-3",
+    "2018-115-264-114-4",
+    "2018-115-264-114-5",
+    "2018-115-264-114-6",
+    "2018-115-264-114-7",
+    "2018-115-264-114-8",
+    "2018-115-264-114-9",
+    "2018-115-264-114-10",
+    "2018-115-264-114-11",
+    "2018-115-264-114-12",
+    "2018-115-264-114-13",
+    "2018-115-264-115-1",
+    "2018-115-264-115-2",
+    "2018-115-264-115-3",
+    "2018-115-264-115-4",
+    "2018-115-264-115-5",
+    "2018-115-264-115-6",
+    "2018-115-264-115-7",
+    "2018-115-264-301-1",
+    "2018-115-264-801-1",
+    "2018-115-264-801-2",
+    "2018-115-264-801-3",
+    "2018-115-264-801-4",
+    "2018-115-264-803-1",
+    "2018-115-264-803-2",
+    "2018-115-264-804-1",
+    "2018-115-264-804-2",
+    "2018-115-264-804-3",
+    "2018-115-264-804-4",
+    "2018-115-264-1401-1"
+   ],
+   "summary": "The law rewrote section 114(f) and changed section 114(g) to set new statutory royalty procedures, new distribution rules, a mechanism for letters of direction, and a rule that preempts State escheatment or abandoned property laws for covered receipts [2018-115-264-114-1] [2018-115-264-114-3] [2018-115-264-114-5] [2018-115-264-114-6] [2018-115-264-114-13]. It overhauled section 115 by changing the compulsory license rules, adding a blanket license for digital uses, and creating the mechanical licensing collective and digital licensee coordinator [2018-115-264-115-2] [2018-115-264-115-4] [2018-115-264-115-6] [2018-115-264-115-7]. It also rewrote section 301(c) to place pre-1972 sound recordings outside title 17 copyright protection, and added section 1401 to set unauthorized use rules and transition periods for those recordings [2018-115-264-301-1] [2018-115-264-1401-1].",
+   "summary_key": "dad8a3472d9c41b849eb5fc2c73a439f858570537f97e324bcb146e8bfa44ec9",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "116-92",
+   "congress": 116,
+   "number": 92,
+   "title": "Public Law 116–92: To authorize appropriations for fiscal year 2020 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+   "short_title": "National Defense Authorization Act for Fiscal Year 2020",
+   "approved": "2019-12-20",
+   "bill": {
+    "type": "S",
+    "number": "1790",
+    "congress": "116",
+    "label": "S. 1790",
+    "url": "https://www.congress.gov/bill/116th-congress/senate-bill/1790"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--S. 1790 (H.R. 2500):",
+    "HOUSE REPORTS: Nos. 116-120 and Pt. 2 (both from Comm. on Armed",
+    "Services) accompanying H.R. 2500 and 116-333 (Comm. of Conference).",
+    "SENATE REPORTS: No. 116-48 (Comm. on Armed Services).",
+    "CONGRESSIONAL RECORD, Vol. 165 (2019):",
+    "June 24-27, Sept. 12, considered and passed Senate.",
+    "Sept. 17, considered and passed House, amended.",
+    "Dec. 11, House agreed to conference report.",
+    "Dec. 12, 16, 17, Senate considered and agreed to conference",
+    "report.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2019):",
+    "Dec. 20, Presidential remarks and statement."
+   ],
+   "affected": [
+    "105"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ92/uslm/PLAW-116publ92.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ92",
+   "sha256": "0039d74b63f4a5acbdfd7f6400a77d74ce0aa17b4fb7e0c641356450516a018b",
+   "fetched_at": "2026-10-26T16:39:03+00:00",
+   "wayback": "http://web.archive.org/web/20261001020900/https://www.govinfo.gov/app/details/PLAW-116publ92",
+   "instructions": 2,
+   "unparsed": 0,
+   "records": [
+    "2019-116-92-105-1",
+    "2019-116-92-105-2"
+   ],
+   "summary": "Public Law 116-92 amended section 105 of title 17 by adding the heading “(a) In general.—” before “Copyright” and by adding subsection (b), subsection (c), and a definitions paragraph at the end of section 105 [2019-116-92-105-1] [2019-116-92-105-2].",
+   "summary_key": "1871bf2325d33e2d3c1aff0dfa0596cf6d75c8e7f6872f7acf1136836788f4ae",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "116-94",
+   "congress": 116,
+   "number": 94,
+   "title": "Public Law 116–94: Making further consolidated appropriations for the fiscal year ending September 30, 2020, and for other purposes.",
+   "short_title": "Further Consolidated Appropriations Act, 2020",
+   "approved": "2019-12-20",
+   "bill": {
+    "type": "HR",
+    "number": "1865",
+    "congress": "116",
+    "label": "H.R. 1865",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/1865"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 1865:",
+    "CONGRESSIONAL RECORD, Vol. 165 (2019):",
+    "Oct. 28, considered and passed House.",
+    "Nov. 12, considered and passed Senate, amended.",
+    "Dec. 17, House concurred in Senate amendment with an",
+    "amendment. Senate considered House amendment.",
+    "Dec. 19, Senate concurred in House amendment.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2019):",
+    "Dec. 20, Presidential statement."
+   ],
+   "affected": [
+    "119",
+    "121A",
+    "121",
+    "122(j)",
+    "1316",
+    "701(f)",
+    "708(d)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ94/uslm/PLAW-116publ94.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ94",
+   "sha256": "3ffc9803316c9ba4e75542aa2917ddf379e965bce46a9535e484e24eaf427f02",
+   "fetched_at": "2026-10-26T18:40:01+00:00",
+   "wayback": "http://web.archive.org/web/20260806152129/https://www.govinfo.gov/app/details/PLAW-116publ94/",
+   "instructions": 29,
+   "unparsed": 0,
+   "records": [
+    "2019-116-94-119-1",
+    "2019-116-94-119-2",
+    "2019-116-94-119-3",
+    "2019-116-94-119-4",
+    "2019-116-94-119-5",
+    "2019-116-94-119-6",
+    "2019-116-94-119-7",
+    "2019-116-94-119-8",
+    "2019-116-94-119-9",
+    "2019-116-94-119-10",
+    "2019-116-94-119-11",
+    "2019-116-94-119-12",
+    "2019-116-94-119-13",
+    "2019-116-94-119-14",
+    "2019-116-94-119-15",
+    "2019-116-94-119-16",
+    "2019-116-94-119-17",
+    "2019-116-94-119-18",
+    "2019-116-94-119-19",
+    "2019-116-94-119-20",
+    "2019-116-94-119-21",
+    "2019-116-94-119-22",
+    "2019-116-94-119-23",
+    "2019-116-94-501-1",
+    "2019-116-94-701-1",
+    "2019-116-94-701-2",
+    "2019-116-94-802-1",
+    "2019-116-94-802-2",
+    "2019-116-94-803-1"
+   ],
+   "summary": "The law revised section 119 of title 17 by renumbering and deleting several paragraphs and subsections, changing cross-references, and updating the cable and satellite compulsory license rules, including local-into-local service language and short market provisions [2019-116-94-119-1] [2019-116-94-119-2] [2019-116-94-119-3] [2019-116-94-119-4] [2019-116-94-119-5] [2019-116-94-119-6] [2019-116-94-119-7] [2019-116-94-119-18] [2019-116-94-119-19] [2019-116-94-119-20] [2019-116-94-119-21] [2019-116-94-119-22] [2019-116-94-119-23]. It also updated related references in section 501(e), changed pay rules for the Register and Associate Register of Copyrights in section 701(f), and revised staffing and pay provisions for the Copyright Royalty Judges in sections 802 and 803 [2019-116-94-501-1] [2019-116-94-701-1] [2019-116-94-701-2] [2019-116-94-802-1] [2019-116-94-802-2] [2019-116-94-803-1].",
+   "summary_key": "d4423f7055ac5a8c048ed3c2d4e5bd0bda587dcaadb731cb8bdc5c23dfd17ae8",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "116-136",
+   "congress": 116,
+   "number": 136,
+   "title": "Public Law 116–136: To amend the Internal Revenue Code of 1986 to repeal the excise tax on high cost employer-sponsored health coverage.",
+   "short_title": "Coronavirus Aid, Relief, and Economic Security Act",
+   "approved": "2020-03-27",
+   "bill": {
+    "type": "HR",
+    "number": "748",
+    "congress": "116",
+    "label": "H.R. 748",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/748"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 748:",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 165 (2019):",
+    "July 17, considered and passed",
+    "House.",
+    "Vol. 166 (2020):",
+    "Mar. 25, considered and passed",
+    "Senate, amended.",
+    "Mar. 27, House concurred in Senate",
+    "amendment.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2020):",
+    "Mar. 27, Presidential remarks and statement."
+   ],
+   "affected": [],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ136/uslm/PLAW-116publ136.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ136",
+   "sha256": "51d32a9220c801fbe8ed3ef96a1cf586eec3276902b9f507efeb2f12ee039f1c",
+   "fetched_at": "2026-10-26T16:31:59+00:00",
+   "wayback": "http://web.archive.org/web/20260925230049/https://www.govinfo.gov/app/details/PLAW-116publ136",
+   "instructions": 2,
+   "unparsed": 0,
+   "records": [
+    "2020-116-136-710-1"
+   ],
+   "summary": "The Coronavirus Aid, Relief, and Economic Security Act added section 710 to title 17. Section 710 gave the Register of Copyrights temporary emergency authority to toll, waive, adjust, or modify timing and procedural provisions during a qualifying national emergency [2020-116-136-710-1].",
+   "summary_key": "a72fe498113ec6f637e5d474fc01e1581161ec2b72770c14c944acb7b4dffdfd",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "116-260",
+   "congress": 116,
+   "number": 260,
+   "title": "Public Law 116–260:  Making consolidated appropriations for the fiscal year ending September 30, 2021, providing coronavirus emergency response and relief, and for other purposes.",
+   "short_title": "Consolidated Appropriations Act, 2021",
+   "approved": "2020-12-27",
+   "bill": {
+    "type": "HR",
+    "number": "133",
+    "congress": "116",
+    "label": "H.R. 133",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/133"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 133:",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 165 (2019):",
+    "Jan. 10, considered and passed",
+    "House.",
+    "Vol. 166 (2020):",
+    "Jan. 15, considered and passed",
+    "Senate, amended.",
+    "Dec. 21, House concurred in Senate",
+    "amendment with an amendment.",
+    "Senate concurred in House",
+    "amendment."
+   ],
+   "affected": [
+    "1202",
+    "1316",
+    "1502",
+    "708(d)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ260/uslm/PLAW-116publ260.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ260",
+   "sha256": "ce110e27d05c15c9ad62ae5f5b307fc1ddb7d39a8edebda8d8801744628464cb",
+   "fetched_at": "2026-10-26T16:39:18+00:00",
+   "wayback": "http://web.archive.org/web/20261010065722/https://www.govinfo.gov/app/details/PLAW-116publ260",
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2020-116-260-1501-1",
+    "2020-116-260-1502-1",
+    "2020-116-260-1503-1",
+    "2020-116-260-1504-1",
+    "2020-116-260-1505-1",
+    "2020-116-260-1506-1",
+    "2020-116-260-1507-1",
+    "2020-116-260-1508-1",
+    "2020-116-260-1509-1",
+    "2020-116-260-1510-1",
+    "2020-116-260-1511-1"
+   ],
+   "summary": "Consolidated Appropriations Act, 2021 added chapter 15 to title 17. It created the Copyright Claims Board in the Copyright Office and set out its officers, functions, procedures, and governing rules [2020-116-260-1501-1] [2020-116-260-1502-1] [2020-116-260-1503-1] [2020-116-260-1506-1]. It also made Board proceedings voluntary, set filing limits and claim rules, gave Board determinations preclusive effect and limited court enforcement and stays, and required regulations and appropriations for the new system [2020-116-260-1504-1] [2020-116-260-1505-1] [2020-116-260-1507-1] [2020-116-260-1508-1] [2020-116-260-1509-1] [2020-116-260-1510-1] [2020-116-260-1511-1].",
+   "summary_key": "7d60fc8e730b350ef5f3fed8a7c6345ee5b84e3593144b0fcb73ebb3aa89ea9f",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-81",
+   "congress": 117,
+   "number": 81,
+   "title": "Public Law 117–81: To authorize appropriations for fiscal year 2022 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+   "short_title": "National Defense Authorization Act for Fiscal Year 2022",
+   "approved": "2021-12-27",
+   "bill": {
+    "type": "S",
+    "number": "1605",
+    "congress": "117",
+    "label": "S. 1605",
+    "url": "https://www.congress.gov/bill/117th-congress/senate-bill/1605"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--S. 1605 (H.R. 4350):",
+    "HOUSE REPORTS: No. 117-118 and Pt. 2 (both from Comm. on Armed Services)",
+    "accompanying H.R. 4350.",
+    "CONGRESSIONAL RECORD, Vol. 167 (2021):",
+    "June 9, considered and passed Senate.",
+    "Dec. 7, considered and passed House, amended.",
+    "Dec. 8, 14, 15, Senate considered and concurred in House",
+    "amendment.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2021):",
+    "Dec. 27, Presidential statement."
+   ],
+   "affected": [
+    "1301"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ81/uslm/PLAW-117publ81.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ81",
+   "sha256": "e3522d2638ba9e91570a6e9d78b1887ab393dd1e732bdfa892f585854ffb07cd",
+   "fetched_at": "2026-10-26T18:40:41+00:00",
+   "wayback": "http://web.archive.org/web/20260907044112/https://www.govinfo.gov/app/details/PLAW-117publ81",
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2021-117-81-1301-1"
+   ],
+   "summary": "Public Law 117-81 amended section 1301(a)(3) of title 17. It replaced \"section 2320\" with \"subchapter I of chapter 275\" [2021-117-81-1301-1].",
+   "summary_key": "63e00d6c457230511c528d59975571af730ccf5ad872a5b528da51b7c04c65cc",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-201",
+   "congress": 117,
+   "number": 201,
+   "title": "Public Law 117–201: To amend title 17, United States Code, to require the Register of Copyrights to waive fees for filing an application for registration of a copyright claim in certain circumstances, and for other purposes.",
+   "short_title": "Artistic Recognition for Talented Students Act",
+   "approved": "2022-10-17",
+   "bill": {
+    "type": "S",
+    "number": "169",
+    "congress": "117",
+    "label": "S. 169",
+    "url": "https://www.congress.gov/bill/117th-congress/senate-bill/169"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--S. 169 (H.R. 704):",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 167 (2021):",
+    "July 13, considered and passed",
+    "Senate.",
+    "Vol. 168 (2022):",
+    "Sept. 19, considered and passed",
+    "House."
+   ],
+   "affected": [
+    "708"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ201/uslm/PLAW-117publ201.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ201",
+   "sha256": "6b425c8c6040c1d723c4c197e333672e8041c8bd67c626945939875991ae3e01",
+   "fetched_at": "2026-10-26T18:40:45+00:00",
+   "wayback": "http://web.archive.org/web/20260806150141/https://www.govinfo.gov/app/details/PLAW-117publ201/",
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2022-117-201-708-1"
+   ],
+   "summary": "Public Law 117-201 amended section 708 of title 17 by adding subsection (e). That new subsection waives certain registration fees for works that win a covered competition in section 708 of title 17 [2022-117-201-708-1].",
+   "summary_key": "377d777899d5eae6540b2318cfc6997baafefccabda257a46c2ba8e7bf433b25",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-263",
+   "congress": 117,
+   "number": 263,
+   "title": "Public Law 117–263: To authorize appropriations for fiscal year 2023 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+   "short_title": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023",
+   "approved": "2022-12-23",
+   "bill": {
+    "type": "HR",
+    "number": "7776",
+    "congress": "117",
+    "label": "H.R. 7776",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/7776"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 7776:",
+    "HOUSE REPORTS: No. 117-347 (Comm. on Transportation and Infrastructure).",
+    "CONGRESSIONAL RECORD, Vol. 168 (2022):",
+    "June 7, 8, considered and passed House.",
+    "July 28, considered and passed Senate, amended.",
+    "Dec. 8, House concurred in Senate amendment with an",
+    "amendment pursuant to H. Res. 1512.",
+    "Dec. 13-15, Senate considered and concurred in House",
+    "amendment.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2022):",
+    "Dec. 23, Presidential statement."
+   ],
+   "affected": [
+    "105"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ263/uslm/PLAW-117publ263.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ263",
+   "sha256": "5a4288f957c08bc6e84b3c9ba6b311d18b9eddb8685ac6a6b4eddba8c1cf228e",
+   "fetched_at": "2026-10-26T18:40:51+00:00",
+   "wayback": "http://web.archive.org/web/20261012153849/https://www.govinfo.gov/app/details/PLAW-117publ263",
+   "instructions": 9,
+   "unparsed": 0,
+   "records": [
+    "2022-117-263-105-1",
+    "2022-117-263-105-2",
+    "2022-117-263-105-3",
+    "2022-117-263-105-4",
+    "2022-117-263-105-5",
+    "2022-117-263-105-6",
+    "2022-117-263-105-7",
+    "2022-117-263-105-8"
+   ],
+   "summary": "The law changed section 105 of title 17 by replacing “Certain of Works” with “Certain Works” in the heading, and by replacing “The Secretary of Defense” with “A covered Secretary” in subsection (c). It also rewrote subsection (c) to separate Secretary of Defense authority from Director of National Intelligence authority, and renumbered the second subsection (c) as subsection (d) [2022-117-263-105-1] [2022-117-263-105-2] [2022-117-263-105-7] [2022-117-263-105-3]. The law added a definition of “covered Secretary” in section 105(d), added the United States Merchant Marine Academy and National Intelligence University to section 105(d)(2), and renumbered paragraph (3) as paragraph (4) [2022-117-263-105-6] [2022-117-263-105-4] [2022-117-263-105-8] [2022-117-263-105-5].",
+   "summary_key": "8c7220e31d87cb47fa517d986b9cb5036e6da4b188965c3ac716130186ec30b9",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "118-159",
+   "congress": 118,
+   "number": 159,
+   "title": "Public Law 118–159: To authorize appropriations for fiscal year 2025 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+   "short_title": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025",
+   "approved": "2024-12-23",
+   "bill": {
+    "type": "HR",
+    "number": "5009",
+    "congress": "118",
+    "label": "H.R. 5009",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/5009"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 5009 (S. 2395):",
+    "HOUSE REPORTS: No. 118-366 (Comm. on Natural Resources).",
+    "SENATE REPORTS: No. 118-128 (Comm. on Environment and Public Works)",
+    "accompanying S. 2395.",
+    "CONGRESSIONAL RECORD, Vol. 170 (2024):",
+    "Feb. 5, considered and passed House.",
+    "Sept. 24, considered and passed Senate, amended.",
+    "Dec. 11, House concurred in Senate amendment with an",
+    "amendment.",
+    "Dec. 12, 16-18, Senate considered and concurred in House",
+    "amendment.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2024):",
+    "Dec. 23, Presidential statement."
+   ],
+   "affected": [
+    "105"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/uslm/PLAW-118publ159.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-118publ159",
+   "sha256": "0a399fcebee0e63d1cebf9ef90c21920e87bc2dc0f52ac36a44532f6793a514a",
+   "fetched_at": "2026-10-26T18:40:58+00:00",
+   "wayback": "http://web.archive.org/web/20260927044042/https://www.govinfo.gov/app/details/PLAW-118publ159",
+   "instructions": 1,
+   "unparsed": 0,
+   "records": [
+    "2024-118-159-105-1"
+   ],
+   "summary": "Public Law 118-159 rewrote section 105 of title 17 [2024-118-159-105-1]. It updated the rules for covered works and federal licenses, including who may direct a license for a work made at covered institutions [2024-118-159-105-1].",
+   "summary_key": "7a3220ea9ee9c7be1b1a77a958e670bb6136f5448ed1df1faf01ff84b6ca7322",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "119-60",
+   "congress": 119,
+   "number": 60,
+   "title": "Public Law 119–60: To authorize appropriations for fiscal year 2026 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+   "short_title": "National Defense Authorization Act for Fiscal Year 2026",
+   "approved": "2025-12-18",
+   "bill": {
+    "type": "S",
+    "number": "1071",
+    "congress": "119",
+    "label": "S. 1071",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1071"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--S. 1071 (H.R. 3838) (H.R. 4275) (H.R. 5167):",
+    "HOUSE REPORTS: Nos. 119-231 (Comm. on Armed Services) accompanying H.R.",
+    "3838, 119-214 (Comm. on Transportation and Infrastructure) accompanying",
+    "H.R. 4275, and 119-389 (Permanent Select Comm. on Intelligence)",
+    "accompanying H.R. 5167.",
+    "CONGRESSIONAL RECORD, Vol. 171 (2025):",
+    "Aug. 1, considered and passed Senate.",
+    "Dec. 10, considered and passed House, amended.",
+    "Dec. 11, 15-17, Senate concurred in House amendment.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2025):",
+    "Dec. 18, Presidential statement."
+   ],
+   "affected": [
+    "105"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/uslm/PLAW-119publ60.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-119publ60",
+   "sha256": "7eb2742dc8b011fa6a7a6ec17daf459749e546a432b054e1966b6f567c216713",
+   "fetched_at": "2026-10-26T18:41:05+00:00",
+   "wayback": "http://web.archive.org/web/20260806141930/https://www.govinfo.gov/app/details/PLAW-119publ60/",
+   "instructions": 6,
+   "unparsed": 0,
+   "records": [
+    "pl119-73-119-60-105-1",
+    "pl119-73-119-60-105-2",
+    "pl119-73-119-60-105-3",
+    "pl119-73-119-60-105-4",
+    "pl119-73-119-60-105-5",
+    "pl119-73-119-60-105-6"
+   ],
+   "summary": "Public Law 119-60 amended section 105(d)(2) of title 17 by inserting “Uniformed Services University of the Health Sciences” as subparagraph (L) and redesignating former subparagraphs (L) through (N) as (M) through (O) [pl119-73-119-60-105-1] [pl119-73-119-60-105-2]. It also updated section 105(c)(1) through (4) to match the new lettering in subsection (d)(2), replacing the older cross-references with the new subparagraph references [pl119-73-119-60-105-3] [pl119-73-119-60-105-4] [pl119-73-119-60-105-5] [pl119-73-119-60-105-6].",
+   "summary_key": "b1303605b1b34f6a8ae4e606eb51ea08a70ab737a06996f8a2ee98a10d20b2cc",
+   "summary_source": "model, checked"
+  }
+ ],
+ "counts": {
+  "records": 108,
+  "by_status": {
+   "replayed": 108
+  },
+  "sections_changed": 31
+ },
+ "not_shown": [
+  {
+   "law": "115-261",
+   "label": "§2(a)(2)",
+   "section": "ch1",
+   "path": "",
+   "text": "Chapter 1 of title 17, United States Code, is amended— by inserting after section 121 the following:“§ 121A. Limitations on exclusive rights: reproduction for blind or other people with disabilities in Marrakesh Treaty countries“(a) Notwithstanding the provisions of sections 106 and 602, it is not an infringement of copyright for an authorized entity, acting pursuant to this section, to export copies or phonorecords of a previously published literary work or of a previously published musical work that has been fixed in the form of text or notation in accessible formats to another country when ",
+   "note": null,
+   "reason": "wording not read automatically"
+  },
+  {
+   "law": "115-261",
+   "label": "§2(b)",
+   "section": "ch1",
+   "path": "",
+   "text": "The table of sections for chapter 1 of title 17, United States Code, is amended by inserting after the item relating to section 121 the following: “121A. Limitations on exclusive rights: reproduction for blind or other people with disabilities in Marrakesh Treaty countries.”.04",
+   "note": null,
+   "reason": "table of contents only"
+  }
+ ]
+}

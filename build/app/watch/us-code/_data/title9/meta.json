@@ -1,0 +1,338 @@
+{
+ "title": 9,
+ "title_name": "Arbitration",
+ "method_version": "1",
+ "generated_at": "2026-10-26T20:05:29+00:00",
+ "editions": [
+  {
+   "key": "2017",
+   "label": "2017 edition",
+   "kind": "edition",
+   "year": 2017,
+   "current_through": "2018-01-12",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2017-title9/html/USCODE-2017-title9.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2017-title9",
+   "sha256": "2823a6a92af6f0966a6896d1395b1d5f8c8844810ddc92456bac1173186299e4",
+   "fetched_at": "2026-10-26T18:34:39+00:00",
+   "sections": 31,
+   "wayback": "http://web.archive.org/web/20260201013738/https://www.govinfo.gov/content/pkg/USCODE-2017-title9/html/USCODE-2017-title9.htm"
+  },
+  {
+   "key": "2018",
+   "label": "2018 edition",
+   "kind": "edition",
+   "year": 2018,
+   "current_through": "2019-01-14",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2018-title9/html/USCODE-2018-title9.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2018-title9",
+   "sha256": "71edc1895e2dac5057707cd1bc63c9a11e4fd89b7e03cfc27bbb7bde7298411e",
+   "fetched_at": "2026-10-26T18:34:40+00:00",
+   "sections": 31,
+   "wayback": "http://web.archive.org/web/20250708193518/https://www.govinfo.gov/content/pkg/USCODE-2018-title9/html/USCODE-2018-title9.htm"
+  },
+  {
+   "key": "2019",
+   "label": "2019 edition",
+   "kind": "edition",
+   "year": 2019,
+   "current_through": "2020-01-24",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2019-title9/html/USCODE-2019-title9.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2019-title9",
+   "sha256": "598f8b827b97200be5ad49a8fdd794dc50fbbeee21ebb2dfa31c8d9dd435bd4a",
+   "fetched_at": "2026-10-26T18:34:42+00:00",
+   "sections": 31,
+   "wayback": "http://web.archive.org/web/20260830084503/https://www.govinfo.gov/content/pkg/USCODE-2019-title9/html/USCODE-2019-title9.htm"
+  },
+  {
+   "key": "2020",
+   "label": "2020 edition",
+   "kind": "edition",
+   "year": 2020,
+   "current_through": "2021-01-13",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2020-title9/html/USCODE-2020-title9.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2020-title9",
+   "sha256": "0f9fde9775ba43098fbea84caa34b98f6f76260ffb60762337129e1af448a65f",
+   "fetched_at": "2026-10-26T18:34:44+00:00",
+   "sections": 31,
+   "wayback": "http://web.archive.org/web/20250807170100/https://www.govinfo.gov/content/pkg/USCODE-2020-title9/html/USCODE-2020-title9.htm"
+  },
+  {
+   "key": "2021",
+   "label": "2021 edition",
+   "kind": "edition",
+   "year": 2021,
+   "current_through": "2022-01-02",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2021-title9/html/USCODE-2021-title9.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2021-title9",
+   "sha256": "4f3039873418ebe117b9eb0a718b072b3e115f76d328c8767db10c920fdb4005",
+   "fetched_at": "2026-10-26T18:34:45+00:00",
+   "sections": 31,
+   "wayback": "http://web.archive.org/web/20250213184839/https://www.govinfo.gov/content/pkg/USCODE-2021-title9/html/USCODE-2021-title9.htm"
+  },
+  {
+   "key": "2022",
+   "label": "2022 edition",
+   "kind": "edition",
+   "year": 2022,
+   "current_through": "2023-01-05",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2022-title9/html/USCODE-2022-title9.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2022-title9",
+   "sha256": "697a854f3536e2ec648aa3e0f7bef9630b76baf97c36cfbe16d29c92f7d50a93",
+   "fetched_at": "2026-10-26T18:34:47+00:00",
+   "sections": 33,
+   "wayback": "http://web.archive.org/web/20250427211233/https://www.govinfo.gov/content/pkg/USCODE-2022-title9/html/USCODE-2022-title9.htm"
+  },
+  {
+   "key": "2023",
+   "label": "2023 edition",
+   "kind": "edition",
+   "year": 2023,
+   "current_through": "2024-01-03",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title9/html/USCODE-2023-title9.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2023-title9",
+   "sha256": "d288c7c3b0383560656478125f9179782b965b739dd1beef72ffa3aa6de13d9d",
+   "fetched_at": "2026-10-26T18:34:48+00:00",
+   "sections": 33,
+   "wayback": "http://web.archive.org/web/20250214150739/https://www.govinfo.gov/content/pkg/USCODE-2023-title9/html/USCODE-2023-title9.htm"
+  },
+  {
+   "key": "2024",
+   "label": "2024 edition",
+   "kind": "edition",
+   "year": 2024,
+   "current_through": "2025-01-06",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title9/html/USCODE-2024-title9.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2024-title9",
+   "sha256": "67fb04b2af6d2215ff710fc7bf20882efb93efe102d50a617b852befcaa57bc7",
+   "fetched_at": "2026-10-26T18:34:50+00:00",
+   "sections": 33,
+   "wayback": "http://web.archive.org/web/20260729100937/https://www.govinfo.gov/content/pkg/USCODE-2024-title9/html/USCODE-2024-title9.htm"
+  },
+  {
+   "key": "pl119-73",
+   "label": "Release point 119-73",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-01-23",
+   "through_law": "119-73",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/73/htm_usc09@119-73.zip",
+   "page": "https://uscode.house.gov/download/119-73.html",
+   "sha256": "732950012f00d7d987488955f9e3c023e63aae529711e195d98684cb3728fc02",
+   "fetched_at": "2026-10-26T18:34:55+00:00",
+   "sections": 33,
+   "wayback": null
+  },
+  {
+   "key": "pl119-134",
+   "label": "Release point 119-134",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-10-20",
+   "through_law": "119-134",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/htm_usc09@119-134.zip",
+   "page": "https://uscode.house.gov/download/119-134.html",
+   "sha256": "df0127483c1f91a35e8531acbff5f280bf62618390710457cecc52946721316e",
+   "fetched_at": "2026-10-26T18:34:56+00:00",
+   "sections": 33,
+   "wayback": null
+  }
+ ],
+ "transitions": [
+  {
+   "from": "2017",
+   "to": "2018",
+   "window": [
+    "2018-01-12",
+    "2019-01-14"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2018",
+   "to": "2019",
+   "window": [
+    "2019-01-14",
+    "2020-01-24"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2019",
+   "to": "2020",
+   "window": [
+    "2020-01-24",
+    "2021-01-13"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2020",
+   "to": "2021",
+   "window": [
+    "2021-01-13",
+    "2022-01-02"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2021",
+   "to": "2022",
+   "window": [
+    "2022-01-02",
+    "2023-01-05"
+   ],
+   "sections_changed": [
+    "2",
+    "208",
+    "307",
+    "401",
+    "402"
+   ],
+   "laws": [
+    "117-90"
+   ],
+   "records": [
+    "2022-117-90-2-1",
+    "2022-117-90-208-1",
+    "2022-117-90-307-1",
+    "2022-117-90-401-1",
+    "2022-117-90-402-1",
+    "2022-117-90-208-h1",
+    "2022-117-90-307-h1"
+   ]
+  },
+  {
+   "from": "2022",
+   "to": "2023",
+   "window": [
+    "2023-01-05",
+    "2024-01-03"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2023",
+   "to": "2024",
+   "window": [
+    "2024-01-03",
+    "2025-01-06"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2024",
+   "to": "pl119-73",
+   "window": [
+    "2025-01-06",
+    "2026-01-23"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "pl119-73",
+   "to": "pl119-134",
+   "window": [
+    "2026-01-23",
+    "2026-10-20"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  }
+ ],
+ "laws": [
+  {
+   "pl": "117-90",
+   "congress": 117,
+   "number": 90,
+   "title": "Public Law 117–90: To amend title 9 of the United States Code with respect to arbitration of disputes involving sexual assault and sexual harassment.",
+   "short_title": "Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act of 2021",
+   "approved": "2022-03-03",
+   "bill": {
+    "type": "HR",
+    "number": "4445",
+    "congress": "117",
+    "label": "H.R. 4445",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/4445"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 4445 (S. 2342):",
+    "HOUSE REPORTS: No. 117-234 (Comm. on the Judiciary).",
+    "CONGRESSIONAL RECORD, Vol. 168 (2022):",
+    "Feb. 7, considered and passed House.",
+    "Feb. 10, considered and passed Senate.",
+    "DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2022):",
+    "Mar. 3, Presidential remarks."
+   ],
+   "affected": [],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ90/uslm/PLAW-117publ90.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ90",
+   "sha256": "f2a158f518b68c913d2188d13653cf15490bc15a2b77f6d2f71b4e1e2ffc4808",
+   "fetched_at": "2026-10-26T18:34:58+00:00",
+   "wayback": "http://web.archive.org/web/20260806150227/https://www.govinfo.gov/app/details/PLAW-117publ90/",
+   "instructions": 8,
+   "unparsed": 0,
+   "records": [
+    "2022-117-90-2-1",
+    "2022-117-90-208-1",
+    "2022-117-90-307-1",
+    "2022-117-90-401-1",
+    "2022-117-90-402-1",
+    "2022-117-90-208-h1",
+    "2022-117-90-307-h1"
+   ],
+   "summary": "Made 7 changes to title 9: added sections 401 and 402 and changed sections 2, 208 and 307.",
+   "summary_key": "3a3a13d4585c0840f2a542960748b69b8b8b5a6f980e343a73cf2933b1ef47b4",
+   "summary_source": "rule"
+  }
+ ],
+ "counts": {
+  "records": 7,
+  "by_status": {
+   "replayed": 7
+  },
+  "sections_changed": 5
+ },
+ "not_shown": [
+  {
+   "law": "117-90",
+   "label": "§2(b)(2)(A)",
+   "section": "ch2",
+   "path": "",
+   "text": "The table of sections for chapter 2 of title 9, United States Code, is amended by striking the item relating to section 208 and inserting the following: “208. Application.”.04",
+   "note": null,
+   "reason": "table of contents only"
+  },
+  {
+   "law": "117-90",
+   "label": "§2(b)(2)(B)",
+   "section": "ch3",
+   "path": "",
+   "text": "The table of sections for chapter 3 of title 9, United States Code, is amended by striking the item relating to section 307 and inserting the following: “307. Application.”.04",
+   "note": null,
+   "reason": "table of contents only"
+  }
+ ]
+}

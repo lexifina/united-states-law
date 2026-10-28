@@ -1,0 +1,541 @@
+{
+ "title": 35,
+ "title_name": "Patents",
+ "method_version": "1",
+ "generated_at": "2026-10-27T00:56:51+00:00",
+ "editions": [
+  {
+   "key": "2017",
+   "label": "2017 edition",
+   "kind": "edition",
+   "year": 2017,
+   "current_through": "2018-01-12",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2017-title35/html/USCODE-2017-title35.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2017-title35",
+   "sha256": "5bc22e96c9986a299d416249872cf477ed1ccff64cfb20720c047703a9cf82a6",
+   "fetched_at": "2026-10-26T20:55:56+00:00",
+   "sections": 167,
+   "wayback": "http://web.archive.org/web/20250213174637/https://www.govinfo.gov/content/pkg/USCODE-2017-title35/html/USCODE-2017-title35.htm"
+  },
+  {
+   "key": "2018",
+   "label": "2018 edition",
+   "kind": "edition",
+   "year": 2018,
+   "current_through": "2019-01-14",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2018-title35/html/USCODE-2018-title35.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2018-title35",
+   "sha256": "da14f6097cb397996ee23eee60e4ca0fc00d3b3e87854134060613f750d1c2f6",
+   "fetched_at": "2026-10-26T20:55:58+00:00",
+   "sections": 167,
+   "wayback": "http://web.archive.org/web/20250402224435/https://www.govinfo.gov/content/pkg/USCODE-2018-title35/html/USCODE-2018-title35.htm"
+  },
+  {
+   "key": "2019",
+   "label": "2019 edition",
+   "kind": "edition",
+   "year": 2019,
+   "current_through": "2020-01-24",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2019-title35/html/USCODE-2019-title35.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2019-title35",
+   "sha256": "d0cf15b32ca1d50630abd1b1d746fed71aa42631a1554dd4ab27fd11c9673ab8",
+   "fetched_at": "2026-10-26T20:56:00+00:00",
+   "sections": 167,
+   "wayback": "http://web.archive.org/web/20250213215628/https://www.govinfo.gov/content/pkg/USCODE-2019-title35/html/USCODE-2019-title35.htm"
+  },
+  {
+   "key": "2020",
+   "label": "2020 edition",
+   "kind": "edition",
+   "year": 2020,
+   "current_through": "2021-01-13",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2020-title35/html/USCODE-2020-title35.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2020-title35",
+   "sha256": "c4a5ad964396236647071f3f33de995f33e9459ed37bb9855827e362f1d82e95",
+   "fetched_at": "2026-10-26T20:56:02+00:00",
+   "sections": 167,
+   "wayback": "http://web.archive.org/web/20250213213650/https://www.govinfo.gov/content/pkg/USCODE-2020-title35/html/USCODE-2020-title35.htm"
+  },
+  {
+   "key": "2021",
+   "label": "2021 edition",
+   "kind": "edition",
+   "year": 2021,
+   "current_through": "2022-01-02",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2021-title35/html/USCODE-2021-title35.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2021-title35",
+   "sha256": "ccc1e119fa5cf6dcac67b71029eb59492e12e48255d020b623e308e2a8a3e7f5",
+   "fetched_at": "2026-10-26T20:56:04+00:00",
+   "sections": 167,
+   "wayback": "http://web.archive.org/web/20250213225811/https://www.govinfo.gov/content/pkg/USCODE-2021-title35/html/USCODE-2021-title35.htm"
+  },
+  {
+   "key": "2022",
+   "label": "2022 edition",
+   "kind": "edition",
+   "year": 2022,
+   "current_through": "2023-01-05",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2022-title35/html/USCODE-2022-title35.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2022-title35",
+   "sha256": "966a53c25b2285b568f6cf67666d0ddb8fd91e66150dfb2176b1fc8e89035111",
+   "fetched_at": "2026-10-26T20:56:06+00:00",
+   "sections": 168,
+   "wayback": "http://web.archive.org/web/20250214020631/https://www.govinfo.gov/content/pkg/USCODE-2022-title35/html/USCODE-2022-title35.htm"
+  },
+  {
+   "key": "2023",
+   "label": "2023 edition",
+   "kind": "edition",
+   "year": 2023,
+   "current_through": "2024-01-03",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title35/html/USCODE-2023-title35.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2023-title35",
+   "sha256": "dd3d07cf89f3bc17fbc612c6fb900b01e40d0904671fc7c9ce4da6b278af57c8",
+   "fetched_at": "2026-10-26T20:56:08+00:00",
+   "sections": 168,
+   "wayback": "http://web.archive.org/web/20250415120322/https://www.govinfo.gov/content/pkg/USCODE-2023-title35/html/USCODE-2023-title35.htm"
+  },
+  {
+   "key": "2024",
+   "label": "2024 edition",
+   "kind": "edition",
+   "year": 2024,
+   "current_through": "2025-01-06",
+   "through_law": null,
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm",
+   "page": "https://www.govinfo.gov/app/details/USCODE-2024-title35",
+   "sha256": "33417d938bc88cb36125b765e96a87618299c869c6a9b206a7290657f17055de",
+   "fetched_at": "2026-10-26T20:56:10+00:00",
+   "sections": 168,
+   "wayback": "http://web.archive.org/web/20260224013032/https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm"
+  },
+  {
+   "key": "pl119-73",
+   "label": "Release point 119-73",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-01-23",
+   "through_law": "119-73",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/73/htm_usc35@119-73.zip",
+   "page": "https://uscode.house.gov/download/119-73.html",
+   "sha256": "b762acd2d0334826eb80b606dced3ddb22080d901fbd00111c12db8aec1b12a2",
+   "fetched_at": "2026-10-26T20:56:14+00:00",
+   "sections": 168,
+   "wayback": null
+  },
+  {
+   "key": "pl119-103",
+   "label": "Release point 119-103",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-09-02",
+   "through_law": "119-103",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/103/htm_usc35@119-103.zip",
+   "page": "https://uscode.house.gov/download/119-103.html",
+   "sha256": "af5db66aaf90a669e689ec82a4565790089ca27941c0d1049971ba6a32e7107a",
+   "fetched_at": "2026-10-26T20:56:16+00:00",
+   "sections": 168,
+   "wayback": null
+  },
+  {
+   "key": "pl119-134",
+   "label": "Release point 119-134",
+   "kind": "release_point",
+   "year": 2026,
+   "current_through": "2026-10-20",
+   "through_law": "119-134",
+   "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/htm_usc35@119-134.zip",
+   "page": "https://uscode.house.gov/download/119-134.html",
+   "sha256": "2ffd567598921d1da7648ba373144bca437706be9ae8df5eb7b50e7dddd84efb",
+   "fetched_at": "2026-10-26T20:56:18+00:00",
+   "sections": 168,
+   "wayback": null
+  }
+ ],
+ "transitions": [
+  {
+   "from": "2017",
+   "to": "2018",
+   "window": [
+    "2018-01-12",
+    "2019-01-14"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2018",
+   "to": "2019",
+   "window": [
+    "2019-01-14",
+    "2020-01-24"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2019",
+   "to": "2020",
+   "window": [
+    "2020-01-24",
+    "2021-01-13"
+   ],
+   "sections_changed": [
+    "11"
+   ],
+   "laws": [
+    "116-260"
+   ],
+   "records": [
+    "2020-116-260-11-1",
+    "2020-116-260-11-2",
+    "2020-116-260-11-3"
+   ]
+  },
+  {
+   "from": "2020",
+   "to": "2021",
+   "window": [
+    "2021-01-13",
+    "2022-01-02"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2021",
+   "to": "2022",
+   "window": [
+    "2022-01-02",
+    "2023-01-05"
+   ],
+   "sections_changed": [
+    "5",
+    "28",
+    "41",
+    "123"
+   ],
+   "laws": [
+    "117-245",
+    "117-286",
+    "117-328"
+   ],
+   "records": [
+    "2022-117-286-5-1",
+    "2022-117-286-5-2",
+    "2022-117-245-28-1",
+    "2022-117-328-41-1",
+    "2022-117-328-41-2",
+    "2022-117-328-41-3",
+    "2022-117-328-123-1"
+   ]
+  },
+  {
+   "from": "2022",
+   "to": "2023",
+   "window": [
+    "2023-01-05",
+    "2024-01-03"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "2023",
+   "to": "2024",
+   "window": [
+    "2024-01-03",
+    "2025-01-06"
+   ],
+   "sections_changed": [
+    "41",
+    "123"
+   ],
+   "laws": [
+    "118-151"
+   ],
+   "records": [
+    "2024-118-151-41-1",
+    "2024-118-151-123-1"
+   ]
+  },
+  {
+   "from": "2024",
+   "to": "pl119-73",
+   "window": [
+    "2025-01-06",
+    "2026-01-23"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "pl119-73",
+   "to": "pl119-103",
+   "window": [
+    "2026-01-23",
+    "2026-09-02"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  },
+  {
+   "from": "pl119-103",
+   "to": "pl119-134",
+   "window": [
+    "2026-09-02",
+    "2026-10-20"
+   ],
+   "sections_changed": [],
+   "laws": [],
+   "records": []
+  }
+ ],
+ "laws": [
+  {
+   "pl": "116-260",
+   "congress": 116,
+   "number": 260,
+   "title": "Public Law 116–260:  Making consolidated appropriations for the fiscal year ending September 30, 2021, providing coronavirus emergency response and relief, and for other purposes.",
+   "short_title": "Consolidated Appropriations Act, 2021",
+   "approved": "2020-12-27",
+   "bill": {
+    "type": "HR",
+    "number": "133",
+    "congress": "116",
+    "label": "H.R. 133",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/133"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 133:",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 165 (2019):",
+    "Jan. 10, considered and passed",
+    "House.",
+    "Vol. 166 (2020):",
+    "Jan. 15, considered and passed",
+    "Senate, amended.",
+    "Dec. 21, House concurred in Senate",
+    "amendment with an amendment.",
+    "Senate concurred in House",
+    "amendment."
+   ],
+   "affected": [
+    "11",
+    "42(c)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-116publ260/uslm/PLAW-116publ260.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-116publ260",
+   "sha256": "ce110e27d05c15c9ad62ae5f5b307fc1ddb7d39a8edebda8d8801744628464cb",
+   "fetched_at": "2026-10-26T16:39:18+00:00",
+   "wayback": "http://web.archive.org/web/20261010065722/https://www.govinfo.gov/app/details/PLAW-116publ260",
+   "instructions": 3,
+   "unparsed": 0,
+   "records": [
+    "2020-116-260-11-1",
+    "2020-116-260-11-2",
+    "2020-116-260-11-3"
+   ],
+   "summary": "The law amended section 11 of title 35 to make the first sentence a new subsection heading and to replace “The Director” with “(a) In General.—The Director” [2020-116-260-11-1]. It also changed the reference from “NAFTA country” to “USMCA country” and rewrote section 11 to add subsection 11(b) definitions for “USMCA country” and “WTO member country” [2020-116-260-11-2] [2020-116-260-11-3].",
+   "summary_key": "7053091d8bb0e328308237a566d743ed117a5dbf97ec28f4fd17bd0b8e6274ab",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-245",
+   "congress": 117,
+   "number": 245,
+   "title": "Public Law 117–245: To amend title 35, United States Code, to establish a competition to award certificates that can be redeemed to accelerate certain matters at the Patent and Trademark Office, and for other purposes.",
+   "short_title": "Patents for Humanity Act of 2022",
+   "approved": "2022-12-20",
+   "bill": {
+    "type": "HR",
+    "number": "5796",
+    "congress": "117",
+    "label": "H.R. 5796",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/5796"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 5796:",
+    "HOUSE REPORTS: No. 117-302 (Comm. on the Judiciary).",
+    "CONGRESSIONAL RECORD, Vol. 168 (2022):",
+    "Apr. 27, considered and passed House.",
+    "Nov. 28, considered and passed Senate, amended.",
+    "Dec. 5, 6, House considered and concurred in Senate",
+    "amendment."
+   ],
+   "affected": [],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ245/uslm/PLAW-117publ245.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ245",
+   "sha256": "81d1272d794ff028032d68e89e36dc62595136c916ba3292a3358fff02bf1882",
+   "fetched_at": "2026-10-26T20:56:34+00:00",
+   "wayback": "http://web.archive.org/web/20260806150209/https://www.govinfo.gov/app/details/PLAW-117publ245/",
+   "instructions": 2,
+   "unparsed": 0,
+   "records": [
+    "2022-117-245-28-1"
+   ],
+   "summary": "The law added section 28 to title 35 [2022-117-245-28-1]. Section 28 establishes a competition that awards certificates to accelerate certain Patent and Trademark Office matters [2022-117-245-28-1].",
+   "summary_key": "d9592e1cc095ec817c02417fe8d205f9dc01b1a4b0816621a9f4308c90f48d54",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-286",
+   "congress": 117,
+   "number": 286,
+   "title": "Public Law 117–286: To make revisions in title 5, United States Code, as necessary to keep the title current, and to make technical amendments to improve the United States Code.",
+   "short_title": "",
+   "approved": "2022-12-27",
+   "bill": {
+    "type": "HR",
+    "number": "5961",
+    "congress": "117",
+    "label": "H.R. 5961",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/5961"
+   },
+   "history": [],
+   "affected": [
+    "5(h)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ286/uslm/PLAW-117publ286.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ286",
+   "sha256": "e7fc520850c95c854fa49a5633bb3c5caefe0b175cbb4c4d025776091ae740af",
+   "fetched_at": "2026-10-26T20:54:33+00:00",
+   "wayback": "http://web.archive.org/web/20260806150413/https://www.govinfo.gov/app/details/PLAW-117publ286/",
+   "instructions": 2,
+   "unparsed": 0,
+   "records": [
+    "2022-117-286-5-1",
+    "2022-117-286-5-2"
+   ],
+   "summary": "Public Law 117-286 amended section 5(h) of title 35 by replacing “Federal Advisory Committee Act” with “Chapter 10 of Title 5” in the subsection heading [2022-117-286-5-1]. It also replaced “The Federal Advisory Committee Act (5 U.S.C. App.)” with “Chapter 10 of title 5” in section 5(h) [2022-117-286-5-2].",
+   "summary_key": "25e5d4f246ef7fb839b3c2db760ee196d548db87d685e513f35c5eac39853f05",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "117-328",
+   "congress": 117,
+   "number": 328,
+   "title": "Public Law 117–328: Making consolidated appropriations for the fiscal year ending September 30, 2023, and for providing emergency assistance for the situation in Ukraine, and for other purposes.",
+   "short_title": "Consolidated Appropriations Act, 2023",
+   "approved": "2022-12-29",
+   "bill": {
+    "type": "HR",
+    "number": "2617",
+    "congress": "117",
+    "label": "H.R. 2617",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/2617"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--H.R. 2617:",
+    "SENATE REPORTS: No. 117-164 (Comm. on Homeland Security and Governmental",
+    "Affairs).",
+    "CONGRESSIONAL RECORD:",
+    "Vol. 167 (2021):",
+    "July 26, Sept. 28, considered and",
+    "passed House.",
+    "Vol. 168 (2022):",
+    "Nov. 15, considered and passed",
+    "Senate, amended.",
+    "Dec. 14, House concurred in certain",
+    "Senate amendments, and in",
+    "another with an amendment",
+    "pursuant to H. Res. 1518.",
+    "Dec. 20-22, Senate considered and",
+    "concurred in House amendment",
+    "with an amendment.",
+    "Dec. 23, House concurred in Senate",
+    "amendment."
+   ],
+   "affected": [
+    "1note",
+    "2note",
+    "41(h)",
+    "41note",
+    "42(c)"
+   ],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ328/uslm/PLAW-117publ328.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-117publ328",
+   "sha256": "c85b2c8cb1494a52997e321f7ffbc5bdbdd9c61ad711db94a2bbad4be216188b",
+   "fetched_at": "2026-10-26T20:54:39+00:00",
+   "wayback": "http://web.archive.org/web/20260806150134/https://www.govinfo.gov/app/details/PLAW-117publ328/",
+   "instructions": 4,
+   "unparsed": 0,
+   "records": [
+    "2022-117-328-41-1",
+    "2022-117-328-41-2",
+    "2022-117-328-41-3",
+    "2022-117-328-123-1"
+   ],
+   "summary": "The law amended section 41(h)(1) of title 35 to raise the fee reduction from 50 percent to 60 percent, and amended section 41(h)(3) to raise the electronic filing fee reduction from 75 percent to 80 percent [2022-117-328-41-1] [2022-117-328-41-2]. It also added section 41(j) and section 123(f) of title 35, each requiring a fine of at least 3 times the unpaid amount for false claims or certifications of entitlement [2022-117-328-41-3] [2022-117-328-123-1].",
+   "summary_key": "60faa06f47aeb108fbc195e3e4b38e34cb74f245d411fbbbadb9514614c81e61",
+   "summary_source": "model, checked"
+  },
+  {
+   "pl": "118-151",
+   "congress": 118,
+   "number": 151,
+   "title": "Public Law 118–151: To amend title 35, United States Code, to provide a good faith exception to the imposition of fines for false assertions and certifications, and for other purposes.",
+   "short_title": "",
+   "approved": "2024-12-17",
+   "bill": {
+    "type": "S",
+    "number": "3960",
+    "congress": "118",
+    "label": "S. 3960",
+    "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3960"
+   },
+   "history": [
+    "LEGISLATIVE HISTORY--S. 3960:",
+    "CONGRESSIONAL RECORD, Vol. 170 (2024):",
+    "June 20, considered and passed Senate.",
+    "Dec. 3, considered and passed House."
+   ],
+   "affected": [],
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ151/uslm/PLAW-118publ151.xml",
+   "page": "https://www.govinfo.gov/app/details/PLAW-118publ151",
+   "sha256": "3aacc361b571ed110d1fefc9864476d5d9a7b23d33970fba010167de6d826952",
+   "fetched_at": "2026-10-26T20:56:44+00:00",
+   "wayback": "http://web.archive.org/web/20260806151542/https://www.govinfo.gov/app/details/PLAW-118publ151/",
+   "instructions": 2,
+   "unparsed": 0,
+   "records": [
+    "2024-118-151-41-1",
+    "2024-118-151-123-1"
+   ],
+   "summary": "Public Law 118–151 amended section 41(j) of title 35 to add an exception for a false assertion made in good faith before the provision that makes the entity subject to a fine [2024-118-151-41-1]. It also amended section 123(f) of title 35 to add the same good faith exception for a false certification before the provision that makes the entity subject to a fine [2024-118-151-123-1].",
+   "summary_key": "16aec373092a41198e6bd3b1a83996d9c774fc6618a51664dca4f586bffa9d83",
+   "summary_source": "model, checked"
+  }
+ ],
+ "counts": {
+  "records": 12,
+  "by_status": {
+   "replayed": 12
+  },
+  "sections_changed": 7
+ },
+ "not_shown": [
+  {
+   "law": "117-245",
+   "label": "§2(c)",
+   "section": "ch2",
+   "path": "",
+   "text": "The table of sections for chapter 2 of title 35, United States Code, is amended by adding at the end the following: “28. Award of certificates to accelerate certain matters at the Patent and Trademark Office.”.04",
+   "note": null,
+   "reason": "table of contents only"
+  }
+ ]
+}

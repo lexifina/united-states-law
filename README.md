@@ -1,5 +1,7 @@
 # Git for the US Code
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the United States Code, which global-law reads at `united-states/federal/usc/`.
+
 The text of nine titles of the United States Code, with a commit for each law on each day its changes to them took effect, since the 2017 edition. **Each commit is a law taking effect.** Its author is the public law that made the change, and its date is the day the change came into force.
 
 So the questions a lawyer asks of a statute become git commands:

@@ -4,8 +4,8 @@
   "label": "United States",
   "language": "en",
   "history_from": "2018-01-12",
-  "record_to": "2026-10-20",
-  "record_note": "Titles 1, 3, 4, 9, 11, 13, 17, 35, 39, from the 2017 annual editions to release point 119-134 (current through 2026-10-20); data built 2026-10-27.",
+  "record_to": "2026-11-03",
+  "record_note": "Titles 1, 3, 4, 9, 11, 13, 17, 26, 35, 39. Titles 1-39 (except 26) from the 2017 annual editions to release point 119-134 (current through 2026-10-20), data built 2026-10-27; title 26 (the Internal Revenue Code) from the 2017 edition to release point 119-138 (current through 2026-11-03), data built 2026-11-09, added on 2026-11-09 as an end block after the other titles. Readers order commits by the In-force trailer, not by position in the log.",
   "in_force_trailer": "In-force",
   "baseline_trailer": "Consolidated",
   "titles": [
@@ -16,6 +16,7 @@
     11,
     13,
     17,
+    26,
     35,
     39
   ],
@@ -42,5 +43,22 @@
     "note": "This published history has no Applies lines yet; the whole-Code rebuild adds them. Scope notes are in each commit message (\"Applies to ...\")."
   },
   "tool": null,
-  "law_tags": "law/<congress>-<number> (latest in-force date) and law/<congress>-<number>@<date>"
+  "law_tags": "law/<congress>-<number> (latest in-force date) and law/<congress>-<number>@<date>",
+  "end_blocks": [
+    {
+      "first": "17df0a7",
+      "after": "770df0a",
+      "subject": "The 2017 edition of the US Code, title 17: §104A, §106A, §121A"
+    },
+    {
+      "first": "dea7531",
+      "after": "437c743",
+      "subject": "The 2017 edition of the US Code, title 26"
+    }
+  ],
+  "citation": {
+    "file": "(title-[0-9]+[a-z]?)/([0-9]+[a-zA-Z0-9-]*)\\.md",
+    "cites": "(section|§) ?{n}([^0-9a-zA-Z-]|$)"
+  },
+  "checked_on": "2026-11-09"
 }

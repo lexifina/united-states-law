@@ -4,6 +4,24 @@ How this history was made and changed, newest first. Each entry says what change
 or checked, and why. [REPRODUCE.md](REPRODUCE.md) has the exact commands and versions; Lexifina's global-law repository
 keeps the log for every corpus (`CHANGELOG.md` there).
 
+## 9 November 2026
+
+**Title 26, the Internal Revenue Code**, added as an end block: 1933 sections, 3075 change records from
+44 public laws, 1757 of them reproduced the next printed version exactly by carrying out the law's
+instructions. **Title 17 §104A, §106A, §121A** added as an end block (the Marrakesh Treaty Implementation Act's §121A,
+confirmed by replay). Added as new commits after the documentation; no earlier commit or tag changed.
+
+Fixed in how the data is collected (each a general rule; titles 9, 11 and 17 rebuilt with the same records as before,
+plus §121A):
+- **Section numbers with capital letters or hyphens** (25A, 199A, 4980H, 1400Z-2, 78a-1) were dropped by the edition
+  parser, and a new section's number was lowercased (121a) or lost its hyphen. They are kept as the Code prints them.
+- **Laws that amend the Internal Revenue Code by name.** Tax laws say "Section 1 is amended" under a rule that every
+  amendment in a title "shall be considered to be made to a section or other provision of the Internal Revenue Code of
+  1986", or "Section 45Q of the Internal Revenue Code of 1986" / "of such Code". These are now read as title 26.
+- **A section added whole** by an instruction that names its neighbour ("inserting after section 121 the following:
+  § 121A") is matched to the new section.
+- **Word differences** are found line by line first, so long sections no longer take minutes each.
+
 ## 28 October 2026
 
 **The whole Code.** The history is being rebuilt with every title of the Code (1 to 54; 53 is reserved; the title

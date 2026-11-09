@@ -1,0 +1,26 @@
+Title 26 as in force on January 12, 2018: Tax Cuts and Jobs Act amendments not yet printed
+
+The first commit of this block (dea7531) gave title 26 as the 2017 edition
+prints it. Some amendments were already in force on January 12, 2018, the
+day that edition is current through, but the edition did not print them yet:
+most by Pub. L. 115-97 (the Tax Cuts and Jobs Act, enacted December 22,
+2017), and single changes by Pub. L. 115-63, Pub. L. 115-123 and Pub. L.
+116-94 that took effect on or before that day. They were first printed in
+the 2018 and 2019 editions, and each was confirmed by carrying out the law's
+instructions on the 2017 text. This commit restates the text in force on
+January 12, 2018 with them; the files it changes are listed below. Later
+commits are one law taking effect each, as before.
+
+It is a correction of the starting text, not a law taking effect: read
+2018-01-12 from this commit, not from dea7531.
+
+Kind: correction
+Corrects: dea753108eb8acbbc1196a4e9ae55fad2c01065c
+In-force: 2018-01-12
+Consolidated: 2018-01-12
+Law: Pub. L. 115-97
+Enacted: 2017-12-22
+Source: https://www.govinfo.gov/content/pkg/PLAW-115publ97/uslm/PLAW-115publ97.xml
+Co-authored-by: Pub. L. 115-63 <pl-115-63@public-law.invalid>
+Co-authored-by: Pub. L. 115-123 (Bipartisan Budget Act of 2018) <pl-115-123@public-law.invalid>
+Co-authored-by: Pub. L. 116-94 (Further Consolidated Appropriations Act, 2020) <pl-116-94@public-law.invalid>

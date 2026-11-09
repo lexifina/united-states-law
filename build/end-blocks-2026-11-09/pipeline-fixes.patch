@@ -1,0 +1,524 @@
+diff --git a/services/us_code_history/build.py b/services/us_code_history/build.py
+index b09fdaf..609532e 100644
+--- a/services/us_code_history/build.py
++++ b/services/us_code_history/build.py
+@@ -55,17 +55,31 @@ def _between(law: Law, a: Edition, b: Edition) -> bool:
+ 
+ def words_diff(before: str, after: str) -> list[dict]:
+     """Word-level differences as segments: {"t": "eq"|"del"|"ins", "s": text}."""
+-    a = re.findall(r"\s+|[\w$§%]+|[^\w\s]", before)
+-    b = re.findall(r"\s+|[\w$§%]+|[^\w\s]", after)
++    tokens = lambda s: re.findall(r"\s+|[\w$§%]+|[^\w\s]", s)  # noqa: E731
+     out: list[dict] = []
+-    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+-        if tag == "equal":
+-            out.append({"t": "eq", "s": "".join(a[i1:i2])})
+-        else:
+-            if i2 > i1:
+-                out.append({"t": "del", "s": "".join(a[i1:i2])})
+-            if j2 > j1:
+-                out.append({"t": "ins", "s": "".join(b[j1:j2])})
++
++    def words(a: list[str], b: list[str]) -> None:
++        for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
++            if tag == "equal":
++                out.append({"t": "eq", "s": "".join(a[i1:i2])})
++            else:
++                if i2 > i1:
++                    out.append({"t": "del", "s": "".join(a[i1:i2])})
++                if j2 > j1:
++                    out.append({"t": "ins", "s": "".join(b[j1:j2])})
++
++    # Lines first, then words only inside the lines that differ: a word diff over a whole long section is quadratic.
++    la, lb = before.split("\n"), after.split("\n")
++    if len(la) + len(lb) <= 8:
++        words(tokens(before), tokens(after))
++    else:
++        ka, kb = [l + "\n" for l in la], [l + "\n" for l in lb]
++        ka[-1], kb[-1] = la[-1], lb[-1]
++        for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, ka, kb, autojunk=False).get_opcodes():
++            if tag == "equal":
++                out.append({"t": "eq", "s": "".join(ka[i1:i2])})
++            else:
++                words(tokens("".join(ka[i1:i2])), tokens("".join(kb[j1:j2])))
+     merged: list[dict] = []
+     for seg in out:
+         if merged and merged[-1]["t"] == seg["t"]:
+@@ -113,9 +127,20 @@ def _residual(state: list[Line], target: list[Line]) -> list[str]:
+     return sorted(set(bad))
+ 
+ 
++def _whole(instr: Instruction, section: str) -> bool:
++    """Whether the instruction adds, replaces or strikes this section whole: a chapter or part added with its sections,
++    or "inserting after section 121 the following: § 121A", whatever provision the instruction names as its target."""
++    return instr.section != section and any(
++        (op.kind == "append_block" and section in (op.args.get("sections") or {}))
++        or (op.kind == "replace_sections" and (section in op.args["remove"] or section in op.args["sections"]))
++        for op in instr.ops)
++
++
+ def _targets(instr: Instruction, section: str, b_section: Optional[Section]) -> bool:
+     if instr.section == section:
+         return True
++    if not instr.section.startswith("ch") and _whole(instr, section):
++        return True
+     if instr.section.startswith("ch"):
+         for op in instr.ops:
+             if op.kind == "append_block" and b_section is not None and section in (op.args.get("sections") or {}):
+@@ -183,6 +208,7 @@ def build(title: int, first: int, last: int, out: Path, *, summaries: bool = Fal
+                         break
+     order = {e.key: n for n, e in enumerate(editions)}
+     laws: dict[str, Law] = {}
++    missing: set[str] = set()
+     records: list[dict] = []
+     transitions: list[dict] = []
+     replays: list[dict] = []   # the whole section after each step, where a version's change took several instructions
+@@ -191,7 +217,11 @@ def build(title: int, first: int, last: int, out: Path, *, summaries: bool = Fal
+     carried: list[tuple[Law, Instruction]] = []      # instructions the last edition did not show yet
+     unparsed: list[dict] = []
+ 
+-    floor = ""   # the start of the previous window
++    # The start of the previous window. Before the first window there is none, but a large law enacted in the year
++    # before the first version's cutoff may not all be printed in it yet (Pub. L. 115-97, enacted nine days before the
++    # 2017 edition's cutoff): such laws stay in play for the first window too, and the replay decides.
++    from datetime import date as _d, timedelta as _td
++    floor = (_d.fromisoformat(editions[0].current_through) - _td(days=365)).isoformat() if editions[0].kind == "edition" else ""
+     for a, b in zip(editions, editions[1:]):
+         window = (a.current_through, b.current_through)
+         late_laws: list[Law] = []
+@@ -200,9 +230,12 @@ def build(title: int, first: int, last: int, out: Path, *, summaries: bool = Fal
+         window_laws: list[Law] = []
+         for congress, number in sorted(wanted):
+             key = f"{congress}-{number}"
++            if key in missing:
++                continue
+             if key not in laws:
+                 law = load_law(congress, number, title=title)
+                 if law is None:
++                    missing.add(key)   # not published as USLM (before the 113th Congress): asked once per build
+                     continue
+                 laws[key] = law
+             law = laws[key]
+@@ -242,7 +275,7 @@ def build(title: int, first: int, last: int, out: Path, *, summaries: bool = Fal
+                 state = start(sa)
+                 steps = []
+                 for law, instr in chosen:
+-                    if instr.section.startswith("ch"):
++                    if instr.section.startswith("ch") or _whole(instr, number):
+                         spec = next((op.args["sections"][number] for op in instr.ops if op.kind in ("append_block", "replace_sections") and number in (op.args.get("sections") or {})), [])
+                         struck = any(op.kind == "replace_sections" and number in op.args["remove"] for op in instr.ops)
+                         before = [Line(l.path, l.level, l.text) for l in state.lines] if struck else []
+@@ -287,13 +320,14 @@ def build(title: int, first: int, last: int, out: Path, *, summaries: bool = Fal
+                 if not ops or not any(r.applied for r in ops):
+                     continue
+                 n += 1
+-                path = instr.path if not instr.section.startswith("ch") else ""
++                whole = instr.section.startswith("ch") or _whole(instr, number)
++                path = instr.path if not whole else ""
+                 in_edition = _subtree(target_lines, path)
+                 touched = {k for k, _ in canon(step["after"])} | {k for k, _ in canon(step["before"])}
+                 mismatch = sorted(p for p in residual if any(p == t or p.startswith(t) for t in touched) or (path and (p == path or p.startswith(path))))
+                 # A step is replayed when every operation applied and its result is what the edition prints: either
+                 # its own result already matches, or the provisions it touched end up matching after later steps.
+-                own_match = canon(step["after"]) == canon(in_edition) if path or instr.section.startswith("ch") else False
++                own_match = canon(step["after"]) == canon(in_edition) if path or whole else False
+                 if all(r.applied for r in ops) and (own_match or not mismatch):
+                     status = "replayed"
+                     mismatch = []
+diff --git a/services/us_code_history/editions.py b/services/us_code_history/editions.py
+index f685067..3b62c18 100644
+--- a/services/us_code_history/editions.py
++++ b/services/us_code_history/editions.py
+@@ -21,6 +21,9 @@ _FIELD = re.compile(r"<!-- field-start:(?P<name>[a-z\-]+) -->(?P<body>.*?)<!-- f
+ _PARA = re.compile(r'<p class="(?P<cls>[^"]+)">(?P<body>.*?)</p>', re.S)
+ _DESIGNATION = re.compile(r'^\((?P<d>[0-9]+[A-Za-z]*(?:-[0-9]+)?|[a-z]{1,4}|[A-Z]{1,4}|[ivxlcdm]+|[IVXLCDM]+)\)')
+ _SUP = re.compile(r"<sup>.*?</sup>", re.S)
++# A section number as the Code prints it: digits, then any letters, then an optional hyphenated part ("25A",
++# "1395w-4", "1400Z-2"). The publisher's document ids use a hyphen where the text prints an en dash.
++SECTION_NUMBER = re.compile(r"\d+[A-Za-z]*(?:-\d+[A-Za-z]*)?")
+ _NOTE_PART = re.compile(r'<(?P<tag>h4|p) class="[^"]*">(?P<body>.*?)</(?P=tag)>', re.S)
+ 
+ 
+@@ -113,21 +116,52 @@ def _block_level(cls: str) -> Optional[int]:
+ _INLINE = re.compile(r"—(?=\((?:[0-9]+[A-Z]?|[a-z]{1,4}|[A-Z]{1,4})\)\s)")
+ 
+ 
++# Some titles (7, 15, 26, 42 and others) print a provision's designation and heading as a heading element of its own,
++# "<h4 class="paragraph-head">(1) In general</h4>", with its words in the paragraph after it.
++_HEAD_LEVELS = {"subsection": 0, "paragraph": 1, "subparagraph": 2, "clause": 3, "subclause": 4, "item": 5, "subitem": 6, "subsubitem": 7}
++_BLOCK = re.compile(r'<(?P<tag>p|h4) class="(?P<cls>[^"]+)">(?P<body>.*?)</(?P=tag)>', re.S)
++
++
++def _body_class(level: int) -> str:
++    return "statutory-body" if level == 0 else f"statutory-body-{level}em"
++
++
+ def _lines(body: str) -> list[tuple[str, str]]:
+     """The statute's paragraphs as (class, text), with a list that opens after a heading's dash on a line of its own,
+-    one indent deeper, the way the provisions it holds are printed."""
++    one indent deeper, the way the provisions it holds are printed. A heading printed as an element of its own is read
++    the way the statute prints it and amending laws quote it: "(1) In general.—" followed by the provision's own words
++    when the next paragraph holds them, or on a line of its own when the provision goes straight into a list."""
+     out: list[tuple[str, str]] = []
+-    for m in _PARA.finditer(body):
++    head: Optional[tuple[int, str]] = None
++    for m in _BLOCK.finditer(body):
+         cls, text = m.group("cls"), clean(m.group("body"))
++        if m.group("tag") == "h4":
++            kind = cls[:-5] if cls.endswith("-head") else ""
++            if kind not in _HEAD_LEVELS or not text:
++                continue
++            if head:
++                out.append((_body_class(head[0]), head[1] + ".—"))
++            head = (_HEAD_LEVELS[kind], text.rstrip(".—: "))
++            continue
+         if not text:
+             continue
+         level = _level(cls)
++        if head:
++            # The provision's own words follow its heading at the provision's own indent and carry no designation.
++            if level == head[0] and not leading(text)[0]:
++                text, cls = f"{head[1]}.—{text}", _body_class(head[0])
++                level = head[0]
++            else:
++                out.append((_body_class(head[0]), head[1] + ".—"))
++            head = None
+         hit = _INLINE.search(text) if level is not None and leading(text)[0] else None
+         if hit:
+             out.append((cls, text[: hit.start() + 1]))
+             out.append((f"statutory-body-{level + 1}em", text[hit.start() + 1:]))
+         else:
+             out.append((cls, text))
++    if head:
++        out.append((_body_class(head[0]), head[1] + ".—"))
+     return out
+ 
+ 
+@@ -207,14 +241,16 @@ def parse_edition(raw: bytes, *, title: int, year: int, sha256: str, url: str, f
+         doc = mark.group("doc")
+         chunk = page[mark.end(): marks[i + 1].start() if i + 1 < len(marks) else len(page)]
+         number = doc.split("_", 1)[1] if "_" in doc else doc
+-        if not re.fullmatch(r"\d+[a-z]?", number):
+-            continue  # chapter and subchapter headings, the analysis tables
++        # Section numbers: "101", "1395w", "25A", "4980H", "78a-1", "1400Z-2". Chapter and subchapter headings, the
++        # analysis tables and bracketed placeholders for repealed or renumbered sections ("[28") are left out.
++        if not SECTION_NUMBER.fullmatch(number):
++            continue
+         fields = _fields(chunk)
+         through = mark.group("through")
+         heading = clean((fields.get("head") or fields.get("repealedhead") or [""])[0])
+         section = Section(
+             number=number,
+-            heading=re.sub(r"^§\s*" + re.escape(number) + r"\.\s*", "", heading),
++            heading=re.sub(r"^§\s*" + re.escape(number).replace(r"\-", "[-–]") + r"\.\s*", "", heading),
+             current_through=f"{through[:4]}-{through[4:6]}-{through[6:]}",
+             repealed="repealedhead" in fields or "repealsummary" in fields,
+             source_credit=clean((fields.get("sourcecredit") or [""])[0]),
+diff --git a/services/us_code_history/laws.py b/services/us_code_history/laws.py
+index 24d6327..0d82d46 100644
+--- a/services/us_code_history/laws.py
++++ b/services/us_code_history/laws.py
+@@ -22,6 +22,59 @@ LEVELS = ["section", "subsection", "paragraph", "subparagraph", "clause", "subcl
+ _LEVEL_TAGS = {_Q + name for name in LEVELS} | {_Q + n for n in ("division", "title", "subtitle", "part", "subpart", "chapter", "subchapter")}
+ _UNIT = r"(?:section|subsection|paragraph|subparagraph|clause|subclause|item|subitem)s?"
+ _SKIP = {_Q + "page", _Q + "sidenote", _Q + "footnote", _Q + "note"}
++# A section number in an amending law's words: "101", "25A", "1400Z–2" (printed with an en dash; kept with a hyphen,
++# as the Code's document ids have it).
++_SEC = r"\d+[A-Za-z]*(?:[-–]\d+[A-Za-z]*)?"
++
++
++def _sec(number: str) -> str:
++    return number.replace("–", "-")
++
++
++_IRC = r"(?:the )?Internal Revenue Code of 1986"
++_IRC_RULE = re.compile(
++    r"whenever in this (?P<unit>Act|division|title|subtitle|part|subpart|chapter|subchapter|section),? an amendment or repeal "
++    r"is expressed in terms of an amendment to,? or repeal of,? a section or other provision,? the reference shall be "
++    r"considered to be made to a section or other provision of " + _IRC, re.I)
++_IRC_UNITS = r"(?:subsection|paragraph|subparagraph|clause|subclause|item|subitem)s?"
++# "Section 45Q", "Subsection (g) of section 6695", "Paragraph (2) of section 529A(b)", "The last sentence of section
++# 179(d)(1)", "So much of section 448(c) as precedes paragraph (2)", at the start of an instruction.
++_IRC_LEAD = re.compile(
++    r"\s*(?:(?:So much of |The (?:first|second|third|fourth|last) sentence of |The heading (?:of|for) )?"
++    r"(?:" + _IRC_UNITS + r" (?P<des>(?:\([^)]+\))+)(?P<more>(?:(?:,|,? and) (?:\([^)]+\))+)*) of )?)?"
++    r"[Ss]ections? (?P<sec>" + _SEC + r")(?![\w–-])(?P<path>(?:\([^)]+\))*)", re.I)
++# "Part IV of subchapter A of chapter 1 is amended by adding at the end the following new section": the new sections
++# are matched like a chapter added whole.
++_IRC_CHAPTER = re.compile(
++    r"\s*(?:(?:Subpart|Part|Subchapter) [A-Z0-9]+ of )*(?:(?:subpart|part|subchapter) [A-Z0-9]+ of )*[Cc]hapter (?P<ch>\d+[A-Z]?)\b"
++    r"(?P<rest>[^.]{0,60})")
++
++
++def _irc_target(words: str, *, in_scope: bool) -> Optional[tuple[int, str, str]]:
++    """Title 26 target named in an instruction's own words: by "of the Internal Revenue Code of 1986" anywhere, or, in
++    a part of a law whose amendments are to that Code, by a section or chapter number at the start of the words. A
++    number followed by "of" another law or title ("Section 1001 of the Social Security Act") is not taken."""
++    # Only the reference the instruction opens with names its target; a section named later in the words ("as defined
++    # in section 7701 of the Internal Revenue Code of 1986") is not what is amended.
++    words = re.sub(r"^\s*(?:Effective [^,]{0,120},|On the date that is [^,]{0,120},|In the case of [^,]{0,120},)\s*", "", words)
++    named = re.compile(r",?\s*of (?:such Code\b|" + _IRC + r")")
++    other = re.compile(r",?\s*of (?!such Code\b|" + _IRC + r")")
++    m = _IRC_LEAD.match(words)
++    if m:
++        rest = words[m.end():]
++        rest = re.sub(r"^\s*(?:\((?:as|relating to)[^()]*(?:\([^()]*\)[^()]*)*\)|,\s*as [^,]*,)\s*", " ", rest)
++        if other.match(rest) or not (in_scope or named.match(rest)):
++            return None
++        # "Paragraph (2) of section 529A(b)" is (b)(2); a list ("Paragraphs (3) and (4) of ...") is left to the
++        # instructions below it.
++        des = m.group("des") if m.group("des") and not m.group("more") else ""
++        return 26, _sec(m.group("sec")), m.group("path") + des
++    m = _IRC_CHAPTER.match(words)
++    if m and not other.match(m.group("rest")) and (in_scope or named.match(m.group("rest"))):
++        return 26, f"ch{m.group('ch')}", ""
++    return None
++
++
+ _BILL_PATH = {"HR": "house-bill", "S": "senate-bill", "HJRES": "house-joint-resolution", "SJRES": "senate-joint-resolution"}
+ 
+ 
+@@ -141,7 +194,7 @@ def _href_target(href: str) -> Optional[tuple[int, str, str]]:
+     t = re.match(r"/us/usc/t(\d+)$", href)
+     if t:
+         return int(t.group(1)), "", ""   # the whole title: the section is named in the words below
+-    m = re.match(r"/us/usc/t(\d+)/s([0-9]+[a-z]?)((?:/[^/]+)*)", href)
++    m = re.match(r"/us/usc/t(\d+)/s([0-9]+[A-Za-z]*(?:-[0-9]+[A-Za-z]*)?)((?:/[^/]+)*)", href)
+     if not m:
+         return None
+     path = "".join(f"({p})" for p in m.group(3).split("/") if p)
+@@ -168,7 +221,7 @@ def _relative_path(words: str) -> list[tuple[str, str]]:
+     found = []
+     words = re.sub(r"\s*\(relating to [^()]*(?:\([^()]*\)[^()]*)*\)", "", words)
+     pattern = (
+-        r"\bin section (?P<sec>\d+[a-z]?)(?P<secpath>(?:\([^)]+\))*)"
++        r"\bin section (?P<sec>" + _SEC + r")(?P<secpath>(?:\([^)]+\))*)"
+         r"|\bin (?P<inner>" + _UNIT + r") \((?P<di>[^)]+)\) of (?P<outer>" + _UNIT + r") \((?P<do>[^)]+)\)"
+         r"|\bin the heading of (?P<hunit>" + _UNIT + r") \((?P<hd>[^)]+)\)(?P<hmore>(?:\([^)]+\))*)"
+         r"|\bat the end of (?P<eunit>" + _UNIT + r") \((?P<ed>[^)]+)\)(?P<emore>(?:\([^)]+\))*)"
+@@ -188,7 +241,7 @@ def _relative_path(words: str) -> list[tuple[str, str]]:
+         if m.group("nth"):
+             found.append(("nth", {"first": "1", "second": "2", "third": "3"}[m.group("nth")]))
+         if m.group("sec"):
+-            found.append(("in-section", m.group("sec")))
++            found.append(("in-section", _sec(m.group("sec"))))
+             for d in re.findall(r"\([^)]+\)", m.group("secpath") or ""):
+                 found.append(("path", d))
+             continue
+@@ -204,7 +257,9 @@ def content_sections(block) -> dict[str, list[tuple[int, str]]]:
+     out: dict[str, list[tuple[int, str]]] = {}
+     for sec in block.iter(_Q + "section"):
+         num = sec.find(_Q + "num")
+-        number = re.sub(r"[^0-9a-z]", "", (num.get("value") if num is not None and num.get("value") else "".join(num.itertext()) if num is not None else "").lower())
++        # Kept as the Code numbers it: "121A", "1400Z-2" (case and hyphen matter; an en dash becomes a hyphen).
++        raw = num.get("value") if num is not None and num.get("value") else "".join(num.itertext()) if num is not None else ""
++        number = re.sub(r"[^0-9A-Za-z-]", "", raw.replace("–", "-")).strip("-")
+         if number:
+             out[number] = _content_lines([sec], skip_heading_of=sec, base_level=-1)
+     return out
+@@ -336,6 +391,7 @@ def _ops(el) -> tuple[list[Op], bool]:
+         r"|striking Q(?P<q2>\d+) at the end(?: of [^,;]+?)? and insert(?:ing)? (?:Q(?P<r2>\d+)|a (?P<w2>period|semicolon|comma|colon))"
+         r"|striking Q(?P<q3>\d+) and insert(?:ing)? a (?P<w3>period|semicolon|comma|colon)"
+         r"|adding Q(?P<q4>\d+) at the end"
++        r"|adding an? (?P<w22>period|comma|semicolon|colon) at the end"
+         r"|adding at (?:the )?end (?:thereof )?the following(?: new (?:sentence|sentences|matter|text|flush text))?:? Q(?P<q9>\d+)"
+         r"|striking the " + end_word.format("e10") + r" after Q(?P<q10>\d+)"
+         r"|inserting Q(?P<q5>\d+) before the " + end_word.format("e5") + r"(?: at the end)?"
+@@ -361,6 +417,8 @@ def _ops(el) -> tuple[list[Op], bool]:
+             ops.append(Op("replace_end", {"old": q(g["q2"]), "new": q(g["r2"]) if g["r2"] else ends[g["w2"]]}))
+         elif g["q3"] is not None:
+             ops.append(Op("replace", {"old": q(g["q3"]), "new": ends[g["w3"]]}))
++        elif g["w22"]:
++            ops.append(Op("append_text", {"new": ends[g["w22"]]}))
+         elif g["q4"] is not None:
+             ops.append(Op("append_text", {"new": q(g["q4"])}))
+         elif g["q9"] is not None:
+@@ -413,7 +471,7 @@ def _ops(el) -> tuple[list[Op], bool]:
+     pattern = re.compile(
+         r"striking Q(?P<a1>\d+) and all that follows through Q(?P<b1>\d+) and insert(?:ing)? Q(?P<c1>\d+)"
+         r"|striking Q(?P<a2>\d+) and all that follows and insert(?:ing)? Q(?P<c2>\d+)"
+-        r"|striking Q(?P<a3>\d+)(?P<each3> each (?:subsequent )?place (?:it|such term|that term|the term) appears(?: in the text(?: and in the heading)?| in the heading)?| in (?:each|both) places? (?:it|such term) appears)? and insert(?:ing)?(?: the following:?)? Q(?P<b3>\d+)(?P<after3> each (?:subsequent )?place (?:it|such term|that term|the term) appears| in (?:each|both) places? (?:it|such term) appears)?"
++        r"|striking Q(?P<a3>\d+)(?P<each3> each (?:subsequent )?place (?:it|such term|that term|the term) appears(?: in the text(?: and in the heading)?| in the heading)?| in (?:each|both) places? (?:it|such term) appears)? (?:in the heading(?: thereof)? )?and insert(?:ing)?(?: the following:?)? Q(?P<b3>\d+)(?P<after3> each (?:subsequent )?place (?:it|such term|that term|the term) appears| in (?:each|both) places? (?:it|such term) appears)?"
+         r"|inserting Q(?P<a4>\d+) after Q(?P<b4>\d+)(?P<each4> each place (?:it|such term) appears)?"
+         r"|inserting Q(?P<a5>\d+) before Q(?P<b5>\d+)"
+         r"|striking Q(?P<a6>\d+) and all that follows(?: through the (?:period|semicolon) at the end)?(?!\s*and inserting)"
+@@ -425,8 +483,8 @@ def _ops(el) -> tuple[list[Op], bool]:
+         r"|amending (?P<unit14>" + _UNIT + r") (?P<d14>(?:\([^)]+\))+) to read as follows:? C(?P<c14>\d+)"
+         r"|striking Q(?P<a13>\d+) and insert(?:ing)? (?:the following:? )?C(?P<c13>\d+)"
+         r"|striking (?P<unit11>" + _UNIT + r") (?P<d11>(?:\([^)]+\))+(?:(?:,\s*|\s+and\s+|,\s*and\s+|\s+through\s+)(?:\([^)]+\))+)*)(?: and insert(?:ing)? the following:? C(?P<c11>\d+))?"
+-        r"|striking sections? (?P<s21>\d+[a-zA-Z]?(?:(?:,\s*|\s+and\s+|,\s*and\s+|\s+through\s+)\d+[a-zA-Z]?)*)(?! of)(?: and insert(?:ing)? the following:? C(?P<c21>\d+))?"
+-        r"|inserting (?:after|before) section \d+[a-zA-Z]? the following(?: new sections?)?:? C(?P<c22>\d+)"
++        r"|striking sections? (?P<s21>" + _SEC + r"(?:(?:,\s*|\s+and\s+|,\s*and\s+|\s+through\s+)" + _SEC + r")*)(?![\w–-])(?! of)(?: and insert(?:ing)? the following:? C(?P<c21>\d+))?"
++        r"|inserting (?:after|before) section " + _SEC + r" the following(?: new sections?)?:? C(?P<c22>\d+)"
+         r"|inserting (?P<pos23>after|before) Q(?P<a23>\d+),? the following:? Q(?P<b23>\d+)"
+         r"|redesignating (?P<from12>.+?) as (?P<to12>.+?)(?:, respectively|;|$)"
+     )
+@@ -495,7 +553,7 @@ def _ops(el) -> tuple[list[Op], bool]:
+             ops.append(Op("replace_sections", {"remove": [], "sections": content_sections(blocks[int(g["c22"])])}))
+         elif g["s21"] is not None:
+             # Whole sections struck from a title, and the sections that take their place.
+-            nums = re.findall(r"\d+[a-zA-Z]?", g["s21"])
++            nums = [_sec(x) for x in re.findall(_SEC, g["s21"])]
+             if " through " in g["s21"] and len(nums) == 2 and nums[0].isdigit() and nums[1].isdigit():
+                 nums = [str(n) for n in range(int(nums[0]), int(nums[1]) + 1)]
+             added = content_sections(blocks[int(g["c21"])]) if g["c21"] is not None else {}
+@@ -557,7 +615,7 @@ def parse_law(xml: bytes, mods: Optional[bytes], *, congress: int, number: int,
+         st = mroot.find(f".//{m}shortTitle")
+         if st is not None and st.text:
+             # GovInfo lists alternatives in one title: 'X Act" or the "Y Act'. The first is the law's name.
+-            short = re.split(r'["”]\s+or\s+the\s+["“]', st.text.strip())[0].strip(' "“”')
++            short = re.split(r'["”]\s+or\s+(?:as\s+)?the\s+["“]', st.text.strip())[0].strip(' "“”')
+         lh = mroot.find(f".//{m}legislativeHistory")
+         if lh is not None and lh.text:
+             raw = re.sub(r"&lt;br/&gt;|<br/>|&amp;lt;br/&amp;gt;", "\n", lh.text)
+@@ -599,6 +657,37 @@ def parse_law(xml: bytes, mods: Optional[bytes], *, congress: int, number: int,
+         base = up.get("identifier") if up is not None and up.get("identifier") else f"/us/pl/{congress}/{number}"
+         return base + "".join(f"/{p}" for p in parts if p)
+ 
++    # "Except as otherwise expressly provided, whenever in this title an amendment or repeal is expressed in terms of an
++    # amendment to, or repeal of, a section or other provision, the reference shall be considered to be made to a
++    # section or other provision of the Internal Revenue Code of 1986": the part of the law it names ("this title",
++    # "this subtitle", "this Act") amends that Code by section number alone.
++    irc_scopes: set[int] = set()
++    irc_nodes: list = [root]   # held so lxml keeps the same proxy objects, and so the same ids, for these elements
++    if title == 26:
++        for node in root.iter(*_LEVEL_TAGS):
++            words = " ".join(_plain(p) for p in _own_parts(node) if p.tag != _Q + "num")
++            m = _IRC_RULE.search(words)
++            if not m:
++                continue
++            unit = m.group("unit").lower()
++            if unit == "act":
++                irc_scopes.add(id(root))
++                continue
++            up = node
++            while up is not None and up.tag != _Q + unit:
++                up = up.getparent()
++            irc_nodes.append(up if up is not None else root)
++            irc_scopes.add(id(irc_nodes[-1]))
++
++    def _in_irc_scope(node) -> bool:
++        if not irc_scopes:
++            return False
++        while node is not None:
++            if id(node) in irc_scopes:
++                return True
++            node = node.getparent()
++        return False
++
+     for el in leaves.values():
+         # Walk up to the nearest provision that names a target in this title.
+         chain = []
+@@ -617,24 +706,32 @@ def parse_law(xml: bytes, mods: Optional[bytes], *, congress: int, number: int,
+                 if not target[1]:
+                     # Only the title is marked up: "Sections 16 of title 3, United States Code, is amended".
+                     # "Section 3013 (matter after paragraph (6)) of title 39": the parenthesis names the part amended.
+-                    named = re.search(r"\b[Ss]ections? (\d+[a-zA-Z]?)((?:\([^)]+\))*)(?:\s*\((?P<matter>(?:the )?matter (?:preceding|following|after|before) [^()]*\([^)]*\)[^()]*)\))? of title \d+", own_words)
++                    named = re.search(r"\b[Ss]ections? (" + _SEC + r")((?:\([^)]+\))*)(?:\s*\((?P<matter>(?:the )?matter (?:preceding|following|after|before) [^()]*\([^)]*\)[^()]*)\))? of title \d+", own_words)
+                     if named:
+-                        target = (title, named.group(1), named.group(2))
++                        target = (title, _sec(named.group(1)), named.group(2))
+                         matter = re.match(r"(?:the )?matter (preceding|following|after|before) [a-z]+ (\([^)]+\))", named.group("matter") or "")
+                         if matter:
+                             matter_scope = ("following" if matter.group(1) in ("following", "after") else "preceding", matter.group(2))
+                 break
+             # "Section 10 of such title": the title already named, within the same section of the law.
+-            such = re.search(r"\b[Ss]ections? (\d+[a-zA-Z]?)((?:\([^)]+\))*) of such title\b", own_words)
+-            if such and last_part and part_of(el) == last_part:
+-                target = (title, such.group(1), such.group(2))
++            such = re.search(r"\b[Ss]ections? (" + _SEC + r")((?:\([^)]+\))*) of such (?:title|Code)\b", own_words)
++            if such and (title == 26 or such.group(0).endswith("title")) and last_part and part_of(el) == last_part:
++                target = (title, _sec(such.group(1)), such.group(2))
+                 break
+             # Some laws name the target only in words, with no markup: "Section 11 of title 35, United States Code".
+             words_here = " ".join(_plain(p) for p in _own_parts(node) if p.tag not in (_Q + "num", _Q + "heading"))
+-            cited = re.search(r"\b[Ss]ection (\d+[a-zA-Z]?)((?:\([^)]+\))*) of title (\d+), United States Code", words_here)
++            cited = re.search(r"\b[Ss]ection (" + _SEC + r")((?:\([^)]+\))*) of title (\d+), United States Code", words_here)
+             if cited and int(cited.group(3)) == title:
+-                target = (title, cited.group(1), cited.group(2))
++                target = (title, _sec(cited.group(1)), cited.group(2))
+                 break
++            # The Internal Revenue Code of 1986 is title 26, section for section. Laws amend it by name ("Section 45Q
++            # of the Internal Revenue Code of 1986 is amended"), or, where a provision of the law says that amendments
++            # in it are to be read as amendments to that Code, by number alone ("Section 1(f)(2)(A) is amended").
++            if title == 26:
++                irc = _irc_target(words_here, in_scope=_in_irc_scope(node))
++                if irc:
++                    target = irc
++                    break
+             # "Such section is further amended": the section the instruction before this one named. Only a bare "Such
+             # section" (with no number of its own) and only within the same section of the law.
+             own = " ".join(_plain(p) for p in _own_parts(node) if p.tag not in (_Q + "num", _Q + "heading"))
+@@ -681,7 +778,7 @@ def parse_law(xml: bytes, mods: Optional[bytes], *, congress: int, number: int,
+         if not section and re.search(r"each place (?:it|such term) appears in the following sections", " ".join(scopes) + " " + top):
+             for child in el:
+                 if child.tag in _LEVEL_TAGS:
+-                    listed += re.findall(r"\b[Ss]ection (\d+[a-zA-Z]?)\b", " ".join(_plain(x) for x in _own_parts(child)))
++                    listed += re.findall(r"\b[Ss]ection (" + _SEC + r")\b", " ".join(_plain(x) for x in _own_parts(child)))
+         if listed and ops and all(op.kind in ("replace", "replace_all") for op in ops):
+             each = [Op("replace_all", op.args) for op in ops]
+             base = ident(el)
+@@ -732,11 +829,47 @@ def parse_law(xml: bytes, mods: Optional[bytes], *, congress: int, number: int,
+                 break
+             up = up.getparent()
+         instr.context = " ".join(c for c in ctx if c)[:800]
+-        law.instructions.append(instr)
++        each = _each_targets(top, section, title)
++        if len(each) > 1:
++            # "Subparagraphs (B) and (C) of section 1256(e)(3) are each amended", "Sections 22(c)(3), 104(b)(2), and
++            # 140(a)(3) are each amended": the same change made in every provision named, one instruction each.
++            first_sec, first_path = each[0]
++            extra = path[len(first_path):] if path.startswith(first_path) else ""
++            base = instr.identifier
++            for n, (sec, p) in enumerate(each):
++                copy = Instruction(identifier=base if n == 0 else f"{base}#{n}", label=instr.label, title=title, section=sec,
++                                   path=p + extra, text=instr.text, ops=list(instr.ops), unparsed=instr.unparsed,
++                                   effective=instr.effective, timing=instr.timing, order=len(law.instructions),
++                                   context=instr.context, heading=instr.heading)
++                law.instructions.append(copy)
++        else:
++            law.instructions.append(instr)
+         last_section, last_part, last_path = section, part_of(el), path
+     return law
+ 
+ 
++_EACH_SECTIONS = re.compile(
++    r"^\s*Sections (?P<list>" + _SEC + r"(?:\([^)]+\))*(?:(?:,\s*(?:and\s+)?|\s+and\s+)" + _SEC + r"(?:\([^)]+\))*(?:,\s*as amended [^,]*,)?)+)"
++    r"(?:,?\s*of (?:the Internal Revenue Code of 1986|such Code|title (?P<t>\d+), United States Code))?,?\s*(?:as amended [^,]*,\s*)?are each amended")
++_EACH_UNITS = re.compile(
++    r"^\s*(?:Subsections|Paragraphs|Subparagraphs|Clauses|Subclauses|Items) (?P<list>(?:\([^)]+\))+(?:(?:,\s*(?:and\s+)?|\s+and\s+)(?:\([^)]+\))+)+)"
++    r",? of section (?P<sec>" + _SEC + r")(?P<path>(?:\([^)]+\))*)(?![(\w])[^.;—]*?\bare each amended")
++
++
++def _each_targets(words: str, section: str, title: int) -> list[tuple[str, str]]:
++    """The provisions an "are each amended" instruction names, as (section, path), when the first is the one the
++    instruction was resolved to; [] otherwise."""
++    w = re.sub(r"\s*\((?:including|and) the heading[^()]*(?:\([^()]*\)[^()]*)*\)", "", words)
++    m = _EACH_SECTIONS.match(w)
++    if m and (not m.group("t") or int(m.group("t")) == title):
++        items = [(_sec(s), p) for s, p in re.findall("(" + _SEC + r")((?:\([^)]+\))*)", re.sub(r",\s*as amended [^,]*,", ",", m.group("list")))]
++        return items if items and items[0][0] == section else []
++    m = _EACH_UNITS.match(w)
++    if m and _sec(m.group("sec")) == section:
++        return [(section, m.group("path") + d) for d in re.findall(r"(?:\([^)]+\))+", m.group("list"))]
++    return []
++
++
+ _NUMBER_WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "180": 180, "90": 90}
+ _TIMING = re.compile(
+     r"(?:effective|on the date that is|beginning on the date that is|as of the date that is)\s+(?:on the date that is\s+)?"
+diff --git a/services/us_code_history/replay.py b/services/us_code_history/replay.py
+index fc30815..3d0c62c 100644
+--- a/services/us_code_history/replay.py
++++ b/services/us_code_history/replay.py
+@@ -228,7 +228,9 @@ def _text_op(state: Replay, idx: list[int], op: Op, origin: str) -> bool:
+             pos = t.find(start_words)
+             if pos >= 0:
+                 new = norm(a["new"])
+-                state.lines[i].text = norm(t[:pos] + new) if new else norm(t[:pos])
++                # "striking '; except that' and all that follows and inserting 'and there shall'": a word follows a word.
++                joiner = " " if t[:pos][-1:].isalnum() and new[:1].isalnum() else ""
++                state.lines[i].text = norm(t[:pos] + joiner + new) if new else norm(t[:pos])
+                 state.lines[i].origin = origin
+                 drop = set(idx[n + 1:])
+                 state.lines = [l for j, l in enumerate(state.lines) if j not in drop]

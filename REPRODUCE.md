@@ -126,3 +126,51 @@ The user decided what was in scope and whether the repository is public. The wor
   - The repository was published under `alan-yahya`, then made private on the user's instruction, then moved to the `lexifina` organisation.
   - It was rebuilt once that day to fix the nesting of provisions, which changed every commit hash.
   - Lexifina's global-law repository refers to it, so this file and `build/` were then added in a commit of their own, keeping the published commits' hashes. A full rebuild puts them in the documentation commit instead.
+
+## End blocks added on 2026-11-09: title 26 and three sections of title 17
+
+These commits were added after the documentation commits above, without rewriting anything. They are not rebuilt by
+the short version above, which makes the nine-title history only.
+
+- **Code.** The data was built with a copy of Lexifina's `services/us_code_history` with four general fixes (CHANGES.md,
+  2026-11-09), on the host with Python 3.12.10 (lxml, httpx), not the backend container:
+  `python -X utf8 -m services.us_code_history.build --title 26 --out out-new` and the same for title 17. No `--summaries`:
+  **no AI model ran at data-build time for these blocks**; every summary in their commit messages is written by rule
+  from the record. Titles 9, 11 and 17 were rebuilt with the same code and compared record for record with a build
+  from the unchanged code: 7/7, 122/122 and 108/108 identical, plus the new §121A record.
+- **Sources** as above (GovInfo editions and public laws, OLRC release points), 44 public laws for title 26,
+  fetched 2026-10-28 to 2026-11-09, one request at a time with a
+  second between requests. robots.txt of govinfo.gov and uscode.house.gov was read; neither disallows these paths.
+- **Commits.** `scripts/us-code-git-append.ts`, a copy of `us-code-git.ts` that writes onto the clone's HEAD as
+  `refs/heads/append` instead of a new repository, leaves out the reader links (the reader does not show title 26 yet)
+  and adds only law tags that do not exist yet; `--missing-sections` adds only the files absent at HEAD (title 17).
+  Each block was checked with global-law's `check_corpus.py` against global-law's pin and pushed as a fast-forward.
+- **Replay.** Title 26: 1757 of 3075 change records reproduced the next printed version exactly. The rest are
+  committed as partly confirmed, publisher's note only, or "Printed text differs" under the printed version's name.
+- **AI.** These blocks were made by Claude Code (Claude Opus 5.5, `claude-opus-5-5`): it wrote the fixes, the append
+  script and this documentation, and ran the commands. No AI model wrote or edited legal text or chose a date.
+
+### The end blocks, step by step
+
+Everything named here is in [`build/end-blocks-2026-11-09/`](build/end-blocks-2026-11-09/). The data (the title 26 and
+title 17 folders the build wrote, 2,089 files) is the release asset `end-blocks-data-2026-11-09.tar.gz` (sha256 in
+`ARCHIVE-SHA256`; each file's sha256 in `DATA-SHA256SUMS`).
+
+1. **Data.** `pipeline-fixes.patch` applied to Lexifina's `services/us_code_history`, then
+   `python -X utf8 -m services.us_code_history.build --title 26 --out <out>` (and `--title 17`), with Python 3.12.10.
+   Before and after the patch, titles 9, 11 and 17 were built and compared record for record: 7/7, 122/122 and
+   108/108 identical, plus the one new §121A record.
+2. **Title 17 block.** From a clone at `770df0a`: `npx jiti scripts/us-code-git-append.ts <clone> --missing-sections`
+   with only title 17's data staged under `app/watch/us-code/_data`: commits `17df0a7` and `437c743`.
+3. **Title 26 block.** From a clone at `437c743`: `npx jiti scripts/us-code-git-append.ts <clone>` with only title 26's
+   data staged. The first commit was pushed (`dea7531`) before a later data build, which also tries large laws
+   enacted just before the 2017 edition's cutoff, changed the starting text of 50 sections. So the regenerated block
+   was put onto `dea7531` with `reparent.py`: a correction commit `b79490c` (message `fix-msg.txt`, file list added by
+   `fix_msg.py`) whose tree is the regenerated first commit's, then every later commit re-created with the same tree,
+   author, committer, dates and message. `retag.py` moved the 71 new law tags onto those commits. The text at the tip
+   is identical to the regenerated block's.
+4. **Checks.** `check_corpus.py` passed before each push (`437c743`, `dea7531`, `6b4dfef`, `9ba697c`, `cd31a9f`).
+   `RANGE=437c743..<tip> npx jiti scripts/us-code-git-check-block.ts <clone>` (the history check read within the
+   block): of 1,810 changes checkable on their in-force day, 1,588 have the new words in the file that day and not the
+   old ones; most of the rest are partly confirmed changes, and some are the Code's "[Repealed …]" placeholders, which
+   the files leave out.

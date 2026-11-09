@@ -2,7 +2,7 @@
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the United States Code, which global-law reads at `united-states/federal/usc/`.
 
-The text of nine titles of the United States Code, with a commit for each law on each day its changes to them took effect, since the 2017 edition. **Each commit is a law taking effect.** Its author is the public law that made the change, and its date is the day the change came into force.
+The text of ten titles of the United States Code, among them title 26, the Internal Revenue Code, with a commit for each law on each day its changes to them took effect, since the 2017 edition. **Each commit is a law taking effect.** Its author is the public law that made the change, and its date is the day the change came into force.
 
 So the questions a lawyer asks of a statute become git commands:
 
@@ -34,10 +34,44 @@ If you would rather not use a terminal, the same history has a reader at **[lexi
 | [Title 11](title-11/) | Bankruptcy | 278 | 122 | [Read it](https://lexifina.com/watch/us-code/title-11) |
 | [Title 13](title-13/) | Census | 65 | 1 | [Read it](https://lexifina.com/watch/us-code/title-13) |
 | [Title 17](title-17/) | Copyrights | 147 | 108 | [Read it](https://lexifina.com/watch/us-code/title-17) |
+| [Title 26](title-26/) | Internal Revenue Code | 1933 | 3075 | not yet in the reader |
 | [Title 35](title-35/) | Patents | 168 | 12 | [Read it](https://lexifina.com/watch/us-code/title-35) |
 | [Title 39](title-39/) | Postal Service | 175 | 56 | [Read it](https://lexifina.com/watch/us-code/title-39) |
 
-Each section is one Markdown file, `title-<n>/<section>.md`, with one provision per line, so `git blame` names a law for every paragraph, subparagraph and clause. The history covers the annual editions from 2017 to 2024 and the release points since, up to Pub. L. 119–134. There are 44 commits.
+Each section is one Markdown file, `title-<n>/<section>.md`, with one provision per line, so `git blame` names a law for every paragraph, subparagraph and clause. The history covers the annual editions from 2017 to 2024 and the release points since, up to Pub. L. 119–134 (for title 26, Pub. L. 119–138). There are 110 commits.
+
+## Titles added later: read by date, not by position
+
+Title 26 (the Internal Revenue Code) and three sections of title 17 (§104A, §106A and §121A, which the first build left
+out because their numbers carry a capital letter) were added after the rest, on 2026-11-09, as **end blocks**: each block
+starts with the text of the 2017 edition, dated January 12, 2018, followed by one commit for each law on each day its
+changes took effect. History here is only ever added to, never rewritten, so these commits sit after commits with later
+dates. Two consequences:
+
+- **Ask per file.** `git rev-list -1 --before=DATE main` picks the last commit before DATE in the whole log, which for
+  the other titles is fine but for title 26 lands in the wrong block. Name the file, and git walks only its own commits:
+  `git show $(git rev-list -1 --before=2022-05-01T23:59:59Z main -- title-26/1.md):title-26/1.md` (in PowerShell:
+  `$r = git rev-list -1 --before=2022-05-01T23:59:59Z main -- title-26/1.md; git show "$($r):title-26/1.md"`).
+  `git log`, `git blame` and `git log -p` on a file are unaffected.
+- **Tags.** The `edition-*` and `release-point-*` tags were made before title 26 was added and do not include it. Law
+  tags (`law/<pl>`) for laws that also changed the earlier titles point at their earlier commits; tags for laws first
+  seen in title 26 point at title 26 commits.
+
+The blocks start at `17df0a7` (The 2017 edition of the US Code, title 17: §104A, §106A, §121A), `dea7531` (The 2017 edition of the US Code, title 26). `corpus.json` lists them under `end_blocks`.
+
+The title 26 block's first commit gave the 2017 edition as printed. The commit after it, `b79490c` (`Kind:
+correction`, `Corrects: dea7531…`, `In-force: 2018-01-12`), restates the text in force that day: 50 sections where Tax
+Cuts and Jobs Act amendments (and three single changes by other laws) were already in force but not yet printed. Read
+January 12, 2018 from it.
+
+### Tax law: dates and scope
+
+Most tax amendments apply "to taxable years beginning after" a date, not from a date. As for every title, a commit is
+dated the day the change came into force: the date the law or its effective-date note gives, or, where it gives none, the
+date of enactment. The years a change applies to are kept as `Applies:` lines (`Applies: 26 U.S.C. §1(j) |
+commenced-after 2017-12-31`, where "commenced" means the taxable year, plan year or other period the note names begins),
+with the note's own words in the commit message. The text in each file is the text in force on the date; it is not
+rewritten for the taxable years a change reaches.
 
 ## Three dates, and the one we use
 

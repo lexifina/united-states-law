@@ -1,0 +1,183 @@
+{
+ "title": 35,
+ "windows": [
+  {
+   "from": 1994,
+   "to": 1995,
+   "laws": 2,
+   "edition_files": 0
+  },
+  {
+   "from": 1995,
+   "to": 1996,
+   "laws": 3,
+   "edition_files": 0
+  },
+  {
+   "from": 1996,
+   "to": 1997,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 1997,
+   "to": 1998,
+   "laws": 5,
+   "edition_files": 0
+  },
+  {
+   "from": 1998,
+   "to": 1999,
+   "laws": 3,
+   "edition_files": 2
+  },
+  {
+   "from": 1999,
+   "to": 2000,
+   "laws": 2,
+   "edition_files": 0
+  },
+  {
+   "from": 2000,
+   "to": 2001,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2001,
+   "to": 2002,
+   "laws": 1,
+   "edition_files": 3
+  },
+  {
+   "from": 2002,
+   "to": 2003,
+   "laws": 2,
+   "edition_files": 1
+  },
+  {
+   "from": 2003,
+   "to": 2004,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2004,
+   "to": 2005,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2005,
+   "to": 2006,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2006,
+   "to": 2007,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2007,
+   "to": 2008,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2008,
+   "to": 2009,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2009,
+   "to": 2010,
+   "laws": 3,
+   "edition_files": 0
+  },
+  {
+   "from": 2010,
+   "to": 2011,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2011,
+   "to": 2012,
+   "laws": 3,
+   "edition_files": 49
+  },
+  {
+   "from": 2012,
+   "to": 2013,
+   "laws": 2,
+   "edition_files": 11
+  },
+  {
+   "from": 2013,
+   "to": 2014,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2014,
+   "to": 2015,
+   "laws": 1,
+   "edition_files": 9
+  },
+  {
+   "from": 2015,
+   "to": 2016,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2016,
+   "to": 2017,
+   "laws": 0,
+   "edition_files": 2
+  }
+ ],
+ "credited_hunks": 19,
+ "edition_hunks": 8,
+ "laws": {
+  "103-465": 10,
+  "104-41": 2,
+  "104-113": 1,
+  "104-208": 1,
+  "104-295": 1,
+  "105-115": 1,
+  "105-277": 1,
+  "105-289": 1,
+  "105-304": 1,
+  "105-358": 2,
+  "105-393": 1,
+  "93-596": 1,
+  "106-44": 1,
+  "106-113": 91,
+  "106-400": 1,
+  "106-404": 4,
+  "107-273": 24,
+  "108-173": 1,
+  "108-178": 1,
+  "108-453": 1,
+  "109-58": 1,
+  "110-313": 1,
+  "111-8": 1,
+  "111-148": 1,
+  "111-314": 1,
+  "111-350": 2,
+  "112-29": 46,
+  "112-211": 23,
+  "112-274": 8,
+  "114-89": 1
+ },
+ "law": 228,
+ "partial": 3,
+ "edition": 74,
+ "edition_sections": 77,
+ "main_gap_files": 2,
+ "commits": 42
+}

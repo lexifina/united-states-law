@@ -1,0 +1,27 @@
+{
+ "title": 52,
+ "windows": [
+  {
+   "from": 2014,
+   "to": 2015,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2015,
+   "to": 2016,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2016,
+   "to": 2017,
+   "laws": 0,
+   "edition_files": 0
+  }
+ ],
+ "credited_hunks": 0,
+ "edition_hunks": 0,
+ "laws": {},
+ "commits": 1
+}

@@ -4,6 +4,27 @@ How this history was made and changed, newest first. Each entry says what change
 or checked, and why. [REPRODUCE.md](REPRODUCE.md) has the exact commands and versions; Lexifina's global-law repository
 keeps the log for every corpus (`CHANGELOG.md` there).
 
+## 10 November 2026 (later): the record before 2017
+
+**Every title now starts with the 1994 edition** (current through January 4, 1995; titles 7, 28 and 39 with the 1995
+edition, titles 51, 52 and 54 with their first edition). 5,893 commits before 2017, built from the 23 annual editions
+GovInfo publishes for 1994 to 2016 and their own records: each change to a section between two editions is credited to
+the public law the newer edition names for it (source credit, new amendment-note entries, or the notice that replaces a
+repealed section), dated by enactment; changes no law could be matched to are committed as "Printed text differs" under
+the edition. Typography follows the latest printing where the words are the same. 49,750 section changes credited to a
+law, 23,306 to an edition, 522 in part.
+
+**The history was rewritten once to do this**, on the owner's decision: these commits sit before the history from 2017,
+which follows with the same authors, dates, messages and text at every commit, so the final text is unchanged (same tree,
+`27abda94`), but every commit hash changed. The earlier history is the branch `archive/main-before-history-2026-11-10`
+(`2d47734`); the tags still point into it; `build/history-2026-11-10/old-to-new.tsv` maps old commits to new.
+Lexifina's global-law repository was re-pointed to the new history.
+
+Found while building it, both pending a fix: the parser behind the history from 2017 skips paragraphs GovInfo prints with
+a `style` attribute (from the 2012 edition on; 652 paragraphs in title 26, 749 files in all), and 390 sections moved in
+from another title editorially are credited as added by a law that only amended them. The README's "Before 2017" section
+has the details.
+
 ## 10 November 2026
 
 **Titles 2, 5, 6, 7, 8, 10, 12, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 and 54** added as an end block: 55893 sections, 60544 change records, 15279 of them reproduced the next printed version exactly by carrying out the law's instructions. Built with the same code as title 26 (the four general fixes of 9 November). Added as new commits after the documentation; no earlier commit or tag changed.

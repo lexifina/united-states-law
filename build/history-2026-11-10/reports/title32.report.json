@@ -1,0 +1,172 @@
+{
+ "title": 32,
+ "windows": [
+  {
+   "from": 1994,
+   "to": 1995,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 1995,
+   "to": 1996,
+   "laws": 4,
+   "edition_files": 1
+  },
+  {
+   "from": 1996,
+   "to": 1997,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 1997,
+   "to": 1998,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 1998,
+   "to": 1999,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 1999,
+   "to": 2000,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2000,
+   "to": 2001,
+   "laws": 1,
+   "edition_files": 2
+  },
+  {
+   "from": 2001,
+   "to": 2002,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2002,
+   "to": 2003,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2003,
+   "to": 2004,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2004,
+   "to": 2005,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2005,
+   "to": 2006,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2006,
+   "to": 2007,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2007,
+   "to": 2008,
+   "laws": 2,
+   "edition_files": 0
+  },
+  {
+   "from": 2008,
+   "to": 2009,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2009,
+   "to": 2010,
+   "laws": 2,
+   "edition_files": 0
+  },
+  {
+   "from": 2010,
+   "to": 2011,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2011,
+   "to": 2012,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2012,
+   "to": 2013,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2013,
+   "to": 2014,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2014,
+   "to": 2015,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2015,
+   "to": 2016,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2016,
+   "to": 2017,
+   "laws": 0,
+   "edition_files": 0
+  }
+ ],
+ "credited_hunks": 5,
+ "edition_hunks": 0,
+ "laws": {
+  "103-337": 3,
+  "104-106": 3,
+  "104-208": 1,
+  "104-316": 3,
+  "105-85": 6,
+  "105-261": 3,
+  "106-65": 6,
+  "106-398": 2,
+  "107-107": 2,
+  "107-314": 8,
+  "108-136": 2,
+  "108-375": 13,
+  "109-163": 23,
+  "109-364": 6,
+  "110-181": 1,
+  "110-417": 3,
+  "111-84": 1,
+  "111-383": 1,
+  "112-81": 2,
+  "112-239": 1,
+  "114-328": 1
+ },
+ "law": 90,
+ "edition": 3,
+ "edition_sections": 3,
+ "commits": 25
+}

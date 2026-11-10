@@ -4,6 +4,10 @@ How this history was made and changed, newest first. Each entry says what change
 or checked, and why. [REPRODUCE.md](REPRODUCE.md) has the exact commands and versions; Lexifina's global-law repository
 keeps the log for every corpus (`CHANGELOG.md` there).
 
+## 10 November 2026
+
+**Titles 2, 5, 6, 7, 8, 10, 12, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 and 54** added as an end block: 55893 sections, 60544 change records, 15279 of them reproduced the next printed version exactly by carrying out the law's instructions. Built with the same code as title 26 (the four general fixes of 9 November). Added as new commits after the documentation; no earlier commit or tag changed.
+
 ## 9 November 2026
 
 **Title 26, the Internal Revenue Code**, added as an end block: 1933 sections, 3075 change records from

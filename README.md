@@ -2,7 +2,7 @@
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the United States Code, which global-law reads at `united-states/federal/usc/`.
 
-The text of ten titles of the United States Code, among them title 26, the Internal Revenue Code, with a commit for each law on each day its changes to them took effect, since the 2017 edition. **Each commit is a law taking effect.** Its author is the public law that made the change, and its date is the day the change came into force.
+The text of 53 titles of the United States Code, among them title 26, the Internal Revenue Code, with a commit for each law on each day its changes to them took effect, since the 2017 edition. **Each commit is a law taking effect.** Its author is the public law that made the change, and its date is the day the change came into force.
 
 So the questions a lawyer asks of a statute become git commands:
 
@@ -28,17 +28,60 @@ If you would rather not use a terminal, the same history has a reader at **[lexi
 | Title | Name | Sections | Changes | Reader |
 | --- | --- | ---: | ---: | --- |
 | [Title 1](title-1/) | General Provisions | 39 | 7 | [Read it](https://lexifina.com/watch/us-code/title-1) |
+| [Title 2](title-2/) | The Congress | 1548 | 718 | not yet in the reader |
 | [Title 3](title-3/) | The President | 60 | 44 | [Read it](https://lexifina.com/watch/us-code/title-3) |
 | [Title 4](title-4/) | Flag and Seal, Seat of Government, and the States | 47 | 8 | [Read it](https://lexifina.com/watch/us-code/title-4) |
+| [Title 5](title-5/) | Government Organization and Employees | 1127 | 1182 | not yet in the reader |
+| [Title 6](title-6/) | Domestic Security | 586 | 1270 | not yet in the reader |
+| [Title 7](title-7/) | Agriculture | 2841 | 2465 | not yet in the reader |
+| [Title 8](title-8/) | Aliens and Nationality | 332 | 217 | not yet in the reader |
 | [Title 9](title-9/) | Arbitration | 33 | 7 | [Read it](https://lexifina.com/watch/us-code/title-9) |
+| [Title 10](title-10/) | Armed Forces | 4417 | 14510 | not yet in the reader |
 | [Title 11](title-11/) | Bankruptcy | 278 | 122 | [Read it](https://lexifina.com/watch/us-code/title-11) |
+| [Title 12](title-12/) | Banks and Banking | 1913 | 854 | not yet in the reader |
 | [Title 13](title-13/) | Census | 65 | 1 | [Read it](https://lexifina.com/watch/us-code/title-13) |
+| [Title 14](title-14/) | Coast Guard | 759 | 2516 | not yet in the reader |
+| [Title 15](title-15/) | Commerce and Trade | 2634 | 2149 | not yet in the reader |
+| [Title 16](title-16/) | Conservation | 5033 | 3001 | not yet in the reader |
 | [Title 17](title-17/) | Copyrights | 147 | 108 | [Read it](https://lexifina.com/watch/us-code/title-17) |
+| [Title 18](title-18/) | Crimes and Criminal Procedure | 1330 | 529 | not yet in the reader |
+| [Title 19](title-19/) | Customs Duties | 1054 | 912 | not yet in the reader |
+| [Title 20](title-20/) | Education | 1762 | 1047 | not yet in the reader |
+| [Title 21](title-21/) | Food and Drugs | 718 | 1162 | not yet in the reader |
+| [Title 22](title-22/) | Foreign Relations and Intercourse | 3309 | 2700 | not yet in the reader |
+| [Title 23](title-23/) | Highways | 153 | 676 | not yet in the reader |
+| [Title 24](title-24/) | Hospitals and Asylums | 122 | 30 | not yet in the reader |
+| [Title 25](title-25/) | Indians | 2366 | 562 | not yet in the reader |
 | [Title 26](title-26/) | Internal Revenue Code | 1933 | 3075 | not yet in the reader |
+| [Title 27](title-27/) | Intoxicating Liquors | 29 | 0 | not yet in the reader |
+| [Title 28](title-28/) | Judiciary and Judicial Procedure | 766 | 90 | not yet in the reader |
+| [Title 29](title-29/) | Labor | 766 | 346 | not yet in the reader |
+| [Title 30](title-30/) | Mineral Lands and Mining | 640 | 257 | not yet in the reader |
+| [Title 31](title-31/) | Money and Finance | 492 | 295 | not yet in the reader |
+| [Title 32](title-32/) | National Guard | 73 | 31 | not yet in the reader |
+| [Title 33](title-33/) | Navigation and Navigable Waters | 1530 | 2271 | not yet in the reader |
+| [Title 34](title-34/) | Crime Control and Law Enforcement | 802 | 1584 | not yet in the reader |
 | [Title 35](title-35/) | Patents | 168 | 12 | [Read it](https://lexifina.com/watch/us-code/title-35) |
+| [Title 36](title-36/) | Patriotic and National Observances, Ceremonies, and Organizations | 1172 | 281 | not yet in the reader |
+| [Title 37](title-37/) | Pay and Allowances of the Uniformed Services | 214 | 581 | not yet in the reader |
+| [Title 38](title-38/) | Veterans' Benefits | 1155 | 1690 | not yet in the reader |
 | [Title 39](title-39/) | Postal Service | 175 | 56 | [Read it](https://lexifina.com/watch/us-code/title-39) |
+| [Title 40](title-40/) | Public Buildings, Property, and Works | 452 | 181 | not yet in the reader |
+| [Title 41](title-41/) | Public Contracts | 241 | 169 | not yet in the reader |
+| [Title 42](title-42/) | The Public Health and Welfare | 8131 | 8466 | not yet in the reader |
+| [Title 43](title-43/) | Public Lands | 1349 | 456 | not yet in the reader |
+| [Title 44](title-44/) | Public Printing and Documents | 349 | 101 | not yet in the reader |
+| [Title 45](title-45/) | Railroads | 258 | 64 | not yet in the reader |
+| [Title 46](title-46/) | Shipping | 1036 | 1403 | not yet in the reader |
+| [Title 47](title-47/) | Telecommunications | 428 | 491 | not yet in the reader |
+| [Title 48](title-48/) | Territories and Insular Possessions | 515 | 132 | not yet in the reader |
+| [Title 49](title-49/) | Transportation | 1335 | 2276 | not yet in the reader |
+| [Title 50](title-50/) | War and National Defense | 1372 | 2671 | not yet in the reader |
+| [Title 51](title-51/) | National and Commercial Space Programs | 247 | 87 | not yet in the reader |
+| [Title 52](title-52/) | Voting and Elections | 171 | 22 | not yet in the reader |
+| [Title 54](title-54/) | National Park Service and Related Programs | 366 | 99 | not yet in the reader |
 
-Each section is one Markdown file, `title-<n>/<section>.md`, with one provision per line, so `git blame` names a law for every paragraph, subparagraph and clause. The history covers the annual editions from 2017 to 2024 and the release points since, up to Pub. L. 119–134 (for title 26, Pub. L. 119–138). There are 110 commits.
+Each section is one Markdown file, `title-<n>/<section>.md`, with one provision per line, so `git blame` names a law for every paragraph, subparagraph and clause. The history covers the annual editions from 2017 to 2024 and the release points since, up to Pub. L. 119–134 (for title 26, Pub. L. 119–138; for the titles added on 2026-11-10, Pub. L. 119–138). There are 718 commits.
 
 ## Titles added later: read by date, not by position
 
@@ -63,6 +106,8 @@ The title 26 block's first commit gave the 2017 edition as printed. The commit a
 correction`, `Corrects: dea7531…`, `In-force: 2018-01-12`), restates the text in force that day: 50 sections where Tax
 Cuts and Jobs Act amendments (and three single changes by other laws) were already in force but not yet printed. Read
 January 12, 2018 from it.
+
+Titles 2, 5, 6, 7, 8, 10, 12, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 and 54 were added on 2026-11-10 as one more end block, `0a76bd9` (The 2017 edition of the US Code, titles 2, 5, 6, 7, 8, 10, 12, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 54), built the same way: the text in force on January 12, 2018, then one commit for each law on each day its changes took effect. Read them per file, as above.
 
 ### Tax law: dates and scope
 
@@ -118,7 +163,7 @@ Built by [Lexifina](https://lexifina.com). For corrections, open an issue.
 
 ## Updates, links and related work
 
-- [CHANGES.md](CHANGES.md): what changed in how this history is collected, recorded and checked, and when. The whole Code is being added; until it lands, this history covers the nine titles above.
+- [CHANGES.md](CHANGES.md): what changed in how this history is collected, recorded and checked, and when. Since 10 November 2026 the history covers every title of the Code: titles 1 to 54 (title 53 is reserved and has no sections). The appendices to titles 5, 11, 18, 28 and 50 are not included.
 - [REPRODUCE.md](REPRODUCE.md): the sources, every command, the software, and what AI models did and did not do.
 - The reader: [lexifina.com/watch/us-code](https://lexifina.com/watch/us-code).
 - The post that explains the design: [Git for the US Code](https://lexifina.com/blog/git-for-the-us-code), and its [discussion on Hacker News](https://news.ycombinator.com/item?id=50268380).

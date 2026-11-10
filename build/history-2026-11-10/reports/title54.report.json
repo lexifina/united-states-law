@@ -1,0 +1,35 @@
+{
+ "title": 54,
+ "windows": [
+  {
+   "from": 2014,
+   "to": 2015,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2015,
+   "to": 2016,
+   "laws": 2,
+   "edition_files": 1
+  },
+  {
+   "from": 2016,
+   "to": 2017,
+   "laws": 1,
+   "edition_files": 1
+  }
+ ],
+ "credited_hunks": 0,
+ "edition_hunks": 0,
+ "laws": {
+  "114-113": 2,
+  "114-289": 28,
+  "114-328": 2,
+  "115-104": 4
+ },
+ "law": 36,
+ "edition": 2,
+ "edition_sections": 2,
+ "commits": 7
+}

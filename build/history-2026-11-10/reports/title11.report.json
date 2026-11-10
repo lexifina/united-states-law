@@ -1,0 +1,171 @@
+{
+ "title": 11,
+ "windows": [
+  {
+   "from": 1994,
+   "to": 1995,
+   "laws": 2,
+   "edition_files": 3
+  },
+  {
+   "from": 1995,
+   "to": 1996,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 1996,
+   "to": 1997,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 1997,
+   "to": 1999,
+   "laws": 3,
+   "edition_files": 0
+  },
+  {
+   "from": 1999,
+   "to": 2000,
+   "laws": 4,
+   "edition_files": 0
+  },
+  {
+   "from": 2000,
+   "to": 2001,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2001,
+   "to": 2002,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2002,
+   "to": 2003,
+   "laws": 0,
+   "edition_files": 1
+  },
+  {
+   "from": 2003,
+   "to": 2004,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2004,
+   "to": 2005,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2005,
+   "to": 2006,
+   "laws": 3,
+   "edition_files": 0
+  },
+  {
+   "from": 2006,
+   "to": 2007,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2007,
+   "to": 2008,
+   "laws": 3,
+   "edition_files": 1
+  },
+  {
+   "from": 2008,
+   "to": 2009,
+   "laws": 1,
+   "edition_files": 1
+  },
+  {
+   "from": 2009,
+   "to": 2010,
+   "laws": 3,
+   "edition_files": 0
+  },
+  {
+   "from": 2010,
+   "to": 2011,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2011,
+   "to": 2012,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2012,
+   "to": 2013,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2013,
+   "to": 2014,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2014,
+   "to": 2015,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2015,
+   "to": 2016,
+   "laws": 0,
+   "edition_files": 0
+  },
+  {
+   "from": 2016,
+   "to": 2017,
+   "laws": 1,
+   "edition_files": 1
+  }
+ ],
+ "credited_hunks": 12,
+ "edition_hunks": 0,
+ "laws": {
+  "103-394": 5,
+  "104-88": 4,
+  "104-193": 1,
+  "105-183": 5,
+  "105-244": 1,
+  "105-277": 1,
+  "106-181": 2,
+  "106-420": 1,
+  "106-518": 1,
+  "106-554": 8,
+  "107-204": 1,
+  "109-8": 144,
+  "109-304": 2,
+  "109-390": 4,
+  "109-439": 1,
+  "110-161": 1,
+  "110-289": 1,
+  "110-406": 1,
+  "110-438": 1,
+  "111-16": 8,
+  "111-203": 2,
+  "111-320": 1,
+  "111-327": 48,
+  "113-295": 3,
+  "115-72": 4
+ },
+ "law": 248,
+ "edition": 7,
+ "edition_sections": 7,
+ "main_gap_files": 1,
+ "commits": 32
+}

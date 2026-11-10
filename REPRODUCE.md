@@ -126,6 +126,10 @@ The user decided what was in scope and whether the repository is public. The wor
   - The repository was published under `alan-yahya`, then made private on the user's instruction, then moved to the `lexifina` organisation.
   - It was rebuilt once that day to fix the nesting of provisions, which changed every commit hash.
   - Lexifina's global-law repository refers to it, so this file and `build/` were then added in a commit of their own, keeping the published commits' hashes. A full rebuild puts them in the documentation commit instead.
+- **10 November 2026.** The record before 2017 was put in front of the history (owner's decision), which changed every
+  commit hash and left every text unchanged; see "History before 2017" below. Hashes named in this file before that
+  section are the earlier ones: `build/history-2026-11-10/old-to-new.tsv` maps them, and the earlier history is the
+  branch `archive/main-before-history-2026-11-10`.
 
 ## End blocks added on 2026-11-09: title 26 and three sections of title 17
 
@@ -231,3 +235,86 @@ Added after the documentation commits above, without rewriting anything, exactly
   - title 51 (National and Commercial Space Programs): 247 sections, 87 records, 27 replayed
   - title 52 (Voting and Elections): 171 sections, 22 records, 9 replayed
   - title 54 (National Park Service and Related Programs): 366 sections, 99 records, 51 replayed
+
+## History before 2017, added on 2026-11-10
+
+Built in a separate working folder and published first as the branch `history-full`, then made `main` (the owner's
+decision, 10 November 2026). The code is in `build/history-2026-11-10/tools/`, byte for byte.
+
+- **Sources.** GovInfo's annual editions, `https://www.govinfo.gov/content/pkg/USCODE-<year>-title<n>/html/USCODE-<year>-title<n>.htm`,
+  for 1994 to 2017, retrieved November 10, 2026, one request at a time per lane (three lanes) with 1.5 s between
+  requests, user agent as above. `build/history-2026-11-10/editions.tsv` lists every edition used with its sha256, size
+  and cutoff, and the 95 title-years GovInfo does not publish. Law names and dates: the section source credits, else
+  GovInfo's MODS records (`https://www.govinfo.gov/metadata/pkg/PLAW-<c>publ<n>/mods.xml`, 104th Congress on), kept in
+  `laws.json`. The Office of the Law Revision Counsel's prior release points page answered 404 (asked once).
+- **Parsing.** `tools/fetch_parse.py`, with the same `services/us_code_history` as title 26 plus one change: a paragraph
+  may carry attributes after its class (from the 2012 edition on, GovInfo adds `style`). It also keeps each edition's
+  bracketed notices for repealed and moved sections. Raw files were parsed and deleted; the parse is gzipped JSON.
+- **Rendering.** `tools/render.py` writes each section as the generator does: titles 1, 3, 4, 9, 11, 13, 17 (except
+  §104A, §106A, §121A), 35 and 39 as the first generator (list depth from the printed level, no escaping), the others as
+  the later one. The 2017 edition rendered this way equals the files of the 2017 edition commits except where those
+  commits already applied later laws or skip `style` paragraphs.
+- **Commits.** `tools/build_block.py <title>` (rules in its docstring and in the README) writes one block per title and
+  checks that it ends at exactly the files the 2017 edition commits of this history give;
+  `tools/assemble.py 26 1 2 ... 54` writes the blocks, title 26 first, then replays every commit of the earlier history
+  with the same author, committer, dates, message and file blobs, through `git fast-import`, and checks that the final
+  tree equals the earlier history's. `tools/run_all.py` ran both; `tools/blame_stats.py` measures who `git blame` credits.
+- **Checks.** Final tree `27abda9446124ae1b831272a50bccf18ebcf11d1` before and after. A sample of 150 title 26 files: the
+  lines `git blame` credited to the 2017 edition fell from 90.5% to 0.3%; 36% now name a law enacted before 2018.
+- **No AI model** wrote any text or message; an AI coding agent wrote and ran the scripts.
+
+| Title | Commits | Section changes credited to a law | to an edition | in part | Files where the 2017 text lacks `style` paragraphs |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 | 7 | 9 | 1 | 0 | 0 |
+| 2 | 152 | 892 | 1358 | 5 | 6 |
+| 3 | 12 | 37 | 1 | 0 | 0 |
+| 4 | 16 | 31 | 1 | 0 | 1 |
+| 5 | 235 | 1018 | 156 | 19 | 10 |
+| 6 | 74 | 599 | 108 | 0 | 0 |
+| 7 | 130 | 2134 | 1156 | 28 | 7 |
+| 8 | 133 | 394 | 207 | 18 | 14 |
+| 9 | 3 | 1 | 11 | 0 | 0 |
+| 10 | 164 | 5474 | 527 | 71 | 63 |
+| 11 | 32 | 248 | 7 | 0 | 1 |
+| 12 | 155 | 1191 | 651 | 4 | 35 |
+| 13 | 11 | 12 | 0 | 0 | 0 |
+| 14 | 44 | 341 | 45 | 5 | 0 |
+| 15 | 319 | 1871 | 836 | 22 | 22 |
+| 16 | 325 | 2355 | 1715 | 15 | 7 |
+| 17 | 44 | 208 | 10 | 6 | 4 |
+| 18 | 233 | 1208 | 80 | 7 | 6 |
+| 19 | 113 | 717 | 331 | 4 | 31 |
+| 20 | 233 | 2768 | 2124 | 10 | 15 |
+| 21 | 126 | 754 | 285 | 11 | 18 |
+| 22 | 239 | 1814 | 868 | 6 | 9 |
+| 23 | 57 | 478 | 35 | 0 | 0 |
+| 24 | 27 | 65 | 24 | 0 | 0 |
+| 25 | 127 | 679 | 1752 | 3 | 6 |
+| 26 | 236 | 3557 | 456 | 133 | 301 |
+| 27 | 7 | 3 | 7 | 0 | 0 |
+| 28 | 130 | 380 | 196 | 1 | 2 |
+| 29 | 143 | 748 | 658 | 15 | 22 |
+| 30 | 57 | 145 | 158 | 0 | 0 |
+| 31 | 162 | 398 | 12 | 2 | 3 |
+| 32 | 25 | 90 | 3 | 0 | 0 |
+| 33 | 130 | 856 | 363 | 3 | 5 |
+| 34 | 35 | 186 | 524 | 2 | 6 |
+| 35 | 42 | 228 | 74 | 3 | 2 |
+| 36 | 62 | 1312 | 1350 | 4 | 0 |
+| 37 | 50 | 993 | 54 | 1 | 0 |
+| 38 | 161 | 1788 | 74 | 5 | 1 |
+| 39 | 45 | 137 | 11 | 0 | 0 |
+| 40 | 112 | 694 | 667 | 4 | 0 |
+| 41 | 60 | 375 | 238 | 0 | 0 |
+| 42 | 708 | 7315 | 4398 | 73 | 125 |
+| 43 | 93 | 257 | 309 | 1 | 0 |
+| 44 | 53 | 316 | 9 | 1 | 1 |
+| 45 | 43 | 82 | 62 | 1 | 1 |
+| 46 | 73 | 978 | 62 | 10 | 4 |
+| 47 | 76 | 261 | 176 | 1 | 4 |
+| 48 | 57 | 146 | 50 | 3 | 1 |
+| 49 | 194 | 2060 | 259 | 17 | 13 |
+| 50 | 111 | 1064 | 845 | 8 | 3 |
+| 51 | 9 | 47 | 0 | 0 | 0 |
+| 52 | 1 | 0 | 0 | 0 | 0 |
+| 54 | 7 | 36 | 2 | 0 | 0 |

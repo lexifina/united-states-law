@@ -2,7 +2,7 @@
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the United States Code, which global-law reads at `united-states/federal/usc/`.
 
-The text of 53 titles of the United States Code, among them title 26, the Internal Revenue Code, with a commit for each law on each day its changes to them took effect, since the 2017 edition. **Each commit is a law taking effect.** Its author is the public law that made the change, and its date is the day the change came into force.
+The text of 53 titles of the United States Code, among them title 26, the Internal Revenue Code, with a commit for each law on each day its changes to them took effect, since the 1994 edition (current through January 4, 1995). **Each commit is a law taking effect.** Its author is the public law that made the change, and its date is the day the change came into force; before the 2017 edition, the day the law was enacted (see [Before 2017](#before-2017-the-annual-editions-from-1994)).
 
 So the questions a lawyer asks of a statute become git commands:
 
@@ -81,7 +81,58 @@ If you would rather not use a terminal, the same history has a reader at **[lexi
 | [Title 52](title-52/) | Voting and Elections | 171 | 22 | not yet in the reader |
 | [Title 54](title-54/) | National Park Service and Related Programs | 366 | 99 | not yet in the reader |
 
-Each section is one Markdown file, `title-<n>/<section>.md`, with one provision per line, so `git blame` names a law for every paragraph, subparagraph and clause. The history covers the annual editions from 2017 to 2024 and the release points since, up to Pub. L. 119–134 (for title 26, Pub. L. 119–138; for the titles added on 2026-11-10, Pub. L. 119–138). There are 718 commits.
+Each section is one Markdown file, `title-<n>/<section>.md`, with one provision per line, so `git blame` names a law for every paragraph, subparagraph and clause. The history covers the annual editions from 1994 to 2024 and the release points since, up to Pub. L. 119–134 (for title 26, Pub. L. 119–138; for the titles added on 2026-11-10, Pub. L. 119–138). There are 6,612 commits.
+
+## Before 2017: the annual editions from 1994
+
+Since 10 November 2026 each title's history starts with the earliest annual edition GovInfo publishes: the **1994
+edition, current through January 4, 1995** (laws enacted through that day). Titles 7, 28 and 39 start with the 1995
+edition (January 16, 1996), because GovInfo has no 1994 edition of them; titles 51, 52 and 54 start with the first edition
+that has them (2011, 2014, 2014); title 34 is the special case under "Known problems" below. The first commit of each
+title is that edition as printed, under the edition's name: lines first seen there are credited to the edition, not to
+the Acts that wrote them, which each section's source credit lists.
+
+Between consecutive editions up to 2017 the record is built from the editions themselves, because public laws before
+the 113th Congress are not published as structured text and cannot be carried out by replay:
+
+- **Laws.** A section that changed between two editions is credited to the public laws the newer edition names for it
+  and the older one did not: in its source credit, its amendment notes (entries the newer edition added) or, for a
+  section taken out of the Code, the bracketed notice that replaces it ("[§54. Repealed. Pub. L. 115–97, ...]"). Where
+  several laws are new, each changed run of lines goes to the law whose amendment note quotes the new words, else
+  names the provision, else amends the section as a whole. One commit per law, as from 2017 on; each says
+  "Publisher's note only" and quotes the notes it relied on.
+- **Dated by enactment.** These commits are dated the day the law was enacted, not the day its change took effect
+  (effective-date notes are not read for this part of the record), and say so. A change enacted before the older
+  edition's cutoff but not printed in it is dated the day after that cutoff.
+- **Printed text differs.** A change no law could be matched to is committed under the newer edition's name on the day
+  that edition is current through, with the reason for each section: the notes name no new law, or several new laws
+  and the words could not be matched to one of them. Most are editorial.
+- **Typography follows the latest printing.** The editions change typography now and then without changing the words
+  (fractions as "½" from 2011, curly apostrophes from 2013). Where an edition prints the same words as the next with
+  other quotation marks, apostrophes, fractions or spacing, the later form is used, so a change of typesetting does not
+  show as a change to the law. The words are the edition's own.
+- **The 2017 boundary.** Each title's block ends at exactly the text the 2017 edition commit below starts from, so those
+  commits change nothing for the files their block already holds.
+
+Across the 53 titles: 5,893 commits before 2017; 49,750 changes to a section credited to a law, 23,306 to an edition, 522
+in part. `build/history-2026-11-10/` has the code, the list of every edition used (URL, sha256, size, cutoff), the
+per-title figures and the map from earlier commit hashes to these ones.
+
+**Known problems.**
+
+- **Paragraphs missing from 2017 on.** From the 2012 edition on, GovInfo prints some paragraphs with a `style`
+  attribute (`<p class="statutory-body-block-2em" style="...">`). The parser that built the history from 2017 on skips
+  them, so the text from the 2017 edition commit on lacks them: 652 paragraphs in title 26 alone, for example the last
+  sentence of 26 U.S.C. §21(b)(2)(A) ("Such term shall not include any amount paid for services outside the taxpayer's
+  household at a camp where the qualifying individual stays overnight."), and 749 files across the Code. The record
+  before 2017 keeps them through the 2016 edition; the last commit before 2017 of each title removes them, and says so,
+  so that the history from 2017 continues unchanged. A fix is pending.
+- **Sections moved in from another title.** When the Law Revision Counsel moved a section into a title editorially, the
+  record before 2017 can credit the whole section, as "Added", to a law that only amended it in its earlier place (390
+  sections, most of them in title 34, which the Law Revision Counsel made in 2017 from sections of title 42, and in titles
+  20 and 50). Their `git blame` names that law for words it did not write. A fix is pending.
+- **Title 34.** The 2010 "title 34" GovInfo publishes is the old title 34 (Navy), repealed in 1956, with no sections; the
+  record of today's title 34 before 2017 consists of the sections above.
 
 ## Titles added later: read by date, not by position
 
@@ -96,18 +147,21 @@ dates. Two consequences:
   `git show $(git rev-list -1 --before=2022-05-01T23:59:59Z main -- title-26/1.md):title-26/1.md` (in PowerShell:
   `$r = git rev-list -1 --before=2022-05-01T23:59:59Z main -- title-26/1.md; git show "$($r):title-26/1.md"`).
   `git log`, `git blame` and `git log -p` on a file are unaffected.
-- **Tags.** The `edition-*` and `release-point-*` tags were made before title 26 was added and do not include it. Law
+- **Tags.** The tags (`edition-*`, `release-point-*`, `law/*`, `data-*`) were made before 10 November 2026 and point at the
+  commits of the history as it was then, before the record from 1994 was added; that history is kept as the branch
+  `archive/main-before-history-2026-11-10`, and `build/history-2026-11-10/old-to-new.tsv` maps each of its commits to the
+  commit with the same change here. The `edition-*` and `release-point-*` tags were made before title 26 was added and do not include it. Law
   tags (`law/<pl>`) for laws that also changed the earlier titles point at their earlier commits; tags for laws first
   seen in title 26 point at title 26 commits.
 
-The blocks start at `17df0a7` (The 2017 edition of the US Code, title 17: §104A, §106A, §121A), `dea7531` (The 2017 edition of the US Code, title 26). `corpus.json` lists them under `end_blocks`.
+The blocks start at `77d149d` (The 2017 edition of the US Code, title 17: §104A, §106A, §121A), `2e5440b` (The 2017 edition of the US Code, title 26). `corpus.json` lists them under `end_blocks`. (Commit hashes changed once, on 10 November 2026, when the record before 2017 was put in front of this history; see below.)
 
-The title 26 block's first commit gave the 2017 edition as printed. The commit after it, `b79490c` (`Kind:
-correction`, `Corrects: dea7531…`, `In-force: 2018-01-12`), restates the text in force that day: 50 sections where Tax
+The title 26 block's first commit gave the 2017 edition as printed. The commit after it, `b8347bb` (`Kind:
+correction`, `Corrects: dea7531…`, which is `2e5440b` now, `In-force: 2018-01-12`), restates the text in force that day: 50 sections where Tax
 Cuts and Jobs Act amendments (and three single changes by other laws) were already in force but not yet printed. Read
 January 12, 2018 from it.
 
-Titles 2, 5, 6, 7, 8, 10, 12, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 and 54 were added on 2026-11-10 as one more end block, `0a76bd9` (The 2017 edition of the US Code, titles 2, 5, 6, 7, 8, 10, 12, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 54), built the same way: the text in force on January 12, 2018, then one commit for each law on each day its changes took effect. Read them per file, as above.
+Titles 2, 5, 6, 7, 8, 10, 12, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 and 54 were added on 2026-11-10 as one more end block, `dcd8ca3` (The 2017 edition of the US Code, titles 2, 5, 6, 7, 8, 10, 12, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 54), built the same way: the text in force on January 12, 2018, then one commit for each law on each day its changes took effect. Read them per file, as above.
 
 ### Tax law: dates and scope
 
@@ -150,14 +204,16 @@ The author of a line is the **enacted law** that wrote it, not the legislator wh
 - **Effective dates by pattern.** Effective-date notes are read by pattern, and unusual wording falls back to the date of enactment, which is usually right and occasionally is not.
 - **Adjusted dollar amounts.** The Code prints the dollar amounts Congress enacted. The Judicial Conference adjusts many of them every three years by a notice in the Federal Register under 11 U.S.C. §104, and the adjusted amounts are published in those notices and in the Code's notes, not in the text. The reader shows them beside the provisions they adjust.
 - **Changes on a condition.** A change that takes effect only when an agency makes a determination is left out of the text until that happens.
-- **Everything before 2017.** The first commit is the 2017 edition as printed, without authors.
+- **Everything before 1995.** The first commit of each title is the earliest GovInfo edition as printed (1994 for most
+  titles), without authors.
+- **Effective dates before 2017.** Changes before the 2017 edition are dated by enactment, and are not confirmed by replay.
 - **Retroactive dates.** A few changes took effect on a date before the law was enacted. Their commits carry the in-force date, so on dates in between the text shows words that had not yet been enacted. Each such commit says when the law was enacted.
 
 Each commit links to the law's own words, and for anything that matters the law itself should be read.
 
 ## How it is built
 
-The history is generated from the same data and the same code as the reader, so the text in this repository on any date is the text the reader shows for that date. The build script, the code it runs and the data it reads are in [`build/`](build/), byte for byte. The build is deterministic, and rebuilding from that data gives the same commits with the same hashes. [REPRODUCE.md](REPRODUCE.md) records the sources, every command, the software, the decisions made by hand and what an AI model did and did not do. Once other repositories refer to this one, updates are added as new commits instead of rewriting it.
+The history is generated from the same data and the same code as the reader, so the text in this repository on any date is the text the reader shows for that date. The build script, the code it runs and the data it reads are in [`build/`](build/), byte for byte. The build is deterministic, and rebuilding from that data gives the same commits with the same hashes. [REPRODUCE.md](REPRODUCE.md) records the sources, every command, the software, the decisions made by hand and what an AI model did and did not do. Once other repositories refer to this one, updates are added as new commits instead of rewriting it. The one exception so far was decided by the owner on 10 November 2026: the record from 1994 was put in front of the history, with the same text at every commit from 2017 on (see CHANGES.md).
 
 Built by [Lexifina](https://lexifina.com). For corrections, open an issue.
 

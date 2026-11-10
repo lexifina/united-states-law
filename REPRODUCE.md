@@ -174,3 +174,60 @@ title 17 folders the build wrote, 2,089 files) is the release asset `end-blocks-
    block): of 1,810 changes checkable on their in-force day, 1,588 have the new words in the file that day and not the
    old ones; most of the rest are partly confirmed changes, and some are the Code's "[Repealed …]" placeholders, which
    the files leave out.
+
+## End block added on 2026-11-10: titles 2, 5, 6, 7, 8, 10, 12, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 and 54
+
+Added after the documentation commits above, without rewriting anything, exactly as the title 26 block of 9 November.
+
+- **Code.** The same copy of `services/us_code_history` as title 26 (with its four general fixes), on the host with
+  Python 3.12.10: `python -X utf8 -m services.us_code_history.build --title N --out out-all` for each title. No
+  `--summaries`: no AI model ran at data-build time; every summary in these commit messages is written by rule.
+- **Sources** as above (GovInfo editions and public laws, OLRC release points), one request at a time per lane with a
+  second between requests; most files came from the cache of the earlier builds.
+- **Commits.** `scripts/us-code-git-append.ts` onto the published head, as one block starting at `0a76bd9`;
+  only law tags that did not exist yet were added. Checked with `us-code-git-check-block.ts` and global-law's
+  `check_corpus.py`, pushed as a fast-forward.
+- **Replay.** 15279 of 60544 change records reproduced the next printed version exactly. Per title:
+  - title 2 (The Congress): 1548 sections, 718 records, 169 replayed
+  - title 5 (Government Organization and Employees): 1127 sections, 1182 records, 252 replayed
+  - title 6 (Domestic Security): 586 sections, 1270 records, 233 replayed
+  - title 7 (Agriculture): 2841 sections, 2465 records, 870 replayed
+  - title 8 (Aliens and Nationality): 332 sections, 217 records, 46 replayed
+  - title 10 (Armed Forces): 4417 sections, 14510 records, 3307 replayed
+  - title 12 (Banks and Banking): 1913 sections, 854 records, 190 replayed
+  - title 14 (Coast Guard): 759 sections, 2516 records, 224 replayed
+  - title 15 (Commerce and Trade): 2634 sections, 2149 records, 359 replayed
+  - title 16 (Conservation): 5033 sections, 3001 records, 522 replayed
+  - title 18 (Crimes and Criminal Procedure): 1330 sections, 529 records, 346 replayed
+  - title 19 (Customs Duties): 1054 sections, 912 records, 88 replayed
+  - title 20 (Education): 1762 sections, 1047 records, 234 replayed
+  - title 21 (Food and Drugs): 718 sections, 1162 records, 223 replayed
+  - title 22 (Foreign Relations and Intercourse): 3309 sections, 2700 records, 461 replayed
+  - title 23 (Highways): 153 sections, 676 records, 474 replayed
+  - title 24 (Hospitals and Asylums): 122 sections, 30 records, 10 replayed
+  - title 25 (Indians): 2366 sections, 562 records, 101 replayed
+  - title 27 (Intoxicating Liquors): 29 sections, 0 records, 0 replayed
+  - title 28 (Judiciary and Judicial Procedure): 766 sections, 90 records, 54 replayed
+  - title 29 (Labor): 766 sections, 346 records, 25 replayed
+  - title 30 (Mineral Lands and Mining): 640 sections, 257 records, 26 replayed
+  - title 31 (Money and Finance): 492 sections, 295 records, 197 replayed
+  - title 32 (National Guard): 73 sections, 31 records, 19 replayed
+  - title 33 (Navigation and Navigable Waters): 1530 sections, 2271 records, 599 replayed
+  - title 34 (Crime Control and Law Enforcement): 802 sections, 1584 records, 608 replayed
+  - title 36 (Patriotic and National Observances, Ceremonies, and Organizations): 1172 sections, 281 records, 121 replayed
+  - title 37 (Pay and Allowances of the Uniformed Services): 214 sections, 581 records, 201 replayed
+  - title 38 (Veterans' Benefits): 1155 sections, 1690 records, 661 replayed
+  - title 40 (Public Buildings, Property, and Works): 452 sections, 181 records, 114 replayed
+  - title 41 (Public Contracts): 241 sections, 169 records, 68 replayed
+  - title 42 (The Public Health and Welfare): 8131 sections, 8466 records, 1746 replayed
+  - title 43 (Public Lands): 1349 sections, 456 records, 29 replayed
+  - title 44 (Public Printing and Documents): 349 sections, 101 records, 75 replayed
+  - title 45 (Railroads): 258 sections, 64 records, 9 replayed
+  - title 46 (Shipping): 1036 sections, 1403 records, 690 replayed
+  - title 47 (Telecommunications): 428 sections, 491 records, 36 replayed
+  - title 48 (Territories and Insular Possessions): 515 sections, 132 records, 16 replayed
+  - title 49 (Transportation): 1335 sections, 2276 records, 1324 replayed
+  - title 50 (War and National Defense): 1372 sections, 2671 records, 465 replayed
+  - title 51 (National and Commercial Space Programs): 247 sections, 87 records, 27 replayed
+  - title 52 (Voting and Elections): 171 sections, 22 records, 9 replayed
+  - title 54 (National Park Service and Related Programs): 366 sections, 99 records, 51 replayed

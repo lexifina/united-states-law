@@ -130,6 +130,9 @@ The user decided what was in scope and whether the repository is public. The wor
   commit hash and left every text unchanged; see "History before 2017" below. Hashes named in this file before that
   section are the earlier ones: `build/history-2026-11-10/old-to-new.tsv` maps them, and the earlier history is the
   branch `archive/main-before-history-2026-11-10`.
+- **11 November 2026.** Rewritten once more to correct the record before 2017 and put back the paragraphs the first
+  build dropped (see "Corrections of 2026-11-11" below); `build/history-2026-11-11/old-to-new.tsv` maps the earlier
+  commits; the previous main is the branch `archive/main-before-rewrite2-2026-11-11`.
 
 ## End blocks added on 2026-11-09: title 26 and three sections of title 17
 
@@ -318,3 +321,82 @@ decision, 10 November 2026). The code is in `build/history-2026-11-10/tools/`, b
 | 51 | 9 | 47 | 0 | 0 | 0 |
 | 52 | 1 | 0 | 0 | 0 | 0 |
 | 54 | 7 | 36 | 2 | 0 | 0 |
+
+## Corrections of 2026-11-11, and title 26 from 1986
+
+The code is in `build/history-2026-11-11/tools/`, byte for byte (it supersedes `build/history-2026-11-10/tools/`).
+
+- **Dropped paragraphs.** `tools/restore_data.py` parses every printed version the history from 2017 uses (the 2017 to
+  2024 editions from GovInfo, the release points from the Office of the Law Revision Counsel, all from the cache of the
+  earlier builds) with the parser the first build used and with the corrected one, renders both, and keeps each run of
+  lines the corrected one adds, with up to three lines of context on each side; every difference was a pure addition.
+  `tools/restore.py` puts each run into a file's text as of a date, using the printed version current that day.
+  `tools/assemble.py` applies it to the 2017 starting text the blocks end at and to every file version in the replayed
+  commits from 2017 (1,575; 16 runs skipped for want of a unique place), and checks that the final tree differs from the
+  previous main's only by added lines in those files: 667 files, 1,258 lines added, none removed.
+- **Moved sections.** `build_block.py`: a section new to a title whose notes say it was formerly classified elsewhere
+  (or transferred, or editorially reclassified) is credited to the edition. Title 34 is not built before 2017.
+- **Title 26 from 1986.** `tools/reverse1986.py` reverses, for each section of the 1994 edition, the amendment-note
+  entries of laws enacted after October 22, 1986, newest law first, each only where its words name exactly one place;
+  `build_block.py 26 --from1986` writes the 1986 starting commit and one commit per law for the sections where every
+  entry reversed, and the 1994 edition commit starts the rest. `tools/crosscheck_stat.py` checked a random sample of 30
+  reversed "substituted X for Y" entries against the amending laws in GovInfo's STATUTE collection (granule PDFs, read
+  with pdftotext): 14 confirmed (12 by text search, 2 on reading), 10 not verifiable by text search (OCR of the scanned
+  volumes; notes that paraphrase the instruction), 6 not checked (the law's pages could not be located), 0
+  contradicted (`crosscheck-stat.json`).
+- **Run.** `tools/build_many.py` in eight parallel lanes, then `tools/assemble.py 26 1 2 ... 54` (without 34).
+
+| Title | Commits | Section changes credited to a law | to an edition | in part |
+| ---: | ---: | ---: | ---: | ---: |
+| 1 | 7 | 9 | 1 | 0 |
+| 2 | 151 | 892 | 1355 | 4 |
+| 3 | 12 | 37 | 1 | 0 |
+| 4 | 15 | 31 | 0 | 0 |
+| 5 | 235 | 1019 | 150 | 18 |
+| 6 | 76 | 595 | 112 | 0 |
+| 7 | 130 | 2131 | 1153 | 28 |
+| 8 | 133 | 394 | 193 | 18 |
+| 9 | 3 | 1 | 11 | 0 |
+| 10 | 164 | 5468 | 531 | 71 |
+| 11 | 31 | 248 | 6 | 0 |
+| 12 | 155 | 1191 | 616 | 4 |
+| 13 | 11 | 12 | 0 | 0 |
+| 14 | 44 | 341 | 45 | 5 |
+| 15 | 320 | 1871 | 816 | 22 |
+| 16 | 325 | 2355 | 1708 | 15 |
+| 17 | 43 | 208 | 6 | 6 |
+| 18 | 232 | 1208 | 74 | 7 |
+| 19 | 113 | 717 | 300 | 4 |
+| 20 | 233 | 2724 | 2155 | 10 |
+| 21 | 125 | 758 | 278 | 5 |
+| 22 | 239 | 1812 | 862 | 6 |
+| 23 | 57 | 478 | 35 | 0 |
+| 24 | 27 | 65 | 24 | 0 |
+| 25 | 126 | 676 | 1749 | 3 |
+| 26 | 259 | 3661 | 292 | 29 |
+| 27 | 7 | 3 | 7 | 0 |
+| 28 | 131 | 379 | 195 | 1 |
+| 29 | 143 | 747 | 639 | 15 |
+| 30 | 57 | 145 | 158 | 0 |
+| 31 | 161 | 398 | 9 | 2 |
+| 32 | 25 | 90 | 3 | 0 |
+| 33 | 130 | 857 | 360 | 2 |
+| 35 | 41 | 228 | 72 | 3 |
+| 36 | 62 | 1312 | 1350 | 4 |
+| 37 | 50 | 993 | 54 | 1 |
+| 38 | 161 | 1788 | 74 | 5 |
+| 39 | 45 | 137 | 11 | 0 |
+| 40 | 112 | 694 | 667 | 4 |
+| 41 | 60 | 375 | 238 | 0 |
+| 42 | 707 | 7286 | 4333 | 72 |
+| 43 | 93 | 256 | 310 | 1 |
+| 44 | 53 | 316 | 9 | 1 |
+| 45 | 42 | 82 | 61 | 1 |
+| 46 | 73 | 972 | 67 | 10 |
+| 47 | 75 | 261 | 172 | 1 |
+| 48 | 57 | 146 | 50 | 3 |
+| 49 | 194 | 2060 | 255 | 16 |
+| 50 | 105 | 1006 | 901 | 8 |
+| 51 | 9 | 47 | 0 | 0 |
+| 52 | 1 | 0 | 0 | 0 |
+| 54 | 7 | 36 | 2 | 0 |

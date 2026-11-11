@@ -4,6 +4,27 @@ How this history was made and changed, newest first. Each entry says what change
 or checked, and why. [REPRODUCE.md](REPRODUCE.md) has the exact commands and versions; Lexifina's global-law repository
 keeps the log for every corpus (`CHANGELOG.md` there).
 
+## 11 November 2026: corrections, and title 26 from 1986
+
+**The history was rewritten once more** (the owner's decision), to make four corrections at once; every commit hash
+changed again. The previous main is the branch `archive/main-before-rewrite2-2026-11-11` (`351e6ca`);
+`build/history-2026-11-11/old-to-new.tsv` maps it and the history before 10 November to these commits.
+
+- **Paragraphs put back.** The parser behind the history from 2017 skipped paragraphs GovInfo prints with a `style`
+  attribute (from the 2012 edition on). They are now in every commit from 2012: in the commits from 2017 each was put back
+  where the printed version current that day has it (1,575 file versions; 16 runs had no unique place). Today's text
+  gained 1,258 lines in 667 files and lost none; title 26 gained 662 lines in 301 files.
+- **Sections moved in editorially** are credited to the edition that first prints them in their new place, not as added
+  by a law that only amended them (1,148 sections).
+- **Title 34** has no record before 2017: GovInfo's earlier "title 34" is the old Navy title, repealed in 1956.
+- **Title 26 from 1986.** 1,161 of 1,710 sections now start with the Internal Revenue Code of 1986 (October 22, 1986),
+  reconstructed by reversing the 1994 edition's amendment notes: 1,012 had no later amendment, 149 were taken back
+  through every one and get a commit per law (dated by enactment, marked `Reconstructed-from: 1994`). 549 sections whose
+  notes could not all be reversed start with the 1994 edition as before. Sample check against the Statutes at Large: 14
+  of 30 confirmed, 16 not verifiable by text search, 0 contradicted.
+
+Before 2017: 5,867 commits; 49,516 section changes credited to a law, 22,470 to an edition, 405 in part.
+
 ## 10 November 2026 (later): the record before 2017
 
 **Every title now starts with the 1994 edition** (current through January 4, 1995; titles 7, 28 and 39 with the 1995

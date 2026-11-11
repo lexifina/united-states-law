@@ -1,0 +1,56 @@
+{
+ "title": 51,
+ "windows": [
+  {
+   "from": 2011,
+   "to": 2012,
+   "laws": 3,
+   "edition_files": 0
+  },
+  {
+   "from": 2012,
+   "to": 2013,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2013,
+   "to": 2014,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2014,
+   "to": 2015,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2015,
+   "to": 2016,
+   "laws": 1,
+   "edition_files": 0
+  },
+  {
+   "from": 2016,
+   "to": 2017,
+   "laws": 1,
+   "edition_files": 0
+  }
+ ],
+ "credited_hunks": 3,
+ "edition_hunks": 0,
+ "laws": {
+  "112-29": 1,
+  "112-95": 1,
+  "112-273": 1,
+  "113-6": 1,
+  "113-76": 1,
+  "114-90": 23,
+  "114-329": 1,
+  "115-10": 18
+ },
+ "law": 47,
+ "commits": 9,
+ "restore": {}
+}

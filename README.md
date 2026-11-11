@@ -83,6 +83,40 @@ If you would rather not use a terminal, the same history has a reader at **[lexi
 
 Each section is one Markdown file, `title-<n>/<section>.md`, with one provision per line, so `git blame` names a law for every paragraph, subparagraph and clause. The history covers the annual editions from 1994 to 2024 and the release points since, up to Pub. L. 119–134 (for title 26, Pub. L. 119–138; for the titles added on 2026-11-10, Pub. L. 119–138). There are 6,587 commits.
 
+## Before 1994: the printed editions from 1926
+
+Since 2026-11-11 the history of title 1 starts earlier still, with the first edition of the Code itself: **the Code of Laws of
+the United States of 1926** (laws in force December 7, 1925), then every main edition the Library of Congress has
+scanned (1934, 1940, 1946, 1952, 1958, 1964, 1970, 1976, 1982 and 1988), up to the 1994 edition where GovInfo's record
+begins. The other titles still start in 1994; they will be put in front the same way as their scans are read.
+
+- **Source.** The Library of Congress's scans of the printed editions, one PDF per chapter
+  (`https://tile.loc.gov/storage-services/service/ll/uscode/...`); `build/history-pre1994/sources.tsv` lists every PDF
+  read, with its SHA-256.
+- **The words are OCR, checked twice.** Each page is read by Tesseract 5, by docTR on a GPU where it ran, and the PDF's
+  own text layer is the second, independent reading. Each edition is then compared with the next one, newest first,
+  starting from GovInfo's clean 1994 text: where the readings agree with the next edition's words, allowing for
+  misread letters, the next edition's clean words, punctuation and layout are used; a difference is kept only where two
+  readings show it, and only short substitutions survive where the next edition names no new law for the section. So
+  the text changes only where the scans say it did. A section no later edition prints (repealed or renumbered before
+  1994) keeps its OCR reading and can contain misread words.
+- **Credit and dates** follow the record from 1994: a change between two editions goes to the law the newer edition
+  names for the section and the older did not (source credit or amendment notes), dated the day the law was enacted
+  (the day after the older edition's cutoff if it was enacted before it); changes no law could be matched to are
+  "Printed text differs" commits under the newer edition. Acts before public-law numbers (1957) are authors by date and
+  chapter, "Act of July 30, 1947, ch. 388", with trailers `Law:`, `Enacted:`, `In-force:`, `Printed-in:` and
+  `Statutes-at-Large:`, and tags `law/act-<date>-ch<n>`. Where a law re-enacted a title (title 1 by the Act of July 30,
+  1947), the sections the old numbering had are credited as removed by it.
+- **Dates before 1970.** Git cannot store them: those commits show 1 January 1970 (one second apart, in order) and the
+  `In-force:` trailer has the real day, as in every Lexifina law repository. Read by that trailer (global-law's
+  `tools/law.py` and its MCP server do), not by `git log --before`.
+- **Coverage gaps.** A section printed in the editions on either side of one it is missing from, with no law removing
+  it, is kept through that edition (the OCR missed its start). The 1926 Code prints no source-credit notes for many
+  sections, so changes between 1926 and 1934 are credited less often.
+
+Numbers for this addition: 29 commits; 84 section changes credited to a law, 33 to an
+edition. Per title, per pair of editions: `build/history-pre1994/reports/`.
+
 ## Before 2017: the annual editions from 1994
 
 Since 10 November 2026 each title's history starts with the earliest annual edition GovInfo publishes: the **1994

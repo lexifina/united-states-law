@@ -400,3 +400,24 @@ The code is in `build/history-2026-11-11/tools/`, byte for byte (it supersedes `
 | 51 | 9 | 47 | 0 | 0 |
 | 52 | 1 | 0 | 0 | 0 |
 | 54 | 7 | 36 | 2 | 0 |
+
+
+## Record before 1994, added on 2026-11-11: title 1
+
+- **Sources.** Library of Congress scans of the US Code main editions 1926 (laws in force December 7, 1925) to 1988,
+  `https://tile.loc.gov/storage-services/service/ll/uscode/uscode<Y>-<VVVTT>/uscode<Y>-<VVVTTTCCC>/uscode<Y>-<VVVTTTCCC>.pdf`
+  (volume, title, chunk), retrieved 2026-11-11, one request at a time (www.loc.gov answers automated clients with a
+  challenge and was not used). Every PDF read and its SHA-256: `build/history-pre1994/sources.tsv`. The 1994 (1995 for
+  titles 7, 28 and 39) GovInfo editions as in "History before 2017".
+- **Software.** Python 3.12, PyMuPDF, Tesseract 5.4.0 (eng, LSTM, page segmentation 3, at the scan's resolution),
+  OnnxTR (docTR db_resnet50 + parseq) on onnxruntime-gpu; scripts in `build/history-pre1994/scripts/`.
+- **Steps.** `fetch2.py` (download), `ocr.py` / `ocr_gpu.py` (OCR; the PDF's own text layer is kept too), `parse_ocr.py
+  <year> <title>` (sections, source credits, notes), `clean.py <title> <year> <next> [later...]` (newest edition first,
+  anchored on GovInfo's), `build_pre.py <title>` (commits; checks that the block ends at exactly the 1994 text),
+  `assemble_pre.py <titles>` (the blocks, then the previous main replayed with the same authors, dates, messages and
+  file blobs; each title's "1994 edition: the start of this record" commit, which the block makes empty, is folded;
+  checks the final tree equals the previous main's), `docs_pre.py`. OCR output can differ slightly between Tesseract
+  versions; the checksums of the inputs and the per-title reports pin what this history was built from.
+- **AI.** These scripts were written by Claude Code (Claude Opus 5.5, `claude-opus-5-5`). No model wrote or edited any
+  legal text or commit message: the OCR engines read the scans, and every word, date and law in the commits comes from
+  the scans, GovInfo's 1994 edition, and rules in the scripts.

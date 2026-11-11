@@ -4,6 +4,19 @@ How this history was made and changed, newest first. Each entry says what change
 or checked, and why. [REPRODUCE.md](REPRODUCE.md) has the exact commands and versions; Lexifina's global-law repository
 keeps the log for every corpus (`CHANGELOG.md` there).
 
+## 11 November 2026 (evening): title 1 from 1926
+
+**The history was rewritten once more** (the owner's decision), to put the record before 1994 in front of title 1: every
+edition of the Code from the Code of Laws of the United States of 1926 to the 1988 edition, read from the Library of
+Congress scans by OCR and checked against the next edition (README, "Before 1994"). Every commit hash changed; the
+final text is unchanged (same tree). The previous main is the branch `archive/main-before-pre1994-2026-11-11`
+(`0c11bf1`); `build/history-pre1994/old-to-new.tsv` maps its commits to these. Tags moved with their commits; law
+tags were added for the Acts before 1957 (`law/act-<date>-ch<n>`). Commits before 1970 show 1 January 1970: read the
+`In-force:` trailer.
+
+29 commits; 84 section changes credited to a law, 33 to an edition. The other titles will be
+put in front the same way as their scans are read (each time a rewrite, announced here).
+
 ## 11 November 2026: corrections, and title 26 from 1986
 
 **The history was rewritten once more** (the owner's decision), to make four corrections at once; every commit hash

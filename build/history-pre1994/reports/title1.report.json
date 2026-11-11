@@ -1,0 +1,94 @@
+{
+ "title": 1,
+ "pairs": [
+  {
+   "from": 1925,
+   "to": 1934,
+   "changed": 18,
+   "law": 13,
+   "edition": 5,
+   "laws": 5
+  },
+  {
+   "from": 1934,
+   "to": 1940,
+   "changed": 14,
+   "law": 4,
+   "edition": 10,
+   "laws": 4
+  },
+  {
+   "from": 1940,
+   "to": 1946,
+   "changed": 5,
+   "law": 1,
+   "edition": 4,
+   "laws": 1
+  },
+  {
+   "from": 1946,
+   "to": 1952,
+   "changed": 61,
+   "law": 58,
+   "edition": 3,
+   "laws": 2
+  },
+  {
+   "from": 1952,
+   "to": 1958,
+   "changed": 3,
+   "law": 2,
+   "edition": 1,
+   "laws": 1
+  },
+  {
+   "from": 1958,
+   "to": 1964,
+   "changed": 1,
+   "law": 0,
+   "edition": 1,
+   "laws": 0
+  },
+  {
+   "from": 1964,
+   "to": 1970,
+   "changed": 2,
+   "law": 1,
+   "edition": 1,
+   "laws": 1
+  },
+  {
+   "from": 1970,
+   "to": 1976,
+   "changed": 7,
+   "law": 1,
+   "edition": 6,
+   "laws": 1
+  },
+  {
+   "from": 1976,
+   "to": 1982,
+   "changed": 3,
+   "law": 1,
+   "edition": 2,
+   "laws": 1
+  },
+  {
+   "from": 1982,
+   "to": 1988,
+   "changed": 1,
+   "law": 1,
+   "edition": 0,
+   "laws": 1
+  },
+  {
+   "from": 1988,
+   "to": 1994,
+   "changed": 2,
+   "law": 2,
+   "edition": 0,
+   "laws": 2
+  }
+ ],
+ "end_mismatch": 0
+}

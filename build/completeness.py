@@ -53,7 +53,8 @@ def main() -> None:
         ae, _, rest = chunk.partition("\x02")
         at, _, rest = rest.partition("\x02")
         body, _, names = rest.partition("\x03")
-        commits += 1
+        if not ae.endswith("@lexifina.com"):
+            commits += 1  # documentation commits by Lexifina are not changes
         m = re.search(r"^(?:In-force|Consolidated): (\d{4}-\d{2}-\d{2})", body, re.M)
         if m:
             d = date.fromisoformat(m.group(1))
@@ -137,10 +138,10 @@ def pct(v: float) -> str:
 
 
 def svg(st: dict, mode: str) -> str:
-    """GitHub-native: Primer borders, label pills, a joined row of counters, the commits per year as a contribution
-    graph (one square per year, a row per decade) and Primer progress bars for completeness by part."""
+    """GitHub-native: Primer borders and label pills, a joined row of counters, the changes by the year they took effect
+    as a bar chart (GovInfo's editions in green, the printed editions in light green), and Primer progress bars."""
     c = PAL[mode]
-    W, H = 880, 482
+    W, H = 880, 586
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{FONT}">',
          f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="6" fill="{c["bg"]}" stroke="{c["border"]}"/>']
     o.append(f'<text x="24" y="38" font-size="16" font-weight="600" fill="{c["fg"]}">The US Code as a git history</text>')
@@ -150,7 +151,7 @@ def svg(st: dict, mode: str) -> str:
         o.append(f'<rect x="{x:.1f}" y="24.5" width="{w:.0f}" height="20" rx="10" fill="none" stroke="{c["border"]}"/>')
         o.append(f'<text x="{x + w / 2:.1f}" y="38.5" font-size="11.5" font-weight="500" text-anchor="middle" fill="{c["muted"]}">{esc(lab)}</text>')
         x += w + 8
-    tiles = [(f'{st["titles"]}', "titles, all of the Code"), (f'{st["commits"]:,}', "commits"), (f'{st["files"]:,}', "section files"),
+    tiles = [(f'{st["titles"]}', "titles, all of the Code"), (f'{st["commits"]:,}', "changes, as commits"), (f'{st["files"]:,}', "section files"),
              (f'{st["laws"]:,}', "laws credited as authors"), (pct(st["history_all"]), "of the history since 1926")]
     tw = (W - 48) / len(tiles)
     o.append(f'<rect x="24.5" y="60.5" width="{W - 49}" height="58" rx="6" fill="{c["bg"]}" stroke="{c["border"]}"/>')
@@ -160,39 +161,54 @@ def svg(st: dict, mode: str) -> str:
             o.append(f'<line x1="{tx:.1f}" y1="61" x2="{tx:.1f}" y2="118" stroke="{c["border"]}"/>')
         o.append(f'<text x="{tx + 16:.1f}" y="87" font-size="20" font-weight="600" fill="{c["fg"]}">{esc(big)}</text>')
         o.append(f'<text x="{tx + 16:.1f}" y="106" font-size="12" fill="{c["muted"]}">{esc(small)}</text>')
-    # box 1: contribution graph
-    bx, by, bw, bh = 24.5, 134.5, 318, 312
+
+    # box 1: bar chart of changes by the year they took effect
+    bx, by, bw, bh = 24.5, 134.5, W - 49, 248
     o.append(f'<rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="6" fill="{c["bg"]}" stroke="{c["border"]}"/>')
-    o.append(f'<text x="{bx + 16}" y="{by + 26}" font-size="14" font-weight="600" fill="{c["fg"]}">{st["commits"]:,} changes, by the year they took effect</text>')
+    o.append(f'<text x="{bx + 16}" y="{by + 26}" font-size="14" font-weight="600" fill="{c["fg"]}">Changes by the year they took effect</text>')
+    # legend: swatch, then label, left to right on the title line
+    lx = bx + bw - 372
+    for col, lab in ((c["g"][2], "printed editions, read by OCR"), (c["done"], "GovInfo\u2019s editions, 1994 on")):
+        o.append(f'<rect x="{lx:.1f}" y="{by + 17}" width="10" height="10" rx="2" fill="{col}"/>')
+        o.append(f'<text x="{lx + 15:.1f}" y="{by + 26}" font-size="11.5" fill="{c["muted"]}">{esc(lab)}</text>')
+        lx += 15 + 6.0 * len(lab) + 18
     py = {int(k): v for k, v in st["per_year"].items()}
-    sq, g = 17, 4
-    gx, gy = bx + 62, by + 56
-    lvl = lambda v: 0 if v == 0 else 1 if v < 10 else 2 if v < 150 else 3 if v < 300 else 4  # noqa: E731
-    for col in range(10):
-        o.append(f'<text x="{gx + col * (sq + g) + sq / 2:.1f}" y="{gy - 7}" font-size="10" text-anchor="middle" fill="{c["muted"]}">\u2019{col}</text>')
-    y_last = date.today().year
-    for r, dec in enumerate(range(1920, y_last + 1, 10)):
-        yy = gy + r * (sq + g)
-        o.append(f'<text x="{gx - 8}" y="{yy + sq - 4}" font-size="10.5" text-anchor="end" fill="{c["muted"]}">{dec}s</text>')
-        for col in range(10):
-            yr = dec + col
-            if yr < 1925 or yr > y_last:
-                continue
-            v = py.get(yr, 0)
-            o.append(f'<rect x="{gx + col * (sq + g)}" y="{yy}" width="{sq}" height="{sq}" rx="3" fill="{c["g"][lvl(v)]}" '
-                     f'stroke="{c["gstroke"]}" stroke-opacity="0.08"><title>{yr}: {v:,} change{"" if v == 1 else "s"} took effect</title></rect>')
-    ly = by + bh - 16
-    o.append(f'<text x="{bx + 16}" y="{ly}" font-size="11" fill="{c["muted"]}">Each square is a year</text>')
-    lx = bx + bw - 132
-    o.append(f'<text x="{lx}" y="{ly}" font-size="11" text-anchor="end" fill="{c["muted"]}">Less</text>')
-    for i, col in enumerate(c["g"]):
-        o.append(f'<rect x="{lx + 5 + i * 15}" y="{ly - 10}" width="11" height="11" rx="2" fill="{col}" stroke="{c["gstroke"]}" stroke-opacity="0.08"/>')
-    o.append(f'<text x="{lx + 5 + 5 * 15 + 2}" y="{ly}" font-size="11" fill="{c["muted"]}">More</text>')
-    # box 2: completeness as progress bars
-    cx = bx + bw + 14
-    cw = W - 24.5 - cx
-    o.append(f'<rect x="{cx}" y="{by}" width="{cw}" height="{bh}" rx="6" fill="{c["bg"]}" stroke="{c["border"]}"/>')
-    o.append(f'<text x="{cx + 16}" y="{by + 26}" font-size="14" font-weight="600" fill="{c["fg"]}">Completeness</text>')
+    y0, y1 = 1925, date.today().year
+    top = max(py.values())
+    step = 100
+    ymax = ((top // step) + 1) * step
+    gl, gr, gt, gb = bx + 52, bx + bw - 16, by + 46, by + bh - 52
+    ih = gb - gt
+    for k in range(0, ymax + 1, step):
+        yy = gb - ih * k / ymax
+        o.append(f'<line x1="{gl}" y1="{yy:.1f}" x2="{gr}" y2="{yy:.1f}" stroke="{c["border"]}" stroke-width="{1 if k == 0 else 0.6}"'
+                 + ('' if k == 0 else ' stroke-dasharray="3 3"') + '/>')
+        o.append(f'<text x="{gl - 8}" y="{yy + 4:.1f}" font-size="11" text-anchor="end" fill="{c["muted"]}">{k:,}</text>')
+    n = y1 - y0 + 1
+    bwid = (gr - gl) / n
+    peak = max(py, key=lambda y: py[y])
+    for i, yr in enumerate(range(y0, y1 + 1)):
+        v = py.get(yr, 0)
+        x0 = gl + i * bwid
+        if v:
+            h = max(1.5, ih * v / ymax)
+            o.append(f'<rect x="{x0 + 0.6:.1f}" y="{gb - h:.1f}" width="{bwid - 1.2:.1f}" height="{h:.1f}" rx="1.5" '
+                     f'fill="{c["g"][2] if yr < 1995 else c["done"]}"><title>{yr}: {v:,} change{"" if v == 1 else "s"} took effect</title></rect>')
+        if yr % 10 == 0:
+            o.append(f'<text x="{x0 + bwid / 2:.1f}" y="{gb + 16}" font-size="11" text-anchor="middle" fill="{c["muted"]}">{yr}</text>')
+        if yr == peak:
+            o.append(f'<text x="{x0 + bwid / 2:.1f}" y="{gb - ih * v / ymax - 6:.1f}" font-size="11" font-weight="600" text-anchor="middle" fill="{c["fg"]}">{v:,}</text>')
+            o.append(f'<text x="{x0 + bwid + 4:.1f}" y="{gb - ih * v / ymax + 6:.1f}" font-size="11" fill="{c["muted"]}">in {yr}</text>')
+    pre = sum(v for y, v in py.items() if y < 1995)
+    o.append(f'<text x="{bx + 16}" y="{by + bh - 14}" font-size="11.5" fill="{c["muted"]}">Before 1995: {pre:,} changes, '
+             f'from the printed editions read so far (title 1 from the 1926 Code; most of title 26 from 1986). '
+             f'The other titles start with GovInfo\u2019s 1994 edition.</text>')
+
+    # box 2: completeness, two columns of progress bars
+    cy = by + bh + 14
+    ch = 152
+    o.append(f'<rect x="{bx}" y="{cy}" width="{bw}" height="{ch}" rx="6" fill="{c["bg"]}" stroke="{c["border"]}"/>')
+    o.append(f'<text x="{bx + 16}" y="{cy + 26}" font-size="14" font-weight="600" fill="{c["fg"]}">Completeness</text>')
     rows = [
         ("Titles in the record", 100.0, f'{st["titles"]} of {st["titles"]}'),
         ("Current text", 100.0, f'release point {st["release_point"]}'),
@@ -202,19 +218,22 @@ def svg(st: dict, mode: str) -> str:
          f'{st["title_editions_built"]} of {st["title_editions_pre1994"]} title-editions'),
         ("Whole history since 1926", st["history_all"], "title-years covered"),
     ]
-    px = cx + 236
-    pw = cw - 236 - 66
+    colw = (bw - 32 - 32) / 2
     for i, (label, v, note) in enumerate(rows):
-        ry = by + 60 + i * 41
-        o.append(f'<text x="{cx + 16}" y="{ry + 4}" font-size="13" fill="{c["fg"]}">{esc(label)}</text>')
-        o.append(f'<text x="{cx + 16}" y="{ry + 21}" font-size="11.5" fill="{c["muted"]}">{esc(note)}</text>')
+        col, r = divmod(i, 3)
+        x0 = bx + 16 + col * (colw + 32)
+        ry = cy + 50 + r * 36
+        o.append(f'<text x="{x0}" y="{ry}" font-size="13" fill="{c["fg"]}">{esc(label)}</text>')
+        o.append(f'<text x="{x0}" y="{ry + 16}" font-size="11.5" fill="{c["muted"]}">{esc(note)}</text>')
+        px, pw = x0 + 214, colw - 214 - 56
         o.append(f'<g><title>{esc(label)}: {pct(v)} ({esc(note)})</title>'
-                 f'<rect x="{px}" y="{ry - 4}" width="{pw:.1f}" height="8" rx="4" fill="{c["track"]}"/>'
-                 + (f'<rect x="{px}" y="{ry - 4}" width="{max(4.0, pw * v / 100):.1f}" height="8" rx="4" fill="{c["done"]}"/>' if v > 0 else "")
+                 f'<rect x="{px:.1f}" y="{ry - 3}" width="{pw:.1f}" height="8" rx="4" fill="{c["track"]}"/>'
+                 + (f'<rect x="{px:.1f}" y="{ry - 3}" width="{max(4.0, pw * v / 100):.1f}" height="8" rx="4" fill="{c["done"]}"/>' if v > 0 else "")
                  + "</g>")
-        o.append(f'<text x="{cx + cw - 16}" y="{ry + 4}" font-size="13" font-weight="600" text-anchor="end" fill="{c["fg"]}">{pct(v)}</text>')
+        o.append(f'<text x="{x0 + colw:.1f}" y="{ry + 4}" font-size="13" font-weight="600" text-anchor="end" fill="{c["fg"]}">{pct(v)}</text>')
     o.append(f'<text x="24" y="{H - 16}" font-size="11.5" fill="{c["muted"]}">At {st["ref"]}, built {date.today().isoformat()}. '
-             f'Title-years: for each title, the years its record covers over the years it has been in the Code since the 1926 Code.</text>')
+             f'Title-years: for each title, the years its record covers over the years it has been in the Code since the '
+             f'1926 Code (laws in force December 7, 1925).</text>')
     o.append("</svg>")
     return "\n".join(o) + "\n"
 

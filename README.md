@@ -4,6 +4,18 @@ Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git h
 
 The text of 53 titles of the United States Code, among them title 26, the Internal Revenue Code, with a commit for each law on each day its changes to them took effect, since the 1994 edition (current through January 4, 1995), and for most of title 26 since the Internal Revenue Code of 1986 (October 22, 1986). **Each commit is a law taking effect.** Its author is the public law that made the change, and its date is the day the change came into force; before the 2017 edition, the day the law was enacted (see [Before 2017](#before-2017-the-annual-editions-from-1994)).
 
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="data/effort-dark.svg">
+<img alt="The US Code in this repository: titles, changes as commits, section files, laws credited, the release point it is current through and how much of the history since 1926 it holds; changes by the year they took effect; and completeness by part" src="data/effort-light.svg" width="880">
+</picture>
+
+**How complete it is.** All 53 titles, current through release point 119-138 (Nov 3, 2026). The history is
+measured in title-years: for each title, the years its record covers over the years it has been in the Code since the
+first edition, the Code of Laws of the United States of 1926. Since the 1994 edition that is 99.7%; from 1926 to
+1994 it is 2.2% (title 1 from 1926 and most of title 26 from 1986; the other titles' printed editions are still being read,
+11 of 542 title-editions so far); 33.4% of the whole. The chart and `data/completeness.json` are made by
+`build/completeness.py` from this repository alone.
+
 So the questions a lawyer asks of a statute become git commands:
 
 | The question | The command |

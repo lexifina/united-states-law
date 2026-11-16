@@ -257,6 +257,7 @@ Comparing two printed versions shows *what* changed but not *why*. So for each p
 One kind of commit is not a law:
 
 - **Printed text differs.** Where a newly printed version reads differently and no law taking effect that day accounts for it, the difference is committed under that version's name on the day it is current through. Most are editorial; a few are changes the record could not date. They are kept visible instead of being folded into a law's commit.
+- [vulnerabilities/](vulnerabilities/): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What "author" means here
 
@@ -295,3 +296,7 @@ Built by [Lexifina](https://lexifina.com). For corrections, open an issue.
 ## License
 
 The text of the US Code is a work of the United States Government and is in the public domain. The history, commit messages and README are released under [CC BY 4.0](LICENSE.md).
+
+## Visualisations
+
+- [visualisations/](visualisations/): charts drawn from this repository. Not drawn yet.
